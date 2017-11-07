@@ -1,0 +1,24 @@
+.link {
+  stroke: #999;
+  opacity: 0.6;
+}
+
+.node circle { opacity: 0.6; }
+
+.node circle:hover{opacity:.9;size:10px}
+
+.d3-tip {
+  line-height: 1;
+  color: black;
+  font-size: 16px;
+  max-width: 100px;
+  padding: 4px;
+}
+#connected_character_box {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0;
+  border: grey 1px solid;
+}

@@ -1,0 +1,27 @@
+{% if page.layout == 'image_page' %}
+  <p>
+    <b>Performances:&nbsp;&nbsp;</b>
+    {% for p in page.performance_id %}
+      {% assign performances = site.data.performances | where: "id", p %}
+      {% for performance in performances %}
+        <b><a href="{{ site.baseurl }}/performances/{{ p }}/">{{ performance.label_eng }}</a></b>
+        {% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    {% endfor %}
+  </p>
+{% else %}
+  <h3 class='data-sub-head'>Performances:</h3>
+  {% for p in page.performance_id %}
+    {% assign performances = site.data.performances | where: "id", p %}
+    {% for performance in performances %}
+      <p>
+        <b>
+          {% if performance.image_id %}<i class="fa fa-file-image-o" aria-hidden="true"></i>
+          {% else %}<i class="fa fa-times" aria-hidden="true"></i>
+          {% endif %}
+          <a href="{{ site.baseurl }}/performances/{{ p }}/">{{ performance.label_eng }}</a>
+        </b>
+      </p>
+    {% endfor %}
+  {% endfor %}
+{% endif %}

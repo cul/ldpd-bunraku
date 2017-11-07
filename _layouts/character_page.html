@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1 class='page-head'>
+    <span class='type-link'><a href="{{ site.baseurl }}/characters/">Character</a>:</span><br>
+    <span class='page-name'>{{ page.label_eng }} ({{ page.label_ka }} / {{ page.label_ka }})</span>
+</h1>
+
+{% if page.play_id %}{% include relations/plays.html %}{% endif %}
+
+{% if page.authority_control %}
+  <p><b>Authority Control:</b><br>{{ page.authority_control }}</p>
+{% endif %}
+
+{% if page.image_id %}{% include sliders/main.html %}{% endif %}

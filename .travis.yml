@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+  - 2.4
+script:
+  - bundle exec htmlproofer ./_site --only-4xx --check-html --allow-hash-href --assume-extension --empty-alt-ignore
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - bundle exec rspec

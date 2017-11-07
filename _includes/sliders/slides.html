@@ -1,0 +1,32 @@
+{% include sliders/assets.html %}
+
+{% assign slides = site.data.images | where: "media_type", "slide" %}
+<center>
+  <div class="data-slick">
+  {% for image in slides limit: 3600 %}
+    <div><a href="{{ site.baseurl }}/images/{{ image.id }}"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ image.objid }}&size=medium" height="300px" data-proofer-ignore/></a></div>
+  {% endfor %}
+</div>
+</center>
+<p>Image <span class="pagingInfo"></span> – Click to view.</p>
+
+<script>
+  $(document).ready(function(){
+    var $slickElement = $('.data-slick');
+    var $status = $('.pagingInfo');
+    $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+      var i = (currentSlide ? currentSlide : 0) + 1;
+      $status.text(i + '/' + slick.slideCount);
+    });
+    $slickElement.slick({
+      lazyLoad: 'ondemand',
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: {{ page.autoplay | default: true }},
+      autoplaySpeed:1700,
+      loop:{{ page.autoplay | default: true }},
+      draggable: true,
+      variableWidth: true
+    });
+  });
+</script>

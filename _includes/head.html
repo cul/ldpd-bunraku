@@ -1,0 +1,24 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  <!-- main styles -->
+  <link rel="stylesheet" id="main-css" type="text/css" href="{{ site.styles.main }}">
+  <link rel="stylesheet" id="drop-nav-css" type="text/css" href="{{ site.styles.drop-nav }}">
+  <link rel="stylesheet" id="font-awesome-css" type="text/css" href="{{ site.styles.font-awesome }}"/>
+
+  <!-- jquery -->
+  <script type='text/javascript' id="jquery" src="{{ site.scripts.jquery }}"></script>
+  <script>jQuery.migrateMute = true</script>
+  <script type='text/javascript' id="jquery-migrate" src="{{ site.scripts.jquery-migrate }}"></script>
+
+  <!--ldpd toolkit -->
+  <script type="text/javascript">CULh_colorfg = '#303030';CULh_colorbg = '#606060';</script>
+  <script type='text/javascript' id="ldpd-toolkit" src="{{ site.scripts.ldpd-toolkit }}"></script>
+</head>

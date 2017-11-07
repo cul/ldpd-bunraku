@@ -1,0 +1,42 @@
+{% include sliders/assets.html %}
+
+{% assign p_num = page.image_id | size %}
+{% if p_num > 1 %}
+  <center>
+    <div class="data-slick">
+      {% for i in page.image_id %}
+        {% assign images = site.data.images | where: "id", i %}
+        {% for image in images %}
+            <div><a href="{{ site.baseurl }}/images/{{ i }}"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ image.objid }}&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </center>
+  <p><span class="pagingInfo"></span> – Click image to view.</p>
+{% else %}
+  {% assign i = page.image_id | first %}
+  {% assign image = site.data.images | where: "id", i | first %}
+  <div><a href="{{ site.baseurl }}/images/{{ i }}"><img src="http://www.columbia.edu/cgi-bin/dlo?obj={{ image.objid}}&size=medium" width="100%"/></a></div>
+  <p>1/1 – Click image to view.</p>
+{% endif %}
+
+<script>
+  $(document).ready(function(){
+    var $slickElement = $('.data-slick');
+    var $status = $('.pagingInfo');
+    $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+      var i = (currentSlide ? currentSlide : 0) + 1;
+      $status.text(i + '/' + slick.slideCount);
+    });
+    $slickElement.slick({
+      lazyLoad: 'progressive',
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed:1700,
+      loop: false,
+      draggable: true,
+      variableWidth: true
+    });
+  });
+</script>

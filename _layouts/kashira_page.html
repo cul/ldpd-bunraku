@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>
+  <b><a href="{{ site.baseurl }}/kashira/">Kashira</a>:</b><br/>
+  {{ page.label_eng }} ({{ page.label_ka }})
+</h1>
+
+{% if page.category %}
+  <p><b>Category:</b> {{ page.category | capitalize }}</p>
+{% endif %}
+
+{% if page.image_id %}{% include sliders/main.html %}{% endif %}
+{% if page.play_id %}{% include relations/plays.html %}{% endif %}

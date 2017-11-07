@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>
+  <b><a href="{{ site.baseurl }}/productions/">Production</a>:</b><br/>
+  {{ page.label_eng }}
+</h1>
+
+{% if page.dates %}<p><b>Dates:</b> {{ page.dates }}</p>{% endif %}
+{% if page.place %}<p><b>Place:</b> {{ page.place }}</p>{% endif %}
+<br/>
+
+{% if page.performance_id %}{% include relations/performances.html %}{% endif %}
+{% if page.image_id %}{% include sliders/main.html %}{% endif %}

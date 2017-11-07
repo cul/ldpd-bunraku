@@ -1,0 +1,24 @@
+{% if page.layout == 'image_page' %}
+  <p>
+    <b>Scenes:&nbsp;&nbsp;</b>
+    {% for s in page.scene_id %}
+      {% assign scene = site.data.pscenes | where: "id", s | first %}
+      <b><a href="{{ site.baseurl }}/performances/scenes/{{ s }}">{{ scene.label_eng }}</a></b>
+      {% if scene.label_ka %}({{ scene.label_ka }}){% endif %}
+      {% unless forloop.last %}, {% endunless %}
+    {% endfor %}<br>
+  </p>
+{% else %}
+  <h3 class='data-sub-head'>Scenes:</h3>
+  {% for s in page.pscene_id %}
+    {% assign scene = site.data.pscenes | where: "id", s | first %}
+    <p>
+      <b>
+        {% if scene.image_id %}<i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}<i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/performances/scenes/{{ s }}">{{ scene.label_eng }}</a>
+      </b> ({{ scene.label_ka }} / {{ scene.label_ja }})
+    </p>
+  {% endfor %}
+{% endif %}

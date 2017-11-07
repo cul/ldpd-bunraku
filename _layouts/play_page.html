@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h1>
+  <b><a href="{{ site.baseurl }}/plays/">Play</a>:</b><br/>
+  {{ page.label_eng }}<br/>
+  ({{ page.label_ja }} / {{ page.label_ka }})
+</h1>
+
+{% if page.author_id %}
+  <p><b>Written By:</b>
+  {% for a in page.author_id %}
+    {% assign author = site.data.authors | where: "id", a | first %}
+      <b><a href="{{ site.baseurl }}/authors/{{ a }}/">{{ author.label_eng }} ({{ author.label_ka }})</a></b>
+      {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+{% endif %}
+
+{% if page.first_staged %}<p><b>First Staged:</b> {{ page.first_staged }}</p>{% endif %}
+{% if page.reference %}<p><b>Reference:</b> {{ page.reference }}</p>{% endif %}
+
+{% if page.image_id %}{% include sliders/main.html %}{% endif %}
+{% if page.performance_id %}{% include relations/performances.html %}{% endif %}
+{% if page.character_id %}{% include relations/characters.html %}{% endif %}

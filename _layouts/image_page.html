@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<img src="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ page.objid }}&size=medium"/>
+<br><br>
+<br><br>
+<h2 class='data-head'>In this Image:</h2>
+
+{% if page.character_id %}{% include relations/characters.html %}{% endif %}
+{% if page.play_id %}{% include relations/plays.html %}{% endif %}
+{% if page.tag_id %}{% include relations/tags.html %}{% endif %}
+{% if page.kashira_id %}{% include relations/kashira.html %}{% endif %}
+{% if page.performer_id %}{% include relations/performers.html %}{% endif %}
+{% if page.scene_id %}{% include relations/scenes.html %}{% endif %}
+
+<br><br>
+
+<h2 class='data-head'>Archival Information:</h2>
+<p>
+  {% if page.creator %}
+    {% assign creator = site.data.creators | where: "id", page.creator | first %}
+    <b>Creator:</b> {{ creator.label }}<br>
+  {% endif %}
+  {% if page.image_id %}
+    <b>Image ID:</b> {{ page.image_id }}<br>
+  {% endif %}
+  {% if page.item_id %}
+    <b>Item ID:</b> {{ page.item_id }}<br>
+  {% endif %}
+  {% if page.media_type %}
+    <b>Media Type:</b> {{ page.media_type }}<br>
+  {% endif %}
+  {% if page.notes_on_item %}
+    <b>Notes on Item:</b> {{ page.notes_on_item }}<br>
+  {% endif %}
+  {% if page.colser_id %}
+    <b>Colser ID:</b> {{ page.colser_id }}<br>
+  {% endif %}
+  {% if page.sequence %}
+    <b>Sequence:</b> {{ page.sequence }}<br>
+  {% endif %}
+  {% if page.series %}
+    <b>Series:</b> {{ page.series }}<br>
+  {% endif %}
+  {% if page.slidepage_folder %}
+    <b>Slidepage Folder:</b> {{ page.slidepage_folder }}<br>
+  {% endif %}
+  {% if page.container %}
+    <b>Container:</b> {{ page.container }}<br>
+  {% endif %}
+  {% if page.container_type %}
+    <b>Container Type:</b> {{ page.container_type }}<br>
+  {% endif %}
+</p>
