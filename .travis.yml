@@ -2,6 +2,6 @@ language: ruby
 rvm:
   - 2.4
 script:
-  - bundle travis_wait 30 exec htmlproofer ./_site --only-4xx --check-html --allow-hash-href --assume-extension --empty-alt-ignore
+  - travis_wait bundle exec htmlproofer ./_site --only-4xx --check-html --allow-hash-href --assume-extension --empty-alt-ignore
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - bundle exec rspec
