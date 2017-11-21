@@ -6,10 +6,12 @@ url: "/"
 # Build settings
 markdown: "kramdown"
 theme: "minima"
-exclude: [vendor,Gemfile*]
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 permalink: "pretty"
-environment: "development"
 
 styles:
   main: assets/main.css
