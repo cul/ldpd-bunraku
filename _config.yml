@@ -1,6 +1,6 @@
 title: "The Barbara Curtis Adachi Bunraku Collection"
 description: "at C.V. Starr East Asian Library"
-baseurl:  ""
+baseurl:  "/ldpd-bunraku"
 url: "/"
 
 # Build settings
@@ -11,203 +11,57 @@ exclude: [vendor,Gemfile*]
 permalink: "pretty"
 environment: "development"
 
-plugins: [ pagemaster ]
-
 styles:
-  main: /assets/main.css
-  drop-nav: /assets/drop-nav.css
-  font-awesome: /assets/fa/css/font-awesome.min.css
-  slick: /assets/slick.css
-  slick-theme: /assets/slick-theme.css
+  main: assets/main.css
+  drop-nav: assets/drop-nav.css
+  font-awesome: assets/fa/css/font-awesome.min.css
+  slick: assets/slick.css
+  slick-theme: assets/slick-theme.css
 
 scripts:
   jquery: //code.jquery.com/jquery-3.2.1.min.js
   jquery-migrate: //code.jquery.com/jquery-migrate-3.0.0.min.js
   ldpd-toolkit: //cdn.cul.columbia.edu/ldpd-toolkit/widgets/cultnbw.min.js
-  lunr: /js/lunr.min.js # //cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.3/lunr.min.js
-  lunr-unicode: /js/lunr-unicode-normalizer.js
+  lunr: js/lunr.min.js # //cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.3/lunr.min.js
+  lunr-unicode: js/lunr-unicode-normalizer.js
   d3-v3: //d3js.org/d3.v3.min.js
   d3-v4: //d3js.org/d3.v4.min.js
-  d3-tip: /js/d3.tip.js
-  d3-tip-patch: /js/d3-v4-patch.tip.js
-  slick: /js/slick.min.js # http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js
-
-menu:
-  - name: "Home"
-    link: ""
-  - name: "About the Collection"
-    link: /about-the-collection
-    subs:
-      - name: "Background"
-        link: /background
-      - name: "Barbara Curtis Adachi"
-        link: /adachi
-      - name: "Finding Aid"
-        link: http://www.columbia.edu/cu/lweb/eresources/archives/eastasian/adachi/ldpd.6226404.001.f.html
-      - name: "References"
-        link: /references
-      - name: "Rights and Permissions"
-        link: /rights
-      - name: "Contacting the Library"
-        link: http://library.columbia.edu/locations/eastasian/staff.html
-  - name: "The World of Bunraku"
-    link: /the-world-of-bunraku
-    subs:
-      - name: "The Early World of Bunraku"
-        link: /early-world-of-bunraku
-      - name: "The Texts of Bunraku"
-        link: /texts-of-bunraku
-      - name: "The Music of Bunraku"
-        link: /music-of-bunraku
-  - name: "Special Features"
-    link: "#"
-    subs:
-      - name: "Albums"
-        link: /albums
-      - name: "Realia"
-        link: "#"
-        subs:
-          - name: "47 Ronin Scroll"
-            link: /realia/47-ronin
-          - name: "Puppet Head (Baba)"
-            link: /realia/baba-head
-          - name: "High Wooden Clogs"
-            link: /realia/butai-geta
-          - name: "Puppet Head (Genta)"
-            link: /realia/genta-head
-          - name: "Puppet in a Purple Dress #1"
-            link: /realia/puppet-1
-          - name: "Puppet in a Purple Dress #2"
-            link: /realia/puppet-2
-          - name: "Puppet Armature"
-            link: /realia/puppet-armature
-          - name: "Puppet Head with Ponytail"
-            link: /realia/puppet-head
-          - name: "Narrator (Tayu) Garment"
-            link: /realia/tayu-garment
-          - name: "Narrator Scroll (Yukahon) Stand"
-            link: /realia/yukahon
-  - name: "Data Visualizations"
-    link: /visualize
-    subs:
-      - name: "Bar Graph: Prolific Authors"
-        link: /visualize/prolific-authors
-      - name: "Force Graph: Connected Characters"
-        link: /visualize/connected-characters
-      - name: "Dendrogram: Oshun and Dembei"
-        link: /visualize/play-dendrogram
-  - name: "Browse"
-    link: "#"
-    subs:
-      - name: "Plays"
-        link: /plays
-      - name: "Productions"
-        link: /productions
-      - name: "Authors"
-        link: /authors
-      - name: "Performers"
-        link: /performers
-      - name: "Characters"
-        link: /characters
-      - name: "Kashira (Puppets)"
-        link: /kashira
-      - name: "Image tags"
-        link: /tags
-  - name: "Search"
-    link: /search
+  d3-tip: js/d3.tip.js
+  d3-tip-patch: js/d3-v4-patch.tip.js
+  slick: js/slick.min.js # http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js
 
 collections:
   pages:
     output: true
-    permalink: /:name
-  realia:
-    output: true
   authors:
     output: true
-    pm_generate: false
-    pm_source: authors
-    pm_input: yaml
-    pm_key: id
-    pm_directory: authors
-    pm_layout: author_page
   characters:
     output: true
-    pm_generate: false
-    pm_source: characters
-    pm_input: yaml
-    pm_key: id
-    pm_directory: characters
-    pm_layout: character_page
   images:
     output: true
-    pm_generate: false
-    pm_source: images
-    pm_input: yaml
-    pm_key: id
-    pm_directory: images
-    pm_layout: image_page
   kashira:
     output: true
-    pm_generate: false
-    pm_source: kashira
-    pm_input: yaml
-    pm_key: id
-    pm_directory: kashira
-    pm_layout: kashira_page
   performances:
     output: true
-    pm_generate: false
-    pm_source: performances
-    pm_input: yaml
-    pm_key: id
-    pm_directory: performances
-    pm_layout: performance_page
   performers:
     output: true
-    pm_generate: false
-    pm_source: performers
-    pm_input: yaml
-    pm_key: id
-    pm_directory: performers
-    pm_layout: performer_page
   plays:
     output: true
-    pm_generate: false
-    pm_source: plays
-    pm_input: yaml
-    pm_key: id
-    pm_directory: plays
-    pm_layout: play_page
   productions:
     output: true
-    pm_generate: false
-    pm_source: productions
-    pm_input: yaml
-    pm_key: id
-    pm_directory: productions
-    pm_layout: production_page
   scenes:
     output: true
-    pm_generate: false
-    pm_source: pscenes
-    pm_input: yaml
-    pm_key: id
-    pm_directory: scenes
-    pm_layout: scene_page
-    permalink: /performances/scenes/:name
+  realia:
+    output: true
   tags:
     output: true
-    pm_generate: false
-    pm_source: tags
-    pm_input: yaml
-    pm_key: id
-    pm_directory: tags
-    pm_layout: tag_page
 
 search_tests:
   full:
     page: search
     terms:
-      - Ōshūto
-      - 文楽のひとびと
-      - Donald Keene
+      - "Ōshūto"
+      - "oshuto"
+      - "Donald Keene"
+      - "文楽のひとびと"
+      - "emperor 娘お安"
