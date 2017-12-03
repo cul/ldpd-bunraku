@@ -5,3 +5,6 @@ script:
   - travis_wait bundle exec htmlproofer ./_site --only-4xx --check-html --allow-hash-href --assume-extension --empty-alt-ignore
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - bundle exec rspec
+branches:
+  except:
+  - dev_mini
