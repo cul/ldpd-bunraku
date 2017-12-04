@@ -10,7 +10,7 @@ RSpec.configure do |config|
 
   $jekyll_config = YAML.load_file('_config.yml')
   $baseurl = $jekyll_config['baseurl'].to_s
-  $search_tests = $jekyll_config['search_tests']
+  $search_tests = $jekyll_config['quoll']
 
   Capybara.current_driver = :poltergeist
   Capybara.javascript_driver = :poltergeist

@@ -58,7 +58,7 @@ collections:
   tags:
     output: true
 
-search_tests:
+quoll:
   full:
     page: search
     terms:
