@@ -28,7 +28,7 @@ play_id: 6
 							"children": [
                 {% for scene_id in performance.pscene_id%}{% assign pscene = site.data.pscenes | where: "id", scene_id | first %}{% assign last_scene = forloop.last %} {
                   "name": {{ pscene.label_eng | jsonify }},
-									"url": "{{ site.baseurl }}/performances/scenes/{{ scene_id }}",
+									"url": "{{ site.baseurl }}/scenes/{{ scene_id }}",
 									"children": [
                     {% if pscene.narrator_id %}{
                       "name": "with narration by",
