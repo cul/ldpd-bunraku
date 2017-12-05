@@ -137,11 +137,37 @@
 
 <script type="text/javascript" id="d3-v4" src="//d3js.org/d3.v4.min.js"></script>
 
-<script type="text/javascript" id="d3-tip" src="/js/d3.tip.js"></script>
+<style>
+#dendrogram {
+  height: 600px;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0;
+  border: 1px grey solid;
+}
+#dendrogram svg{ overflow:scroll !important; }
+#dendrogram .node { cursor: pointer; }
+#dendrogram .node circle {
+  fill: #fff;
+  stroke: $icon-color;
+  stroke-width: 1px;
+}
+#dendrogram .node text {
+  font-size: 12px;
+  width: 50px;
+  word-wrap: break-word;
+  padding-left:20px;
+}
+#dendrogram .link {
+  stroke: #ccc;
+  fill: none;
+}
+</style>
 
-<script type="text/javascript" id="d3-tip-patch" src="/js/d3-v4-patch.tip.js"></script>
-
-<!-- <link rel="stylesheet" type="text/css" href="/assets/play-dendrogram-d3.css"/> -->
 <div id="dendrogram"></div>
 <script>
 

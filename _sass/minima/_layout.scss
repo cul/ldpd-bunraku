@@ -246,32 +246,3 @@
     }
   }
 }
-
-#dendrogram {
-  height: 600px;
-  width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin: 0;
-  border: 1px grey solid;
-}
-#dendrogram svg{ overflow:scroll !important; }
-#dendrogram .node { cursor: pointer; }
-#dendrogram .node circle {
-  fill: #fff;
-  stroke: $icon-color;
-  stroke-width: 1px;
-}
-#dendrogram .node text {
-  font-size: 12px;
-  width: 50px;
-  word-wrap: break-word;
-  padding-left:20px;
-}
-#dendrogram .link {
-  stroke: #ccc;
-  fill: none;
-}

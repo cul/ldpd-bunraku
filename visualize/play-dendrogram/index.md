@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dendrogram of a play
-d3_version: 3
+d3_version: 4
 d3_tip: false
 ---
 __[Back to Visualize Menu]({{ site.baseurl }}/visualize)__

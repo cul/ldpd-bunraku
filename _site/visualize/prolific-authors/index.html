@@ -139,7 +139,41 @@
 
 <script type="text/javascript" id="d3-tip-patch" src="/js/d3-v4-patch.tip.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/assets/prolific-authors-d3.css" />
+<style>
+.bar {
+  fill: #c63d2d;
+}
+
+.bar:hover {
+  fill: #436577;
+  cursor: pointer;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  color: black;
+  font-size: 12px;
+  max-width: 100px;
+  padding: 6px;
+  font-family: sans-serif;
+  border: 1px grey solid;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#prolific_author_box{
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0;
+  border: grey 1px solid;
+}
+</style>
 
 <svg width="1200" height="600" id="prolific_author_box"></svg>
 
@@ -153,7 +187,7 @@ var svg = d3.select("#prolific_author_box"),
     width = +svg.attr("width") - margin_left - margin_right,
     height = +svg.attr("height") - margin_top - margin_bottom;
 
-var x = d3.scaleBand().rangeRound([0, width]).padding(0.2),
+var x = d3.scaleBand().rangeRound([0, width]).paddingInner(0.2),
     y = d3.scaleLinear().rangeRound([height, 0]);
 
 var g = svg.append("g")

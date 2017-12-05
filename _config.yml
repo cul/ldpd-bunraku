@@ -1,17 +1,25 @@
 title: "The Barbara Curtis Adachi Bunraku Collection"
 description: "at C.V. Starr East Asian Library"
-baseurl:  ""
 url: ""
+baseurl:  ""
+gh-baseurl: "/ldpd-bunraku"
 
 # Build settings
 markdown: "kramdown"
 theme: "minima"
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
+exclude: [vendor, Gemfile*]
 
 permalink: "pretty"
+
+quoll:
+  full:
+    page: search
+    terms:
+      - "Ōshūto"
+      - "oshuto"
+      - "Donald Keene"
+      - "文楽のひとびと"
+      - "emperor 娘お安"
 
 styles:
   main: assets/main.css
@@ -24,13 +32,13 @@ scripts:
   jquery: //code.jquery.com/jquery-3.2.1.min.js
   jquery-migrate: //code.jquery.com/jquery-migrate-3.0.0.min.js
   ldpd-toolkit: //cdn.cul.columbia.edu/ldpd-toolkit/widgets/cultnbw.min.js
-  lunr: js/lunr.min.js # //cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.3/lunr.min.js
+  lunr: js/lunr.min.js
   lunr-unicode: js/lunr-unicode-normalizer.js
   d3-v3: //d3js.org/d3.v3.min.js
   d3-v4: //d3js.org/d3.v4.min.js
   d3-tip: js/d3.tip.js
   d3-tip-patch: js/d3-v4-patch.tip.js
-  slick: js/slick.min.js # http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js
+  slick: js/slick.min.js
 
 collections:
   pages:
@@ -57,13 +65,3 @@ collections:
     output: true
   tags:
     output: true
-
-quoll:
-  full:
-    page: search
-    terms:
-      - "Ōshūto"
-      - "oshuto"
-      - "Donald Keene"
-      - "文楽のひとびと"
-      - "emperor 娘お安"
