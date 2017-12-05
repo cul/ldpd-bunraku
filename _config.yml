@@ -7,19 +7,9 @@ gh-baseurl: "/ldpd-bunraku"
 # Build settings
 markdown: "kramdown"
 theme: "minima"
-exclude: [vendor, Gemfile*]
+exclude: [vendor, Gemfile*, Rakefile, spec, README*]
 
 permalink: "pretty"
-
-quoll:
-  full:
-    page: search
-    terms:
-      - "Ōshūto"
-      - "oshuto"
-      - "Donald Keene"
-      - "文楽のひとびと"
-      - "emperor 娘お安"
 
 styles:
   main: assets/main.css
@@ -40,28 +30,13 @@ scripts:
   d3-tip-patch: js/d3-v4-patch.tip.js
   slick: js/slick.min.js
 
-collections:
-  pages:
-    output: true
-  authors:
-    output: true
-  characters:
-    output: true
-  images:
-    output: true
-  kashira:
-    output: true
-  performances:
-    output: true
-  performers:
-    output: true
-  plays:
-    output: true
-  productions:
-    output: true
-  scenes:
-    output: true
-  realia:
-    output: true
-  tags:
-    output: true
+# search tests
+quoll:
+  full:
+    page: search
+    terms:
+      - "Ōshūto"
+      - "oshuto"
+      - "Donald Keene"
+      - "文楽のひとびと"
+      - "emperor 娘お安"
