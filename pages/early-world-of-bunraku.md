@@ -1,7 +1,7 @@
 ---
 title: The World of Bunraku
 layout: page
-permalink: /early-world-of-bunraku
+permalink: /early-world-of-bunraku/
 ---
 
 ### Chikamatsu and the Early World of Bunraku
