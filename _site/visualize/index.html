@@ -87,7 +87,7 @@
                 </li>
               </ul>
             </li>
-            <li><a href="/visualize">Data Visualizations</a>
+            <li class="hidden-xs"><a href="/visualize">Data Visualizations</a>
               <ul>
                 <li><a href="/visualize/prolific-authors">Bar Graph: Prolific Authors</a></li>
                 <li><a href="/visualize/connected-characters">Force Graph: Connected Characters</a></li>
@@ -165,7 +165,9 @@
 }
 </style>
 
-<center><svg id="connected_character_box"></svg></center>
+<div class="hidden-xs">
+	<center><svg id="connected_character_box"></svg></center>
+</div>
 
 <script>
 var links = [{

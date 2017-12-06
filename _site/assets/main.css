@@ -493,4 +493,4 @@ pre {
 
 @media (max-width: 576px) {
   .hidden-xs {
-    display: none; } }
+    display: none !important; } }
