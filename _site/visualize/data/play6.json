@@ -1,20 +1,20 @@
 
 {
   "name": "Oshun and Dembei",
-  "url": "/plays/6",
+  "url": "/ldpd-bunraku/plays/6",
   "children": [
     {
       "name": "was written by",
       "children": [
          {
             "name": "Tamekawa Sōsuke",
-            "url": "/authors/113"
+            "url": "/ldpd-bunraku/authors/113"
         }, {
             "name": "Tsutsukawa Hanji",
-            "url": "/authors/114"
+            "url": "/ldpd-bunraku/authors/114"
         }, {
             "name": "Nakawa Shimesuke",
-            "url": "/authors/22"
+            "url": "/ldpd-bunraku/authors/22"
         }
       ]
     },
@@ -23,21 +23,21 @@
       "children": [
          {
           "name": "February 1968",
-          "url": "/performances/16",
+          "url": "/ldpd-bunraku/performances/16",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Dry Riverbed of Shijo",
-									"url": "/scenes/21",
+									"url": "/ldpd-bunraku/scenes/21",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Mojitayū IX (see also Takemoto Sumitayū VII)",
-                          "url": "/performers/66"
+                          "url": "/ldpd-bunraku/performers/66"
                         }
                       ]
 										},
@@ -46,7 +46,7 @@
                       "children": [
                          {
                           "name": "Tsuruzawa Enza V",
-                          "url": "/performers/8"
+                          "url": "/ldpd-bunraku/performers/8"
                         }
                       ]
                     },
@@ -55,14 +55,14 @@
                       "children": [
                          {
                             "name": "Yoshida Fukumaru",
-                            "url": "/performers/89",
+                            "url": "/ldpd-bunraku/performers/89",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Hagataki",
-  																	"url": "kashira/87"
+  																	"url": "/ldpd-bunrakukashira/87"
   																}
   															]
   														},
@@ -71,7 +71,7 @@
   															"children": [
   																{
   																	"name": "Kanzo",
-  																	"url": "/characters/68"
+  																	"url": "/ldpd-bunraku/characters/68"
   																}
   															]
   														}
@@ -79,14 +79,14 @@
                           },
                          {
                             "name": "Yoshida Tamao",
-                            "url": "/performers/44",
+                            "url": "/ldpd-bunraku/performers/44",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -95,7 +95,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -103,14 +103,14 @@
                           },
                          {
                             "name": "Yoshida Minosuke III",
-                            "url": "/performers/18",
+                            "url": "/ldpd-bunraku/performers/18",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Kenbishi",
-  																	"url": "kashira/35"
+  																	"url": "/ldpd-bunrakukashira/35"
   																}
   															]
   														},
@@ -119,7 +119,7 @@
   															"children": [
   																{
   																	"name": "Kyuhachi",
-  																	"url": "/characters/66"
+  																	"url": "/ldpd-bunraku/characters/66"
   																}
   															]
   														}
@@ -131,14 +131,14 @@
                   ]
                 }, {
                   "name": "The Monkey Dance",
-									"url": "/scenes/22",
+									"url": "/ldpd-bunraku/scenes/22",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Tsudayū IV",
-                          "url": "/performers/2"
+                          "url": "/ldpd-bunraku/performers/2"
                         }
                       ]
 										},
@@ -147,10 +147,10 @@
                       "children": [
                          {
                           "name": "Tsuruzawa Kanji VI",
-                          "url": "/performers/112"
+                          "url": "/ldpd-bunraku/performers/112"
                         }, {
                           "name": "Takezawa Danroku VIII (see also Tsuruzawa Kanji VII)",
-                          "url": "/performers/65"
+                          "url": "/ldpd-bunraku/performers/65"
                         }
                       ]
                     },
@@ -159,14 +159,14 @@
                       "children": [
                          {
                             "name": "Kiritake Itchō",
-                            "url": "/performers/14",
+                            "url": "/ldpd-bunraku/performers/14",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Komusume",
-  																	"url": "kashira/41"
+  																	"url": "/ldpd-bunrakukashira/41"
   																}
   															]
   														},
@@ -175,7 +175,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -183,14 +183,14 @@
                           },
                          {
                             "name": "Kiritake Monjūrō II",
-                            "url": "/performers/124",
+                            "url": "/ldpd-bunraku/performers/124",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Matahei",
-  																	"url": "kashira/108"
+  																	"url": "/ldpd-bunrakukashira/108"
   																}
   															]
   														},
@@ -199,7 +199,7 @@
   															"children": [
   																{
   																	"name": "Yojiro",
-  																	"url": "/characters/61"
+  																	"url": "/ldpd-bunraku/characters/61"
   																}
   															]
   														}
@@ -207,14 +207,14 @@
                           },
                          {
                             "name": "Kiritake Kamematsu IV",
-                            "url": "/performers/25",
+                            "url": "/ldpd-bunraku/performers/25",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Shinzō",
-  																	"url": "kashira/124"
+  																	"url": "/ldpd-bunrakukashira/124"
   																}
   															]
   														},
@@ -223,7 +223,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -231,14 +231,14 @@
                           },
                          {
                             "name": "Yoshida Tamao",
-                            "url": "/performers/44",
+                            "url": "/ldpd-bunraku/performers/44",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -247,7 +247,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -263,21 +263,21 @@
           ]
         }, {
           "name": "January 1973",
-          "url": "/performances/112",
+          "url": "/ldpd-bunraku/performances/112",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Dry Riverbed of Shijo",
-									"url": "/scenes/293",
+									"url": "/ldpd-bunraku/scenes/293",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Datejidayū (see also Takemoto Datetayū V)",
-                          "url": "/performers/1"
+                          "url": "/ldpd-bunraku/performers/1"
                         }
                       ]
 										},
@@ -286,7 +286,7 @@
                       "children": [
                          {
                           "name": "Tsuruzawa Kanotarō",
-                          "url": "/performers/3"
+                          "url": "/ldpd-bunraku/performers/3"
                         }
                       ]
                     },
@@ -295,14 +295,14 @@
                       "children": [
                          {
                             "name": "Kiritake Monju",
-                            "url": "/performers/51",
+                            "url": "/ldpd-bunraku/performers/51",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Hagataki",
-  																	"url": "kashira/87"
+  																	"url": "/ldpd-bunrakukashira/87"
   																}
   															]
   														},
@@ -311,7 +311,7 @@
   															"children": [
   																{
   																	"name": "Kanzo",
-  																	"url": "/characters/68"
+  																	"url": "/ldpd-bunraku/characters/68"
   																}
   															]
   														}
@@ -319,14 +319,14 @@
                           },
                          {
                             "name": "Yoshida Tamamatsu III (see also Kiritake Monya)",
-                            "url": "/performers/15",
+                            "url": "/ldpd-bunraku/performers/15",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -335,7 +335,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -343,14 +343,14 @@
                           },
                          {
                             "name": "Yoshida Minosuke III",
-                            "url": "/performers/18",
+                            "url": "/ldpd-bunraku/performers/18",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Kenbishi",
-  																	"url": "kashira/35"
+  																	"url": "/ldpd-bunrakukashira/35"
   																}
   															]
   														},
@@ -359,7 +359,7 @@
   															"children": [
   																{
   																	"name": "Kyuhachi",
-  																	"url": "/characters/66"
+  																	"url": "/ldpd-bunraku/characters/66"
   																}
   															]
   														}
@@ -371,14 +371,14 @@
                   ]
                 }, {
                   "name": "The Monkey Dance",
-									"url": "/scenes/294",
+									"url": "/ldpd-bunraku/scenes/294",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Tsudayū IV",
-                          "url": "/performers/2"
+                          "url": "/ldpd-bunraku/performers/2"
                         }
                       ]
 										},
@@ -387,10 +387,10 @@
                       "children": [
                          {
                           "name": "Tsuruzawa Kanji VI",
-                          "url": "/performers/112"
+                          "url": "/ldpd-bunraku/performers/112"
                         }, {
                           "name": "Takezawa Danroku VIII (see also Tsuruzawa Kanji VII)",
-                          "url": "/performers/65"
+                          "url": "/ldpd-bunraku/performers/65"
                         }
                       ]
                     },
@@ -399,14 +399,14 @@
                       "children": [
                          {
                             "name": "Yoshida Tamagorō II",
-                            "url": "/performers/94",
+                            "url": "/ldpd-bunraku/performers/94",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -415,7 +415,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -423,14 +423,14 @@
                           },
                          {
                             "name": "Kiritake Kamematsu IV",
-                            "url": "/performers/25",
+                            "url": "/ldpd-bunraku/performers/25",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Matahei",
-  																	"url": "kashira/108"
+  																	"url": "/ldpd-bunrakukashira/108"
   																}
   															]
   														},
@@ -439,7 +439,7 @@
   															"children": [
   																{
   																	"name": "Yojiro",
-  																	"url": "/characters/61"
+  																	"url": "/ldpd-bunraku/characters/61"
   																}
   															]
   														}
@@ -447,14 +447,14 @@
                           },
                          {
                             "name": "Toyomatsu Seijūrō IV",
-                            "url": "/performers/20",
+                            "url": "/ldpd-bunraku/performers/20",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -463,7 +463,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -471,14 +471,14 @@
                           },
                          {
                             "name": "Yoshida Tamamatsu III (see also Kiritake Monya)",
-                            "url": "/performers/15",
+                            "url": "/ldpd-bunraku/performers/15",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -487,7 +487,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -503,24 +503,24 @@
           ]
         }, {
           "name": "February 1974",
-          "url": "/performances/148",
+          "url": "/ldpd-bunraku/performances/148",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Monkey Dance",
-									"url": "/scenes/385",
+									"url": "/ldpd-bunraku/scenes/385",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Toyotake Komatsudayū II",
-                          "url": "/performers/29"
+                          "url": "/ldpd-bunraku/performers/29"
                         }, {
                           "name": "Toyotake Shimatayū VIII",
-                          "url": "/performers/68"
+                          "url": "/ldpd-bunraku/performers/68"
                         }
                       ]
 										},
@@ -529,10 +529,10 @@
                       "children": [
                          {
                           "name": "Nozawa Kizaemon II",
-                          "url": "/performers/93"
+                          "url": "/ldpd-bunraku/performers/93"
                         }, {
                           "name": "Nozawa Katsuhei II (see also Nozawa Kizaemon III)",
-                          "url": "/performers/67"
+                          "url": "/ldpd-bunraku/performers/67"
                         }
                       ]
                     },
@@ -541,14 +541,14 @@
                       "children": [
                          {
                             "name": "Yoshida Sakujūrō",
-                            "url": "/performers/26",
+                            "url": "/ldpd-bunraku/performers/26",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -557,7 +557,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -565,14 +565,14 @@
                           },
                          {
                             "name": "Kiritake Kamematsu IV",
-                            "url": "/performers/25",
+                            "url": "/ldpd-bunraku/performers/25",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -581,7 +581,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -589,14 +589,14 @@
                           },
                          {
                             "name": "Yoshida Tamamatsu III (see also Kiritake Monya)",
-                            "url": "/performers/15",
+                            "url": "/ldpd-bunraku/performers/15",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -605,7 +605,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -613,14 +613,14 @@
                           },
                          {
                             "name": "Kiritake Kanju",
-                            "url": "/performers/24",
+                            "url": "/ldpd-bunraku/performers/24",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Koyaku",
-  																	"url": "kashira/42"
+  																	"url": "/ldpd-bunrakukashira/42"
   																}
   															]
   														},
@@ -629,7 +629,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -645,24 +645,24 @@
           ]
         }, {
           "name": "June 1974",
-          "url": "/performances/160",
+          "url": "/ldpd-bunraku/performances/160",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Monkey Dance",
-									"url": "/scenes/417",
+									"url": "/ldpd-bunraku/scenes/417",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Nanbudayū V",
-                          "url": "/performers/33"
+                          "url": "/ldpd-bunraku/performers/33"
                         }, {
                           "name": "Toyotake Tokutayū",
-                          "url": "/performers/34"
+                          "url": "/ldpd-bunraku/performers/34"
                         }
                       ]
 										},
@@ -671,16 +671,16 @@
                       "children": [
                          {
                           "name": "Nozawa Katsutarō II",
-                          "url": "/performers/104"
+                          "url": "/ldpd-bunraku/performers/104"
                         }, {
                           "name": "Tsuruzawa Seitomo II",
-                          "url": "/performers/30"
+                          "url": "/ldpd-bunraku/performers/30"
                         }, {
                           "name": "Nozawa Kichibei IX",
-                          "url": "/performers/84"
+                          "url": "/ldpd-bunraku/performers/84"
                         }, {
                           "name": "Nozawa Katsushi (see also Toyozawa Tomisuke V)",
-                          "url": "/performers/10"
+                          "url": "/ldpd-bunraku/performers/10"
                         }
                       ]
                     },
@@ -689,14 +689,14 @@
                       "children": [
                          {
                             "name": "Yoshida Bunshō",
-                            "url": "/performers/12",
+                            "url": "/ldpd-bunraku/performers/12",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -705,7 +705,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -713,14 +713,14 @@
                           },
                          {
                             "name": "Kiritake Kamematsu IV",
-                            "url": "/performers/25",
+                            "url": "/ldpd-bunraku/performers/25",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Matahei",
-  																	"url": "kashira/108"
+  																	"url": "/ldpd-bunrakukashira/108"
   																}
   															]
   														},
@@ -729,7 +729,7 @@
   															"children": [
   																{
   																	"name": "Yojiro",
-  																	"url": "/characters/61"
+  																	"url": "/ldpd-bunraku/characters/61"
   																}
   															]
   														}
@@ -737,14 +737,14 @@
                           },
                          {
                             "name": "Yoshida Minosuke III",
-                            "url": "/performers/18",
+                            "url": "/ldpd-bunraku/performers/18",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Shinzō",
-  																	"url": "kashira/124"
+  																	"url": "/ldpd-bunrakukashira/124"
   																}
   															]
   														},
@@ -753,7 +753,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -761,14 +761,14 @@
                           },
                          {
                             "name": "Kiritake Monju",
-                            "url": "/performers/51",
+                            "url": "/ldpd-bunraku/performers/51",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -777,7 +777,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -793,21 +793,21 @@
           ]
         }, {
           "name": "January 1978",
-          "url": "/performances/275",
+          "url": "/ldpd-bunraku/performances/275",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Dry Riverbed of Shijo",
-									"url": "/scenes/787",
+									"url": "/ldpd-bunraku/scenes/787",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Toyotake Sakitayū",
-                          "url": "/performers/9"
+                          "url": "/ldpd-bunraku/performers/9"
                         }
                       ]
 										},
@@ -816,7 +816,7 @@
                       "children": [
                          {
                           "name": "Tsuruzawa Jūzō IV",
-                          "url": "/performers/46"
+                          "url": "/ldpd-bunraku/performers/46"
                         }
                       ]
                     },
@@ -825,14 +825,14 @@
                       "children": [
                          {
                             "name": "Yoshida Tamame",
-                            "url": "/performers/23",
+                            "url": "/ldpd-bunraku/performers/23",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Hagataki",
-  																	"url": "kashira/87"
+  																	"url": "/ldpd-bunrakukashira/87"
   																}
   															]
   														},
@@ -841,7 +841,7 @@
   															"children": [
   																{
   																	"name": "Kanzo",
-  																	"url": "/characters/68"
+  																	"url": "/ldpd-bunraku/characters/68"
   																}
   															]
   														}
@@ -849,14 +849,14 @@
                           },
                          {
                             "name": "Yoshida Tamamatsu III (see also Kiritake Monya)",
-                            "url": "/performers/15",
+                            "url": "/ldpd-bunraku/performers/15",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -865,7 +865,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -873,14 +873,14 @@
                           },
                          {
                             "name": "Yoshida Kotama (see also Yoshida Bungo V)",
-                            "url": "/performers/82",
+                            "url": "/ldpd-bunraku/performers/82",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Kenbishi",
-  																	"url": "kashira/35"
+  																	"url": "/ldpd-bunrakukashira/35"
   																}
   															]
   														},
@@ -889,7 +889,7 @@
   															"children": [
   																{
   																	"name": "Kyuhachi",
-  																	"url": "/characters/66"
+  																	"url": "/ldpd-bunraku/characters/66"
   																}
   															]
   														}
@@ -901,17 +901,17 @@
                   ]
                 }, {
                   "name": "The Monkey Dance",
-									"url": "/scenes/788",
+									"url": "/ldpd-bunraku/scenes/788",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Oritayū V (see also Takemoto Tsunatayū IX)",
-                          "url": "/performers/6"
+                          "url": "/ldpd-bunraku/performers/6"
                         }, {
                           "name": "Takemoto Mojitayū IX (see also Takemoto Sumitayū VII)",
-                          "url": "/performers/66"
+                          "url": "/ldpd-bunraku/performers/66"
                         }
                       ]
 										},
@@ -920,16 +920,16 @@
                       "children": [
                          {
                           "name": "Takezawa Danroku VIII (see also Tsuruzawa Kanji VII)",
-                          "url": "/performers/65"
+                          "url": "/ldpd-bunraku/performers/65"
                         }, {
                           "name": "Takezawa Yasaburō (see also Nozawa Kichinosuke)",
-                          "url": "/performers/90"
+                          "url": "/ldpd-bunraku/performers/90"
                         }, {
                           "name": "Tsuruzawa Enza V",
-                          "url": "/performers/8"
+                          "url": "/ldpd-bunraku/performers/8"
                         }, {
                           "name": "Tsuruzawa Asazō V",
-                          "url": "/performers/41"
+                          "url": "/ldpd-bunraku/performers/41"
                         }
                       ]
                     },
@@ -938,14 +938,14 @@
                       "children": [
                          {
                             "name": "Yoshida Tamagorō II",
-                            "url": "/performers/94",
+                            "url": "/ldpd-bunraku/performers/94",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -954,7 +954,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -962,14 +962,14 @@
                           },
                          {
                             "name": "Kiritake Kamematsu IV",
-                            "url": "/performers/25",
+                            "url": "/ldpd-bunraku/performers/25",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Matahei",
-  																	"url": "kashira/108"
+  																	"url": "/ldpd-bunrakukashira/108"
   																}
   															]
   														},
@@ -978,7 +978,7 @@
   															"children": [
   																{
   																	"name": "Yojiro",
-  																	"url": "/characters/61"
+  																	"url": "/ldpd-bunraku/characters/61"
   																}
   															]
   														}
@@ -986,14 +986,14 @@
                           },
                          {
                             "name": "Yoshida Bunjaku",
-                            "url": "/performers/11",
+                            "url": "/ldpd-bunraku/performers/11",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -1002,7 +1002,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -1010,14 +1010,14 @@
                           },
                          {
                             "name": "Yoshida Tamamatsu III (see also Kiritake Monya)",
-                            "url": "/performers/15",
+                            "url": "/ldpd-bunraku/performers/15",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -1026,7 +1026,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -1042,21 +1042,21 @@
           ]
         }, {
           "name": "September 1982",
-          "url": "/performances/429",
+          "url": "/ldpd-bunraku/performances/429",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Monkey Dance",
-									"url": "/scenes/1223",
+									"url": "/ldpd-bunraku/scenes/1223",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Tsudayū IV",
-                          "url": "/performers/2"
+                          "url": "/ldpd-bunraku/performers/2"
                         }
                       ]
 										},
@@ -1065,10 +1065,10 @@
                       "children": [
                          {
                           "name": "Takezawa Danshichi (see also Takezawa Danjirō IV)",
-                          "url": "/performers/4"
+                          "url": "/ldpd-bunraku/performers/4"
                         }, {
                           "name": "Nozawa Kichinosuke (see also Takezawa Yasaburō)",
-                          "url": "/performers/81"
+                          "url": "/ldpd-bunraku/performers/81"
                         }
                       ]
                     },
@@ -1077,14 +1077,14 @@
                       "children": [
                          {
                             "name": "Yoshida Bunshō",
-                            "url": "/performers/12",
+                            "url": "/ldpd-bunraku/performers/12",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -1093,7 +1093,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -1101,14 +1101,14 @@
                           },
                          {
                             "name": "Yoshida Minosuke III",
-                            "url": "/performers/18",
+                            "url": "/ldpd-bunraku/performers/18",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -1117,7 +1117,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -1125,14 +1125,14 @@
                           },
                          {
                             "name": "Toyomatsu Seijūrō IV",
-                            "url": "/performers/20",
+                            "url": "/ldpd-bunraku/performers/20",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -1141,7 +1141,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -1149,14 +1149,14 @@
                           },
                          {
                             "name": "Toyomatsu Seinosuke (see also Yoshida Seinosuke)",
-                            "url": "/performers/50",
+                            "url": "/ldpd-bunraku/performers/50",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Onna koyaku",
-  																	"url": "kashira/15"
+  																	"url": "/ldpd-bunrakukashira/15"
   																}
   															]
   														},
@@ -1165,7 +1165,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -1177,20 +1177,20 @@
                   ]
                 }, {
                   "name": "The Tearful Journey",
-									"url": "/scenes/1224",
+									"url": "/ldpd-bunraku/scenes/1224",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Aioidayū IV (see also Takemoto Aikodayū I)",
-                          "url": "/performers/53"
+                          "url": "/ldpd-bunraku/performers/53"
                         }, {
                           "name": "Takemoto Midoridayū",
-                          "url": "/performers/55"
+                          "url": "/ldpd-bunraku/performers/55"
                         }, {
                           "name": "Takemoto Tsukomadayū",
-                          "url": "/performers/35"
+                          "url": "/ldpd-bunraku/performers/35"
                         }
                       ]
 										},
@@ -1199,19 +1199,19 @@
                       "children": [
                          {
                           "name": "Nozawa Katsushi (see also Toyozawa Tomisuke V)",
-                          "url": "/performers/10"
+                          "url": "/ldpd-bunraku/performers/10"
                         }, {
                           "name": "Tsuruzawa Seitomo II",
-                          "url": "/performers/30"
+                          "url": "/ldpd-bunraku/performers/30"
                         }, {
                           "name": "Tsuruzawa Seisuke",
-                          "url": "/performers/69"
+                          "url": "/ldpd-bunraku/performers/69"
                         }, {
                           "name": "Tsuruzawa Asazō V",
-                          "url": "/performers/41"
+                          "url": "/ldpd-bunraku/performers/41"
                         }, {
                           "name": "Takezawa Danji",
-                          "url": "/performers/64"
+                          "url": "/ldpd-bunraku/performers/64"
                         }
                       ]
                     },
@@ -1220,14 +1220,14 @@
                       "children": [
                          {
                             "name": "Yoshida Bunshō",
-                            "url": "/performers/12",
+                            "url": "/ldpd-bunraku/performers/12",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -1236,7 +1236,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -1244,14 +1244,14 @@
                           },
                          {
                             "name": "Yoshida Minosuke III",
-                            "url": "/performers/18",
+                            "url": "/ldpd-bunraku/performers/18",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -1260,7 +1260,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -1268,14 +1268,14 @@
                           },
                          {
                             "name": "Toyomatsu Seijūrō IV",
-                            "url": "/performers/20",
+                            "url": "/ldpd-bunraku/performers/20",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -1284,7 +1284,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -1292,14 +1292,14 @@
                           },
                          {
                             "name": "Toyomatsu Seinosuke (see also Yoshida Seinosuke)",
-                            "url": "/performers/50",
+                            "url": "/ldpd-bunraku/performers/50",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Onna koyaku",
-  																	"url": "kashira/15"
+  																	"url": "/ldpd-bunrakukashira/15"
   																}
   															]
   														},
@@ -1308,7 +1308,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -1324,24 +1324,24 @@
           ]
         }, {
           "name": "April 1983",
-          "url": "/performances/437",
+          "url": "/ldpd-bunraku/performances/437",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Monkey Dance",
-									"url": "/scenes/1273",
+									"url": "/ldpd-bunraku/scenes/1273",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Oritayū V (see also Takemoto Tsunatayū IX)",
-                          "url": "/performers/6"
+                          "url": "/ldpd-bunraku/performers/6"
                         }, {
                           "name": "Takemoto Mojitayū IX (see also Takemoto Sumitayū VII)",
-                          "url": "/performers/66"
+                          "url": "/ldpd-bunraku/performers/66"
                         }
                       ]
 										},
@@ -1350,16 +1350,16 @@
                       "children": [
                          {
                           "name": "Nozawa Kinshi IV",
-                          "url": "/performers/40"
+                          "url": "/ldpd-bunraku/performers/40"
                         }, {
                           "name": "Nozawa Kin'ya (see also Nozawa Kinshi V)",
-                          "url": "/performers/61"
+                          "url": "/ldpd-bunraku/performers/61"
                         }, {
                           "name": "Nozawa Katsuhei II (see also Nozawa Kizaemon III)",
-                          "url": "/performers/67"
+                          "url": "/ldpd-bunraku/performers/67"
                         }, {
                           "name": "Tsuruzawa Hachisuke",
-                          "url": "/performers/42"
+                          "url": "/ldpd-bunraku/performers/42"
                         }
                       ]
                     },
@@ -1368,14 +1368,14 @@
                       "children": [
                          {
                             "name": "Yoshida Sakujūrō",
-                            "url": "/performers/26",
+                            "url": "/ldpd-bunraku/performers/26",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -1384,7 +1384,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -1392,14 +1392,14 @@
                           },
                          {
                             "name": "Yoshida Minosuke III",
-                            "url": "/performers/18",
+                            "url": "/ldpd-bunraku/performers/18",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -1408,7 +1408,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -1416,14 +1416,14 @@
                           },
                          {
                             "name": "Yoshida Tamakō II",
-                            "url": "/performers/19",
+                            "url": "/ldpd-bunraku/performers/19",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -1432,7 +1432,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -1440,14 +1440,14 @@
                           },
                          {
                             "name": "Toyomatsu Seinosuke (see also Yoshida Seinosuke)",
-                            "url": "/performers/50",
+                            "url": "/ldpd-bunraku/performers/50",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Onna koyaku",
-  																	"url": "kashira/15"
+  																	"url": "/ldpd-bunrakukashira/15"
   																}
   															]
   														},
@@ -1456,7 +1456,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -1472,24 +1472,24 @@
           ]
         }, {
           "name": "December 1987",
-          "url": "/performances/598",
+          "url": "/ldpd-bunraku/performances/598",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Monkey Dance",
-									"url": "/scenes/1703",
+									"url": "/ldpd-bunraku/scenes/1703",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Toyotake Shimatayū VIII",
-                          "url": "/performers/68"
+                          "url": "/ldpd-bunraku/performers/68"
                         }, {
                           "name": "Toyotake Komatsudayū II",
-                          "url": "/performers/29"
+                          "url": "/ldpd-bunraku/performers/29"
                         }
                       ]
 										},
@@ -1498,16 +1498,16 @@
                       "children": [
                          {
                           "name": "Tsuruzawa Seisuke",
-                          "url": "/performers/69"
+                          "url": "/ldpd-bunraku/performers/69"
                         }, {
                           "name": "Takezawa Danji",
-                          "url": "/performers/64"
+                          "url": "/ldpd-bunraku/performers/64"
                         }, {
                           "name": "Takezawa Danshichi (see also Takezawa Danjirō IV)",
-                          "url": "/performers/4"
+                          "url": "/ldpd-bunraku/performers/4"
                         }, {
                           "name": "Tsuruzawa Asazō V",
-                          "url": "/performers/41"
+                          "url": "/ldpd-bunraku/performers/41"
                         }
                       ]
                     },
@@ -1516,14 +1516,14 @@
                       "children": [
                          {
                             "name": "Yoshida Bunshō",
-                            "url": "/performers/12",
+                            "url": "/ldpd-bunraku/performers/12",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -1532,7 +1532,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -1540,14 +1540,14 @@
                           },
                          {
                             "name": "Kiritake Monju",
-                            "url": "/performers/51",
+                            "url": "/ldpd-bunraku/performers/51",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -1556,7 +1556,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -1564,14 +1564,14 @@
                           },
                          {
                             "name": "Yoshida Kazuo",
-                            "url": "/performers/49",
+                            "url": "/ldpd-bunraku/performers/49",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -1580,7 +1580,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -1588,14 +1588,14 @@
                           },
                          {
                             "name": "Yoshida Tamae",
-                            "url": "/performers/70",
+                            "url": "/ldpd-bunraku/performers/70",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Onna koyaku",
-  																	"url": "kashira/15"
+  																	"url": "/ldpd-bunrakukashira/15"
   																}
   															]
   														},
@@ -1604,7 +1604,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -1616,26 +1616,26 @@
                   ]
                 }, {
                   "name": "The Tearful Journey",
-									"url": "/scenes/1704",
+									"url": "/ldpd-bunraku/scenes/1704",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Midoridayū",
-                          "url": "/performers/55"
+                          "url": "/ldpd-bunraku/performers/55"
                         }, {
                           "name": "Takemoto Miwatayū",
-                          "url": "/performers/57"
+                          "url": "/ldpd-bunraku/performers/57"
                         }, {
                           "name": "Takemoto Tsumaidayū",
-                          "url": "/performers/36"
+                          "url": "/ldpd-bunraku/performers/36"
                         }, {
                           "name": "Takemoto Nantodayū",
-                          "url": "/performers/39"
+                          "url": "/ldpd-bunraku/performers/39"
                         }, {
                           "name": "Takemoto Nanjudayū",
-                          "url": "/performers/85"
+                          "url": "/ldpd-bunraku/performers/85"
                         }
                       ]
 										},
@@ -1644,19 +1644,19 @@
                       "children": [
                          {
                           "name": "Takezawa Yasaburō (see also Nozawa Kichinosuke)",
-                          "url": "/performers/90"
+                          "url": "/ldpd-bunraku/performers/90"
                         }, {
                           "name": "Tsuruzawa Enjirō",
-                          "url": "/performers/7"
+                          "url": "/ldpd-bunraku/performers/7"
                         }, {
                           "name": "Tsuruzawa Asazō V",
-                          "url": "/performers/41"
+                          "url": "/ldpd-bunraku/performers/41"
                         }, {
                           "name": "Tsuruzawa Seijirō V",
-                          "url": "/performers/43"
+                          "url": "/ldpd-bunraku/performers/43"
                         }, {
                           "name": "Toyomatsu Seigorō (see also Yoshida Seigorō)",
-                          "url": "/performers/88"
+                          "url": "/ldpd-bunraku/performers/88"
                         }
                       ]
                     },
@@ -1665,14 +1665,14 @@
                       "children": [
                          {
                             "name": "Yoshida Tamamatsu III (see also Kiritake Monya)",
-                            "url": "/performers/15",
+                            "url": "/ldpd-bunraku/performers/15",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Matahei",
-  																	"url": "kashira/108"
+  																	"url": "/ldpd-bunrakukashira/108"
   																}
   															]
   														},
@@ -1681,7 +1681,7 @@
   															"children": [
   																{
   																	"name": "Yojiro",
-  																	"url": "/characters/61"
+  																	"url": "/ldpd-bunraku/characters/61"
   																}
   															]
   														}
@@ -1689,14 +1689,14 @@
                           },
                          {
                             "name": "Kiritake Monju",
-                            "url": "/performers/51",
+                            "url": "/ldpd-bunraku/performers/51",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -1705,7 +1705,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -1713,14 +1713,14 @@
                           },
                          {
                             "name": "Yoshida Kazuo",
-                            "url": "/performers/49",
+                            "url": "/ldpd-bunraku/performers/49",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -1729,7 +1729,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -1737,14 +1737,14 @@
                           },
                          {
                             "name": "Yoshida Tamae",
-                            "url": "/performers/70",
+                            "url": "/ldpd-bunraku/performers/70",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Onna koyaku",
-  																	"url": "kashira/15"
+  																	"url": "/ldpd-bunrakukashira/15"
   																}
   															]
   														},
@@ -1753,7 +1753,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -1769,24 +1769,24 @@
           ]
         }, {
           "name": "January 1992",
-          "url": "/performances/680",
+          "url": "/ldpd-bunraku/performances/680",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Monkey Dance",
-									"url": "/scenes/2056",
+									"url": "/ldpd-bunraku/scenes/2056",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Datetayū V (see also Takemoto Datejidayū)",
-                          "url": "/performers/181"
+                          "url": "/ldpd-bunraku/performers/181"
                         }, {
                           "name": "Toyotake Tokutayū",
-                          "url": "/performers/34"
+                          "url": "/ldpd-bunraku/performers/34"
                         }
                       ]
 										},
@@ -1795,16 +1795,16 @@
                       "children": [
                          {
                           "name": "Nozawa Kizaemon III (see also Nozawa Katsuhei)",
-                          "url": "/performers/126"
+                          "url": "/ldpd-bunraku/performers/126"
                         }, {
                           "name": "Nozawa Kiichirō",
-                          "url": "/performers/97"
+                          "url": "/ldpd-bunraku/performers/97"
                         }, {
                           "name": "Takezawa Danroku VIII (see also Tsuruzawa Kanji VII)",
-                          "url": "/performers/65"
+                          "url": "/ldpd-bunraku/performers/65"
                         }, {
                           "name": "Takezawa Danji",
-                          "url": "/performers/64"
+                          "url": "/ldpd-bunraku/performers/64"
                         }
                       ]
                     },
@@ -1813,14 +1813,14 @@
                       "children": [
                          {
                             "name": "Kiritake Monju",
-                            "url": "/performers/51",
+                            "url": "/ldpd-bunraku/performers/51",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -1829,7 +1829,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -1837,14 +1837,14 @@
                           },
                          {
                             "name": "Yoshida Bunshō",
-                            "url": "/performers/12",
+                            "url": "/ldpd-bunraku/performers/12",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -1853,7 +1853,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -1861,14 +1861,14 @@
                           },
                          {
                             "name": "Yoshida Tamamatsu III (see also Kiritake Monya)",
-                            "url": "/performers/15",
+                            "url": "/ldpd-bunraku/performers/15",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -1877,7 +1877,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -1885,14 +1885,14 @@
                           },
                          {
                             "name": "Yoshida Seigorō (see also Toyomatsu Seigorō)",
-                            "url": "/performers/179",
+                            "url": "/ldpd-bunraku/performers/179",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Onna koyaku",
-  																	"url": "kashira/15"
+  																	"url": "/ldpd-bunrakukashira/15"
   																}
   															]
   														},
@@ -1901,7 +1901,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -1917,21 +1917,21 @@
           ]
         }, {
           "name": "July 1989",
-          "url": "/performances/723",
+          "url": "/ldpd-bunraku/performances/723",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Dry Riverbed of Shijo",
-									"url": "/scenes/1840",
+									"url": "/ldpd-bunraku/scenes/1840",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Midoridayū",
-                          "url": "/performers/55"
+                          "url": "/ldpd-bunraku/performers/55"
                         }
                       ]
 										},
@@ -1940,7 +1940,7 @@
                       "children": [
                          {
                           "name": "Tsuruzawa Enjirō",
-                          "url": "/performers/7"
+                          "url": "/ldpd-bunraku/performers/7"
                         }
                       ]
                     },
@@ -1949,14 +1949,14 @@
                       "children": [
                          {
                             "name": "Yoshida Tamaki",
-                            "url": "/performers/45",
+                            "url": "/ldpd-bunraku/performers/45",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Hagataki",
-  																	"url": "kashira/87"
+  																	"url": "/ldpd-bunrakukashira/87"
   																}
   															]
   														},
@@ -1965,7 +1965,7 @@
   															"children": [
   																{
   																	"name": "Kanzo",
-  																	"url": "/characters/68"
+  																	"url": "/ldpd-bunraku/characters/68"
   																}
   															]
   														}
@@ -1973,14 +1973,14 @@
                           },
                          {
                             "name": "Yoshida Bunshō",
-                            "url": "/performers/12",
+                            "url": "/ldpd-bunraku/performers/12",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -1989,7 +1989,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -1997,14 +1997,14 @@
                           },
                          {
                             "name": "Yoshida Tamame",
-                            "url": "/performers/23",
+                            "url": "/ldpd-bunraku/performers/23",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Kenbishi",
-  																	"url": "kashira/35"
+  																	"url": "/ldpd-bunrakukashira/35"
   																}
   															]
   														},
@@ -2013,7 +2013,7 @@
   															"children": [
   																{
   																	"name": "Kyuhachi",
-  																	"url": "/characters/66"
+  																	"url": "/ldpd-bunraku/characters/66"
   																}
   															]
   														}
@@ -2025,17 +2025,17 @@
                   ]
                 }, {
                   "name": "The Monkey Dance",
-									"url": "/scenes/1841",
+									"url": "/ldpd-bunraku/scenes/1841",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Toyotake Shimatayū VIII",
-                          "url": "/performers/68"
+                          "url": "/ldpd-bunraku/performers/68"
                         }, {
                           "name": "Toyotake Rodayū V",
-                          "url": "/performers/63"
+                          "url": "/ldpd-bunraku/performers/63"
                         }
                       ]
 										},
@@ -2044,16 +2044,16 @@
                       "children": [
                          {
                           "name": "Tsuruzawa Seisuke",
-                          "url": "/performers/69"
+                          "url": "/ldpd-bunraku/performers/69"
                         }, {
                           "name": "Tsuruzawa Seitarō",
-                          "url": "/performers/151"
+                          "url": "/ldpd-bunraku/performers/151"
                         }, {
                           "name": "Takezawa Danroku VIII (see also Tsuruzawa Kanji VII)",
-                          "url": "/performers/65"
+                          "url": "/ldpd-bunraku/performers/65"
                         }, {
                           "name": "Takezawa Danji",
-                          "url": "/performers/64"
+                          "url": "/ldpd-bunraku/performers/64"
                         }
                       ]
                     },
@@ -2062,14 +2062,14 @@
                       "children": [
                          {
                             "name": "Yoshida Tamagorō II",
-                            "url": "/performers/94",
+                            "url": "/ldpd-bunraku/performers/94",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -2078,7 +2078,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -2086,14 +2086,14 @@
                           },
                          {
                             "name": "Yoshida Bunjaku",
-                            "url": "/performers/11",
+                            "url": "/ldpd-bunraku/performers/11",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -2102,7 +2102,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -2110,14 +2110,14 @@
                           },
                          {
                             "name": "Yoshida Bunshō",
-                            "url": "/performers/12",
+                            "url": "/ldpd-bunraku/performers/12",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -2126,7 +2126,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -2134,14 +2134,14 @@
                           },
                          {
                             "name": "Yoshida Kazuo",
-                            "url": "/performers/49",
+                            "url": "/ldpd-bunraku/performers/49",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Onna koyaku",
-  																	"url": "kashira/15"
+  																	"url": "/ldpd-bunrakukashira/15"
   																}
   															]
   														},
@@ -2150,7 +2150,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -2162,23 +2162,23 @@
                   ]
                 }, {
                   "name": "The Tearful Journey",
-									"url": "/scenes/1842",
+									"url": "/ldpd-bunraku/scenes/1842",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Takemoto Tsukomadayū",
-                          "url": "/performers/35"
+                          "url": "/ldpd-bunraku/performers/35"
                         }, {
                           "name": "Takemoto Takatayū",
-                          "url": "/performers/56"
+                          "url": "/ldpd-bunraku/performers/56"
                         }, {
                           "name": "Takemoto Mojihisadayū",
-                          "url": "/performers/60"
+                          "url": "/ldpd-bunraku/performers/60"
                         }, {
                           "name": "Toyotake Rosetayū",
-                          "url": "/performers/37"
+                          "url": "/ldpd-bunraku/performers/37"
                         }
                       ]
 										},
@@ -2187,16 +2187,16 @@
                       "children": [
                          {
                           "name": "Takezawa Danshichi (see also Takezawa Danjirō IV)",
-                          "url": "/performers/4"
+                          "url": "/ldpd-bunraku/performers/4"
                         }, {
                           "name": "Takezawa Yasaburō (see also Nozawa Kichinosuke)",
-                          "url": "/performers/90"
+                          "url": "/ldpd-bunraku/performers/90"
                         }, {
                           "name": "Tsuruzawa Seijirō V",
-                          "url": "/performers/43"
+                          "url": "/ldpd-bunraku/performers/43"
                         }, {
                           "name": "Takezawa Dango",
-                          "url": "/performers/79"
+                          "url": "/ldpd-bunraku/performers/79"
                         }
                       ]
                     },
@@ -2205,14 +2205,14 @@
                       "children": [
                          {
                             "name": "Yoshida Bunshō",
-                            "url": "/performers/12",
+                            "url": "/ldpd-bunraku/performers/12",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -2221,7 +2221,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -2237,21 +2237,21 @@
           ]
         }, {
           "name": "February 1990",
-          "url": "/performances/725",
+          "url": "/ldpd-bunraku/performances/725",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Dry Riverbed of Shijo",
-									"url": "/scenes/1902",
+									"url": "/ldpd-bunraku/scenes/1902",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Toyotake Sakitayū",
-                          "url": "/performers/9"
+                          "url": "/ldpd-bunraku/performers/9"
                         }
                       ]
 										},
@@ -2260,7 +2260,7 @@
                       "children": [
                          {
                           "name": "Tsuruzawa Seitomo II",
-                          "url": "/performers/30"
+                          "url": "/ldpd-bunraku/performers/30"
                         }
                       ]
                     },
@@ -2269,14 +2269,14 @@
                       "children": [
                          {
                             "name": "Yoshida Wakatama (see also Yoshida Bunshi)",
-                            "url": "/performers/76",
+                            "url": "/ldpd-bunraku/performers/76",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Hagataki",
-  																	"url": "kashira/87"
+  																	"url": "/ldpd-bunrakukashira/87"
   																}
   															]
   														},
@@ -2285,7 +2285,7 @@
   															"children": [
   																{
   																	"name": "Kanzo",
-  																	"url": "/characters/68"
+  																	"url": "/ldpd-bunraku/characters/68"
   																}
   															]
   														}
@@ -2293,14 +2293,14 @@
                           },
                          {
                             "name": "Yoshida Bungo V (see also Yoshida Kotama)",
-                            "url": "/performers/48",
+                            "url": "/ldpd-bunraku/performers/48",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -2309,7 +2309,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -2317,14 +2317,14 @@
                           },
                          {
                             "name": "Yoshida Kazuo",
-                            "url": "/performers/49",
+                            "url": "/ldpd-bunraku/performers/49",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Kenbishi",
-  																	"url": "kashira/35"
+  																	"url": "/ldpd-bunrakukashira/35"
   																}
   															]
   														},
@@ -2333,7 +2333,7 @@
   															"children": [
   																{
   																	"name": "Kyuhachi",
-  																	"url": "/characters/66"
+  																	"url": "/ldpd-bunraku/characters/66"
   																}
   															]
   														}
@@ -2345,17 +2345,17 @@
                   ]
                 }, {
                   "name": "The Monkey Dance",
-									"url": "/scenes/1903",
+									"url": "/ldpd-bunraku/scenes/1903",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Toyotake Shimatayū VIII",
-                          "url": "/performers/68"
+                          "url": "/ldpd-bunraku/performers/68"
                         }, {
                           "name": "Takemoto Datetayū V (see also Takemoto Datejidayū)",
-                          "url": "/performers/181"
+                          "url": "/ldpd-bunraku/performers/181"
                         }
                       ]
 										},
@@ -2364,16 +2364,16 @@
                       "children": [
                          {
                           "name": "Toyozawa Tomisuke V (see also Nozawa Katsushi)",
-                          "url": "/performers/78"
+                          "url": "/ldpd-bunraku/performers/78"
                         }, {
                           "name": "Tsuruzawa Seitarō",
-                          "url": "/performers/151"
+                          "url": "/ldpd-bunraku/performers/151"
                         }, {
                           "name": "Nozawa Kizaemon III (see also Nozawa Katsuhei)",
-                          "url": "/performers/126"
+                          "url": "/ldpd-bunraku/performers/126"
                         }, {
                           "name": "Takezawa Danji",
-                          "url": "/performers/64"
+                          "url": "/ldpd-bunraku/performers/64"
                         }
                       ]
                     },
@@ -2382,14 +2382,14 @@
                       "children": [
                          {
                             "name": "Kiritake Itchō",
-                            "url": "/performers/14",
+                            "url": "/ldpd-bunraku/performers/14",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -2398,7 +2398,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -2406,14 +2406,14 @@
                           },
                          {
                             "name": "Kiritake Monju",
-                            "url": "/performers/51",
+                            "url": "/ldpd-bunraku/performers/51",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -2422,7 +2422,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -2430,14 +2430,14 @@
                           },
                          {
                             "name": "Yoshida Bungo V (see also Yoshida Kotama)",
-                            "url": "/performers/48",
+                            "url": "/ldpd-bunraku/performers/48",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -2446,7 +2446,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -2454,14 +2454,14 @@
                           },
                          {
                             "name": "Yoshida Seizaburō (see also Toyomatsu Seizaburō)",
-                            "url": "/performers/176",
+                            "url": "/ldpd-bunraku/performers/176",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Onna koyaku",
-  																	"url": "kashira/15"
+  																	"url": "/ldpd-bunrakukashira/15"
   																}
   															]
   														},
@@ -2470,7 +2470,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -2482,26 +2482,26 @@
                   ]
                 }, {
                   "name": "The Tearful Journey",
-									"url": "/scenes/1904",
+									"url": "/ldpd-bunraku/scenes/1904",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Toyotake Matsukadayū",
-                          "url": "/performers/5"
+                          "url": "/ldpd-bunraku/performers/5"
                         }, {
                           "name": "Toyotake Hanabusadayū III",
-                          "url": "/performers/54"
+                          "url": "/ldpd-bunraku/performers/54"
                         }, {
                           "name": "Takemoto Tsukunidayū",
-                          "url": "/performers/58"
+                          "url": "/ldpd-bunraku/performers/58"
                         }, {
                           "name": "Takemoto Tsumaidayū",
-                          "url": "/performers/36"
+                          "url": "/ldpd-bunraku/performers/36"
                         }, {
                           "name": "Takemoto Mojiedayū",
-                          "url": "/performers/73"
+                          "url": "/ldpd-bunraku/performers/73"
                         }
                       ]
 										},
@@ -2510,19 +2510,19 @@
                       "children": [
                          {
                           "name": "Nozawa Kin'ya (see also Nozawa Kinshi V)",
-                          "url": "/performers/61"
+                          "url": "/ldpd-bunraku/performers/61"
                         }, {
                           "name": "Takezawa Yasaburō (see also Nozawa Kichinosuke)",
-                          "url": "/performers/90"
+                          "url": "/ldpd-bunraku/performers/90"
                         }, {
                           "name": "Tsuruzawa Asazō V",
-                          "url": "/performers/41"
+                          "url": "/ldpd-bunraku/performers/41"
                         }, {
                           "name": "Tsuruzawa Seitarō",
-                          "url": "/performers/151"
+                          "url": "/ldpd-bunraku/performers/151"
                         }, {
                           "name": "Nozawa Kiichirō",
-                          "url": "/performers/97"
+                          "url": "/ldpd-bunraku/performers/97"
                         }
                       ]
                     },
@@ -2531,14 +2531,14 @@
                       "children": [
                          {
                             "name": "Yoshida Tamamatsu III (see also Kiritake Monya)",
-                            "url": "/performers/15",
+                            "url": "/ldpd-bunraku/performers/15",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Matahei",
-  																	"url": "kashira/108"
+  																	"url": "/ldpd-bunrakukashira/108"
   																}
   															]
   														},
@@ -2547,7 +2547,7 @@
   															"children": [
   																{
   																	"name": "Yojiro",
-  																	"url": "/characters/61"
+  																	"url": "/ldpd-bunraku/characters/61"
   																}
   															]
   														}
@@ -2555,14 +2555,14 @@
                           },
                          {
                             "name": "Kiritake Monju",
-                            "url": "/performers/51",
+                            "url": "/ldpd-bunraku/performers/51",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -2571,7 +2571,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -2579,14 +2579,14 @@
                           },
                          {
                             "name": "Yoshida Bungo V (see also Yoshida Kotama)",
-                            "url": "/performers/48",
+                            "url": "/ldpd-bunraku/performers/48",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -2595,7 +2595,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
@@ -2603,14 +2603,14 @@
                           },
                          {
                             "name": "Yoshida Seizaburō (see also Toyomatsu Seizaburō)",
-                            "url": "/performers/176",
+                            "url": "/ldpd-bunraku/performers/176",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Onna koyaku",
-  																	"url": "kashira/15"
+  																	"url": "/ldpd-bunrakukashira/15"
   																}
   															]
   														},
@@ -2619,7 +2619,7 @@
   															"children": [
   																{
   																	"name": "Otsuru",
-  																	"url": "/characters/67"
+  																	"url": "/ldpd-bunraku/characters/67"
   																}
   															]
   														}
@@ -2635,24 +2635,24 @@
           ]
         }, {
           "name": "March 1996 Tour",
-          "url": "/performances/971",
+          "url": "/ldpd-bunraku/performances/971",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": "The Monkey Dance",
-									"url": "/scenes/2645",
+									"url": "/ldpd-bunraku/scenes/2645",
 									"children": [
                     {
                       "name": "with narration by",
                       "children": [
                          {
                           "name": "Toyotake Rodayū V",
-                          "url": "/performers/63"
+                          "url": "/ldpd-bunraku/performers/63"
                         }, {
                           "name": "Takemoto Sumitayū VII (see also Takemoto Mojitayū IX)",
-                          "url": "/performers/99"
+                          "url": "/ldpd-bunraku/performers/99"
                         }
                       ]
 										},
@@ -2661,16 +2661,16 @@
                       "children": [
                          {
                           "name": "Toyozawa Tomisuke V (see also Nozawa Katsushi)",
-                          "url": "/performers/78"
+                          "url": "/ldpd-bunraku/performers/78"
                         }, {
                           "name": "Tsuruzawa Asazō V",
-                          "url": "/performers/41"
+                          "url": "/ldpd-bunraku/performers/41"
                         }, {
                           "name": "Nozawa Kin'ya (see also Nozawa Kinshi V)",
-                          "url": "/performers/61"
+                          "url": "/ldpd-bunraku/performers/61"
                         }, {
                           "name": "Nozawa Kiichirō",
-                          "url": "/performers/97"
+                          "url": "/ldpd-bunraku/performers/97"
                         }
                       ]
                     },
@@ -2679,14 +2679,14 @@
                       "children": [
                          {
                             "name": "Yoshida Tamaya (see also Yoshida Eikō)",
-                            "url": "/performers/27",
+                            "url": "/ldpd-bunraku/performers/27",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Baba",
-  																	"url": "kashira/90"
+  																	"url": "/ldpd-bunrakukashira/90"
   																}
   															]
   														},
@@ -2695,7 +2695,7 @@
   															"children": [
   																{
   																	"name": "Yojiro's mother",
-  																	"url": "/characters/65"
+  																	"url": "/ldpd-bunraku/characters/65"
   																}
   															]
   														}
@@ -2703,14 +2703,14 @@
                           },
                          {
                             "name": "Yoshida Bungo V (see also Yoshida Kotama)",
-                            "url": "/performers/48",
+                            "url": "/ldpd-bunraku/performers/48",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Matahei",
-  																	"url": "kashira/108"
+  																	"url": "/ldpd-bunrakukashira/108"
   																}
   															]
   														},
@@ -2719,7 +2719,7 @@
   															"children": [
   																{
   																	"name": "Yojiro",
-  																	"url": "/characters/61"
+  																	"url": "/ldpd-bunraku/characters/61"
   																}
   															]
   														}
@@ -2727,14 +2727,14 @@
                           },
                          {
                             "name": "Yoshida Minosuke III",
-                            "url": "/performers/18",
+                            "url": "/ldpd-bunraku/performers/18",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Musume",
-  																	"url": "kashira/111"
+  																	"url": "/ldpd-bunrakukashira/111"
   																}
   															]
   														},
@@ -2743,7 +2743,7 @@
   															"children": [
   																{
   																	"name": "Oshun",
-  																	"url": "/characters/62"
+  																	"url": "/ldpd-bunraku/characters/62"
   																}
   															]
   														}
@@ -2751,14 +2751,14 @@
                           },
                          {
                             "name": "Yoshida Minotarō (see also Kiritake Kanjūrō)",
-                            "url": "/performers/17",
+                            "url": "/ldpd-bunraku/performers/17",
                             "children": [
                               {
   															"name": "using the kashira",
   															"children": [
   																{
   																	"name": "Genta",
-  																	"url": "kashira/33"
+  																	"url": "/ldpd-bunrakukashira/33"
   																}
   															]
   														},
@@ -2767,7 +2767,7 @@
   															"children": [
   																{
   																	"name": "Dembei",
-  																	"url": "/characters/63"
+  																	"url": "/ldpd-bunraku/characters/63"
   																}
   															]
   														}
