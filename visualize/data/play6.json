@@ -34,7 +34,7 @@ play_id: 6
                       "name": "with narration by",
                       "children": [
                         {% for narrator_id in pscene.narrator_id %}{% assign narrator = site.data.performers | where: "id", narrator_id | first %}{% assign last_narrator = forloop.last %} {
-                          "name": {{ narrator.name | jsonify }},
+                          "name": {{ narrator.name_en | jsonify }},
                           "url": "{{ site.baseurl }}/performers/{{ narrator_id }}"
                         }{% unless last_narrator %},{% endunless %}{% endfor %}
                       ]
@@ -43,7 +43,7 @@ play_id: 6
                       "name": "with music by",
                       "children": [
                         {% for shamisen_id in pscene.shamisen_id %}{% assign shamisen = site.data.performers | where: "id", shamisen_id | first %}{% assign last_shamisen = forloop.last %} {
-                          "name": {{ shamisen.name | jsonify }},
+                          "name": {{ shamisen.name_en | jsonify }},
                           "url": "{{ site.baseurl }}/performers/{{ shamisen_id }}"
                         }{% unless last_shamisen %},{% endunless %}{% endfor %}
                       ]
@@ -52,7 +52,7 @@ play_id: 6
                       "name": "with performances by",
                       "children": [
                         {% for spuck_id in pscene.spuck_id %}{% assign spuck = site.data.spucks | where: "id", spuck_id | first %}{% assign last_spuck = forloop.last %}{% assign puppeteer = site.data.performers | where: "id", spuck.puppeteer_id | first %}{% assign kashira = site.data.kashira | where: "id", spuck.kashira_id | first %}{% assign character = site.data.characters | where: "id", spuck.character_id | first %} {
-                            "name": {{ puppeteer.name | jsonify }},
+                            "name": {{ puppeteer.name_en | jsonify }},
                             "url": "{{ site.baseurl }}/performers/{{ spuck.puppeteer_id }}",
                             "children": [
                               {

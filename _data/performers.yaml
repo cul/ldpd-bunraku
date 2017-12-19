@@ -26,7 +26,7 @@
   - '55478'
   - '58217'
   - '60332'
-  name: "Takemoto Datejiday\u016B (see also Takemoto Datetay\u016B V)"
+  name_en: "Takemoto Datejiday\u016B (see also Takemoto Datetay\u016B V)"
   name_ka: "\u7AF9\u672C\u4F0A\u9054\u8DEF\u5927\u592B"
   narrator_perf_id:
   - '17'
@@ -377,7 +377,7 @@
   - '60612'
   - '60709'
   - '60711'
-  name: "Takemoto Tsuday\u016B IV"
+  name_en: "Takemoto Tsuday\u016B IV"
   name_ka: "\u7AF9\u672C\u6D25\u5927\u592B (\u56DB)"
   narrator_perf_id:
   - '16'
@@ -552,7 +552,7 @@
   - '53291'
   - '58827'
   - '60489'
-  name: "Tsuruzawa Kanotar\u014D"
+  name_en: "Tsuruzawa Kanotar\u014D"
   name_ka: "\u9DB4\u6FA4\u53F6\u592A\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -704,7 +704,7 @@
   - '12477'
   - '12478'
   - '12489'
-  name: "Takezawa Danshichi (see also Takezawa Danjir\u014D IV)"
+  name_en: "Takezawa Danshichi (see also Takezawa Danjir\u014D IV)"
   name_ka: "\u7AF9\u6FA4\u56E3\u4E03"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -887,7 +887,7 @@
   - '58245'
   - '59912'
   - '59914'
-  name: "Toyotake Matsukaday\u016B"
+  name_en: "Toyotake Matsukaday\u016B"
   name_ka: "\u8C4A\u7AF9\u677E\u9999\u5927\u592B"
   narrator_perf_id:
   - '12'
@@ -1202,7 +1202,7 @@
   - '59796'
   - '59797'
   - '60179'
-  name: "Takemoto Oritay\u016B V (see also Takemoto Tsunatay\u016B IX)"
+  name_en: "Takemoto Oritay\u016B V (see also Takemoto Tsunatay\u016B IX)"
   name_ka: "\u7AF9\u672C\u7E54\u5927\u592B (\u4E94)"
   narrator_perf_id:
   - '12'
@@ -1452,7 +1452,7 @@
   - '847'
   - '455'
   - '977'
-  name: "Tsuruzawa Enjir\u014D"
+  name_en: "Tsuruzawa Enjir\u014D"
   name_ka: "\u9DB4\u6FA4\u71D5\u4E8C\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -1716,7 +1716,7 @@
   - '58228'
   - '58229'
   - '60179'
-  name: Tsuruzawa Enza V
+  name_en: Tsuruzawa Enza V
   name_ka: "\u9DB4\u6FA4\u71D5\u4E09 (\u4E94)"
   notes: '[Living National Treasure]; Bunraku meikan (1980, 1985, 1988, 1990, 1994)'
   shamisen_perf_id:
@@ -1984,7 +1984,7 @@
   - '58954'
   - '58955'
   - '58956'
-  name: "Toyotake Sakitay\u016B"
+  name_en: "Toyotake Sakitay\u016B"
   name_ka: "\u8C4A\u7AF9\u54B2\u5927\u592B"
   narrator_perf_id:
   - '13'
@@ -2337,7 +2337,7 @@
   musician_perf_id:
   - '96'
   - '196'
-  name: Nozawa Katsushi (see also Toyozawa Tomisuke V)
+  name_en: Nozawa Katsushi (see also Toyozawa Tomisuke V)
   name_ka: "\u91CE\u6FA4\u52DD\u53F8"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -3703,7 +3703,7 @@
   - '60592'
   - '60594'
   - '60689'
-  name: Yoshida Bunjaku
+  name_en: Yoshida Bunjaku
   name_ka: "\u5409\u7530\u6587\u96C0"
   notes: '[Living National Treasure] Bunraku meikan (1980, 1985, 1988, 1990, 1994)'
   puppeteer_perf_id:
@@ -5050,7 +5050,7 @@
   - '60608'
   - '60703'
   - '60729'
-  name: "Yoshida Bunsh\u014D"
+  name_en: "Yoshida Bunsh\u014D"
   name_ka: "\u5409\u7530\u6587\u6607"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -5889,7 +5889,7 @@
   - '59454'
   - '59455'
   - '60327'
-  name: "Yoshida Minojir\u014D"
+  name_en: "Yoshida Minojir\u014D"
   name_ka: "\u5409\u7530\u84D1\u4E8C\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -7066,7 +7066,7 @@
   - '60523'
   - '60526'
   - '60528'
-  name: "Kiritake Itch\u014D"
+  name_en: "Kiritake Itch\u014D"
   name_ka: "\u6850\u7AF9\u4E00\u66A2"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -8780,7 +8780,7 @@
   - '60842'
   - '61538'
   - '61539'
-  name: Yoshida Tamamatsu III (see also Kiritake Monya)
+  name_en: Yoshida Tamamatsu III (see also Kiritake Monya)
   name_ka: "\u5409\u7530\u7389\u677E (\u4E09)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -10668,7 +10668,7 @@
   - '60737'
   - '60809'
   - '61539'
-  name: "Kiritake Kanj\u016Br\u014D II"
+  name_en: "Kiritake Kanj\u016Br\u014D II"
   name_ka: "\u6850\u7AF9\u52D8\u5341\u90CE (\u4E8C)"
   notes: '[Living National Treasure]; Bunraku meikan (1980, 1985, 1988, 1990, 1994)'
   puppeteer_perf_id:
@@ -11542,7 +11542,7 @@
   - '60520'
   - '60521'
   - '60522'
-  name: "Yoshida Minotar\u014D (see also Kiritake Kanj\u016Br\u014D)"
+  name_en: "Yoshida Minotar\u014D (see also Kiritake Kanj\u016Br\u014D)"
   name_ka: "\u5409\u7530\u84D1\u592A\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -13929,7 +13929,7 @@
   - '60680'
   - '60681'
   - '60729'
-  name: Yoshida Minosuke III
+  name_en: Yoshida Minosuke III
   name_ka: "\u5409\u7530\u84D1\u52A9 (\u4E09)"
   notes: '[Living National Treasure]; Bunraku meikan (1980, 1985, 1988, 1990, 1994)'
   puppeteer_perf_id:
@@ -15227,7 +15227,7 @@
   - '60549'
   - '60551'
   - '60663'
-  name: "Yoshida Tamak\u014D II"
+  name_en: "Yoshida Tamak\u014D II"
   name_ka: "\u5409\u7530\u7389\u5E78 (\u4E8C)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -17611,7 +17611,7 @@
   - '60674'
   - '60678'
   - '60679'
-  name: "Toyomatsu Seij\u016Br\u014D IV"
+  name_en: "Toyomatsu Seij\u016Br\u014D IV"
   name_ka: "\u8C4A\u677E\u6E05\u5341\u90CE (\u56DB)"
   notes: Bunraku (Kokuritsu Gekijo geino kansho koza series); Nichigai WHO
   puppeteer_perf_id:
@@ -18042,7 +18042,7 @@
   - '13270'
   - '46365'
   - '46377'
-  name: Yoshida Hidetama
+  name_en: Yoshida Hidetama
   name_ka: "\u5409\u7530\u79C0\u7389"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -18104,7 +18104,7 @@
   - '13119'
   - '46264'
   - '46443'
-  name: "Toyomatsu Seizabur\u014D (see also Yoshida Seizabur\u014D)"
+  name_en: "Toyomatsu Seizabur\u014D (see also Yoshida Seizabur\u014D)"
   name_ka: "\u8C4A\u677E\u6E05\u4E09\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -18544,7 +18544,7 @@
   - '60094'
   - '60095'
   - '60329'
-  name: Yoshida Tamame
+  name_en: Yoshida Tamame
   name_ka: "\u5409\u7530\u7389\u5973"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -19380,7 +19380,7 @@
   - '60829'
   - '60834'
   - '61539'
-  name: Kiritake Kanju
+  name_en: Kiritake Kanju
   name_ka: "\u6850\u7AF9\u52D8\u5BFF"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -20408,7 +20408,7 @@
   - '60681'
   - '60683'
   - '60685'
-  name: Kiritake Kamematsu IV
+  name_en: Kiritake Kamematsu IV
   name_ka: "\u6850\u7AF9\u4E80\u677E (\u56DB)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -21362,7 +21362,7 @@
   - '60564'
   - '60576'
   - '60703'
-  name: "Yoshida Sakuj\u016Br\u014D"
+  name_en: "Yoshida Sakuj\u016Br\u014D"
   name_ka: "\u5409\u7530\u4F5C\u5341\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -22149,7 +22149,7 @@
   - '46289'
   - '46337'
   - '46543'
-  name: "Yoshida Tamaya (see also Yoshida Eik\u014D)"
+  name_en: "Yoshida Tamaya (see also Yoshida Eik\u014D)"
   name_ka: "\u5409\u7530\u7389\u4E5F"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -22529,7 +22529,7 @@
   - '13270'
   - '53850'
   - '56709'
-  name: Yoshida Tamashi
+  name_en: Yoshida Tamashi
   name_ka: "\u5409\u7530\u7389\u5FD7"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -22828,7 +22828,7 @@
   - '64646'
   - '64647'
   - '64648'
-  name: "Toyotake Komatsuday\u016B II"
+  name_en: "Toyotake Komatsuday\u016B II"
   name_ka: "\u8C4A\u7AF9\u5C0F\u677E\u5927\u592B (\u4E8C)"
   narrator_perf_id:
   - '14'
@@ -23188,7 +23188,7 @@
   - '60181'
   musician_perf_id:
   - '208'
-  name: Tsuruzawa Seitomo II
+  name_en: Tsuruzawa Seitomo II
   name_ka: "\u9DB4\u6FA4\u6E05\u53CB (\u4E8C)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -23576,7 +23576,7 @@
   - '59223'
   - '60518'
   - '60519'
-  name: "Takemoto Koshijiday\u016B IV"
+  name_en: "Takemoto Koshijiday\u016B IV"
   name_ka: "\u7AF9\u672C\u8D8A\u8DEF\u5927\u592B (\u56DB)"
   narrator_perf_id:
   - '13'
@@ -23826,7 +23826,7 @@
   - '41'
   - '88'
   - '950'
-  name: Tsuruzawa Seiji
+  name_en: Tsuruzawa Seiji
   name_ka: "\u9DB4\u6FA4\u6E05\u6CBB"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -24129,7 +24129,7 @@
   - '58229'
   - '58360'
   - '59802'
-  name: "Takemoto Nanbuday\u016B V"
+  name_en: "Takemoto Nanbuday\u016B V"
   name_ka: "\u7AF9\u672C\u5357\u90E8\u5927\u592B (\u4E94)"
   narrator_perf_id:
   - '15'
@@ -24338,7 +24338,7 @@
   - '60130'
   - '60131'
   - '60132'
-  name: "Toyotake Tokutay\u016B"
+  name_en: "Toyotake Tokutay\u016B"
   name_ka: "\u8C4A\u7AF9\u5341\u4E5D\u5927\u592B"
   narrator_perf_id:
   - '13'
@@ -24637,7 +24637,7 @@
   - '59340'
   - '59341'
   - '60179'
-  name: "Takemoto Tsukomaday\u016B"
+  name_en: "Takemoto Tsukomaday\u016B"
   name_ka: "\u7AF9\u672C\u6D25\u99D2\u5927\u592B"
   narrator_perf_id:
   - '33'
@@ -24938,7 +24938,7 @@
   id: '36'
   image_id:
   - '9715'
-  name: "Takemoto Tsumaiday\u016B"
+  name_en: "Takemoto Tsumaiday\u016B"
   name_ka: "\u7AF9\u672C\u6D25\u6885\u5927\u592B"
   narrator_perf_id:
   - '226'
@@ -25064,7 +25064,7 @@
   specialty: Tayu
 - dates: '''1988/04-'''
   id: '37'
-  name: "Toyotake Rosetay\u016B"
+  name_en: "Toyotake Rosetay\u016B"
   name_ka: "\u8C4A\u7AF9\u5442\u52E2\u5927\u592B"
   narrator_perf_id:
   - '616'
@@ -25184,7 +25184,7 @@
   id: '38'
   image_id:
   - '11523'
-  name: "Takemoto Orimiday\u016B"
+  name_en: "Takemoto Orimiday\u016B"
   name_ka: "\u7AF9\u672C\u7E54\u7F8E\u5927\u592B"
   narrator_perf_id:
   - '226'
@@ -25229,7 +25229,7 @@
   specialty: Tayu
 - dates: '''1982-'''
   id: '39'
-  name: "Takemoto Nantoday\u016B"
+  name_en: "Takemoto Nantoday\u016B"
   name_ka: "\u7AF9\u672C\u5357\u90FD\u5927\u592B"
   narrator_perf_id:
   - '460'
@@ -25426,7 +25426,7 @@
   - '55526'
   - '57930'
   - '60682'
-  name: Nozawa Kinshi IV
+  name_en: Nozawa Kinshi IV
   name_ka: "\u91CE\u6FA4\u9326\u7CF8 (\u56DB)"
   narrator_perf_id:
   - '118'
@@ -25661,7 +25661,7 @@
   - '606'
   - '620'
   - '436'
-  name: "Tsuruzawa Asaz\u014D V"
+  name_en: "Tsuruzawa Asaz\u014D V"
   name_ka: "\u9DB4\u6FA4\u6D45\u9020 (\u4E94)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -25953,7 +25953,7 @@
   - '465'
   - '602'
   - '436'
-  name: Tsuruzawa Hachisuke
+  name_en: Tsuruzawa Hachisuke
   name_ka: "\u9DB4\u6FA4\u516B\u4ECB"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -26205,7 +26205,7 @@
   - '779'
   - '787'
   - '458'
-  name: "Tsuruzawa Seijir\u014D V"
+  name_en: "Tsuruzawa Seijir\u014D V"
   name_ka: "\u9DB4\u6FA4\u6E05\u4E8C\u90CE (\u4E94)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -28970,7 +28970,7 @@
   - '60842'
   - '61538'
   - '61539'
-  name: Yoshida Tamao
+  name_en: Yoshida Tamao
   name_ka: "\u5409\u7530\u7389\u7537"
   notes: '[Living National Treasure]; Bunraku meikan (1980, 1985, 1988, 1990, 1994);
     Nichigai WHO'
@@ -30060,7 +30060,7 @@
   - '60464'
   - '60465'
   - '60478'
-  name: Yoshida Tamaki
+  name_en: Yoshida Tamaki
   name_ka: "\u5409\u7530\u7389\u8F1D"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -30426,7 +30426,7 @@
   - '58361'
   - '59796'
   - '59797'
-  name: "Tsuruzawa J\u016Bz\u014D IV"
+  name_en: "Tsuruzawa J\u016Bz\u014D IV"
   name_ka: "\u9DB4\u6FA4\u91CD\u9020 (\u56DB)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -30548,7 +30548,7 @@
   - '13130'
   - '13132'
   - '46377'
-  name: Kiritake Kanroku (see also Yoshida Kanroku)
+  name_en: Kiritake Kanroku (see also Yoshida Kanroku)
   name_ka: "\u6850\u7AF9\u52D8\u7DD1"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -30780,7 +30780,7 @@
   - '46662'
   - '46664'
   - '46666'
-  name: Yoshida Bungo V (see also Yoshida Kotama)
+  name_en: Yoshida Bungo V (see also Yoshida Kotama)
   name_ka: "\u5409\u7530\u6587\u543E (\u4E94)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -31560,7 +31560,7 @@
   - '60415'
   - '60418'
   - '60507'
-  name: Yoshida Kazuo
+  name_en: Yoshida Kazuo
   name_ka: "\u5409\u7530\u548C\u751F"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -32341,7 +32341,7 @@
   - '60335'
   - '60508'
   - '60675'
-  name: Toyomatsu Seinosuke (see also Yoshida Seinosuke)
+  name_en: Toyomatsu Seinosuke (see also Yoshida Seinosuke)
   name_ka: "\u8C4A\u677E\u6E05\u4E4B\u52A9"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -33222,7 +33222,7 @@
   - '60508'
   - '60673'
   - '60675'
-  name: Kiritake Monju
+  name_en: Kiritake Monju
   name_ka: "\u6850\u7AF9\u7D0B\u5BFF"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -34057,7 +34057,7 @@
   - '59902'
   - '59909'
   - '60134'
-  name: "Takemoto Aioiday\u016B IV (see also Takemoto Aikoday\u016B I)"
+  name_en: "Takemoto Aioiday\u016B IV (see also Takemoto Aikoday\u016B I)"
   name_ka: "\u7AF9\u672C\u76F8\u751F\u5927\u592B (\u56DB)"
   narrator_perf_id:
   - '15'
@@ -34390,7 +34390,7 @@
   - '57933'
   - '57934'
   - '57935'
-  name: "Toyotake Hanabusaday\u016B III"
+  name_en: "Toyotake Hanabusaday\u016B III"
   name_ka: "\u8C4A\u7AF9\u82F1\u5927\u592B (\u4E09)"
   narrator_perf_id:
   - '9'
@@ -34748,7 +34748,7 @@
   - '58883'
   - '58957'
   - '60179'
-  name: "Takemoto Midoriday\u016B"
+  name_en: "Takemoto Midoriday\u016B"
   name_ka: "\u7AF9\u672C\u7DD1\u5927\u592B"
   narrator_perf_id:
   - '18'
@@ -35066,7 +35066,7 @@
   - '58212'
   - '58213'
   - '58215'
-  name: "Takemoto Takatay\u016B"
+  name_en: "Takemoto Takatay\u016B"
   name_ka: "\u7AF9\u672C\u8CB4\u5927\u592B"
   narrator_perf_id:
   - '83'
@@ -35386,7 +35386,7 @@
   - '59340'
   - '59341'
   - '60183'
-  name: "Takemoto Miwatay\u016B"
+  name_en: "Takemoto Miwatay\u016B"
   name_ka: "\u7AF9\u672C\u4E09\u8F2A\u5927\u592B"
   narrator_perf_id:
   - '88'
@@ -35676,7 +35676,7 @@
   - '59338'
   - '59339'
   - '59341'
-  name: "Takemoto Tsukuniday\u016B"
+  name_en: "Takemoto Tsukuniday\u016B"
   name_ka: "\u7AF9\u672C\u6D25\u56FD\u5927\u592B"
   narrator_perf_id:
   - '154'
@@ -35952,7 +35952,7 @@
   - '59339'
   - '59341'
   - '60183'
-  name: "Takemoto Nanshiday\u016B"
+  name_en: "Takemoto Nanshiday\u016B"
   name_ka: "\u7AF9\u672C\u5357\u53F8\u5927\u592B"
   narrator_perf_id:
   - '154'
@@ -36067,7 +36067,7 @@
   id: '60'
   image_id:
   - '45571'
-  name: "Takemoto Mojihisaday\u016B"
+  name_en: "Takemoto Mojihisaday\u016B"
   name_ka: "\u7AF9\u672C\u6587\u5B57\u4E45\u5927\u592B"
   narrator_perf_id:
   - '55'
@@ -36262,7 +36262,7 @@
   - '324'
   - '346'
   - '449'
-  name: Nozawa Kin'ya (see also Nozawa Kinshi V)
+  name_en: Nozawa Kin'ya (see also Nozawa Kinshi V)
   name_ka: "\u91CE\u6FA4\u9326\u5F25"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -36507,7 +36507,7 @@
   - '11875'
   - '46189'
   - '46191'
-  name: "Takemoto Chitoseday\u016B"
+  name_en: "Takemoto Chitoseday\u016B"
   name_ka: "\u7AF9\u672C\u5343\u6B73\u5927\u592B"
   narrator_perf_id:
   - '226'
@@ -36751,7 +36751,7 @@
   - '58218'
   - '58219'
   - '60179'
-  name: "Toyotake Roday\u016B V"
+  name_en: "Toyotake Roday\u016B V"
   name_ka: "\u8C4A\u7AF9\u5442\u5927\u592B (\u4E94)"
   narrator_perf_id:
   - '17'
@@ -37095,7 +37095,7 @@
   - '444'
   - '444'
   - '455'
-  name: Takezawa Danji
+  name_en: Takezawa Danji
   name_ka: "\u7AF9\u6CA2\u56E3\u6CBB"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -37345,7 +37345,7 @@
   - '57933'
   - '57934'
   - '57935'
-  name: Takezawa Danroku VIII (see also Tsuruzawa Kanji VII)
+  name_en: Takezawa Danroku VIII (see also Tsuruzawa Kanji VII)
   name_ka: "\u7AF9\u6CA2\u56E3\u516D (\u516B)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -37677,7 +37677,7 @@
   - '59333'
   - '59336'
   - '59340'
-  name: "Takemoto Mojitay\u016B IX (see also Takemoto Sumitay\u016B VII)"
+  name_en: "Takemoto Mojitay\u016B IX (see also Takemoto Sumitay\u016B VII)"
   name_ka: "\u7AF9\u672C\u6587\u5B57\u5927\u592B (\u4E5D)"
   narrator_perf_id:
   - '16'
@@ -37864,7 +37864,7 @@
   - '60134'
   musician_perf_id:
   - '135'
-  name: Nozawa Katsuhei II (see also Nozawa Kizaemon III)
+  name_en: Nozawa Katsuhei II (see also Nozawa Kizaemon III)
   name_ka: "\u91CE\u6FA4\u52DD\u5E73 (\u4E8C)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -38085,7 +38085,7 @@
   - '56338'
   - '56340'
   - '60489'
-  name: "Toyotake Shimatay\u016B VIII"
+  name_en: "Toyotake Shimatay\u016B VIII"
   name_ka: "\u8C4A\u7AF9\u5D8B\u5927\u592B (\u516B)"
   narrator_perf_id:
   - '9'
@@ -38465,7 +38465,7 @@
   - '267'
   - '277'
   - '282'
-  name: Tsuruzawa Seisuke
+  name_en: Tsuruzawa Seisuke
   name_ka: "\u9DB4\u6FA4\u6E05\u4ECB"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -38864,7 +38864,7 @@
   - '60322'
   - '60324'
   - '60335'
-  name: Yoshida Tamae
+  name_en: Yoshida Tamae
   name_ka: "\u5409\u7530\u7389\u82F1"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -39211,7 +39211,7 @@
   - '60461'
   - '60478'
   - '60683'
-  name: "Kiritake Kanshir\u014D"
+  name_en: "Kiritake Kanshir\u014D"
   name_ka: "\u6850\u7AF9\u52D8\u58EB\u6717"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -39469,7 +39469,7 @@
   - '60442'
   - '60452'
   - '60478'
-  name: Kiritake Kameji
+  name_en: Kiritake Kameji
   name_ka: "\u6850\u7AF9\u4E80\u6B21"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -39805,7 +39805,7 @@
   - '59338'
   - '59339'
   - '59341'
-  name: "Takemoto Mojieday\u016B"
+  name_en: "Takemoto Mojieday\u016B"
   name_ka: "\u7AF9\u672C\u6587\u5B57\u6804\u5927\u592B"
   narrator_perf_id:
   - '154'
@@ -40151,7 +40151,7 @@
   - '60438'
   - '60461'
   - '60478'
-  name: Kiritake Kan'ya (see also Yoshida Kanya)
+  name_en: Kiritake Kan'ya (see also Yoshida Kanya)
   name_ka: "\u6850\u7AF9\u52D8\u5F25"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -40260,7 +40260,7 @@
   - '13241'
   - '13265'
   - '46288'
-  name: "Yoshida K\u014Dsuke"
+  name_en: "Yoshida K\u014Dsuke"
   name_ka: "\u5409\u7530\u5E78\u52A9"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -40575,7 +40575,7 @@
   - '58966'
   - '58967'
   - '59103'
-  name: Yoshida Wakatama (see also Yoshida Bunshi)
+  name_en: Yoshida Wakatama (see also Yoshida Bunshi)
   name_ka: "\u5409\u7530\u82E5\u7389"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -40781,7 +40781,7 @@
   alt_name_ka: "\u91CE\u6FA4\u52DD\u53F8"
   dates: '''1984/04-'''
   id: '78'
-  name: Toyozawa Tomisuke V (see also Nozawa Katsushi)
+  name_en: Toyozawa Tomisuke V (see also Nozawa Katsushi)
   name_ka: "\u8C4A\u6FA4\u5BCC\u52A9 (\u4E94)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -40944,7 +40944,7 @@
   - '808'
   - '830'
   - '901'
-  name: Takezawa Dango
+  name_en: Takezawa Dango
   name_ka: "\u7AF9\u6FA4\u56E3\u543E"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -41068,7 +41068,7 @@
   - '316'
   - '336'
   - '691'
-  name: "Tsuruzawa Entar\u014D"
+  name_en: "Tsuruzawa Entar\u014D"
   name_ka: "\u9DB4\u6FA4\u71D5\u592A\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -41152,7 +41152,7 @@
   - '58507'
   musician_perf_id:
   - '435'
-  name: "Nozawa Kichinosuke (see also Takezawa Yasabur\u014D)"
+  name_en: "Nozawa Kichinosuke (see also Takezawa Yasabur\u014D)"
   name_ka: "\u91CE\u6FA4\u5409\u4E4B\u52A9"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -41832,7 +41832,7 @@
   - '60600'
   - '60643'
   - '60729'
-  name: Yoshida Kotama (see also Yoshida Bungo V)
+  name_en: Yoshida Kotama (see also Yoshida Bungo V)
   name_ka: "\u5409\u7530\u5C0F\u7389"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -42176,7 +42176,7 @@
   specialty: Puppeteer
 - dates: '''unknown'''
   id: '83'
-  name: Nozawa Yoshinosuke
+  name_en: Nozawa Yoshinosuke
   name_ka: "\u91CE\u6FA4\u5409\u4E4B\u52A9"
   notes: '
 
@@ -42244,7 +42244,7 @@
   - '60612'
   - '60711'
   - '60736'
-  name: Nozawa Kichibei IX
+  name_en: Nozawa Kichibei IX
   name_ka: "\u91CE\u6FA4\u5409\u5175\u885B (\u4E5D)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994); Nichigai WHO
   shamisen_perf_id:
@@ -42345,7 +42345,7 @@
   specialty: Shamisen
 - dates: '''1984-'''
   id: '85'
-  name: "Takemoto Nanjuday\u016B"
+  name_en: "Takemoto Nanjuday\u016B"
   name_ka: "\u7AF9\u672C\u5357\u5BFF\u5927\u592B"
   narrator_perf_id:
   - '226'
@@ -42422,7 +42422,7 @@
   - '13131'
   - '13227'
   - '13234'
-  name: Yoshida Kazusuke
+  name_en: Yoshida Kazusuke
   name_ka: "\u5409\u7530\u548C\u53F3"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -42556,7 +42556,7 @@
   - '11501'
   - '11511'
   - '12454'
-  name: "Yoshida Minoichir\u014D"
+  name_en: "Yoshida Minoichir\u014D"
   name_ka: "\u5409\u7530\u84D1\u4E00\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -42676,7 +42676,7 @@
   - '13119'
   musician_perf_id:
   - '529'
-  name: "Toyomatsu Seigor\u014D (see also Yoshida Seigor\u014D)"
+  name_en: "Toyomatsu Seigor\u014D (see also Yoshida Seigor\u014D)"
   name_ka: "\u8C4A\u677E\u6E05\u4E94\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -42727,7 +42727,7 @@
   - '58927'
   - '58941'
   - '59147'
-  name: Yoshida Fukumaru
+  name_en: Yoshida Fukumaru
   name_ka: "\u5409\u7530\u798F\u4E38"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -42853,7 +42853,7 @@
   - '59335'
   musician_perf_id:
   - '214'
-  name: "Takezawa Yasabur\u014D (see also Nozawa Kichinosuke)"
+  name_en: "Takezawa Yasabur\u014D (see also Nozawa Kichinosuke)"
   name_ka: "\u7AF9\u6FA4\u5F25\u4E09\u90CE"
   narrator_perf_id:
   - '947'
@@ -43078,7 +43078,7 @@
   alt_name_ka: "\u6850\u7AF9\u52D8\u5F25"
   dates: '''1986/11-'''
   id: '91'
-  name: Yoshida Kan'ya (see also Kiritake Kanya)
+  name_en: Yoshida Kan'ya (see also Kiritake Kanya)
   name_ka: "\u5409\u7530\u52D8\u5F25"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -43218,7 +43218,7 @@
   specialty: Puppeteer
 - dates: '''1987-'''
   id: '92'
-  name: Kiritake Ikka
+  name_en: Kiritake Ikka
   name_ka: "\u6850\u7AF9\u4E00\u5609"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -43262,7 +43262,7 @@
   - '52814'
   - '52815'
   - '53227'
-  name: Nozawa Kizaemon II
+  name_en: Nozawa Kizaemon II
   name_ka: "\u91CE\u6FA4\u559C\u5DE6\u885B\u9580 (\u4E8C)"
   notes: '[Living National Treasure]; Nichigai WHO'
   shamisen_perf_id:
@@ -43409,7 +43409,7 @@
   - '60119'
   - '60120'
   - '60630'
-  name: "Yoshida Tamagor\u014D II"
+  name_en: "Yoshida Tamagor\u014D II"
   name_ka: "\u5409\u7530\u7389\u4E94\u90CE (\u4E8C)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -43577,7 +43577,7 @@
   alt_name_ka: "\u6850\u7AF9\u52D8\u5E02"
   dates: '''1986/11-'''
   id: '95'
-  name: Yoshida Kan'ichi (see also Kiritake Kanichi)
+  name_en: Yoshida Kan'ichi (see also Kiritake Kanichi)
   name_ka: "\u5409\u7530\u52D8\u5E02"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -43663,7 +43663,7 @@
   - '11162'
   - '11247'
   - '46660'
-  name: Kiritake Ichisuke
+  name_en: Kiritake Ichisuke
   name_ka: "\u6850\u7AF9\u4E00\u8F14"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -43758,7 +43758,7 @@
   - '900'
   - '904'
   - '953'
-  name: "Nozawa Kiichir\u014D"
+  name_en: "Nozawa Kiichir\u014D"
   name_ka: "\u91CE\u6FA4\u559C\u4E00\u6717"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -43854,7 +43854,7 @@
   alt_name_ka: "\u7AF9\u672C\u6587\u5B57\u5927\u592B (\u4E5D)"
   dates: '''1985/04-'''
   id: '99'
-  name: "Takemoto Sumitay\u016B VII (see also Takemoto Mojitay\u016B IX)"
+  name_en: "Takemoto Sumitay\u016B VII (see also Takemoto Mojitay\u016B IX)"
   name_ka: "\u7AF9\u672C\u4F4F\u5927\u592B (\u4E03)"
   narrator_perf_id:
   - '708'
@@ -44628,7 +44628,7 @@
   - '60156'
   - '60157'
   - '60158'
-  name: "Yoshida Tamash\u014D"
+  name_en: "Yoshida Tamash\u014D"
   name_ka: "\u5409\u7530\u7389\u6607"
   notes: "Bunraku meikan (1980, 1985, 1988, 1990, 1994); Dejitaru bunka raiburar\u012B\
     \ (Japan Arts Council)"
@@ -45000,7 +45000,7 @@
   - '59341'
   - '60183'
   - '60185'
-  name: "Takemoto Mojitoday\u016B"
+  name_en: "Takemoto Mojitoday\u016B"
   name_ka: "\u7AF9\u672C\u6587\u5B57\u767B\u5927\u592B"
   narrator_perf_id:
   - '254'
@@ -45075,7 +45075,7 @@
   - '57811'
   musician_perf_id:
   - '247'
-  name: Nozawa Matsuya
+  name_en: Nozawa Matsuya
   name_ka: "\u91CE\u6FA4\u677E\u4E5F"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   shamisen_perf_id:
@@ -45198,7 +45198,7 @@
   - '59336'
   - '59802'
   - '60180'
-  name: "Tsuruzawa D\u014Dhachi II (see also Tsuruzawa Tokutar\u014D)"
+  name_en: "Tsuruzawa D\u014Dhachi II (see also Tsuruzawa Tokutar\u014D)"
   name_ka: "\u9DB4\u6CA2\u9053\u516B (\u4E8C)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -45349,7 +45349,7 @@
   - '58220'
   musician_perf_id:
   - '53'
-  name: "Nozawa Katsutar\u014D II"
+  name_en: "Nozawa Katsutar\u014D II"
   name_ka: "\u91CE\u6FA4\u52DD\u592A\u90CE (\u4E8C)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -45503,7 +45503,7 @@
   - '60360'
   musician_perf_id:
   - '88'
-  name: "Takezawa Danjir\u014D IV (see also Takezawa Danshichi)"
+  name_en: "Takezawa Danjir\u014D IV (see also Takezawa Danshichi)"
   name_ka: "\u7AF9\u6FA4\u56E3\u4E8C\u90CE (\u56DB)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -45675,7 +45675,7 @@
   id: '107'
   image_id:
   - '45370'
-  name: "Yoshida Hy\u014Dji"
+  name_en: "Yoshida Hy\u014Dji"
   name_ka: "\u5409\u7530\u5175\u6B21"
   notes: Nichigai WHO
   puppeteer_perf_id:
@@ -45714,7 +45714,7 @@
   - '52877'
   - '52878'
   - '52995'
-  name: Yoshida Eiza II
+  name_en: Yoshida Eiza II
   name_ka: "\u5409\u7530\u6804\u4E09 (\u4E8C)"
   notes: Nichigai WHO
   puppeteer_perf_id:
@@ -45961,7 +45961,7 @@
   - '60654'
   - '60655'
   - '60656'
-  name: Yoshida Minoshi
+  name_en: Yoshida Minoshi
   name_ka: "\u5409\u7530\u84D1\u53F8"
   notes: "Bunraku (Kokuritsu Gekijo geino kansho koza series); Dejitaru bunka raiburar\u012B\
     \ (Japan Arts Council)"
@@ -46104,7 +46104,7 @@
   - '53422'
   - '53423'
   - '53964'
-  name: Takezawa Yashichi X
+  name_en: Takezawa Yashichi X
   name_ka: "\u7AF9\u6FA4\u5F25\u4E03 (\u5341)"
   notes: '[Living National Treasure];'
   shamisen_perf_id:
@@ -46238,7 +46238,7 @@
   - '59612'
   - '59853'
   - '60638'
-  name: "Yoshida Eik\u014D (see also Yoshida Tamaya)"
+  name_en: "Yoshida Eik\u014D (see also Yoshida Tamaya)"
   name_ka: "\u5409\u7530\u6804\u5149"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -46329,7 +46329,7 @@
   - '45673'
   - '52729'
   - '52730'
-  name: Tsuruzawa Kanji VI
+  name_en: Tsuruzawa Kanji VI
   name_ka: "\u9DB4\u6FA4\u5BDB\u6CBB (\u516D)"
   notes: '[Living National Treasure]'
   shamisen_perf_id:
@@ -46387,7 +46387,7 @@
   musician_perf_id:
   - '150'
   - '208'
-  name: Tsuruzawa Kanpei
+  name_en: Tsuruzawa Kanpei
   name_ka: "\u9DB4\u6FA4\u5BDB\u5E73"
   notes: "Bunraku (Kokuritsu Gekijo geino kansho koza series); Dejitaru bunka raiburar\u012B\
     \ (Japan Arts Council)"
@@ -46447,7 +46447,7 @@
   - '146'
   - '152'
   - '967'
-  name: Tsuruzawa Katsunosuke
+  name_en: Tsuruzawa Katsunosuke
   name_ka: "\u9DB4\u6FA4\u52DD\u4E4B\u8F14"
   notes: '
 
@@ -46532,7 +46532,7 @@
   musician_perf_id:
   - '12'
   - '24'
-  name: Nozawa Katsunosuke
+  name_en: Nozawa Katsunosuke
   name_ka: "\u91CE\u6FA4\u52DD\u4E4B\u8F14"
   notes: "Bunraku meikan (1980, 1985, 1988, 1990, 1994); Dejitaru bunka raiburar\u012B\
     \ (Japan Arts Council)"
@@ -46551,7 +46551,7 @@
   alt_name_ka: "\u7AF9\u672C\u4F0A\u9054\u5927\u592B (\u56DB)"
   dates: '''1957-1968/10/20'''
   id: '117'
-  name: "Takemoto Tosatay\u016B VII (see also Takemoto Dateday\u016B IV)"
+  name_en: "Takemoto Tosatay\u016B VII (see also Takemoto Dateday\u016B IV)"
   name_ka: "\u7AF9\u672C\u571F\u4F50\u5927\u592B (\u4E03)"
   narrator_perf_id:
   - '17'
@@ -46559,7 +46559,7 @@
   specialty: Tayu
 - dates: '''unknown'''
   id: '118'
-  name: "Sunoday\u016B [family name unidentified]"
+  name_en: "Sunoday\u016B [family name unidentified]"
   name_ka: "\u3059\u306E\u3060\u3086\u3046"
   notes: '
 
@@ -46567,7 +46567,7 @@
   specialty: Tayu
 - dates: '''1942-1975/01/13'''
   id: '119'
-  name: Nozawa Matsunosuke
+  name_en: Nozawa Matsunosuke
   name_ka: "\u91CE\u6FA4\u677E\u4E4B\u8F14"
   narrator_perf_id:
   - '62'
@@ -46624,13 +46624,13 @@
   alt_name_ka: "\u7AF9\u672C\u571F\u4F50\u5927\u592B (\u4E03)"
   dates: '''1936/06-1957'''
   id: '120'
-  name: "Takemoto Datetay\u016B IV (see also Takemoto Tosatay\u016B VII)"
+  name_en: "Takemoto Datetay\u016B IV (see also Takemoto Tosatay\u016B VII)"
   name_ka: "\u7AF9\u672C\u4F0A\u9054\u5927\u592B (\u56DB)"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   specialty: Tayu
 - dates: '''1947-1969/01/03'''
   id: '121'
-  name: "Takemoto Tsunatay\u016B VIII"
+  name_en: "Takemoto Tsunatay\u016B VIII"
   name_ka: "\u7AF9\u672C\u7DB1\u5927\u592B (\u516B)"
   narrator_perf_id:
   - '13'
@@ -46639,7 +46639,7 @@
   specialty: Tayu
 - dates: '''unknown'''
   id: '122'
-  name: Kanshichi [family name unidentified]
+  name_en: Kanshichi [family name unidentified]
   name_ka: "\u304B\u3093\u3057\u3061"
   notes: '
 
@@ -46651,7 +46651,7 @@
   id: '123'
   image_id:
   - '45025'
-  name: "Takemoto Aioiday\u016B III"
+  name_en: "Takemoto Aioiday\u016B III"
   name_ka: "\u7AF9\u672C\u76F8\u751F\u5927\u592B (\u4E09)"
   narrator_perf_id:
   - '11'
@@ -46672,7 +46672,7 @@
   specialty: Tayu
 - dates: '''1927-1970/08/21'''
   id: '124'
-  name: "Kiritake Monj\u016Br\u014D II"
+  name_en: "Kiritake Monj\u016Br\u014D II"
   name_ka: "\u6850\u7AF9\u7D0B\u5341\u90CE (\u4E8C)"
   notes: Nichigai WHO
   puppeteer_perf_id:
@@ -46702,7 +46702,7 @@
   specialty: Puppeteer
 - dates: '''unknown'''
   id: '125'
-  name: "Takemoto Shikiday\u016B"
+  name_en: "Takemoto Shikiday\u016B"
   name_ka: "\u7AF9\u672C\u3057\u304D\u5927\u592B"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   specialty: Tayu
@@ -46710,7 +46710,7 @@
   alt_name_ka: "\u91CE\u6FA4\u52DD\u5E73"
   dates: '''1987/04-'''
   id: '126'
-  name: Nozawa Kizaemon III (see also Nozawa Katsuhei)
+  name_en: Nozawa Kizaemon III (see also Nozawa Katsuhei)
   name_ka: "\u91CE\u6FA4\u559C\u5DE6\u885B\u9580 (\u4E09)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -46814,7 +46814,7 @@
   specialty: Shamisen
 - dates: '''1960/11-1969/04/26'''
   id: '127'
-  name: "Takemoto Harukoday\u016B III"
+  name_en: "Takemoto Harukoday\u016B III"
   name_ka: "\u7AF9\u672C\u6625\u5B50\u5927\u592B (\u4E09)"
   narrator_perf_id:
   - '12'
@@ -46823,7 +46823,7 @@
   specialty: Tayu
 - dates: '''1965/04-1968/08'''
   id: '128'
-  name: "Takemoto Koharuday\u016B"
+  name_en: "Takemoto Koharuday\u016B"
   name_ka: "\u7AF9\u672C\u5C0F\u6625\u5927\u592B"
   narrator_perf_id:
   - '14'
@@ -46834,7 +46834,7 @@
   alt_name_ka: "\u7AF9\u672C\u76F8\u751F\u5927\u592B (\u56DB)"
   dates: '''1953-1971/10'''
   id: '129'
-  name: "Takemoto Aikoday\u016B I (see also Takemoto Aioiday\u016B IV)"
+  name_en: "Takemoto Aikoday\u016B I (see also Takemoto Aioiday\u016B IV)"
   name_ka: "\u7AF9\u672C\u76F8\u5B50\u5927\u592B (\u4E00)"
   narrator_perf_id:
   - '12'
@@ -46873,7 +46873,7 @@
   alt_name_ka: "\u5409\u7530\u7389\u677E (\u4E09)"
   dates: '''1950/06-1973/01'''
   id: '130'
-  name: Kiritake Monya (see also Yoshida Tamamatsu III)
+  name_en: Kiritake Monya (see also Yoshida Tamamatsu III)
   name_ka: "\u6850\u7AF9\u7D0B\u5F25"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -47001,7 +47001,7 @@
   specialty: Puppeteer
 - dates: '''1951-1973'''
   id: '132'
-  name: "Yoshida Tatsugor\u014D V"
+  name_en: "Yoshida Tatsugor\u014D V"
   name_ka: "\u5409\u7530\u8FB0\u4E94\u90CE (\u4E94)"
   notes: Nichigai WHO
   puppeteer_perf_id:
@@ -47085,7 +47085,7 @@
   specialty: Puppeteer
 - dates: '''1960/04-1980/02/11'''
   id: '133'
-  name: "Takemoto \u014Csumiday\u016B V"
+  name_en: "Takemoto \u014Csumiday\u016B V"
   name_ka: "\u7AF9\u672C\u5927\u9688\u592A\u592B (\u4E94)"
   narrator_perf_id:
   - '14'
@@ -47095,7 +47095,7 @@
   alt_name_ka: "\u9DB4\u6CA2\u9053\u516B (\u4E8C)"
   dates: '''1956-1970'''
   id: '134'
-  name: "Tsuruzawa Tokutar\u014D (see also Tsuruzawa D\u014Dhachi II)"
+  name_en: "Tsuruzawa Tokutar\u014D (see also Tsuruzawa D\u014Dhachi II)"
   name_ka: "\u9DB4\u6CA2\u5FB3\u592A\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -47108,7 +47108,7 @@
   specialty: Shamisen
 - dates: '''1953/02-1983/07/21'''
   id: '135'
-  name: "Yoshida Junz\u014D"
+  name_en: "Yoshida Junz\u014D"
   name_ka: "\u5409\u7530\u6DF3\u9020"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   puppeteer_perf_id:
@@ -47116,7 +47116,7 @@
   specialty: Puppeteer
 - dates: '''1941-1981/02/14'''
   id: '136'
-  name: Yoshida Tsuneji
+  name_en: Yoshida Tsuneji
   name_ka: "\u5409\u7530\u5E38\u6B21"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   puppeteer_perf_id:
@@ -47141,7 +47141,7 @@
   specialty: Puppeteer
 - dates: '''1959/03-1970/11/17'''
   id: '137'
-  name: Yoshida Kikuichi
+  name_en: Yoshida Kikuichi
   name_ka: "\u5409\u7530\u83CA\u4E00"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   puppeteer_perf_id:
@@ -47172,7 +47172,7 @@
   - '58265'
   - '58294'
   - '58295'
-  name: Yoshida Tamanosuke
+  name_en: Yoshida Tamanosuke
   name_ka: "\u5409\u7530\u7389\u4E4B\u52A9"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -47242,7 +47242,7 @@
   - '59332'
   - '59333'
   - '59334'
-  name: "Takemoto Musashiday\u016B"
+  name_en: "Takemoto Musashiday\u016B"
   name_ka: "\u7AF9\u672C\u6B66\u8535\u5927\u592B"
   narrator_perf_id:
   - '154'
@@ -47259,7 +47259,7 @@
   id: '140'
   image_id:
   - '52913'
-  name: "Yoshida Sh\u014Djir\u014D"
+  name_en: "Yoshida Sh\u014Djir\u014D"
   name_ka: "\u5409\u7530\u6607\u4E8C\u90CE"
   notes: "Bunraku meikan (1980, 1985, 1988, 1990, 1994); Dejitaru bunka raiburar\u012B\
     \ (Japan Arts Council)"
@@ -47413,7 +47413,7 @@
   - '58969'
   - '60312'
   - '60323'
-  name: Kiritake Komon
+  name_en: Kiritake Komon
   name_ka: "\u6850\u7AF9\u5C0F\u7D0B"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -47491,7 +47491,7 @@
   id: '142'
   image_id:
   - '52853'
-  name: Yoshida Kunihide
+  name_en: Yoshida Kunihide
   name_ka: "\u5409\u7530\u56FD\u79C0"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council); Bunraku (Kokuritsu Gekijo\
     \ geino kansho koza series)"
@@ -47558,7 +47558,7 @@
   id: '143'
   image_id:
   - '58215'
-  name: Nozawa Kin'ichi
+  name_en: Nozawa Kin'ichi
   name_ka: "\u91CE\u6FA4\u9326\u5E02"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   shamisen_perf_id:
@@ -47569,7 +47569,7 @@
   specialty: Shamisen
 - dates: '''1974/04-1974/12'''
   id: '144'
-  name: Nozawa Katsuya
+  name_en: Nozawa Katsuya
   name_ka: "\u91CE\u6FA4\u52DD\u77E2"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   shamisen_perf_id:
@@ -47582,7 +47582,7 @@
   specialty: Shamisen
 - dates: '''1974/04-'''
   id: '145'
-  name: "Nozawa Kikusabur\u014D"
+  name_en: "Nozawa Kikusabur\u014D"
   name_ka: "\u91CE\u6FA4\u559C\u4E45\u4E09\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -47598,7 +47598,7 @@
   specialty: Shamisen
 - dates: '''1974/04-1976/01'''
   id: '146'
-  name: "Takemoto Orinoday\u016B"
+  name_en: "Takemoto Orinoday\u016B"
   name_ka: "\u7AF9\u672C\u7E54\u306E\u5927\u592B"
   narrator_perf_id:
   - '165'
@@ -47628,7 +47628,7 @@
   - '584'
   - '592'
   - '599'
-  name: Tsuruzawa Seigo
+  name_en: Tsuruzawa Seigo
   name_ka: "\u9DB4\u6FA4\u6E05\u543E"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -47664,7 +47664,7 @@
   specialty: Shamisen
 - dates: '''1985-'''
   id: '148'
-  name: Yoshida Tamayo
+  name_en: Yoshida Tamayo
   name_ka: "\u5409\u7530\u7389\u4E16"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -47683,7 +47683,7 @@
   - '11402'
   - '11407'
   - '11558'
-  name: Yoshida Tamaka
+  name_en: Yoshida Tamaka
   name_ka: "\u5409\u7530\u7389\u4F73"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -47774,7 +47774,7 @@
   alt_name_ka: "\u7AF9\u672C\u7E54\u5927\u592B"
   dates: '''1996/01-'''
   id: '150'
-  name: "Takemoto Tsunatay\u016B IX (see also Takemoto Oritay\u016B V)"
+  name_en: "Takemoto Tsunatay\u016B IX (see also Takemoto Oritay\u016B V)"
   name_ka: "\u7AF9\u672C\u7DB1\u5927\u592B (\u4E5D)"
   narrator_perf_id:
   - '938'
@@ -47816,7 +47816,7 @@
   - '854'
   - '880'
   - '856'
-  name: "Tsuruzawa Seitar\u014D"
+  name_en: "Tsuruzawa Seitar\u014D"
   name_ka: "\u9DB4\u6FA4\u6E05\u592A\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -47925,7 +47925,7 @@
   specialty: Shamisen
 - dates: '''1989/04-'''
   id: '152'
-  name: Kiritake Monwaka
+  name_en: Kiritake Monwaka
   name_ka: "\u6850\u7AF9\u7D0B\u82E5"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -47986,7 +47986,7 @@
   alt_name_ka: "\u5409\u7530\u82E5\u7389"
   dates: '''1990/04-'''
   id: '153'
-  name: Yoshida Bunshi (see also Yoshida Wakatama)
+  name_en: Yoshida Bunshi (see also Yoshida Wakatama)
   name_ka: "\u5409\u7530\u6587\u53F8"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48083,7 +48083,7 @@
   - '847'
   - '898'
   - '856'
-  name: Takezawa Dan'ichi
+  name_en: Takezawa Dan'ichi
   name_ka: "\u7AF9\u6FA4\u56E3\u5E02"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -48162,7 +48162,7 @@
   specialty: Shamisen
 - dates: '''1990/04-'''
   id: '155'
-  name: Yoshida Bunya
+  name_en: Yoshida Bunya
   name_ka: "\u5409\u7530\u6587\u54C9"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48201,7 +48201,7 @@
   specialty: Puppeteer
 - dates: '''1990/12-'''
   id: '156'
-  name: "Toyotake Shintay\u016B"
+  name_en: "Toyotake Shintay\u016B"
   name_ka: "\u8C4A\u7AF9\u65B0\u5927\u592B"
   narrator_perf_id:
   - '757'
@@ -48270,7 +48270,7 @@
   specialty: Tayu
 - dates: '''1990/04-'''
   id: '157'
-  name: Kiritake Monhide
+  name_en: Kiritake Monhide
   name_ka: "\u6850\u7AF9\u7D0B\u79C0"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48308,7 +48308,7 @@
   specialty: Puppeteer
 - dates: '''1990/04-'''
   id: '158'
-  name: Yoshida Tamase
+  name_en: Yoshida Tamase
   name_ka: "\u5409\u7530\u7389\u52E2"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48334,7 +48334,7 @@
   specialty: Puppeteer
 - dates: '''1991/04-'''
   id: '159'
-  name: "Yoshida Minoshir\u014D"
+  name_en: "Yoshida Minoshir\u014D"
   name_ka: "\u5409\u7530\u7C11\u7D2B\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48360,7 +48360,7 @@
   specialty: Puppeteer
 - dates: '''1992/04-'''
   id: '160'
-  name: "Toyotake Hajimeday\u016B"
+  name_en: "Toyotake Hajimeday\u016B"
   name_ka: "\u8C4A\u7AF9\u59CB\u5927\u592B"
   narrator_perf_id:
   - '772'
@@ -48426,7 +48426,7 @@
   specialty: Tayu
 - dates: '''1983/08-'''
   id: '161'
-  name: "Toyotake Sakihoday\u016B"
+  name_en: "Toyotake Sakihoday\u016B"
   name_ka: "\u8C4A\u7AF9\u54B2\u752B\u5927\u592B"
   narrator_perf_id:
   - '795'
@@ -48493,7 +48493,7 @@
   - '904'
   - '905'
   - '911'
-  name: "Tsuruzawa Seishir\u014D"
+  name_en: "Tsuruzawa Seishir\u014D"
   name_ka: "\u9DB4\u6FA4\u6E05\u5FD7\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:
@@ -48544,7 +48544,7 @@
   specialty: Shamisen
 - dates: '''1995/04-'''
   id: '163'
-  name: "Takezawa S\u014Dsuke"
+  name_en: "Takezawa S\u014Dsuke"
   name_ka: "\u7AF9\u6FA4\u5B97\u52A9"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   shamisen_perf_id:
@@ -48589,7 +48589,7 @@
   specialty: Shamisen
 - dates: '''1992/04-'''
   id: '164'
-  name: "Yoshida Tamaichir\u014D"
+  name_en: "Yoshida Tamaichir\u014D"
   name_ka: "\u5409\u7530\u7389\u4E00\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48604,7 +48604,7 @@
   specialty: Puppeteer
 - dates: '''1997/01-2004/01'''
   id: '165'
-  name: "Yoshida K\u014Dji"
+  name_en: "Yoshida K\u014Dji"
   name_ka: "\u5409\u7530\u5E78\u53F8"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   puppeteer_perf_id:
@@ -48613,7 +48613,7 @@
   specialty: Puppeteer
 - dates: '''1994/04-'''
   id: '166'
-  name: "Yoshida Sh\u014Dichi"
+  name_en: "Yoshida Sh\u014Dichi"
   name_ka: "\u5409\u7530\u6607\u5E02"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48626,7 +48626,7 @@
   specialty: Puppeteer
 - dates: '''1994/04-'''
   id: '167'
-  name: "Yoshida Sh\u014Droku"
+  name_en: "Yoshida Sh\u014Droku"
   name_ka: "\u5409\u7530\u6607\u516D"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48636,7 +48636,7 @@
   specialty: Puppeteer
 - dates: '''1998/04-'''
   id: '168'
-  name: "Toyotake Mutsumiday\u016B"
+  name_en: "Toyotake Mutsumiday\u016B"
   name_ka: "\u8C4A\u7AF9\u7766\u5927\u592B"
   narrator_perf_id:
   - '901'
@@ -48652,7 +48652,7 @@
   specialty: Tayu
 - dates: '''1998/04-'''
   id: '169'
-  name: "Toyotake Tsubasaday\u016B"
+  name_en: "Toyotake Tsubasaday\u016B"
   name_ka: "\u8C4A\u7AF9\u3064\u3070\u3055\u5927\u592B"
   narrator_perf_id:
   - '901'
@@ -48670,7 +48670,7 @@
   specialty: Tayu
 - dates: '''1998/04-'''
   id: '170'
-  name: "Toyotake Romotay\u016B"
+  name_en: "Toyotake Romotay\u016B"
   name_ka: "\u8C4A\u7AF9\u5442\u8302\u5927\u592B"
   narrator_perf_id:
   - '901'
@@ -48681,7 +48681,7 @@
   specialty: Tayu
 - dates: '''1999/09-'''
   id: '171'
-  name: Tsuruzawa Seiki
+  name_en: Tsuruzawa Seiki
   name_ka: "\u9DB4\u6FA4\u6E05\u9997"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   shamisen_perf_id:
@@ -48699,7 +48699,7 @@
   musician_perf_id:
   - '962'
   - '962'
-  name: "Tsuruzawa Seij\u014D"
+  name_en: "Tsuruzawa Seij\u014D"
   name_ka: "\u9DB4\u6FA4\u6E05\u3058\u3087\u3046"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   shamisen_perf_id:
@@ -48713,7 +48713,7 @@
   specialty: Shamisen
 - dates: '''2000/04-'''
   id: '173'
-  name: "Toyozawa Ry\u014Dichi"
+  name_en: "Toyozawa Ry\u014Dichi"
   name_ka: "\u8C4A\u6FA4\u9F8D\u807F"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   shamisen_perf_id:
@@ -48729,7 +48729,7 @@
   specialty: Shamisen
 - dates: '''2001/01-'''
   id: '174'
-  name: "Tsuruzawa Kantar\u014D"
+  name_en: "Tsuruzawa Kantar\u014D"
   name_ka: "\u9DB4\u6FA4\u5BDB\u592A\u90CE"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   shamisen_perf_id:
@@ -48739,7 +48739,7 @@
   specialty: Shamisen
 - dates: '''1995/04-'''
   id: '175'
-  name: "Yoshida Tamash\u014D"
+  name_en: "Yoshida Tamash\u014D"
   name_ka: "\u5409\u7530\u7389\u7FD4"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   puppeteer_perf_id:
@@ -48755,7 +48755,7 @@
   alt_name_ka: "\u8C4A\u677E\u6E05\u4E09\u90CE"
   dates: '''1986/11-'''
   id: '176'
-  name: "Yoshida Seizabur\u014D (see also Toyomatsu Seizabur\u014D)"
+  name_en: "Yoshida Seizabur\u014D (see also Toyomatsu Seizabur\u014D)"
   name_ka: "\u5409\u7530\u6E05\u4E09\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48890,7 +48890,7 @@
   alt_name_ka: "\u5409\u7530\u52D8\u5E02"
   dates: '''1985-1986/11'''
   id: '177'
-  name: Kiritake Kan'ichi (see also Yoshida Kanichi)
+  name_en: Kiritake Kan'ichi (see also Yoshida Kanichi)
   name_ka: "\u6850\u7AF9\u52D8\u5E02"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -48901,7 +48901,7 @@
   alt_name_ka: "\u6850\u7AF9\u52D8\u7DD1"
   dates: '''1986/11-'''
   id: '178'
-  name: Yoshida Kanroku (see also Kiritake Kanroku)
+  name_en: Yoshida Kanroku (see also Kiritake Kanroku)
   name_ka: "\u5409\u7530\u52D8\u7DD1"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -49046,7 +49046,7 @@
   alt_name_ka: "\u8C4A\u677E\u6E05\u4E94\u90CE"
   dates: '''1986/11-'''
   id: '179'
-  name: "Yoshida Seigor\u014D (see also Toyomatsu Seigor\u014D)"
+  name_en: "Yoshida Seigor\u014D (see also Toyomatsu Seigor\u014D)"
   name_ka: "\u5409\u7530\u6E05\u4E94\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -49167,7 +49167,7 @@
   alt_name_ka: "\u8C4A\u677E\u6E05\u4E4B\u52A9"
   dates: '''1986/11-'''
   id: '180'
-  name: Yoshida Seinosuke (see also Toyomatsu Seinosuke)
+  name_en: Yoshida Seinosuke (see also Toyomatsu Seinosuke)
   name_ka: "\u5409\u7530\u6E05\u4E4B\u52A9"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -49353,7 +49353,7 @@
   alt_name_ka: "\u7AF9\u672C\u4F0A\u9054\u8DEF\u5927\u592B"
   dates: '''1988/04-'''
   id: '181'
-  name: "Takemoto Datetay\u016B V (see also Takemoto Datejiday\u016B)"
+  name_en: "Takemoto Datetay\u016B V (see also Takemoto Datejiday\u016B)"
   name_ka: "\u7AF9\u672C\u4F0A\u9054\u5927\u592B (\u4E94)"
   narrator_perf_id:
   - '614'
@@ -49436,7 +49436,7 @@
   specialty: Tayu
 - dates: '''1998/04-'''
   id: '182'
-  name: "Takemoto Aikoday\u016B II"
+  name_en: "Takemoto Aikoday\u016B II"
   name_ka: "\u7AF9\u672C\u76F8\u5B50\u5927\u592B (\u4E8C)"
   narrator_perf_id:
   - '901'
@@ -49453,7 +49453,7 @@
   alt_name_ka: "\u7AF9\u6CA2\u56E3\u516D (\u516B)"
   dates: '''2001/01-'''
   id: '183'
-  name: Tsuruzawa Kanji VII (See also Takezawa Danroku VIII)
+  name_en: Tsuruzawa Kanji VII (See also Takezawa Danroku VIII)
   name_ka: "\u9DB4\u6FA4\u5BDB\u6CBB (\u4E03)"
   notes: '[Living National Treasure]; Bunraku meikan (1980, 1985, 1988, 1990, 1994)'
   shamisen_perf_id:
@@ -49466,7 +49466,7 @@
   specialty: Shamisen
 - dates: '''2000/04-'''
   id: '184'
-  name: Yoshida Minotsugu
+  name_en: Yoshida Minotsugu
   name_ka: "\u5409\u7530\u7C11\u6B21"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   puppeteer_perf_id:
@@ -49475,7 +49475,7 @@
   specialty: Puppeteer
 - dates: '''2002/04-'''
   id: '185'
-  name: "Toyozawa Ry\u014Dji"
+  name_en: "Toyozawa Ry\u014Dji"
   name_ka: "\u8C4A\u6FA4\u9F8D\u723E"
   notes: "Dejitaru bunka raiburar\u012B (Japan Arts Council)"
   shamisen_perf_id:
@@ -49483,7 +49483,7 @@
   specialty: Shamisen
 - dates: '''1909-1962'''
   id: '186'
-  name: "Yoshida Bungor\u014D"
+  name_en: "Yoshida Bungor\u014D"
   name_ka: "\u5409\u7530\u6587\u4E94\u90CE"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994); Nichigai WHO
   specialty: Puppeteer
@@ -49491,7 +49491,7 @@
   alt_name_ka: "\u5409\u7530\u84D1\u592A\u90CE"
   dates: '''2003/04-'''
   id: '187'
-  name: "Kiritake Kanj\u016Br\u014D III (see also Yoshida Minotar\u014D)"
+  name_en: "Kiritake Kanj\u016Br\u014D III (see also Yoshida Minotar\u014D)"
   name_ka: "\u6850\u7AF9\u52D8\u5341\u90CE (\u4E09)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   puppeteer_perf_id:
@@ -49499,13 +49499,13 @@
   specialty: Puppeteer
 - dates: '''1947-1959'''
   id: '188'
-  name: "Toyotake Yamashiro no Sh\u014Dj\u014D"
+  name_en: "Toyotake Yamashiro no Sh\u014Dj\u014D"
   name_ka: "\u8C4A\u7AF9\u5C71\u57CE\u5C11\u63BE"
   notes: '[Living National Treasure]; Nichigai WHO'
   specialty: Tayu
 - dates: '''1952-1965/01/21'''
   id: '189'
-  name: "Tsuruzawa T\u014Dz\u014D"
+  name_en: "Tsuruzawa T\u014Dz\u014D"
   name_ka: "\u9DB4\u6CA2\u85E4\u8535"
   notes: Nichigai WHO
   specialty: Shamisen
@@ -49513,7 +49513,7 @@
   alt_name_ka: "\u91CE\u6FA4\u9326\u5F25"
   dates: '''1998/04-'''
   id: '190'
-  name: Nozawa Kinshi V (see also Nozawa Kin'ya)
+  name_en: Nozawa Kinshi V (see also Nozawa Kin'ya)
   name_ka: "\u91CE\u6FA4\u9326\u7CF8 (\u4E94)"
   notes: Bunraku meikan (1980, 1985, 1988, 1990, 1994)
   shamisen_perf_id:

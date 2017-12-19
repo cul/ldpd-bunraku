@@ -3,7 +3,7 @@
     <b>Performers:&nbsp;&nbsp;</b>
     {% for p in page.performer_id %}
       {% assign performer = site.data.performers | where: "id", p | first %}
-      <b><a href="{{ site.baseurl }}/performers/{{ p }}/">{{ performer.name }}</a></b>
+      <b><a href="{{ site.baseurl }}/performers/{{ p }}/">{{ performer.name_en }}</a></b>
       {% unless forloop.last %}, {% endunless %}
     {% endfor %}<br>
   </p>
@@ -16,7 +16,7 @@
         {% if performer.image_id %}<i class="fa fa-file-image-o" aria-hidden="true"></i>
         {% else %}<i class="fa fa-times" aria-hidden="true"></i>
         {% endif %}
-        <a href="{{ site.baseurl }}/performers/{{ p }}/">{{ performer.name }}</a>
+        <a href="{{ site.baseurl }}/performers/{{ p }}/">{{ performer.name_en }}</a>
       </b> ({{ performer.name_ka }})
     </p>
   {% endfor %}

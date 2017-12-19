@@ -48,9 +48,11 @@ image_id:
 <p>The online Bunraku gallery is divided into <b><a href="{{ site.baseurl }}/plays/">plays</a></b>, <b><a href="{{ site.baseurl }}/productions/">productions</a></b>, <b><a href="{{ site.path.authors }}">authors</a></b>, <b><a href="{{ site.baseurl }}/kashira/">kashira</a></b> (puppets), <b><a href="{{ site.baseurl }}/characters/">characters</a></b>, <b><a href="{{ site.baseurl }}/performers/">performers</a></b>, and <b><a href="{{ site.baseurl }}/tags/">image tags</a></b>, and even includes data on individual <b><a href="{{ site.baseurl }}/performances/7/">performances</a></b> and <b><a href="{{ site.baseurl }}/scenes/14">scenes</a></b>. It documents the form's revival in the second half of the 20th century, through more than 12,500 digitized slides and nearly 7,000 black-and-white photographs of rehearsals and performances.</p>
 
 <span class="hidden-xs">
+
 <p><b>Below is an interactive, hierarchical graph of the structure of just one play: <a href="{{ site.baseurl }}/plays/6/">Oshun and Dembei (Chikagoro kawara no tatehiki / 近頃河原の達引)</a></b>, including links to its authors and productions in which it was performed, which in turn link to scenes which link to performer information.</p>
 
 <p>You can <b>click on the circles</b> to open or collapse nodes or <b>double-click on one with a bolded name</b> to learn more about its corresponding author, performance, scene, performer, character, or kashira (puppet).</p>
+
 </span>
 
 <br><br>
