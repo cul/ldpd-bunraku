@@ -14,7 +14,7 @@ permalink: /performers/
         <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
       {% endif %}
       <a href="{{ site.baseurl }}/performers/{{ performer.id }}">
-        {{ performer.name }}
+        {{ performer.name_en }}
       </a>
     </b>
     ({{ performer.name_ka }})

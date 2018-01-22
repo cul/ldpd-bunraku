@@ -11,24 +11,19 @@ image_id:
 permalink: /adachi/
 ---
 
+{% include sliders/main.html %}
+View all images of [Barbara Curtis Adachi]({{ site.baseurl }}/tags/44/).
+<br><br>
 
 __Barbara Curtis Adachi (1924-2004)__ lived most of her life in Tokyo, where she witnessed her first Bunraku performance in 1935, at the age of eleven. Her extensive involvement with the troupe began in the 1960s and continued throughout the rest of her life. She attended over four decades of Bunraku performances, conducted over one hundred interviews of Bunraku performers and behind-the-scene craftsmen, and took thousands of photographs. Ms. Adachi lectured widely both in and out of Japan on Bunraku and wrote several books including _The Voices and Hands of Bunraku_ (1978) and _Backstage at Bunraku_ (1985).
 
-
-{% include sliders/main.html %}
-View all images of [Barbara Curtis Adachi]({{ site.baseurl }}/tags/44).
-
-<br><br>
-# Books
-
+## Books
 ___The Voices and Hands of Bunraku___. Tokyo, New York: Kodansha International, c1978.
 
 ___Backstage at Bunraku___. New York: Weatherhill, 1985.
 
-
-<br><br>
-# Articles
-#### (available in the Barbara Curtis Adachi Bunraku Collection, Series 8.2)
+## Articles
+___(available in the Barbara Curtis Adachi Bunraku Collection, Series 8.2)___
 
 "Appreciating Bunraku." Pamphlet for Bunraku U.S. Tour, 1988.
 
@@ -76,15 +71,17 @@ ___Backstage at Bunraku___. New York: Weatherhill, 1985.
 
 "The Voices and Hands of Bunraku." Mainichi Daily News, July 6 - Aug. 10, 1978.
 
-*Anthony, Catherine. "Bunraku Puppet Story Teller Needs Grit, Sweat and Tears." Mainichi Daily News, Feb. 24, 1971.
+Anthony, Catherine. "Bunraku Puppet Story Teller Needs Grit, Sweat and Tears." Mainichi Daily News, Feb. 24, 1971.
 
-*Anthony, Catherine. "Hands of Japan: Bunraku is Not Static Art." Mainichi Daily News, March 10, 1972.
+Anthony, Catherine. "Hands of Japan: Bunraku is Not Static Art." Mainichi Daily News, March 10, 1972.
 
-*Anthony, Catherine. "Hands of Japan: Oe, Last of Puppet Makers." Mainichi Daily News, May 23, 1971.
+Anthony, Catherine. "Hands of Japan: Oe, Last of Puppet Makers." Mainichi Daily News, May 23, 1971.
 
-*Anthony, Catherine. "Seijuro Toyomatsu Interviewed: 'Puppeteers Make Dolls Come Alive to Audience'." Mainichi Daily News, Feb. 17, 1971.
+Anthony, Catherine. "Seijuro Toyomatsu Interviewed: 'Puppeteers Make Dolls Come Alive to Audience'." Mainichi Daily News, Feb. 17, 1971.
 
 <br>
-<hr/>
 
-* Adachi used a penname, Catherine Anthony, for some newspaper articles above.
+*****
+
+
+\*Adachi used a penname, Catherine Anthony, for some newspaper articles above.

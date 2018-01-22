@@ -16,7 +16,7 @@
 {% else %}
   {% assign i = page.image_id | first %}
   {% assign image = site.data.images | where: "id", i | first %}
-  <div><a href="{{ site.baseurl }}/images/{{ i }}"><img src="http://www.columbia.edu/cgi-bin/dlo?obj={{ image.objid}}&size=medium" width="100%"/></a></div>
+  <div><a href="{{ site.baseurl }}/images/{{ i }}/"><img src="http://www.columbia.edu/cgi-bin/dlo?obj={{ image.objid}}&size=medium" width="100%"/></a></div>
   <p>1/1 – Click image to view.</p>
 {% endif %}
 

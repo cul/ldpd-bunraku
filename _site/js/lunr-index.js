@@ -22073,1288 +22073,1288 @@
     // performers
     
       this.add({
-        label_eng: "Takemoto Datejidayū (see also Takemoto Datetayū V)",
+        label_eng: "",
         label_ka: "竹本伊達路大夫",
         id: 3284
       })
       
     
       this.add({
-        label_eng: "Takemoto Tsudayū IV",
+        label_eng: "",
         label_ka: "竹本津大夫 (四)",
         id: 3285
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Kanotarō",
+        label_eng: "",
         label_ka: "鶴澤叶太郎",
         id: 3286
       })
       
     
       this.add({
-        label_eng: "Takezawa Danshichi (see also Takezawa Danjirō IV)",
+        label_eng: "",
         label_ka: "竹澤団七",
         id: 3287
       })
       
     
       this.add({
-        label_eng: "Toyotake Matsukadayū",
+        label_eng: "",
         label_ka: "豊竹松香大夫",
         id: 3288
       })
       
     
       this.add({
-        label_eng: "Takemoto Oritayū V (see also Takemoto Tsunatayū IX)",
+        label_eng: "",
         label_ka: "竹本織大夫 (五)",
         id: 3289
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Enjirō",
+        label_eng: "",
         label_ka: "鶴澤燕二郎",
         id: 3290
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Enza V",
+        label_eng: "",
         label_ka: "鶴澤燕三 (五)",
         id: 3291
       })
       
     
       this.add({
-        label_eng: "Toyotake Sakitayū",
+        label_eng: "",
         label_ka: "豊竹咲大夫",
         id: 3292
       })
       
     
       this.add({
-        label_eng: "Nozawa Katsushi (see also Toyozawa Tomisuke V)",
+        label_eng: "",
         label_ka: "野澤勝司",
         id: 3293
       })
       
     
       this.add({
-        label_eng: "Yoshida Bunjaku",
+        label_eng: "",
         label_ka: "吉田文雀",
         id: 3294
       })
       
     
       this.add({
-        label_eng: "Yoshida Bunshō",
+        label_eng: "",
         label_ka: "吉田文昇",
         id: 3295
       })
       
     
       this.add({
-        label_eng: "Yoshida Minojirō",
+        label_eng: "",
         label_ka: "吉田蓑二郎",
         id: 3296
       })
       
     
       this.add({
-        label_eng: "Kiritake Itchō",
+        label_eng: "",
         label_ka: "桐竹一暢",
         id: 3297
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamamatsu III (see also Kiritake Monya)",
+        label_eng: "",
         label_ka: "吉田玉松 (三)",
         id: 3298
       })
       
     
       this.add({
-        label_eng: "Kiritake Kanjūrō II",
+        label_eng: "",
         label_ka: "桐竹勘十郎 (二)",
         id: 3299
       })
       
     
       this.add({
-        label_eng: "Yoshida Minotarō (see also Kiritake Kanjūrō)",
+        label_eng: "",
         label_ka: "吉田蓑太郎",
         id: 3300
       })
       
     
       this.add({
-        label_eng: "Yoshida Minosuke III",
+        label_eng: "",
         label_ka: "吉田蓑助 (三)",
         id: 3301
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamakō II",
+        label_eng: "",
         label_ka: "吉田玉幸 (二)",
         id: 3302
       })
       
     
       this.add({
-        label_eng: "Toyomatsu Seijūrō IV",
+        label_eng: "",
         label_ka: "豊松清十郎 (四)",
         id: 3303
       })
       
     
       this.add({
-        label_eng: "Yoshida Hidetama",
+        label_eng: "",
         label_ka: "吉田秀玉",
         id: 3304
       })
       
     
       this.add({
-        label_eng: "Toyomatsu Seizaburō (see also Yoshida Seizaburō)",
+        label_eng: "",
         label_ka: "豊松清三郎",
         id: 3305
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamame",
+        label_eng: "",
         label_ka: "吉田玉女",
         id: 3306
       })
       
     
       this.add({
-        label_eng: "Kiritake Kanju",
+        label_eng: "",
         label_ka: "桐竹勘寿",
         id: 3307
       })
       
     
       this.add({
-        label_eng: "Kiritake Kamematsu IV",
+        label_eng: "",
         label_ka: "桐竹亀松 (四)",
         id: 3308
       })
       
     
       this.add({
-        label_eng: "Yoshida Sakujūrō",
+        label_eng: "",
         label_ka: "吉田作十郎",
         id: 3309
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamaya (see also Yoshida Eikō)",
+        label_eng: "",
         label_ka: "吉田玉也",
         id: 3310
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamashi",
+        label_eng: "",
         label_ka: "吉田玉志",
         id: 3311
       })
       
     
       this.add({
-        label_eng: "Toyotake Komatsudayū II",
+        label_eng: "",
         label_ka: "豊竹小松大夫 (二)",
         id: 3312
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Seitomo II",
+        label_eng: "",
         label_ka: "鶴澤清友 (二)",
         id: 3313
       })
       
     
       this.add({
-        label_eng: "Takemoto Koshijidayū IV",
+        label_eng: "",
         label_ka: "竹本越路大夫 (四)",
         id: 3314
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Seiji",
+        label_eng: "",
         label_ka: "鶴澤清治",
         id: 3315
       })
       
     
       this.add({
-        label_eng: "Takemoto Nanbudayū V",
+        label_eng: "",
         label_ka: "竹本南部大夫 (五)",
         id: 3316
       })
       
     
       this.add({
-        label_eng: "Toyotake Tokutayū",
+        label_eng: "",
         label_ka: "豊竹十九大夫",
         id: 3317
       })
       
     
       this.add({
-        label_eng: "Takemoto Tsukomadayū",
+        label_eng: "",
         label_ka: "竹本津駒大夫",
         id: 3318
       })
       
     
       this.add({
-        label_eng: "Takemoto Tsumaidayū",
+        label_eng: "",
         label_ka: "竹本津梅大夫",
         id: 3319
       })
       
     
       this.add({
-        label_eng: "Toyotake Rosetayū",
+        label_eng: "",
         label_ka: "豊竹呂勢大夫",
         id: 3320
       })
       
     
       this.add({
-        label_eng: "Takemoto Orimidayū",
+        label_eng: "",
         label_ka: "竹本織美大夫",
         id: 3321
       })
       
     
       this.add({
-        label_eng: "Takemoto Nantodayū",
+        label_eng: "",
         label_ka: "竹本南都大夫",
         id: 3322
       })
       
     
       this.add({
-        label_eng: "Nozawa Kinshi IV",
+        label_eng: "",
         label_ka: "野澤錦糸 (四)",
         id: 3323
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Asazō V",
+        label_eng: "",
         label_ka: "鶴澤浅造 (五)",
         id: 3324
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Hachisuke",
+        label_eng: "",
         label_ka: "鶴澤八介",
         id: 3325
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Seijirō V",
+        label_eng: "",
         label_ka: "鶴澤清二郎 (五)",
         id: 3326
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamao",
+        label_eng: "",
         label_ka: "吉田玉男",
         id: 3327
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamaki",
+        label_eng: "",
         label_ka: "吉田玉輝",
         id: 3328
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Jūzō IV",
+        label_eng: "",
         label_ka: "鶴澤重造 (四)",
         id: 3329
       })
       
     
       this.add({
-        label_eng: "Kiritake Kanroku (see also Yoshida Kanroku)",
+        label_eng: "",
         label_ka: "桐竹勘緑",
         id: 3330
       })
       
     
       this.add({
-        label_eng: "Yoshida Bungo V (see also Yoshida Kotama)",
+        label_eng: "",
         label_ka: "吉田文吾 (五)",
         id: 3331
       })
       
     
       this.add({
-        label_eng: "Yoshida Kazuo",
+        label_eng: "",
         label_ka: "吉田和生",
         id: 3332
       })
       
     
       this.add({
-        label_eng: "Toyomatsu Seinosuke (see also Yoshida Seinosuke)",
+        label_eng: "",
         label_ka: "豊松清之助",
         id: 3333
       })
       
     
       this.add({
-        label_eng: "Kiritake Monju",
+        label_eng: "",
         label_ka: "桐竹紋寿",
         id: 3334
       })
       
     
       this.add({
-        label_eng: "Takemoto Aioidayū IV (see also Takemoto Aikodayū I)",
+        label_eng: "",
         label_ka: "竹本相生大夫 (四)",
         id: 3335
       })
       
     
       this.add({
-        label_eng: "Toyotake Hanabusadayū III",
+        label_eng: "",
         label_ka: "豊竹英大夫 (三)",
         id: 3336
       })
       
     
       this.add({
-        label_eng: "Takemoto Midoridayū",
+        label_eng: "",
         label_ka: "竹本緑大夫",
         id: 3337
       })
       
     
       this.add({
-        label_eng: "Takemoto Takatayū",
+        label_eng: "",
         label_ka: "竹本貴大夫",
         id: 3338
       })
       
     
       this.add({
-        label_eng: "Takemoto Miwatayū",
+        label_eng: "",
         label_ka: "竹本三輪大夫",
         id: 3339
       })
       
     
       this.add({
-        label_eng: "Takemoto Tsukunidayū",
+        label_eng: "",
         label_ka: "竹本津国大夫",
         id: 3340
       })
       
     
       this.add({
-        label_eng: "Takemoto Nanshidayū",
+        label_eng: "",
         label_ka: "竹本南司大夫",
         id: 3341
       })
       
     
       this.add({
-        label_eng: "Takemoto Mojihisadayū",
+        label_eng: "",
         label_ka: "竹本文字久大夫",
         id: 3342
       })
       
     
       this.add({
-        label_eng: "Nozawa Kin'ya (see also Nozawa Kinshi V)",
+        label_eng: "",
         label_ka: "野澤錦弥",
         id: 3343
       })
       
     
       this.add({
-        label_eng: "Takemoto Chitosedayū",
+        label_eng: "",
         label_ka: "竹本千歳大夫",
         id: 3344
       })
       
     
       this.add({
-        label_eng: "Toyotake Rodayū V",
+        label_eng: "",
         label_ka: "豊竹呂大夫 (五)",
         id: 3345
       })
       
     
       this.add({
-        label_eng: "Takezawa Danji",
+        label_eng: "",
         label_ka: "竹沢団治",
         id: 3346
       })
       
     
       this.add({
-        label_eng: "Takezawa Danroku VIII (see also Tsuruzawa Kanji VII)",
+        label_eng: "",
         label_ka: "竹沢団六 (八)",
         id: 3347
       })
       
     
       this.add({
-        label_eng: "Takemoto Mojitayū IX (see also Takemoto Sumitayū VII)",
+        label_eng: "",
         label_ka: "竹本文字大夫 (九)",
         id: 3348
       })
       
     
       this.add({
-        label_eng: "Nozawa Katsuhei II (see also Nozawa Kizaemon III)",
+        label_eng: "",
         label_ka: "野澤勝平 (二)",
         id: 3349
       })
       
     
       this.add({
-        label_eng: "Toyotake Shimatayū VIII",
+        label_eng: "",
         label_ka: "豊竹嶋大夫 (八)",
         id: 3350
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Seisuke",
+        label_eng: "",
         label_ka: "鶴澤清介",
         id: 3351
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamae",
+        label_eng: "",
         label_ka: "吉田玉英",
         id: 3352
       })
       
     
       this.add({
-        label_eng: "Kiritake Kanshirō",
+        label_eng: "",
         label_ka: "桐竹勘士朗",
         id: 3353
       })
       
     
       this.add({
-        label_eng: "Kiritake Kameji",
+        label_eng: "",
         label_ka: "桐竹亀次",
         id: 3354
       })
       
     
       this.add({
-        label_eng: "Takemoto Mojiedayū",
+        label_eng: "",
         label_ka: "竹本文字栄大夫",
         id: 3355
       })
       
     
       this.add({
-        label_eng: "Kiritake Kan'ya (see also Yoshida Kanya)",
+        label_eng: "",
         label_ka: "桐竹勘弥",
         id: 3356
       })
       
     
       this.add({
-        label_eng: "Yoshida Kōsuke",
+        label_eng: "",
         label_ka: "吉田幸助",
         id: 3357
       })
       
     
       this.add({
-        label_eng: "Yoshida Wakatama (see also Yoshida Bunshi)",
+        label_eng: "",
         label_ka: "吉田若玉",
         id: 3358
       })
       
     
       this.add({
-        label_eng: "Toyozawa Tomisuke V (see also Nozawa Katsushi)",
+        label_eng: "",
         label_ka: "豊澤富助 (五)",
         id: 3359
       })
       
     
       this.add({
-        label_eng: "Takezawa Dango",
+        label_eng: "",
         label_ka: "竹澤団吾",
         id: 3360
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Entarō",
+        label_eng: "",
         label_ka: "鶴澤燕太郎",
         id: 3361
       })
       
     
       this.add({
-        label_eng: "Nozawa Kichinosuke (see also Takezawa Yasaburō)",
+        label_eng: "",
         label_ka: "野澤吉之助",
         id: 3362
       })
       
     
       this.add({
-        label_eng: "Yoshida Kotama (see also Yoshida Bungo V)",
+        label_eng: "",
         label_ka: "吉田小玉",
         id: 3363
       })
       
     
       this.add({
-        label_eng: "Nozawa Yoshinosuke",
+        label_eng: "",
         label_ka: "野澤吉之助",
         id: 3364
       })
       
     
       this.add({
-        label_eng: "Nozawa Kichibei IX",
+        label_eng: "",
         label_ka: "野澤吉兵衛 (九)",
         id: 3365
       })
       
     
       this.add({
-        label_eng: "Takemoto Nanjudayū",
+        label_eng: "",
         label_ka: "竹本南寿大夫",
         id: 3366
       })
       
     
       this.add({
-        label_eng: "Yoshida Kazusuke",
+        label_eng: "",
         label_ka: "吉田和右",
         id: 3367
       })
       
     
       this.add({
-        label_eng: "Yoshida Minoichirō",
+        label_eng: "",
         label_ka: "吉田蓑一郎",
         id: 3368
       })
       
     
       this.add({
-        label_eng: "Toyomatsu Seigorō (see also Yoshida Seigorō)",
+        label_eng: "",
         label_ka: "豊松清五郎",
         id: 3369
       })
       
     
       this.add({
-        label_eng: "Yoshida Fukumaru",
+        label_eng: "",
         label_ka: "吉田福丸",
         id: 3370
       })
       
     
       this.add({
-        label_eng: "Takezawa Yasaburō (see also Nozawa Kichinosuke)",
+        label_eng: "",
         label_ka: "竹澤弥三郎",
         id: 3371
       })
       
     
       this.add({
-        label_eng: "Yoshida Kan'ya (see also Kiritake Kanya)",
+        label_eng: "",
         label_ka: "吉田勘弥",
         id: 3372
       })
       
     
       this.add({
-        label_eng: "Kiritake Ikka",
+        label_eng: "",
         label_ka: "桐竹一嘉",
         id: 3373
       })
       
     
       this.add({
-        label_eng: "Nozawa Kizaemon II",
+        label_eng: "",
         label_ka: "野澤喜左衛門 (二)",
         id: 3374
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamagorō II",
+        label_eng: "",
         label_ka: "吉田玉五郎 (二)",
         id: 3375
       })
       
     
       this.add({
-        label_eng: "Yoshida Kan'ichi (see also Kiritake Kanichi)",
+        label_eng: "",
         label_ka: "吉田勘市",
         id: 3376
       })
       
     
       this.add({
-        label_eng: "Kiritake Ichisuke",
+        label_eng: "",
         label_ka: "桐竹一輔",
         id: 3377
       })
       
     
       this.add({
-        label_eng: "Nozawa Kiichirō",
+        label_eng: "",
         label_ka: "野澤喜一朗",
         id: 3378
       })
       
     
       this.add({
-        label_eng: "Takemoto Sumitayū VII (see also Takemoto Mojitayū IX)",
+        label_eng: "",
         label_ka: "竹本住大夫 (七)",
         id: 3379
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamashō",
+        label_eng: "",
         label_ka: "吉田玉昇",
         id: 3380
       })
       
     
       this.add({
-        label_eng: "Takemoto Mojitodayū",
+        label_eng: "",
         label_ka: "竹本文字登大夫",
         id: 3381
       })
       
     
       this.add({
-        label_eng: "Nozawa Matsuya",
+        label_eng: "",
         label_ka: "野澤松也",
         id: 3382
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Dōhachi II (see also Tsuruzawa Tokutarō)",
+        label_eng: "",
         label_ka: "鶴沢道八 (二)",
         id: 3383
       })
       
     
       this.add({
-        label_eng: "Nozawa Katsutarō II",
+        label_eng: "",
         label_ka: "野澤勝太郎 (二)",
         id: 3384
       })
       
     
       this.add({
-        label_eng: "Takezawa Danjirō IV (see also Takezawa Danshichi)",
+        label_eng: "",
         label_ka: "竹澤団二郎 (四)",
         id: 3385
       })
       
     
       this.add({
-        label_eng: "Yoshida Hyōji",
+        label_eng: "",
         label_ka: "吉田兵次",
         id: 3386
       })
       
     
       this.add({
-        label_eng: "Yoshida Eiza II",
+        label_eng: "",
         label_ka: "吉田栄三 (二)",
         id: 3387
       })
       
     
       this.add({
-        label_eng: "Yoshida Minoshi",
+        label_eng: "",
         label_ka: "吉田蓑司",
         id: 3388
       })
       
     
       this.add({
-        label_eng: "Takezawa Yashichi X",
+        label_eng: "",
         label_ka: "竹澤弥七 (十)",
         id: 3389
       })
       
     
       this.add({
-        label_eng: "Yoshida Eikō (see also Yoshida Tamaya)",
+        label_eng: "",
         label_ka: "吉田栄光",
         id: 3390
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Kanji VI",
+        label_eng: "",
         label_ka: "鶴澤寛治 (六)",
         id: 3391
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Kanpei",
+        label_eng: "",
         label_ka: "鶴澤寛平",
         id: 3392
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Katsunosuke",
+        label_eng: "",
         label_ka: "鶴澤勝之輔",
         id: 3393
       })
       
     
       this.add({
-        label_eng: "Nozawa Katsunosuke",
+        label_eng: "",
         label_ka: "野澤勝之輔",
         id: 3394
       })
       
     
       this.add({
-        label_eng: "Takemoto Tosatayū VII (see also Takemoto Datedayū IV)",
+        label_eng: "",
         label_ka: "竹本土佐大夫 (七)",
         id: 3395
       })
       
     
       this.add({
-        label_eng: "Sunodayū [family name unidentified]",
+        label_eng: "",
         label_ka: "すのだゆう",
         id: 3396
       })
       
     
       this.add({
-        label_eng: "Nozawa Matsunosuke",
+        label_eng: "",
         label_ka: "野澤松之輔",
         id: 3397
       })
       
     
       this.add({
-        label_eng: "Takemoto Datetayū IV (see also Takemoto Tosatayū VII)",
+        label_eng: "",
         label_ka: "竹本伊達大夫 (四)",
         id: 3398
       })
       
     
       this.add({
-        label_eng: "Takemoto Tsunatayū VIII",
+        label_eng: "",
         label_ka: "竹本綱大夫 (八)",
         id: 3399
       })
       
     
       this.add({
-        label_eng: "Kanshichi [family name unidentified]",
+        label_eng: "",
         label_ka: "かんしち",
         id: 3400
       })
       
     
       this.add({
-        label_eng: "Takemoto Aioidayū III",
+        label_eng: "",
         label_ka: "竹本相生大夫 (三)",
         id: 3401
       })
       
     
       this.add({
-        label_eng: "Kiritake Monjūrō II",
+        label_eng: "",
         label_ka: "桐竹紋十郎 (二)",
         id: 3402
       })
       
     
       this.add({
-        label_eng: "Takemoto Shikidayū",
+        label_eng: "",
         label_ka: "竹本しき大夫",
         id: 3403
       })
       
     
       this.add({
-        label_eng: "Nozawa Kizaemon III (see also Nozawa Katsuhei)",
+        label_eng: "",
         label_ka: "野澤喜左衛門 (三)",
         id: 3404
       })
       
     
       this.add({
-        label_eng: "Takemoto Harukodayū III",
+        label_eng: "",
         label_ka: "竹本春子大夫 (三)",
         id: 3405
       })
       
     
       this.add({
-        label_eng: "Takemoto Koharudayū",
+        label_eng: "",
         label_ka: "竹本小春大夫",
         id: 3406
       })
       
     
       this.add({
-        label_eng: "Takemoto Aikodayū I (see also Takemoto Aioidayū IV)",
+        label_eng: "",
         label_ka: "竹本相子大夫 (一)",
         id: 3407
       })
       
     
       this.add({
-        label_eng: "Kiritake Monya (see also Yoshida Tamamatsu III)",
+        label_eng: "",
         label_ka: "桐竹紋弥",
         id: 3408
       })
       
     
       this.add({
-        label_eng: "Yoshida Tatsugorō V",
+        label_eng: "",
         label_ka: "吉田辰五郎 (五)",
         id: 3409
       })
       
     
       this.add({
-        label_eng: "Takemoto Ōsumidayū V",
+        label_eng: "",
         label_ka: "竹本大隈太夫 (五)",
         id: 3410
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Tokutarō (see also Tsuruzawa Dōhachi II)",
+        label_eng: "",
         label_ka: "鶴沢徳太郎",
         id: 3411
       })
       
     
       this.add({
-        label_eng: "Yoshida Junzō",
+        label_eng: "",
         label_ka: "吉田淳造",
         id: 3412
       })
       
     
       this.add({
-        label_eng: "Yoshida Tsuneji",
+        label_eng: "",
         label_ka: "吉田常次",
         id: 3413
       })
       
     
       this.add({
-        label_eng: "Yoshida Kikuichi",
+        label_eng: "",
         label_ka: "吉田菊一",
         id: 3414
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamanosuke",
+        label_eng: "",
         label_ka: "吉田玉之助",
         id: 3415
       })
       
     
       this.add({
-        label_eng: "Takemoto Musashidayū",
+        label_eng: "",
         label_ka: "竹本武蔵大夫",
         id: 3416
       })
       
     
       this.add({
-        label_eng: "Yoshida Shōjirō",
+        label_eng: "",
         label_ka: "吉田昇二郎",
         id: 3417
       })
       
     
       this.add({
-        label_eng: "Kiritake Komon",
+        label_eng: "",
         label_ka: "桐竹小紋",
         id: 3418
       })
       
     
       this.add({
-        label_eng: "Yoshida Kunihide",
+        label_eng: "",
         label_ka: "吉田国秀",
         id: 3419
       })
       
     
       this.add({
-        label_eng: "Nozawa Kin'ichi",
+        label_eng: "",
         label_ka: "野澤錦市",
         id: 3420
       })
       
     
       this.add({
-        label_eng: "Nozawa Katsuya",
+        label_eng: "",
         label_ka: "野澤勝矢",
         id: 3421
       })
       
     
       this.add({
-        label_eng: "Nozawa Kikusaburō",
+        label_eng: "",
         label_ka: "野澤喜久三郎",
         id: 3422
       })
       
     
       this.add({
-        label_eng: "Takemoto Orinodayū",
+        label_eng: "",
         label_ka: "竹本織の大夫",
         id: 3423
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Seigo",
+        label_eng: "",
         label_ka: "鶴澤清吾",
         id: 3424
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamayo",
+        label_eng: "",
         label_ka: "吉田玉世",
         id: 3425
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamaka",
+        label_eng: "",
         label_ka: "吉田玉佳",
         id: 3426
       })
       
     
       this.add({
-        label_eng: "Takemoto Tsunatayū IX (see also Takemoto Oritayū V)",
+        label_eng: "",
         label_ka: "竹本綱大夫 (九)",
         id: 3427
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Seitarō",
+        label_eng: "",
         label_ka: "鶴澤清太郎",
         id: 3428
       })
       
     
       this.add({
-        label_eng: "Kiritake Monwaka",
+        label_eng: "",
         label_ka: "桐竹紋若",
         id: 3429
       })
       
     
       this.add({
-        label_eng: "Yoshida Bunshi (see also Yoshida Wakatama)",
+        label_eng: "",
         label_ka: "吉田文司",
         id: 3430
       })
       
     
       this.add({
-        label_eng: "Takezawa Dan'ichi",
+        label_eng: "",
         label_ka: "竹澤団市",
         id: 3431
       })
       
     
       this.add({
-        label_eng: "Yoshida Bunya",
+        label_eng: "",
         label_ka: "吉田文哉",
         id: 3432
       })
       
     
       this.add({
-        label_eng: "Toyotake Shintayū",
+        label_eng: "",
         label_ka: "豊竹新大夫",
         id: 3433
       })
       
     
       this.add({
-        label_eng: "Kiritake Monhide",
+        label_eng: "",
         label_ka: "桐竹紋秀",
         id: 3434
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamase",
+        label_eng: "",
         label_ka: "吉田玉勢",
         id: 3435
       })
       
     
       this.add({
-        label_eng: "Yoshida Minoshirō",
+        label_eng: "",
         label_ka: "吉田簑紫郎",
         id: 3436
       })
       
     
       this.add({
-        label_eng: "Toyotake Hajimedayū",
+        label_eng: "",
         label_ka: "豊竹始大夫",
         id: 3437
       })
       
     
       this.add({
-        label_eng: "Toyotake Sakihodayū",
+        label_eng: "",
         label_ka: "豊竹咲甫大夫",
         id: 3438
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Seishirō",
+        label_eng: "",
         label_ka: "鶴澤清志郎",
         id: 3439
       })
       
     
       this.add({
-        label_eng: "Takezawa Sōsuke",
+        label_eng: "",
         label_ka: "竹澤宗助",
         id: 3440
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamaichirō",
+        label_eng: "",
         label_ka: "吉田玉一郎",
         id: 3441
       })
       
     
       this.add({
-        label_eng: "Yoshida Kōji",
+        label_eng: "",
         label_ka: "吉田幸司",
         id: 3442
       })
       
     
       this.add({
-        label_eng: "Yoshida Shōichi",
+        label_eng: "",
         label_ka: "吉田昇市",
         id: 3443
       })
       
     
       this.add({
-        label_eng: "Yoshida Shōroku",
+        label_eng: "",
         label_ka: "吉田昇六",
         id: 3444
       })
       
     
       this.add({
-        label_eng: "Toyotake Mutsumidayū",
+        label_eng: "",
         label_ka: "豊竹睦大夫",
         id: 3445
       })
       
     
       this.add({
-        label_eng: "Toyotake Tsubasadayū",
+        label_eng: "",
         label_ka: "豊竹つばさ大夫",
         id: 3446
       })
       
     
       this.add({
-        label_eng: "Toyotake Romotayū",
+        label_eng: "",
         label_ka: "豊竹呂茂大夫",
         id: 3447
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Seiki",
+        label_eng: "",
         label_ka: "鶴澤清馗",
         id: 3448
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Seijō",
+        label_eng: "",
         label_ka: "鶴澤清じょう",
         id: 3449
       })
       
     
       this.add({
-        label_eng: "Toyozawa Ryōichi",
+        label_eng: "",
         label_ka: "豊澤龍聿",
         id: 3450
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Kantarō",
+        label_eng: "",
         label_ka: "鶴澤寛太郎",
         id: 3451
       })
       
     
       this.add({
-        label_eng: "Yoshida Tamashō",
+        label_eng: "",
         label_ka: "吉田玉翔",
         id: 3452
       })
       
     
       this.add({
-        label_eng: "Yoshida Seizaburō (see also Toyomatsu Seizaburō)",
+        label_eng: "",
         label_ka: "吉田清三郎",
         id: 3453
       })
       
     
       this.add({
-        label_eng: "Kiritake Kan'ichi (see also Yoshida Kanichi)",
+        label_eng: "",
         label_ka: "桐竹勘市",
         id: 3454
       })
       
     
       this.add({
-        label_eng: "Yoshida Kanroku (see also Kiritake Kanroku)",
+        label_eng: "",
         label_ka: "吉田勘緑",
         id: 3455
       })
       
     
       this.add({
-        label_eng: "Yoshida Seigorō (see also Toyomatsu Seigorō)",
+        label_eng: "",
         label_ka: "吉田清五郎",
         id: 3456
       })
       
     
       this.add({
-        label_eng: "Yoshida Seinosuke (see also Toyomatsu Seinosuke)",
+        label_eng: "",
         label_ka: "吉田清之助",
         id: 3457
       })
       
     
       this.add({
-        label_eng: "Takemoto Datetayū V (see also Takemoto Datejidayū)",
+        label_eng: "",
         label_ka: "竹本伊達大夫 (五)",
         id: 3458
       })
       
     
       this.add({
-        label_eng: "Takemoto Aikodayū II",
+        label_eng: "",
         label_ka: "竹本相子大夫 (二)",
         id: 3459
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Kanji VII (See also Takezawa Danroku VIII)",
+        label_eng: "",
         label_ka: "鶴澤寛治 (七)",
         id: 3460
       })
       
     
       this.add({
-        label_eng: "Yoshida Minotsugu",
+        label_eng: "",
         label_ka: "吉田簑次",
         id: 3461
       })
       
     
       this.add({
-        label_eng: "Toyozawa Ryōji",
+        label_eng: "",
         label_ka: "豊澤龍爾",
         id: 3462
       })
       
     
       this.add({
-        label_eng: "Yoshida Bungorō",
+        label_eng: "",
         label_ka: "吉田文五郎",
         id: 3463
       })
       
     
       this.add({
-        label_eng: "Kiritake Kanjūrō III (see also Yoshida Minotarō)",
+        label_eng: "",
         label_ka: "桐竹勘十郎 (三)",
         id: 3464
       })
       
     
       this.add({
-        label_eng: "Toyotake Yamashiro no Shōjō",
+        label_eng: "",
         label_ka: "豊竹山城少掾",
         id: 3465
       })
       
     
       this.add({
-        label_eng: "Tsuruzawa Tōzō",
+        label_eng: "",
         label_ka: "鶴沢藤蔵",
         id: 3466
       })
       
     
       this.add({
-        label_eng: "Nozawa Kinshi V (see also Nozawa Kin'ya)",
+        label_eng: "",
         label_ka: "野澤錦糸 (五)",
         id: 3467
       })
@@ -64779,1105 +64779,1105 @@
     },
     // performers
     {
-    "label_eng": "Takemoto Datejidayū (see also Takemoto Datetayū V)",
+    "label_eng": "",
     "label_ka": "竹本伊達路大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/1"
     },{
-    "label_eng": "Takemoto Tsudayū IV",
+    "label_eng": "",
     "label_ka": "竹本津大夫 (四)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/2"
     },{
-    "label_eng": "Tsuruzawa Kanotarō",
+    "label_eng": "",
     "label_ka": "鶴澤叶太郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/3"
     },{
-    "label_eng": "Takezawa Danshichi (see also Takezawa Danjirō IV)",
+    "label_eng": "",
     "label_ka": "竹澤団七",
     "type": "Performer",
     "extra": "",
     "link": "/performers/4"
     },{
-    "label_eng": "Toyotake Matsukadayū",
+    "label_eng": "",
     "label_ka": "豊竹松香大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/5"
     },{
-    "label_eng": "Takemoto Oritayū V (see also Takemoto Tsunatayū IX)",
+    "label_eng": "",
     "label_ka": "竹本織大夫 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/6"
     },{
-    "label_eng": "Tsuruzawa Enjirō",
+    "label_eng": "",
     "label_ka": "鶴澤燕二郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/7"
     },{
-    "label_eng": "Tsuruzawa Enza V",
+    "label_eng": "",
     "label_ka": "鶴澤燕三 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/8"
     },{
-    "label_eng": "Toyotake Sakitayū",
+    "label_eng": "",
     "label_ka": "豊竹咲大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/9"
     },{
-    "label_eng": "Nozawa Katsushi (see also Toyozawa Tomisuke V)",
+    "label_eng": "",
     "label_ka": "野澤勝司",
     "type": "Performer",
     "extra": "",
     "link": "/performers/10"
     },{
-    "label_eng": "Yoshida Bunjaku",
+    "label_eng": "",
     "label_ka": "吉田文雀",
     "type": "Performer",
     "extra": "",
     "link": "/performers/11"
     },{
-    "label_eng": "Yoshida Bunshō",
+    "label_eng": "",
     "label_ka": "吉田文昇",
     "type": "Performer",
     "extra": "",
     "link": "/performers/12"
     },{
-    "label_eng": "Yoshida Minojirō",
+    "label_eng": "",
     "label_ka": "吉田蓑二郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/13"
     },{
-    "label_eng": "Kiritake Itchō",
+    "label_eng": "",
     "label_ka": "桐竹一暢",
     "type": "Performer",
     "extra": "",
     "link": "/performers/14"
     },{
-    "label_eng": "Yoshida Tamamatsu III (see also Kiritake Monya)",
+    "label_eng": "",
     "label_ka": "吉田玉松 (三)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/15"
     },{
-    "label_eng": "Kiritake Kanjūrō II",
+    "label_eng": "",
     "label_ka": "桐竹勘十郎 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/16"
     },{
-    "label_eng": "Yoshida Minotarō (see also Kiritake Kanjūrō)",
+    "label_eng": "",
     "label_ka": "吉田蓑太郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/17"
     },{
-    "label_eng": "Yoshida Minosuke III",
+    "label_eng": "",
     "label_ka": "吉田蓑助 (三)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/18"
     },{
-    "label_eng": "Yoshida Tamakō II",
+    "label_eng": "",
     "label_ka": "吉田玉幸 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/19"
     },{
-    "label_eng": "Toyomatsu Seijūrō IV",
+    "label_eng": "",
     "label_ka": "豊松清十郎 (四)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/20"
     },{
-    "label_eng": "Yoshida Hidetama",
+    "label_eng": "",
     "label_ka": "吉田秀玉",
     "type": "Performer",
     "extra": "",
     "link": "/performers/21"
     },{
-    "label_eng": "Toyomatsu Seizaburō (see also Yoshida Seizaburō)",
+    "label_eng": "",
     "label_ka": "豊松清三郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/22"
     },{
-    "label_eng": "Yoshida Tamame",
+    "label_eng": "",
     "label_ka": "吉田玉女",
     "type": "Performer",
     "extra": "",
     "link": "/performers/23"
     },{
-    "label_eng": "Kiritake Kanju",
+    "label_eng": "",
     "label_ka": "桐竹勘寿",
     "type": "Performer",
     "extra": "",
     "link": "/performers/24"
     },{
-    "label_eng": "Kiritake Kamematsu IV",
+    "label_eng": "",
     "label_ka": "桐竹亀松 (四)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/25"
     },{
-    "label_eng": "Yoshida Sakujūrō",
+    "label_eng": "",
     "label_ka": "吉田作十郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/26"
     },{
-    "label_eng": "Yoshida Tamaya (see also Yoshida Eikō)",
+    "label_eng": "",
     "label_ka": "吉田玉也",
     "type": "Performer",
     "extra": "",
     "link": "/performers/27"
     },{
-    "label_eng": "Yoshida Tamashi",
+    "label_eng": "",
     "label_ka": "吉田玉志",
     "type": "Performer",
     "extra": "",
     "link": "/performers/28"
     },{
-    "label_eng": "Toyotake Komatsudayū II",
+    "label_eng": "",
     "label_ka": "豊竹小松大夫 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/29"
     },{
-    "label_eng": "Tsuruzawa Seitomo II",
+    "label_eng": "",
     "label_ka": "鶴澤清友 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/30"
     },{
-    "label_eng": "Takemoto Koshijidayū IV",
+    "label_eng": "",
     "label_ka": "竹本越路大夫 (四)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/31"
     },{
-    "label_eng": "Tsuruzawa Seiji",
+    "label_eng": "",
     "label_ka": "鶴澤清治",
     "type": "Performer",
     "extra": "",
     "link": "/performers/32"
     },{
-    "label_eng": "Takemoto Nanbudayū V",
+    "label_eng": "",
     "label_ka": "竹本南部大夫 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/33"
     },{
-    "label_eng": "Toyotake Tokutayū",
+    "label_eng": "",
     "label_ka": "豊竹十九大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/34"
     },{
-    "label_eng": "Takemoto Tsukomadayū",
+    "label_eng": "",
     "label_ka": "竹本津駒大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/35"
     },{
-    "label_eng": "Takemoto Tsumaidayū",
+    "label_eng": "",
     "label_ka": "竹本津梅大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/36"
     },{
-    "label_eng": "Toyotake Rosetayū",
+    "label_eng": "",
     "label_ka": "豊竹呂勢大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/37"
     },{
-    "label_eng": "Takemoto Orimidayū",
+    "label_eng": "",
     "label_ka": "竹本織美大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/38"
     },{
-    "label_eng": "Takemoto Nantodayū",
+    "label_eng": "",
     "label_ka": "竹本南都大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/39"
     },{
-    "label_eng": "Nozawa Kinshi IV",
+    "label_eng": "",
     "label_ka": "野澤錦糸 (四)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/40"
     },{
-    "label_eng": "Tsuruzawa Asazō V",
+    "label_eng": "",
     "label_ka": "鶴澤浅造 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/41"
     },{
-    "label_eng": "Tsuruzawa Hachisuke",
+    "label_eng": "",
     "label_ka": "鶴澤八介",
     "type": "Performer",
     "extra": "",
     "link": "/performers/42"
     },{
-    "label_eng": "Tsuruzawa Seijirō V",
+    "label_eng": "",
     "label_ka": "鶴澤清二郎 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/43"
     },{
-    "label_eng": "Yoshida Tamao",
+    "label_eng": "",
     "label_ka": "吉田玉男",
     "type": "Performer",
     "extra": "",
     "link": "/performers/44"
     },{
-    "label_eng": "Yoshida Tamaki",
+    "label_eng": "",
     "label_ka": "吉田玉輝",
     "type": "Performer",
     "extra": "",
     "link": "/performers/45"
     },{
-    "label_eng": "Tsuruzawa Jūzō IV",
+    "label_eng": "",
     "label_ka": "鶴澤重造 (四)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/46"
     },{
-    "label_eng": "Kiritake Kanroku (see also Yoshida Kanroku)",
+    "label_eng": "",
     "label_ka": "桐竹勘緑",
     "type": "Performer",
     "extra": "",
     "link": "/performers/47"
     },{
-    "label_eng": "Yoshida Bungo V (see also Yoshida Kotama)",
+    "label_eng": "",
     "label_ka": "吉田文吾 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/48"
     },{
-    "label_eng": "Yoshida Kazuo",
+    "label_eng": "",
     "label_ka": "吉田和生",
     "type": "Performer",
     "extra": "",
     "link": "/performers/49"
     },{
-    "label_eng": "Toyomatsu Seinosuke (see also Yoshida Seinosuke)",
+    "label_eng": "",
     "label_ka": "豊松清之助",
     "type": "Performer",
     "extra": "",
     "link": "/performers/50"
     },{
-    "label_eng": "Kiritake Monju",
+    "label_eng": "",
     "label_ka": "桐竹紋寿",
     "type": "Performer",
     "extra": "",
     "link": "/performers/51"
     },{
-    "label_eng": "Takemoto Aioidayū IV (see also Takemoto Aikodayū I)",
+    "label_eng": "",
     "label_ka": "竹本相生大夫 (四)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/53"
     },{
-    "label_eng": "Toyotake Hanabusadayū III",
+    "label_eng": "",
     "label_ka": "豊竹英大夫 (三)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/54"
     },{
-    "label_eng": "Takemoto Midoridayū",
+    "label_eng": "",
     "label_ka": "竹本緑大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/55"
     },{
-    "label_eng": "Takemoto Takatayū",
+    "label_eng": "",
     "label_ka": "竹本貴大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/56"
     },{
-    "label_eng": "Takemoto Miwatayū",
+    "label_eng": "",
     "label_ka": "竹本三輪大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/57"
     },{
-    "label_eng": "Takemoto Tsukunidayū",
+    "label_eng": "",
     "label_ka": "竹本津国大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/58"
     },{
-    "label_eng": "Takemoto Nanshidayū",
+    "label_eng": "",
     "label_ka": "竹本南司大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/59"
     },{
-    "label_eng": "Takemoto Mojihisadayū",
+    "label_eng": "",
     "label_ka": "竹本文字久大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/60"
     },{
-    "label_eng": "Nozawa Kin'ya (see also Nozawa Kinshi V)",
+    "label_eng": "",
     "label_ka": "野澤錦弥",
     "type": "Performer",
     "extra": "",
     "link": "/performers/61"
     },{
-    "label_eng": "Takemoto Chitosedayū",
+    "label_eng": "",
     "label_ka": "竹本千歳大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/62"
     },{
-    "label_eng": "Toyotake Rodayū V",
+    "label_eng": "",
     "label_ka": "豊竹呂大夫 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/63"
     },{
-    "label_eng": "Takezawa Danji",
+    "label_eng": "",
     "label_ka": "竹沢団治",
     "type": "Performer",
     "extra": "",
     "link": "/performers/64"
     },{
-    "label_eng": "Takezawa Danroku VIII (see also Tsuruzawa Kanji VII)",
+    "label_eng": "",
     "label_ka": "竹沢団六 (八)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/65"
     },{
-    "label_eng": "Takemoto Mojitayū IX (see also Takemoto Sumitayū VII)",
+    "label_eng": "",
     "label_ka": "竹本文字大夫 (九)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/66"
     },{
-    "label_eng": "Nozawa Katsuhei II (see also Nozawa Kizaemon III)",
+    "label_eng": "",
     "label_ka": "野澤勝平 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/67"
     },{
-    "label_eng": "Toyotake Shimatayū VIII",
+    "label_eng": "",
     "label_ka": "豊竹嶋大夫 (八)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/68"
     },{
-    "label_eng": "Tsuruzawa Seisuke",
+    "label_eng": "",
     "label_ka": "鶴澤清介",
     "type": "Performer",
     "extra": "",
     "link": "/performers/69"
     },{
-    "label_eng": "Yoshida Tamae",
+    "label_eng": "",
     "label_ka": "吉田玉英",
     "type": "Performer",
     "extra": "",
     "link": "/performers/70"
     },{
-    "label_eng": "Kiritake Kanshirō",
+    "label_eng": "",
     "label_ka": "桐竹勘士朗",
     "type": "Performer",
     "extra": "",
     "link": "/performers/71"
     },{
-    "label_eng": "Kiritake Kameji",
+    "label_eng": "",
     "label_ka": "桐竹亀次",
     "type": "Performer",
     "extra": "",
     "link": "/performers/72"
     },{
-    "label_eng": "Takemoto Mojiedayū",
+    "label_eng": "",
     "label_ka": "竹本文字栄大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/73"
     },{
-    "label_eng": "Kiritake Kan'ya (see also Yoshida Kanya)",
+    "label_eng": "",
     "label_ka": "桐竹勘弥",
     "type": "Performer",
     "extra": "",
     "link": "/performers/74"
     },{
-    "label_eng": "Yoshida Kōsuke",
+    "label_eng": "",
     "label_ka": "吉田幸助",
     "type": "Performer",
     "extra": "",
     "link": "/performers/75"
     },{
-    "label_eng": "Yoshida Wakatama (see also Yoshida Bunshi)",
+    "label_eng": "",
     "label_ka": "吉田若玉",
     "type": "Performer",
     "extra": "",
     "link": "/performers/76"
     },{
-    "label_eng": "Toyozawa Tomisuke V (see also Nozawa Katsushi)",
+    "label_eng": "",
     "label_ka": "豊澤富助 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/78"
     },{
-    "label_eng": "Takezawa Dango",
+    "label_eng": "",
     "label_ka": "竹澤団吾",
     "type": "Performer",
     "extra": "",
     "link": "/performers/79"
     },{
-    "label_eng": "Tsuruzawa Entarō",
+    "label_eng": "",
     "label_ka": "鶴澤燕太郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/80"
     },{
-    "label_eng": "Nozawa Kichinosuke (see also Takezawa Yasaburō)",
+    "label_eng": "",
     "label_ka": "野澤吉之助",
     "type": "Performer",
     "extra": "",
     "link": "/performers/81"
     },{
-    "label_eng": "Yoshida Kotama (see also Yoshida Bungo V)",
+    "label_eng": "",
     "label_ka": "吉田小玉",
     "type": "Performer",
     "extra": "",
     "link": "/performers/82"
     },{
-    "label_eng": "Nozawa Yoshinosuke",
+    "label_eng": "",
     "label_ka": "野澤吉之助",
     "type": "Performer",
     "extra": "",
     "link": "/performers/83"
     },{
-    "label_eng": "Nozawa Kichibei IX",
+    "label_eng": "",
     "label_ka": "野澤吉兵衛 (九)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/84"
     },{
-    "label_eng": "Takemoto Nanjudayū",
+    "label_eng": "",
     "label_ka": "竹本南寿大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/85"
     },{
-    "label_eng": "Yoshida Kazusuke",
+    "label_eng": "",
     "label_ka": "吉田和右",
     "type": "Performer",
     "extra": "",
     "link": "/performers/86"
     },{
-    "label_eng": "Yoshida Minoichirō",
+    "label_eng": "",
     "label_ka": "吉田蓑一郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/87"
     },{
-    "label_eng": "Toyomatsu Seigorō (see also Yoshida Seigorō)",
+    "label_eng": "",
     "label_ka": "豊松清五郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/88"
     },{
-    "label_eng": "Yoshida Fukumaru",
+    "label_eng": "",
     "label_ka": "吉田福丸",
     "type": "Performer",
     "extra": "",
     "link": "/performers/89"
     },{
-    "label_eng": "Takezawa Yasaburō (see also Nozawa Kichinosuke)",
+    "label_eng": "",
     "label_ka": "竹澤弥三郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/90"
     },{
-    "label_eng": "Yoshida Kan'ya (see also Kiritake Kanya)",
+    "label_eng": "",
     "label_ka": "吉田勘弥",
     "type": "Performer",
     "extra": "",
     "link": "/performers/91"
     },{
-    "label_eng": "Kiritake Ikka",
+    "label_eng": "",
     "label_ka": "桐竹一嘉",
     "type": "Performer",
     "extra": "",
     "link": "/performers/92"
     },{
-    "label_eng": "Nozawa Kizaemon II",
+    "label_eng": "",
     "label_ka": "野澤喜左衛門 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/93"
     },{
-    "label_eng": "Yoshida Tamagorō II",
+    "label_eng": "",
     "label_ka": "吉田玉五郎 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/94"
     },{
-    "label_eng": "Yoshida Kan'ichi (see also Kiritake Kanichi)",
+    "label_eng": "",
     "label_ka": "吉田勘市",
     "type": "Performer",
     "extra": "",
     "link": "/performers/95"
     },{
-    "label_eng": "Kiritake Ichisuke",
+    "label_eng": "",
     "label_ka": "桐竹一輔",
     "type": "Performer",
     "extra": "",
     "link": "/performers/96"
     },{
-    "label_eng": "Nozawa Kiichirō",
+    "label_eng": "",
     "label_ka": "野澤喜一朗",
     "type": "Performer",
     "extra": "",
     "link": "/performers/97"
     },{
-    "label_eng": "Takemoto Sumitayū VII (see also Takemoto Mojitayū IX)",
+    "label_eng": "",
     "label_ka": "竹本住大夫 (七)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/99"
     },{
-    "label_eng": "Yoshida Tamashō",
+    "label_eng": "",
     "label_ka": "吉田玉昇",
     "type": "Performer",
     "extra": "",
     "link": "/performers/100"
     },{
-    "label_eng": "Takemoto Mojitodayū",
+    "label_eng": "",
     "label_ka": "竹本文字登大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/101"
     },{
-    "label_eng": "Nozawa Matsuya",
+    "label_eng": "",
     "label_ka": "野澤松也",
     "type": "Performer",
     "extra": "",
     "link": "/performers/102"
     },{
-    "label_eng": "Tsuruzawa Dōhachi II (see also Tsuruzawa Tokutarō)",
+    "label_eng": "",
     "label_ka": "鶴沢道八 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/103"
     },{
-    "label_eng": "Nozawa Katsutarō II",
+    "label_eng": "",
     "label_ka": "野澤勝太郎 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/104"
     },{
-    "label_eng": "Takezawa Danjirō IV (see also Takezawa Danshichi)",
+    "label_eng": "",
     "label_ka": "竹澤団二郎 (四)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/105"
     },{
-    "label_eng": "Yoshida Hyōji",
+    "label_eng": "",
     "label_ka": "吉田兵次",
     "type": "Performer",
     "extra": "",
     "link": "/performers/107"
     },{
-    "label_eng": "Yoshida Eiza II",
+    "label_eng": "",
     "label_ka": "吉田栄三 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/108"
     },{
-    "label_eng": "Yoshida Minoshi",
+    "label_eng": "",
     "label_ka": "吉田蓑司",
     "type": "Performer",
     "extra": "",
     "link": "/performers/109"
     },{
-    "label_eng": "Takezawa Yashichi X",
+    "label_eng": "",
     "label_ka": "竹澤弥七 (十)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/110"
     },{
-    "label_eng": "Yoshida Eikō (see also Yoshida Tamaya)",
+    "label_eng": "",
     "label_ka": "吉田栄光",
     "type": "Performer",
     "extra": "",
     "link": "/performers/111"
     },{
-    "label_eng": "Tsuruzawa Kanji VI",
+    "label_eng": "",
     "label_ka": "鶴澤寛治 (六)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/112"
     },{
-    "label_eng": "Tsuruzawa Kanpei",
+    "label_eng": "",
     "label_ka": "鶴澤寛平",
     "type": "Performer",
     "extra": "",
     "link": "/performers/113"
     },{
-    "label_eng": "Tsuruzawa Katsunosuke",
+    "label_eng": "",
     "label_ka": "鶴澤勝之輔",
     "type": "Performer",
     "extra": "",
     "link": "/performers/114"
     },{
-    "label_eng": "Nozawa Katsunosuke",
+    "label_eng": "",
     "label_ka": "野澤勝之輔",
     "type": "Performer",
     "extra": "",
     "link": "/performers/116"
     },{
-    "label_eng": "Takemoto Tosatayū VII (see also Takemoto Datedayū IV)",
+    "label_eng": "",
     "label_ka": "竹本土佐大夫 (七)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/117"
     },{
-    "label_eng": "Sunodayū [family name unidentified]",
+    "label_eng": "",
     "label_ka": "すのだゆう",
     "type": "Performer",
     "extra": "",
     "link": "/performers/118"
     },{
-    "label_eng": "Nozawa Matsunosuke",
+    "label_eng": "",
     "label_ka": "野澤松之輔",
     "type": "Performer",
     "extra": "",
     "link": "/performers/119"
     },{
-    "label_eng": "Takemoto Datetayū IV (see also Takemoto Tosatayū VII)",
+    "label_eng": "",
     "label_ka": "竹本伊達大夫 (四)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/120"
     },{
-    "label_eng": "Takemoto Tsunatayū VIII",
+    "label_eng": "",
     "label_ka": "竹本綱大夫 (八)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/121"
     },{
-    "label_eng": "Kanshichi [family name unidentified]",
+    "label_eng": "",
     "label_ka": "かんしち",
     "type": "Performer",
     "extra": "",
     "link": "/performers/122"
     },{
-    "label_eng": "Takemoto Aioidayū III",
+    "label_eng": "",
     "label_ka": "竹本相生大夫 (三)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/123"
     },{
-    "label_eng": "Kiritake Monjūrō II",
+    "label_eng": "",
     "label_ka": "桐竹紋十郎 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/124"
     },{
-    "label_eng": "Takemoto Shikidayū",
+    "label_eng": "",
     "label_ka": "竹本しき大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/125"
     },{
-    "label_eng": "Nozawa Kizaemon III (see also Nozawa Katsuhei)",
+    "label_eng": "",
     "label_ka": "野澤喜左衛門 (三)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/126"
     },{
-    "label_eng": "Takemoto Harukodayū III",
+    "label_eng": "",
     "label_ka": "竹本春子大夫 (三)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/127"
     },{
-    "label_eng": "Takemoto Koharudayū",
+    "label_eng": "",
     "label_ka": "竹本小春大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/128"
     },{
-    "label_eng": "Takemoto Aikodayū I (see also Takemoto Aioidayū IV)",
+    "label_eng": "",
     "label_ka": "竹本相子大夫 (一)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/129"
     },{
-    "label_eng": "Kiritake Monya (see also Yoshida Tamamatsu III)",
+    "label_eng": "",
     "label_ka": "桐竹紋弥",
     "type": "Performer",
     "extra": "",
     "link": "/performers/130"
     },{
-    "label_eng": "Yoshida Tatsugorō V",
+    "label_eng": "",
     "label_ka": "吉田辰五郎 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/132"
     },{
-    "label_eng": "Takemoto Ōsumidayū V",
+    "label_eng": "",
     "label_ka": "竹本大隈太夫 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/133"
     },{
-    "label_eng": "Tsuruzawa Tokutarō (see also Tsuruzawa Dōhachi II)",
+    "label_eng": "",
     "label_ka": "鶴沢徳太郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/134"
     },{
-    "label_eng": "Yoshida Junzō",
+    "label_eng": "",
     "label_ka": "吉田淳造",
     "type": "Performer",
     "extra": "",
     "link": "/performers/135"
     },{
-    "label_eng": "Yoshida Tsuneji",
+    "label_eng": "",
     "label_ka": "吉田常次",
     "type": "Performer",
     "extra": "",
     "link": "/performers/136"
     },{
-    "label_eng": "Yoshida Kikuichi",
+    "label_eng": "",
     "label_ka": "吉田菊一",
     "type": "Performer",
     "extra": "",
     "link": "/performers/137"
     },{
-    "label_eng": "Yoshida Tamanosuke",
+    "label_eng": "",
     "label_ka": "吉田玉之助",
     "type": "Performer",
     "extra": "",
     "link": "/performers/138"
     },{
-    "label_eng": "Takemoto Musashidayū",
+    "label_eng": "",
     "label_ka": "竹本武蔵大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/139"
     },{
-    "label_eng": "Yoshida Shōjirō",
+    "label_eng": "",
     "label_ka": "吉田昇二郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/140"
     },{
-    "label_eng": "Kiritake Komon",
+    "label_eng": "",
     "label_ka": "桐竹小紋",
     "type": "Performer",
     "extra": "",
     "link": "/performers/141"
     },{
-    "label_eng": "Yoshida Kunihide",
+    "label_eng": "",
     "label_ka": "吉田国秀",
     "type": "Performer",
     "extra": "",
     "link": "/performers/142"
     },{
-    "label_eng": "Nozawa Kin'ichi",
+    "label_eng": "",
     "label_ka": "野澤錦市",
     "type": "Performer",
     "extra": "",
     "link": "/performers/143"
     },{
-    "label_eng": "Nozawa Katsuya",
+    "label_eng": "",
     "label_ka": "野澤勝矢",
     "type": "Performer",
     "extra": "",
     "link": "/performers/144"
     },{
-    "label_eng": "Nozawa Kikusaburō",
+    "label_eng": "",
     "label_ka": "野澤喜久三郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/145"
     },{
-    "label_eng": "Takemoto Orinodayū",
+    "label_eng": "",
     "label_ka": "竹本織の大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/146"
     },{
-    "label_eng": "Tsuruzawa Seigo",
+    "label_eng": "",
     "label_ka": "鶴澤清吾",
     "type": "Performer",
     "extra": "",
     "link": "/performers/147"
     },{
-    "label_eng": "Yoshida Tamayo",
+    "label_eng": "",
     "label_ka": "吉田玉世",
     "type": "Performer",
     "extra": "",
     "link": "/performers/148"
     },{
-    "label_eng": "Yoshida Tamaka",
+    "label_eng": "",
     "label_ka": "吉田玉佳",
     "type": "Performer",
     "extra": "",
     "link": "/performers/149"
     },{
-    "label_eng": "Takemoto Tsunatayū IX (see also Takemoto Oritayū V)",
+    "label_eng": "",
     "label_ka": "竹本綱大夫 (九)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/150"
     },{
-    "label_eng": "Tsuruzawa Seitarō",
+    "label_eng": "",
     "label_ka": "鶴澤清太郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/151"
     },{
-    "label_eng": "Kiritake Monwaka",
+    "label_eng": "",
     "label_ka": "桐竹紋若",
     "type": "Performer",
     "extra": "",
     "link": "/performers/152"
     },{
-    "label_eng": "Yoshida Bunshi (see also Yoshida Wakatama)",
+    "label_eng": "",
     "label_ka": "吉田文司",
     "type": "Performer",
     "extra": "",
     "link": "/performers/153"
     },{
-    "label_eng": "Takezawa Dan'ichi",
+    "label_eng": "",
     "label_ka": "竹澤団市",
     "type": "Performer",
     "extra": "",
     "link": "/performers/154"
     },{
-    "label_eng": "Yoshida Bunya",
+    "label_eng": "",
     "label_ka": "吉田文哉",
     "type": "Performer",
     "extra": "",
     "link": "/performers/155"
     },{
-    "label_eng": "Toyotake Shintayū",
+    "label_eng": "",
     "label_ka": "豊竹新大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/156"
     },{
-    "label_eng": "Kiritake Monhide",
+    "label_eng": "",
     "label_ka": "桐竹紋秀",
     "type": "Performer",
     "extra": "",
     "link": "/performers/157"
     },{
-    "label_eng": "Yoshida Tamase",
+    "label_eng": "",
     "label_ka": "吉田玉勢",
     "type": "Performer",
     "extra": "",
     "link": "/performers/158"
     },{
-    "label_eng": "Yoshida Minoshirō",
+    "label_eng": "",
     "label_ka": "吉田簑紫郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/159"
     },{
-    "label_eng": "Toyotake Hajimedayū",
+    "label_eng": "",
     "label_ka": "豊竹始大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/160"
     },{
-    "label_eng": "Toyotake Sakihodayū",
+    "label_eng": "",
     "label_ka": "豊竹咲甫大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/161"
     },{
-    "label_eng": "Tsuruzawa Seishirō",
+    "label_eng": "",
     "label_ka": "鶴澤清志郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/162"
     },{
-    "label_eng": "Takezawa Sōsuke",
+    "label_eng": "",
     "label_ka": "竹澤宗助",
     "type": "Performer",
     "extra": "",
     "link": "/performers/163"
     },{
-    "label_eng": "Yoshida Tamaichirō",
+    "label_eng": "",
     "label_ka": "吉田玉一郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/164"
     },{
-    "label_eng": "Yoshida Kōji",
+    "label_eng": "",
     "label_ka": "吉田幸司",
     "type": "Performer",
     "extra": "",
     "link": "/performers/165"
     },{
-    "label_eng": "Yoshida Shōichi",
+    "label_eng": "",
     "label_ka": "吉田昇市",
     "type": "Performer",
     "extra": "",
     "link": "/performers/166"
     },{
-    "label_eng": "Yoshida Shōroku",
+    "label_eng": "",
     "label_ka": "吉田昇六",
     "type": "Performer",
     "extra": "",
     "link": "/performers/167"
     },{
-    "label_eng": "Toyotake Mutsumidayū",
+    "label_eng": "",
     "label_ka": "豊竹睦大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/168"
     },{
-    "label_eng": "Toyotake Tsubasadayū",
+    "label_eng": "",
     "label_ka": "豊竹つばさ大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/169"
     },{
-    "label_eng": "Toyotake Romotayū",
+    "label_eng": "",
     "label_ka": "豊竹呂茂大夫",
     "type": "Performer",
     "extra": "",
     "link": "/performers/170"
     },{
-    "label_eng": "Tsuruzawa Seiki",
+    "label_eng": "",
     "label_ka": "鶴澤清馗",
     "type": "Performer",
     "extra": "",
     "link": "/performers/171"
     },{
-    "label_eng": "Tsuruzawa Seijō",
+    "label_eng": "",
     "label_ka": "鶴澤清じょう",
     "type": "Performer",
     "extra": "",
     "link": "/performers/172"
     },{
-    "label_eng": "Toyozawa Ryōichi",
+    "label_eng": "",
     "label_ka": "豊澤龍聿",
     "type": "Performer",
     "extra": "",
     "link": "/performers/173"
     },{
-    "label_eng": "Tsuruzawa Kantarō",
+    "label_eng": "",
     "label_ka": "鶴澤寛太郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/174"
     },{
-    "label_eng": "Yoshida Tamashō",
+    "label_eng": "",
     "label_ka": "吉田玉翔",
     "type": "Performer",
     "extra": "",
     "link": "/performers/175"
     },{
-    "label_eng": "Yoshida Seizaburō (see also Toyomatsu Seizaburō)",
+    "label_eng": "",
     "label_ka": "吉田清三郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/176"
     },{
-    "label_eng": "Kiritake Kan'ichi (see also Yoshida Kanichi)",
+    "label_eng": "",
     "label_ka": "桐竹勘市",
     "type": "Performer",
     "extra": "",
     "link": "/performers/177"
     },{
-    "label_eng": "Yoshida Kanroku (see also Kiritake Kanroku)",
+    "label_eng": "",
     "label_ka": "吉田勘緑",
     "type": "Performer",
     "extra": "",
     "link": "/performers/178"
     },{
-    "label_eng": "Yoshida Seigorō (see also Toyomatsu Seigorō)",
+    "label_eng": "",
     "label_ka": "吉田清五郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/179"
     },{
-    "label_eng": "Yoshida Seinosuke (see also Toyomatsu Seinosuke)",
+    "label_eng": "",
     "label_ka": "吉田清之助",
     "type": "Performer",
     "extra": "",
     "link": "/performers/180"
     },{
-    "label_eng": "Takemoto Datetayū V (see also Takemoto Datejidayū)",
+    "label_eng": "",
     "label_ka": "竹本伊達大夫 (五)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/181"
     },{
-    "label_eng": "Takemoto Aikodayū II",
+    "label_eng": "",
     "label_ka": "竹本相子大夫 (二)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/182"
     },{
-    "label_eng": "Tsuruzawa Kanji VII (See also Takezawa Danroku VIII)",
+    "label_eng": "",
     "label_ka": "鶴澤寛治 (七)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/183"
     },{
-    "label_eng": "Yoshida Minotsugu",
+    "label_eng": "",
     "label_ka": "吉田簑次",
     "type": "Performer",
     "extra": "",
     "link": "/performers/184"
     },{
-    "label_eng": "Toyozawa Ryōji",
+    "label_eng": "",
     "label_ka": "豊澤龍爾",
     "type": "Performer",
     "extra": "",
     "link": "/performers/185"
     },{
-    "label_eng": "Yoshida Bungorō",
+    "label_eng": "",
     "label_ka": "吉田文五郎",
     "type": "Performer",
     "extra": "",
     "link": "/performers/186"
     },{
-    "label_eng": "Kiritake Kanjūrō III (see also Yoshida Minotarō)",
+    "label_eng": "",
     "label_ka": "桐竹勘十郎 (三)",
     "type": "Performer",
     "extra": "",
     "link": "/performers/187"
     },{
-    "label_eng": "Toyotake Yamashiro no Shōjō",
+    "label_eng": "",
     "label_ka": "豊竹山城少掾",
     "type": "Performer",
     "extra": "",
     "link": "/performers/188"
     },{
-    "label_eng": "Tsuruzawa Tōzō",
+    "label_eng": "",
     "label_ka": "鶴沢藤蔵",
     "type": "Performer",
     "extra": "",
     "link": "/performers/189"
     },{
-    "label_eng": "Nozawa Kinshi V (see also Nozawa Kin'ya)",
+    "label_eng": "",
     "label_ka": "野澤錦糸 (五)",
     "type": "Performer",
     "extra": "",

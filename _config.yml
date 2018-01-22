@@ -11,6 +11,32 @@ exclude: [vendor, Gemfile*, Rakefile, spec, README*]
 
 permalink: "pretty"
 
+collections_dir: collections
+collections:
+  authors:
+    output:     true
+  characters:
+    output: true
+  images:
+    output: true
+  kashira:
+    output: true
+  performances:
+    output: true
+  performers:
+    output: true
+  plays:
+    output: true
+  productions:
+    output: true
+  realia:
+    output: true
+  scenes:
+    output: true
+  tags:
+    output: true
+
+
 styles:
   main: assets/main.css
   drop-nav: assets/drop-nav.css

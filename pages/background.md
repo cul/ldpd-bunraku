@@ -4,7 +4,7 @@ layout: page
 permalink: /background/
 ---
 
-### The Barbara Curtis Adachi Collection at Columbia University Libraries
+## The Barbara Curtis Adachi Collection at Columbia University Libraries
 
 When Barbara Curtis Adachi donated her collection of Bunraku materials to the C. V. Starr East Asian Library in 1991, it quickly became one of the Library’s treasures because of its extraordinary breadth and substance. Through the generosity of Barbara Curtis Adachi, the National Endowment for the Humanities, and the Freeman Foundation, the Bunraku collection was acquired and processed, and its holdings made publicly available.
 
@@ -14,7 +14,7 @@ The first goal in the project was to organize and preserve the materials, which 
 
 The completion of Barbara Curtis Adachi’s goal of making her collection widely available to a broad audience was generously supported by the Freeman Foundation, which enabled the creation of a website to serve as a significant digital resource for study, research, and appreciation of this important form of traditional Japanese theater. The website incorporates visual and audio materials, scholarly essays, and significant metadata to bring Bunraku to the widest audience possible, to study, to savor, and to enjoy.
 
-<br/>
+<br><br>
 <hr/>
-<br/>
+
 1. Karen Brazell’s Traditional Japanese theater: an anthology of plays (New York: Columbia University Press, 1998) and Haruo Shirane’s Early modern Japanese literature: an anthology, 1600-1900 (Columbia University Press, 2002).
