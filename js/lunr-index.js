@@ -96,7 +96,7 @@ layout: null
     "label_ka": {{ item.label_ka | strip_newlines | jsonify }},
     "type": "Author",
     "extra": "",
-    "link": "{{ site.baseurl }}/authors/{{ item.id }}"
+    "link": "{{ site.baseurl }}/authors/{{ item.id }}/"
     },{% endfor %}
     // characters
     {% for item in site.data.characters %}{
@@ -104,7 +104,7 @@ layout: null
     "label_ka": {{ item.label_ka | strip_newlines | jsonify }},
     "type": "Character",
     "extra": {% assign play = site.data.plays | where: 'id', item.play_id[0] | first %}" from <i>{{ play.label_eng }}</i>",
-    "link": "{{ site.baseurl }}/characters/{{ item.id }}"
+    "link": "{{ site.baseurl }}/characters/{{ item.id }}/"
     },{% endfor %}
    // kashira
    {% for item in site.data.kashira %}{
@@ -112,7 +112,7 @@ layout: null
    "label_ka": {{ item.label_ka | jsonify }},
    "type": "Kashira",
    "extra": "",
-   "link": "{{ site.baseurl }}/kashira/{{ item.id }}"
+   "link": "{{ site.baseurl }}/kashira/{{ item.id }}/"
   },{% endfor %}
     // performances
     {% for item in site.data.performances %}{
@@ -120,7 +120,7 @@ layout: null
     "label_ka": "",
     "type": "Performance",
     "extra": "",
-    "link": "{{ site.baseurl }}/performances/{{ item.id }}"
+    "link": "{{ site.baseurl }}/performances/{{ item.id }}/"
     },{% endfor %}
     // performers
     {% for item in site.data.performers %}{
@@ -128,7 +128,7 @@ layout: null
     "label_ka": {{ item.name_ka | strip_newlines | jsonify }},
     "type": "Performer",
     "extra": "",
-    "link": "{{ site.baseurl }}/performers/{{ item.id }}"
+    "link": "{{ site.baseurl }}/performers/{{ item.id }}/"
     },{% endfor %}
     // plays
     {% for item in site.data.plays %}{
@@ -136,7 +136,7 @@ layout: null
     "label_ka": {{ item.label_ka | strip_newlines | jsonify }},
     "type": "Play",
     "extra": "",
-    "link": "{{ site.baseurl }}/plays/{{ item.id }}"
+    "link": "{{ site.baseurl }}/plays/{{ item.id }}/"
     },{% endfor %}
     // productions
     {% for item in site.data.productions %}{
@@ -144,7 +144,7 @@ layout: null
     "label_ka": "",
     "type": "Production",
     "extra": "",
-    "link": "{{ site.baseurl }}/productions/{{ item.id }}"
+    "link": "{{ site.baseurl }}/productions/{{ item.id }}/"
     },{% endfor %}
     // scenes
     {% for item in site.data.pscenes %}{
@@ -152,7 +152,7 @@ layout: null
     "label_ka": {{ item.label_ka | strip_newlines | jsonify }},
     "extra": {% assign performance = site.data.performances | where: 'id', item.perf_id | first %}" from {{ performance.label_eng }}",
     "type": "Scene",
-    "link": "{{ site.baseurl }}/performances/scenes/{{ item.id }}"
+    "link": "{{ site.baseurl }}/scenes/{{ item.id }}/"
     },{% endfor %}
     // tags
     {% for item in site.data.tags %}{
@@ -160,7 +160,7 @@ layout: null
     "label_ka": {{ item.label_ka | strip_newlines | jsonify }},
     "type": "Image Tag",
     "extra": "",
-    "link": "{{ site.baseurl }}/tags/{{ item.id }}"
+    "link": "{{ site.baseurl }}/tags/{{ item.id }}/"
     }{% unless forloop.last %},{% endunless %}{% endfor %}
   ]
 

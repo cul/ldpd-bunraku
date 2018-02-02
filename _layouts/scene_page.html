@@ -37,7 +37,7 @@ layout: default
         {% else %}
           <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
         {% endif %}
-        <a href="{{ site.baseurl }}/performers/{{ n }}/">{{ narrator.name }}</a>
+        <a href="{{ site.baseurl }}/performers/{{ n }}/">{{ narrator.name_en }}</a>
       </b>
       ({{ narrator.name_ka }})
     </p>
@@ -56,7 +56,7 @@ layout: default
         {% else %}
           <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
         {% endif %}
-        <a href="{{ site.baseurl }}/performers/{{ s }}/">{{ shamisen.name }}</a>
+        <a href="{{ site.baseurl }}/performers/{{ s }}/">{{ shamisen.name_en }}</a>
       </b>
       {% if shamisen.name_ka %}({{ shamisen.name_ka }}){% endif %}
     </p>
@@ -75,7 +75,7 @@ layout: default
         {% else %}
           <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
         {% endif %}
-        <a href="{{ site.baseurl }}/performers/{{ m }}/">{{ musician.name }}</a>
+        <a href="{{ site.baseurl }}/performers/{{ m }}/">{{ musician.name_en }}</a>
       </b>
       ({{ musician.name_ka }})
     </p>
@@ -101,7 +101,7 @@ layout: default
           <b>
             {% if puppeteer.image_id %}<i class="fa fa-file-image-o" aria-hidden="true"></i>
             {% else %}<i class="fa fa-times" aria-hidden="true"></i> {% endif %}
-            <a href="{{ site.baseurl }}/performers/{{ spuck.puppeteer_id }}">{{ puppeteer.name }}</a>
+            <a href="{{ site.baseurl }}/performers/{{ spuck.puppeteer_id }}">{{ puppeteer.name_en }}</a>
           </b><br>
           ({{ puppeteer.name_ka }})
         </td>
