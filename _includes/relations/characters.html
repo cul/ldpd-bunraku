@@ -2,7 +2,7 @@
   <p>
     <b>Characters:&nbsp;&nbsp;</b>
     {% for c in page.character_id %}
-      {% assign character = site.data.characters | where: "id", c | first %}
+      {% assign character = site.data.characters | where: "pid", c | first %}
       <b><a href="{{ site.baseurl }}/characters/{{ c }}/">{{ character.label_eng }}</a></b>
       {% if character.label_ka %}({{ character.label_ka }}){% endif %}
       {% unless forloop.last %}, {% endunless %}
@@ -11,7 +11,7 @@
 {% else %}
   <h3 class='data-sub-head'>Characters:</h3>
   {% for c in page.character_id %}
-    {% assign character = site.data.characters | where: "id", c | first %}
+    {% assign character = site.data.characters | where: "pid", c | first %}
     <p><b>
       {% if character.image_id %}<i class="fa fa-file-image-o" aria-hidden="true"></i>
       {% else %}<i class="fa fa-times" aria-hidden="true"></i>

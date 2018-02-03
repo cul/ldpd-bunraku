@@ -1,41 +1,82 @@
-title: "The Barbara Curtis Adachi Bunraku Collection"
-description: "at C.V. Starr East Asian Library"
-url: ""
-baseurl:  ""
-gh-baseurl: "/ldpd-bunraku"
+title: The Barbara Curtis Adachi Bunraku Collection
+description: at C.V. Starr East Asian Library
+url: ''
+baseurl: ''
+gh-baseurl: /ldpd-bunraku
 
 # Build settings
-markdown: "kramdown"
-theme: "minima"
+markdown: kramdown
+theme: minima
 exclude: [vendor, Gemfile*, Rakefile, spec, README*]
-
-permalink: "pretty"
-
+permalink: pretty
 collections_dir: collections
+lunr_languages: true
+
 collections:
   authors:
-    output:     true
+    output: true
+    source: authors.json
+    layout: author_page
+    lunr_index:
+      fields: [label_eng, label_ka]
   characters:
     output: true
+    source: characters.json
+    layout: character_page
+    lunr_index:
+      fields: [label_eng, label_ka, label_ja]
   images:
     output: true
+    source: images.json
+    layout: image_page
   kashira:
+    output: true
+    source: kashira.json
+    layout: kashira_page
+    lunr_index:
+      fields: [label_eng, label_ka, category]
+  pages:
     output: true
   performances:
     output: true
+    source: performances.json
+    layout: performance_page
+    lunr_index:
+      fields: [label_eng]
   performers:
     output: true
+    source: performers.json
+    layout: performer_page
+    lunr_index:
+      fields: [label_eng, label_ka]
   plays:
     output: true
+    source: plays.json
+    layout: play_page
+    lunr_index:
+      fields: [label_eng, label_ka, label_ja]
   productions:
     output: true
+    source: productions.json
+    layout: production_page
+    lunr_index:
+      fields: [label_eng]
   realia:
     output: true
+    lunr_index:
+      fields: [label_eng]
   scenes:
     output: true
+    source: scenes.json
+    layout: scene_page
+    lunr_index:
+      fields: [label_eng, label_ka, label_ja]
   tags:
     output: true
-
+    source: tags.json
+    layout: tag_page
+    lunr_index:
+      fields: [label_eng, label_ka]
 
 styles:
   main: assets/main.css
@@ -48,8 +89,7 @@ scripts:
   jquery: //code.jquery.com/jquery-3.2.1.min.js
   jquery-migrate: //code.jquery.com/jquery-migrate-3.0.0.min.js
   ldpd-toolkit: //cdn.cul.columbia.edu/ldpd-toolkit/widgets/cultnbw.min.js
-  lunr: js/lunr.min.js
-  lunr-unicode: js/lunr-unicode-normalizer.js
+  lunr: //cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
   d3-v3: //d3js.org/d3.v3.min.js
   d3-v4: //d3js.org/d3.v4.min.js
   d3-tip: js/d3.tip.js
@@ -61,8 +101,8 @@ quoll:
   full:
     page: search
     terms:
-      - "Ōshūto"
-      - "oshuto"
-      - "Donald Keene"
-      - "文楽のひとびと"
-      - "emperor 娘お安"
+      - Ōshūto
+      - oshuto
+      - Donald Keene
+      - 文楽のひとびと
+      - emperor 娘お安

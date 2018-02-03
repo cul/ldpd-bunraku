@@ -5,7 +5,7 @@
   <center>
     <div class="data-slick">
       {% for i in page.image_id %}
-        {% assign images = site.data.images | where: "id", i %}
+        {% assign images = site.data.images | where: "pid", i %}
         {% for image in images %}
             <div><a href="{{ site.baseurl }}/images/{{ i }}"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ image.objid }}&size=medium"  data-proofer-ignore height="300px"/></a></div>
         {% endfor %}
@@ -15,7 +15,7 @@
   <p><span class="pagingInfo"></span> – Click image to view.</p>
 {% else %}
   {% assign i = page.image_id | first %}
-  {% assign image = site.data.images | where: "id", i | first %}
+  {% assign image = site.data.images | where: "pid", i | first %}
   <div><a href="{{ site.baseurl }}/images/{{ i }}/"><img src="http://www.columbia.edu/cgi-bin/dlo?obj={{ image.objid}}&size=medium" width="100%"/></a></div>
   <p>1/1 – Click image to view.</p>
 {% endif %}

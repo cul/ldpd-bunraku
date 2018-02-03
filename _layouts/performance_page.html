@@ -9,13 +9,13 @@ layout: default
 <p>
   <b>Production: </b>
   {% assign pr_id = page.production_id %}
-  {% assign production = site.data.productions | where: "id", pr_id | first %}
+  {% assign production = site.data.productions | where: "pid", pr_id | first %}
   <b><a href="{{ site.baseurl }}/productions/{{ pr_id }}/">{{ production.label_eng }}</a></b>
 </p>
 <p>
   <b>Play: </b>
   {% assign pl_id = page.play_id %}
-  {% assign play = site.data.plays | where: "id", pl_id | first %}
+  {% assign play = site.data.plays | where: "pid", pl_id | first %}
   <b><a href="{{ site.baseurl }}/plays/{{ pl_id }}/">{{ play.label_eng }}</a></b>
   {% if play.label_ka %} ({{ play.label_ka}}){% endif %}
 </p>
