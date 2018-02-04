@@ -35,8 +35,6 @@ collections:
     layout: kashira_page
     lunr_index:
       fields: [label_eng, label_ka, category]
-  pages:
-    output: true
   performances:
     output: true
     source: performances.json
@@ -99,10 +97,9 @@ scripts:
 # search tests
 quoll:
   full:
-    page: search
+    page: search/
     terms:
       - Ōshūto
       - oshuto
       - Donald Keene
-      - 文楽のひとびと
-      - emperor 娘お安
+      - 白川の安珍実は桜木親王

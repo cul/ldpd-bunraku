@@ -1,12 +1,13 @@
 $(document).ready(function() {
   $('input#search').on('keyup', function () {
     var results_div = $('#results');
-    var query = $(this).val();
-    console.log(query);
+    var query = $(this).val().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
     var results = index.search(query, {bool: "AND", expand: true});
+
     results_div.empty();
+
     if (results.length > 20){results_div.prepend("<p><small>Displaying 20 of " + results.length + " results.</small></p>");}
-    for (var r in results.slice(0, 19)) { // limit visible results to 10
+    for (var r in results.slice(0, 19)) { // limit visible results to 20
       var ref     = results[r].ref;
       var item    = store[ref];
       var link    = item.link;
@@ -14,7 +15,7 @@ $(document).ready(function() {
       var eng     = item.label_eng  || '';
       var ka      = item.label_ka   || '';
       var title   = eng + ' ' + ka;
-      var result  = '<div class="result"><b>' + type + ': <br><a href="' + link + '">' + title + '</a></b></div>';
+      var result  = '<div class="result"><b>' + type + ':<br><a href="' + link + '">' + title + '</a></b></div>';
       results_div.append(result);
     }
   });
