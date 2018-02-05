@@ -14,6 +14,7 @@ $search_tests.each do |search|
       context "when searching the term \"" + term + "\"" do
         before(:all) do
           @search_bar.set term
+          puts 'value: ' + @search_bar.value
           @result_link = first(".result").first("a")['href']
         end
         after(:all) do

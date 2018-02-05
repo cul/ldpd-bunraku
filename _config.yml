@@ -97,7 +97,7 @@ scripts:
 # search tests
 quoll:
   full:
-    page: search/
+    page: search
     terms:
       - Ōshūto
       - oshuto
