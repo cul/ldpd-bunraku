@@ -1,20 +1,20 @@
 
 {
   "name": "Oshun and Dembei",
-  "url": "/plays/",
+  "url": "/ldpd-bunraku/plays/",
   "children": [
     {
       "name": "was written by",
       "children": [
          {
             "name": "Tamekawa Sōsuke",
-            "url": "/authors/113"
+            "url": "/ldpd-bunraku/authors/113"
         }, {
             "name": "Tsutsukawa Hanji",
-            "url": "/authors/114"
+            "url": "/ldpd-bunraku/authors/114"
         }, {
             "name": "Nakawa Shimesuke",
-            "url": "/authors/22"
+            "url": "/ldpd-bunraku/authors/22"
         }
       ]
     },
@@ -23,14 +23,14 @@
       "children": [
          {
           "name": "February 1968",
-          "url": "/performances/16",
+          "url": "/ldpd-bunraku/performances/16",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/21",
+									"url": "/ldpd-bunraku/scenes/21",
 									"children": [
                     
                     
@@ -38,7 +38,7 @@
                   ]
                 }, {
                   "name": null,
-									"url": "/scenes/22",
+									"url": "/ldpd-bunraku/scenes/22",
 									"children": [
                     
                     
@@ -50,14 +50,14 @@
           ]
         }, {
           "name": "January 1973",
-          "url": "/performances/112",
+          "url": "/ldpd-bunraku/performances/112",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/293",
+									"url": "/ldpd-bunraku/scenes/293",
 									"children": [
                     
                     
@@ -65,7 +65,7 @@
                   ]
                 }, {
                   "name": null,
-									"url": "/scenes/294",
+									"url": "/ldpd-bunraku/scenes/294",
 									"children": [
                     
                     
@@ -77,14 +77,14 @@
           ]
         }, {
           "name": "February 1974",
-          "url": "/performances/148",
+          "url": "/ldpd-bunraku/performances/148",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/385",
+									"url": "/ldpd-bunraku/scenes/385",
 									"children": [
                     
                     
@@ -96,14 +96,14 @@
           ]
         }, {
           "name": "June 1974",
-          "url": "/performances/160",
+          "url": "/ldpd-bunraku/performances/160",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/417",
+									"url": "/ldpd-bunraku/scenes/417",
 									"children": [
                     
                     
@@ -115,14 +115,14 @@
           ]
         }, {
           "name": "January 1978",
-          "url": "/performances/275",
+          "url": "/ldpd-bunraku/performances/275",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/787",
+									"url": "/ldpd-bunraku/scenes/787",
 									"children": [
                     
                     
@@ -130,7 +130,7 @@
                   ]
                 }, {
                   "name": null,
-									"url": "/scenes/788",
+									"url": "/ldpd-bunraku/scenes/788",
 									"children": [
                     
                     
@@ -142,14 +142,14 @@
           ]
         }, {
           "name": "September 1982",
-          "url": "/performances/429",
+          "url": "/ldpd-bunraku/performances/429",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/1223",
+									"url": "/ldpd-bunraku/scenes/1223",
 									"children": [
                     
                     
@@ -157,7 +157,7 @@
                   ]
                 }, {
                   "name": null,
-									"url": "/scenes/1224",
+									"url": "/ldpd-bunraku/scenes/1224",
 									"children": [
                     
                     
@@ -169,14 +169,14 @@
           ]
         }, {
           "name": "April 1983",
-          "url": "/performances/437",
+          "url": "/ldpd-bunraku/performances/437",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/1273",
+									"url": "/ldpd-bunraku/scenes/1273",
 									"children": [
                     
                     
@@ -188,14 +188,14 @@
           ]
         }, {
           "name": "December 1987",
-          "url": "/performances/598",
+          "url": "/ldpd-bunraku/performances/598",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/1703",
+									"url": "/ldpd-bunraku/scenes/1703",
 									"children": [
                     
                     
@@ -203,7 +203,7 @@
                   ]
                 }, {
                   "name": null,
-									"url": "/scenes/1704",
+									"url": "/ldpd-bunraku/scenes/1704",
 									"children": [
                     
                     
@@ -215,14 +215,14 @@
           ]
         }, {
           "name": "January 1992",
-          "url": "/performances/680",
+          "url": "/ldpd-bunraku/performances/680",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/2056",
+									"url": "/ldpd-bunraku/scenes/2056",
 									"children": [
                     
                     
@@ -234,14 +234,14 @@
           ]
         }, {
           "name": "July 1989",
-          "url": "/performances/723",
+          "url": "/ldpd-bunraku/performances/723",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/1840",
+									"url": "/ldpd-bunraku/scenes/1840",
 									"children": [
                     
                     
@@ -249,7 +249,7 @@
                   ]
                 }, {
                   "name": null,
-									"url": "/scenes/1841",
+									"url": "/ldpd-bunraku/scenes/1841",
 									"children": [
                     
                     
@@ -257,7 +257,7 @@
                   ]
                 }, {
                   "name": null,
-									"url": "/scenes/1842",
+									"url": "/ldpd-bunraku/scenes/1842",
 									"children": [
                     
                     
@@ -269,14 +269,14 @@
           ]
         }, {
           "name": "February 1990",
-          "url": "/performances/725",
+          "url": "/ldpd-bunraku/performances/725",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/1902",
+									"url": "/ldpd-bunraku/scenes/1902",
 									"children": [
                     
                     
@@ -284,7 +284,7 @@
                   ]
                 }, {
                   "name": null,
-									"url": "/scenes/1903",
+									"url": "/ldpd-bunraku/scenes/1903",
 									"children": [
                     
                     
@@ -292,7 +292,7 @@
                   ]
                 }, {
                   "name": null,
-									"url": "/scenes/1904",
+									"url": "/ldpd-bunraku/scenes/1904",
 									"children": [
                     
                     
@@ -304,14 +304,14 @@
           ]
         }, {
           "name": "March 1996 Tour",
-          "url": "/performances/971",
+          "url": "/ldpd-bunraku/performances/971",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
                  {
                   "name": null,
-									"url": "/scenes/2645",
+									"url": "/ldpd-bunraku/scenes/2645",
 									"children": [
                     
                     

@@ -19,12 +19,12 @@
       <div class="trigger" style="float:left;text-align:left;">
         <nav id="primary_nav_wrap" class="site-nav" style="float:left;text-align:left;">
           <ul>{% for l1 in site.data.header %}
-            <li><a href="{{ l1.link }}">{{ l1.label }}</a>
+            <li><a href="{{ l1.link | relative_url }}">{{ l1.label }}</a>
               {% if l1.sub %}<ul>
                 {% for l2 in l1.sub %}<li>
-                  <a href="{{ l2.link }}">{{ l2.label }}</a>
+                  <a href="{{ l2.link | relative_url }}">{{ l2.label }}</a>
                   {% if l2.sub %}<ul>
-                    {% for l3 in l2.sub %}<a href="{{ l3.link }}">{{ l3.label }}</a>{% endfor %}
+                    {% for l3 in l2.sub %}<a href="{{ l3.link | relative_url }}">{{ l3.label }}</a>{% endfor %}
                   </ul>{% endif %}
                 </li>{% endfor %}
               </ul>{% endif%}
