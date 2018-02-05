@@ -7,15 +7,6 @@ require 'rack/test'
 RSpec.configure do |config|
   config.include Capybara::DSL
 
-  $config = YAML.load_file('_config.yml')
-  $baseurl = $config['baseurl'].to_s
-  $search_tests = $config['quoll']
-  if $config['permalink'] == 'pretty'
-    $perma_ext = "/"
-  else
-    $perma_ext = ".html"
-  end
-
   Capybara.register_driver :chrome do |app|
     Capybara::Selenium::Driver.new(app, browser: :chrome)
   end
@@ -31,5 +22,6 @@ RSpec.configure do |config|
   end
 
   Capybara.javascript_driver = :headless_chrome
+  Capybara.current_driver = Capybara.javascript_driver
   Capybara.app = Rack::Jekyll.new(:force_build => false)
 end
