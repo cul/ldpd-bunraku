@@ -8,7 +8,6 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'capybara'
-  gem 'poltergeist'
   gem 'rack-jekyll'
   gem 'wax_tasks'
 end
