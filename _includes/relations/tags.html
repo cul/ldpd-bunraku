@@ -2,7 +2,7 @@
   <p>
     <b>Tags:&nbsp;&nbsp;</b>
     {% for t in page.tag_id %}
-      {% assign tag = site.data.tags | where: "id", t | first %}
+      {% assign tag = site.data.tags | where: "pid", t | first %}
       <b><a href="{{ site.baseurl }}/tags/{{ t }}/">{{ tag.label_eng }}</a></b>
       {% if tag.label_ka %}({{ tag.label_ka }}){% endif %}
       {% unless forloop.last %}, {% endunless %}
@@ -11,7 +11,7 @@
 {% else %}
   <h3 class='data-sub-head'>Tags:</h3>
   {% for t in page.tag_id %}
-    {% assign tag = site.data.tags | where: "id", t | first %}
+    {% assign tag = site.data.tags | where: "pid", t | first %}
     <p>
       <b>
         {% if tag.image_id %}<i class="fa fa-file-image-o" aria-hidden="true"></i>

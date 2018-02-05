@@ -12,7 +12,7 @@ permalink: /performances/
     {% else %}
       <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
     {% endif %}
-    <a href="{{ site.baseurl }}/performances/{{ performance.id }}">{{ performance.label_eng }}</a>
+    <a href="{{ site.baseurl }}/performances/{{ performance.pid }}/">{{ performance.label_eng }}</a>
   </b>
 </p>
 {% endfor %}

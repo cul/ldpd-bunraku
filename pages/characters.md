@@ -13,14 +13,14 @@ permalink: /characters/
       {% else %}
         <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
       {% endif %}
-      <a href="{{ site.baseurl }}/characters/{{ character.id }}">
+      <a href="{{ site.baseurl }}/characters/{{ character.pid }}/">
         {{ character.label_eng }}
       </a>
     </b>
     ({{ character.label_ka }})
     from
     {% assign p_id = character.play_id | first %}
-    {% assign play = site.data.plays | where: "id", p_id | first %}
+    {% assign play = site.data.plays | where: "pid", p_id | first %}
     <a href="{{ site.baseurl }}/plays/{{ p_id }}">
       <b><i>{{ play.label_eng }}</i></b>
     </a>

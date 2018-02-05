@@ -2,7 +2,7 @@
   <p>
     <b>Performances:&nbsp;&nbsp;</b>
     {% for p in page.performance_id %}
-      {% assign performances = site.data.performances | where: "id", p %}
+      {% assign performances = site.data.performances | where: "pid", p %}
       {% for performance in performances %}
         <b><a href="{{ site.baseurl }}/performances/{{ p }}/">{{ performance.label_eng }}</a></b>
         {% unless forloop.last %}, {% endunless %}
@@ -12,7 +12,7 @@
 {% else %}
   <h3 class='data-sub-head'>Performances:</h3>
   {% for p in page.performance_id %}
-    {% assign performances = site.data.performances | where: "id", p %}
+    {% assign performances = site.data.performances | where: "pid", p %}
     {% for performance in performances %}
       <p>
         <b>

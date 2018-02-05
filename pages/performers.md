@@ -4,7 +4,7 @@ title: Performers
 search: performer
 permalink: /performers/
 ---
-{% assign sorted_performers = site.data.performers | sort: "name" %}
+{% assign sorted_performers = site.data.performers | sort: "label_eng" %}
 {% for performer in sorted_performers %}
   <p>
     <b>
@@ -13,10 +13,10 @@ permalink: /performers/
       {% else %}
         <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
       {% endif %}
-      <a href="{{ site.baseurl }}/performers/{{ performer.id }}">
-        {{ performer.name_en }}
+      <a href="{{ site.baseurl }}/performers/{{ performer.pid }}/">
+        {{ performer.label_eng }}
       </a>
     </b>
-    ({{ performer.name_ka }})
+    ({{ performer.label_ka }})
   </p>
 {% endfor %}

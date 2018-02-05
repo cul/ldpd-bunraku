@@ -11,7 +11,7 @@ permalink: /tags/
       {% else %}
         <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
       {% endif %}
-      <a href="{{ site.baseurl }}/tags/{{ tag.id }}">{{ tag.label_eng }}</a>
+      <a href="{{ site.baseurl }}/tags/{{ tag.pid }}/">{{ tag.label_eng }}</a>
     </b>
     ({{ tag.label_ka }})
   </p>

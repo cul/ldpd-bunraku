@@ -2,7 +2,7 @@
 layout: null
 play_id: 6
 ---
-{% assign play = site.data.plays | where: "id", page.play_id | first %}
+{% assign play = site.data.plays | where: "pid", page.play_id | first %}
 {
   "name": {{ play.label_eng | jsonify }},
   "url": "{{ site.baseurl }}/plays/{{ play.id }}",
@@ -10,7 +10,7 @@ play_id: 6
     {
       "name": "was written by",
       "children": [
-        {% for author_id in play.author_id %}{% assign author = site.data.authors | where: "id", author_id | first %} {
+        {% for author_id in play.author_id %}{% assign author = site.data.authors | where: "pid", author_id | first %} {
             "name": {{ author.label_eng | jsonify }},
             "url": "{{ site.baseurl }}/authors/{{ author_id }}"
         }{% unless forloop.last %},{% endunless %}{% endfor %}
@@ -19,21 +19,21 @@ play_id: 6
     {
       "name": "was performed during",
       "children": [
-        {%for perf_id in play.performance_id %}{% assign performance = site.data.performances | where: "id", perf_id | first %}{% assign production = site.data.productions | where: "id", performance.production_id | first %} {
+        {%for perf_id in play.performance_id %}{% assign performance = site.data.performances | where: "pid", perf_id | first %}{% assign production = site.data.productions | where: "pid", performance.production_id | first %} {
           "name": {{ production.label_eng | jsonify }},
           "url": "{{ site.baseurl }}/performances/{{ perf_id }}",
           "children": [
             {
 							"name": "which included the scenes",
 							"children": [
-                {% for scene_id in performance.pscene_id%}{% assign pscene = site.data.pscenes | where: "id", scene_id | first %}{% assign last_scene = forloop.last %} {
+                {% for scene_id in performance.pscene_id%}{% assign pscene = site.data.pscenes | where: "pid", scene_id | first %}{% assign last_scene = forloop.last %} {
                   "name": {{ pscene.label_eng | jsonify }},
 									"url": "{{ site.baseurl }}/scenes/{{ scene_id }}",
 									"children": [
                     {% if pscene.narrator_id %}{
                       "name": "with narration by",
                       "children": [
-                        {% for narrator_id in pscene.narrator_id %}{% assign narrator = site.data.performers | where: "id", narrator_id | first %}{% assign last_narrator = forloop.last %} {
+                        {% for narrator_id in pscene.narrator_id %}{% assign narrator = site.data.performers | where: "pid", narrator_id | first %}{% assign last_narrator = forloop.last %} {
                           "name": {{ narrator.name_en | jsonify }},
                           "url": "{{ site.baseurl }}/performers/{{ narrator_id }}"
                         }{% unless last_narrator %},{% endunless %}{% endfor %}
@@ -42,7 +42,7 @@ play_id: 6
                     {% if pscene.shamisen_id %}{
                       "name": "with music by",
                       "children": [
-                        {% for shamisen_id in pscene.shamisen_id %}{% assign shamisen = site.data.performers | where: "id", shamisen_id | first %}{% assign last_shamisen = forloop.last %} {
+                        {% for shamisen_id in pscene.shamisen_id %}{% assign shamisen = site.data.performers | where: "pid", shamisen_id | first %}{% assign last_shamisen = forloop.last %} {
                           "name": {{ shamisen.name_en | jsonify }},
                           "url": "{{ site.baseurl }}/performers/{{ shamisen_id }}"
                         }{% unless last_shamisen %},{% endunless %}{% endfor %}
@@ -51,7 +51,7 @@ play_id: 6
                     {% if pscene.spuck_id %}{
                       "name": "with performances by",
                       "children": [
-                        {% for spuck_id in pscene.spuck_id %}{% assign spuck = site.data.spucks | where: "id", spuck_id | first %}{% assign last_spuck = forloop.last %}{% assign puppeteer = site.data.performers | where: "id", spuck.puppeteer_id | first %}{% assign kashira = site.data.kashira | where: "id", spuck.kashira_id | first %}{% assign character = site.data.characters | where: "id", spuck.character_id | first %} {
+                        {% for spuck_id in pscene.spuck_id %}{% assign spuck = site.data.spucks | where: "pid", spuck_id | first %}{% assign last_spuck = forloop.last %}{% assign puppeteer = site.data.performers | where: "pid", spuck.puppeteer_id | first %}{% assign kashira = site.data.kashira | where: "pid", spuck.kashira_id | first %}{% assign character = site.data.characters | where: "pid", spuck.character_id | first %} {
                             "name": {{ puppeteer.name_en | jsonify }},
                             "url": "{{ site.baseurl }}/performers/{{ spuck.puppeteer_id }}",
                             "children": [

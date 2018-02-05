@@ -14,12 +14,12 @@ permalink: /productions/
       {% else %}
         <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
       {% endif %}
-      <a href="{{ site.baseurl }}/productions/{{ production.id }}">{{ production.label_eng }}</a>
+      <a href="{{ site.baseurl }}/productions/{{ production.pid }}/">{{ production.label_eng }}</a>
     </b>
     {% if production.place !="Others" and production.place !="not recorded"%}
       at the <b>
         {% if production.place == "Asahiza" %}
-          <a href="{{ site.baseurl }}/tags/1">{{ production.place }}</a>
+          <a href="{{ site.baseurl }}/tags/1/">{{ production.place }}</a>
         {% else %}
           {{ production.place }}
         {% endif %}

@@ -2,7 +2,7 @@
   <p>
     <b>Plays:&nbsp;&nbsp;</b>
     {% for p in page.play_id %}
-      {% assign play = site.data.plays | where: "id", p | first %}
+      {% assign play = site.data.plays | where: "pid", p | first %}
       <b><a href="{{ site.baseurl }}/plays/{{ p }}/">{{ play.label_eng }}</a></b>
       {% if play.label_ka %}({{ play.label_ka }}){% endif %}
       {% unless forloop.last %}, {% endunless %}
@@ -11,7 +11,7 @@
 {% else %}
   <h3 class='data-sub-head'>Plays:</h3>
   {% for p in page.play_id %}
-    {% assign play = site.data.plays | where: "id", p | first %}
+    {% assign play = site.data.plays | where: "pid", p | first %}
     <p>
       <b>
         {% if play.image_id %}<i class="fa fa-file-image-o" aria-hidden="true"></i>

@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<h1><b><a href="{{ site.path.performers }}">Performer</a>:</b><br/>{{ page.name_en }} ({{ page.name_ka }})</h1>
-{% if page.alt_name %}<p><b>Alternate Name:</b> {{ page.alt_name }} ({{ page.alt_name_ka }})</p>{% endif %}
+<h1><b><a href="{{ site.path.performers }}">Performer</a>:</b><br>{{ page.label_eng }} ({{ page.label_ka }})</h1>
+{% if page.alt_label %}<p><b>Alternate Name:</b> {{ page.alt_label }} ({{ page.alt_label_ka }})</p>{% endif %}
 {% if page.dates %}<p><b>Dates:</b> {{ page.dates }}</p>{% endif %}
 {% if page.specialty %}<p><b>Specialty:</b> {{ page.specialty }}</p>{% endif %}
 {% if page.notes %}<p><b>Notes:</b> {{ page.notes }}</p>{% endif %}
@@ -11,7 +11,7 @@ layout: default
 {% if page.narrator_perf_id %}<br/>
   <h1>Performances as Narrator:</h1>
   {% for p in page.narrator_perf_id %}
-    {% assign performance = site.data.performances | where: "id", p | first %}
+    {% assign performance = site.data.performances | where: "pid", p | first %}
     <p>
       <b>
         {% if performance.image_id %}
@@ -29,7 +29,7 @@ layout: default
   <h1>Performances as Shamisen Player:</h1>
   {% assign shamisen_performances = page.shamisen_perf_id | uniq %}
   {% for p in shamisen_performances %}
-    {% assign performance = site.data.performances | where: "id", p | first %}
+    {% assign performance = site.data.performances | where: "pid", p | first %}
     <p>
       <b>
         {% if performance.image_id %}
@@ -47,7 +47,7 @@ layout: default
   <h1>Performances as Musician:</h1>
   {% assign musician_performances = page.musician_perf_id | uniq %}
   {% for p in page.musician_performances %}
-    {% assign performance = site.data.performances | where: "id", p | first %}
+    {% assign performance = site.data.performances | where: "pid", p | first %}
     <p>
       <b>
         {% if performance.image_id %}
@@ -65,7 +65,7 @@ layout: default
   <h1>Performances as Puppeteer:</h1>
   {% assign puppeteer_performances = page.puppeteer_perf_id | uniq %}
   {% for p in puppeteer_performances  %}
-    {% assign performance = site.data.performances | where: "id", p | first %}
+    {% assign performance = site.data.performances | where: "pid", p | first %}
     <p>
       <b>
         {% if performance.image_id %}

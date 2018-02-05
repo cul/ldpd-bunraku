@@ -2,7 +2,7 @@
   <p>
     <b>Kashira:&nbsp;&nbsp;</b>
     {% for k in page.kashira_id %}
-      {% assign kash = site.data.kashira | where: "id", k | first %}
+      {% assign kash = site.data.kashira | where: "pid", k | first %}
       <b><a href="{{ site.baseurl }}/kashira/{{ k }}/">{{ kash.label_eng }}</a></b>
       {% if kash.label_ka %}({{ kash.label_ka }}){% endif %}
       {% unless forloop.last %}, {% endunless %}
@@ -11,7 +11,7 @@
 {% else %}
   <h3 class='data-sub-head'>Kashira:</h3>
   {% for k in page.kashira_id %}
-    {% assign kash = site.data.kashira | where: "id", k | first %}
+    {% assign kash = site.data.kashira | where: "pid", k | first %}
     <p>
       <b>
         {% if kashira.image_id %}<i class="fa fa-file-image-o" aria-hidden="true"></i>

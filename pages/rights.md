@@ -11,7 +11,7 @@ permalink: /rights/
 
 The digital images of photographs taken by Barbara Curtis Adachi presented in this website, under a license from Barbara Curtis Adachi, are available for non-profit educational use by students, scholars, professors and others interested in Japan's traditional performing arts. These users may, for example, copy images by right-clicking on the image. This right is in addition to rights granted under Section 107 of the Copyright Act ("fair use").
 
-Images must be credited in the following manner:<br/>
+Images must be credited in the following manner:<br>
 __Courtesy of The Barbara Curtis Adachi Bunraku Collection, C.V. Starr East Asian library, Columbia University.__
 
 For all other uses, including the use of digital images by other photographers, essays and other textual material, please contact: C.V. Starr East Asian Library, Columbia University, [starr@libraries.cul.columbia.edu](mailto:starr@libraries.cul.columbia.edu).

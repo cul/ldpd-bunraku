@@ -18,7 +18,7 @@ layout: default
 <h2 class='data-head'>Archival Information:</h2>
 <p>
   {% if page.creator %}
-    {% assign creator = site.data.creators | where: "id", page.creator | first %}
+    {% assign creator = site.data.creators | where: "pid", page.creator | first %}
     <b>Creator:</b> {{ creator.label }}<br>
   {% endif %}
   {% if page.image_id %}

@@ -14,7 +14,7 @@ permalink: /kashira/
       {% else %}
         <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
       {% endif %}
-      <a href="{{ site.baseurl }}/kashira/{{ kash.id }}">{{ kash.label_eng }}</a>
+      <a href="{{ site.baseurl }}/kashira/{{ kash.pid }}/">{{ kash.label_eng }}</a>
     </b>
     {% if kash.label_ka %}({{ kash.label_ka }}){% endif %}
   </p>

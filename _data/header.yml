@@ -1,0 +1,79 @@
+- label: Home
+  link: /
+- label: About the Collection
+  link: /about-the-collection/
+  sub:
+    - label: Background
+      link: /background/
+    - label: Barbara Curtis Adachi
+      link: /adachi/
+    - label: Finding Aid
+      link: //www.columbia.edu/cu/lweb/eresources/archives/eastasian/adachi/ldpd.6226404.001.f.html
+    - label: References
+      link: /references/
+    - label: Rights and Permissions
+      link: /rights/
+    - label: Contacting the Library
+      link: //library.columbia.edu/locations/eastasian/staff.html
+- label: The World of Bunraku
+  link: /the-world-of-bunraku/
+  sub:
+    - label: The Early World of Bunraku
+      link: /early-world-of-bunraku/
+    - label: The Texts of Bunraku
+      link: /texts-of-bunraku/
+    - label: The Music of Bunraku
+      link: /music-of-bunraku/
+- label: Special Features
+  link: /realia/47-ronin/
+  sub:
+    - label: Albums
+      link: /albums/
+    - label: 47 Ronin Scroll
+      link: /realia/47-ronin/
+    - label: Puppet Head (Baba)
+      link: /realia/baba-head/
+    - label: High Wooden Clogs
+      link: /realia/butai-geta/
+    - label: Puppet Head (Genta)
+      link: /realia/genta-head/
+    - label: Puppet in a Purple Dress 1
+      link: /realia/puppet-1/
+    - label: Puppet in a Purple Dress 2
+      link: /realia/puppet-2/
+    - label: Puppet Armature
+      link: /realia/puppet-armature/
+    - label: Puppet Head with Ponytail
+      link: /realia/puppet-head/
+    - label: Narrator (Tayu) Garment
+      link: /realia/tayu-garment/
+    - label: Narrator Scroll (Yukahon) Stand
+      link: /realia/yukahon/
+- label: Data Visualizations
+  link: /visualize/
+  sub:
+    - label: 'Bar Graph: Prolific Authors'
+      link: /visualize/prolific-authors/
+    - label: 'Force Graph: Connected Characters'
+      link: /visualize/connected-characters/
+    - label: 'Dendrogram: Oshun and Dembei'
+      link: /visualize/play-dendrogram/
+- label: Browse
+  link: /plays/
+  sub:
+    - label: Plays
+      link: /plays/
+    - label: Productions
+      link: /productions/
+    - label: Authors
+      link: /authors/
+    - label: Performers
+      link: /performers/
+    - label: Characters
+      link: /characters/
+    - label: Kashira (Puppets)
+      link: /kashira/
+    - label: Image tags
+      link: /tags/
+- label: Search
+  link: /search/
