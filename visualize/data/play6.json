@@ -34,7 +34,7 @@ play_id: 6
                       "name": "with narration by",
                       "children": [
                         {% for narrator_id in scene.narrator_id %}{% assign narrator = site.data.performers | where: "pid", narrator_id | first %}{% assign last_narrator = forloop.last %} {
-                          "name": {{ narrator.name_en | jsonify }},
+                          "name": {{ narrator.label_eng | jsonify }},
                           "url": "{{ site.baseurl }}/performers/{{ narrator_id }}"
                         }{% unless last_narrator %},{% endunless %}{% endfor %}
                       ]
@@ -43,7 +43,7 @@ play_id: 6
                       "name": "with music by",
                       "children": [
                         {% for shamisen_id in scene.shamisen_id %}{% assign shamisen = site.data.performers | where: "pid", shamisen_id | first %}{% assign last_shamisen = forloop.last %} {
-                          "name": {{ shamisen.name_en | jsonify }},
+                          "name": {{ shamisen.label_eng | jsonify }},
                           "url": "{{ site.baseurl }}/performers/{{ shamisen_id }}"
                         }{% unless last_shamisen %},{% endunless %}{% endfor %}
                       ]
@@ -52,7 +52,7 @@ play_id: 6
                       "name": "with performances by",
                       "children": [
                         {% for spuck_id in scene.spuck_id %}{% assign spuck = site.data.spucks | where: "pid", spuck_id | first %}{% assign last_spuck = forloop.last %}{% assign puppeteer = site.data.performers | where: "pid", spuck.puppeteer_id | first %}{% assign kashira = site.data.kashira | where: "pid", spuck.kashira_id | first %}{% assign character = site.data.characters | where: "pid", spuck.character_id | first %} {
-                            "name": {{ puppeteer.name_en | jsonify }},
+                            "name": {{ puppeteer.label_eng | jsonify }},
                             "url": "{{ site.baseurl }}/performers/{{ spuck.puppeteer_id }}",
                             "children": [
                               {
