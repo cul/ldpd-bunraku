@@ -26,33 +26,33 @@ play_id: 6
             {
 							"name": "which included the scenes",
 							"children": [
-                {% for scene_id in performance.pscene_id%}{% assign pscene = site.data.pscenes | where: "pid", scene_id | first %}{% assign last_scene = forloop.last %} {
-                  "name": {{ pscene.label_eng | jsonify }},
+                {% for scene_id in performance.scene_id%}{% assign scene = site.data.scenes | where: "pid", scene_id | first %}{% assign last_scene = forloop.last %} {
+                  "name": {{ scene.label_eng | jsonify }},
 									"url": "{{ site.baseurl }}/scenes/{{ scene_id }}",
 									"children": [
-                    {% if pscene.narrator_id %}{
+                    {% if scene.narrator_id %}{
                       "name": "with narration by",
                       "children": [
-                        {% for narrator_id in pscene.narrator_id %}{% assign narrator = site.data.performers | where: "pid", narrator_id | first %}{% assign last_narrator = forloop.last %} {
-                          "name": {{ narrator.name_en | jsonify }},
+                        {% for narrator_id in scene.narrator_id %}{% assign narrator = site.data.performers | where: "pid", narrator_id | first %}{% assign last_narrator = forloop.last %} {
+                          "name": {{ narrator.label_eng | jsonify }},
                           "url": "{{ site.baseurl }}/performers/{{ narrator_id }}"
                         }{% unless last_narrator %},{% endunless %}{% endfor %}
                       ]
-										}{% if pscene.shamisen_id or pscene.spuck_id %},{% endif %}{% endif %}
-                    {% if pscene.shamisen_id %}{
+										}{% if scene.shamisen_id or scene.spuck_id %},{% endif %}{% endif %}
+                    {% if scene.shamisen_id %}{
                       "name": "with music by",
                       "children": [
-                        {% for shamisen_id in pscene.shamisen_id %}{% assign shamisen = site.data.performers | where: "pid", shamisen_id | first %}{% assign last_shamisen = forloop.last %} {
-                          "name": {{ shamisen.name_en | jsonify }},
+                        {% for shamisen_id in scene.shamisen_id %}{% assign shamisen = site.data.performers | where: "pid", shamisen_id | first %}{% assign last_shamisen = forloop.last %} {
+                          "name": {{ shamisen.label_eng | jsonify }},
                           "url": "{{ site.baseurl }}/performers/{{ shamisen_id }}"
                         }{% unless last_shamisen %},{% endunless %}{% endfor %}
                       ]
-                    }{% if pscene.spuck_id %},{% endif %}{% endif %}
-                    {% if pscene.spuck_id %}{
+                    }{% if scene.spuck_id %},{% endif %}{% endif %}
+                    {% if scene.spuck_id %}{
                       "name": "with performances by",
                       "children": [
-                        {% for spuck_id in pscene.spuck_id %}{% assign spuck = site.data.spucks | where: "pid", spuck_id | first %}{% assign last_spuck = forloop.last %}{% assign puppeteer = site.data.performers | where: "pid", spuck.puppeteer_id | first %}{% assign kashira = site.data.kashira | where: "pid", spuck.kashira_id | first %}{% assign character = site.data.characters | where: "pid", spuck.character_id | first %} {
-                            "name": {{ puppeteer.name_en | jsonify }},
+                        {% for spuck_id in scene.spuck_id %}{% assign spuck = site.data.spucks | where: "pid", spuck_id | first %}{% assign last_spuck = forloop.last %}{% assign puppeteer = site.data.performers | where: "pid", spuck.puppeteer_id | first %}{% assign kashira = site.data.kashira | where: "pid", spuck.kashira_id | first %}{% assign character = site.data.characters | where: "pid", spuck.character_id | first %} {
+                            "name": {{ puppeteer.label_eng | jsonify }},
                             "url": "{{ site.baseurl }}/performers/{{ spuck.puppeteer_id }}",
                             "children": [
                               {

@@ -11,7 +11,7 @@ $(document).ready(function() {
       var ref     = results[r].ref;
       var item    = store[ref];
       var link    = item.link;
-      var type    = link.match(/\/(.*)\/\d+/i)[1].replace(/s$/, '');
+      var type    = link.match(/\/([^\/]*)\/\d+/i)[1].replace(/s$/, '');
       var eng     = item.label_eng  || '';
       var ka      = item.label_ka   || '';
       var title   = eng + ' ' + ka;
