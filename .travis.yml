@@ -1,6 +1,13 @@
-sudo: required
 language: ruby
-rvm:
-  - 2.4
+sudo: required
+rvm: 2.4
+env:
+  - MOZ_HEADLESS=1
+addons:
+  firefox: latest
 script:
+  - bundle exec jekyll build
   - travis_wait bundle exec rake wax:test
+branches:
+  only:
+    - master
