@@ -1,13 +1,12 @@
 source 'https://rubygems.org'
-gem 'jekyll', '3.7.2'
-gem 'minima', '~> 2.3.0'
+gem 'jekyll', '3.7.3'
+gem 'minima'
 
 group :development, :test do
-  gem 'html-proofer'
+  gem 'wax_tasks'
   gem 'rspec'
   gem 'selenium-webdriver'
-  gem 'chromedriver-helper'
+  gem 'geckodriver-helper'
   gem 'capybara'
   gem 'rack-jekyll'
-  gem 'wax_tasks'
 end
