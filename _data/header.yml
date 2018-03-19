@@ -52,8 +52,6 @@
 - label: Data Visualizations
   link: '/visualize/'
   sub:
-    - label: 'Bar Graph: Prolific Authors'
-      link: '/visualize/prolific-authors/'
     - label: 'Force Graph: Connected Characters'
       link: '/visualize/connected-characters/'
     - label: 'Dendrogram: Oshun and Dembei'

@@ -1,7 +1,21 @@
-$(document).ready(function() {
+$.getJSON("/js/lunr-index.json", function(index_json) {
+  window.index = new elasticlunr.Index;
+  window.store = index_json;
+  index.saveDocument(false);
+  index.setRef('lunr_id');
+  index.addField('pid');
+  index.addField('label_eng');
+  index.addField('label_ka');
+  index.addField('label_ja');
+  index.addField('category');
+  // add docs
+  for (i in store) {
+    index.addDoc(store[i]);
+  }
   $('input#search').on('keyup', function () {
     var results_div = $('#results');
     var query = $(this).val().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    console.log(query);
     var results = index.search(query, {bool: "AND", expand: true});
 
     results_div.empty();

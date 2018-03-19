@@ -1,13 +1,13 @@
-language: ruby
 sudo: required
+language: ruby
 rvm: 2.4
-env:
-  - MOZ_HEADLESS=1
 addons:
-  firefox: latest
+  chrome: stable
 script:
-  - bundle exec jekyll build
   - travis_wait bundle exec rake wax:test
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 branches:
   only:
     - master

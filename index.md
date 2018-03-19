@@ -1,7 +1,6 @@
 ---
 layout: page
 autoplay: true
-d3_version: 4
 d3_tip: false
 image_id:
   - '9059'
