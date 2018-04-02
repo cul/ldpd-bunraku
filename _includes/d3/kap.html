@@ -1,0 +1,107 @@
+{% include d3/assets.html %}
+
+<style>
+#kap-d3-viewer{border:1px solid grey;}
+.links line {stroke:grey;stroke-opacity:.7;}
+.d3-tip{background-color:#fff;border-radius:5px;padding:8px;}
+</style>
+
+<svg width="960" height="600" id="kap-d3-viewer"></svg>
+<script>
+  var svg = d3.select("#kap-d3-viewer"),
+      width = +svg.attr("width"),
+      height = +svg.attr("height");
+
+  var manyBody = d3.forceManyBody().strength(-100).distanceMax(250).distanceMin(100);
+
+  var simulation = d3.forceSimulation()
+      .force("link", d3.forceLink().id(function(d) { return d.id; }))
+      .force("charge", manyBody)
+      .force("center", d3.forceCenter(width / 2, height / 2));
+
+  var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-5, 0])
+    .html(function (d) {
+      return '<b>' + d.type + '</b><br/>' + d.name + '</span>';
+    });
+
+  svg.call(tip);
+
+  d3.json("{{ site.baseurl }}/visualize/data/kashira-performers.json", function(error, graph) {
+    if (error) { console.log(error); }
+
+    var link = svg.append("g")
+      .attr("class", "links")
+      .selectAll("line")
+      .data(graph.links)
+      .enter().append("line");
+
+    var node = svg.append("g")
+      .attr("class", "nodes")
+      .selectAll("circle")
+      .data(graph.nodes)
+      .enter().append("circle")
+        .attr("r", 6)
+        .attr("fill", function(d) {
+          if (d.type == 'kashira') { return '#b73b37' }
+          else { return '#5c787c' }
+        })
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide)
+        .on("dblclick", dblclick)
+        .call(d3.drag()
+         .on("start", dragstarted)
+         .on("drag", dragged)
+         .on("end", dragended));
+
+
+    simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+    simulation.force("link")
+      .links(graph.links);
+
+    svg.call(d3.drag()
+      .container(svg)
+      .subject(dragsubject)
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended));
+
+    function ticked() {
+      link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+      node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+    }
+    function dragsubject() {
+      return simulation.find(d3.event.x, d3.event.y);
+    }
+  });
+  function dblclick(d) {
+    location.href = '{{ "'+d.type+'/'+d.id.slice(0,-1)+'/" | relative_url }}';
+  }
+  function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+
+  function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+  }
+
+  function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+</script>
