@@ -190,31 +190,33 @@
         <article class="post">
 
   <header class="post-header">
-      <h1 class="post-title">Characters and Kashira</h1>
+      <h1 class="post-title">Kashira and the Characters they Play</h1>
   </header>
 
   <div class="post-content">
     <p><strong><a href="/visualize">Back to Visualize Menu</a></strong></p>
 
-<script type="text/javascript" id="d3-v4" src="//d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript" id="d3-v4" src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 
 <script type="text/javascript" id="d3-tip" src="/js/d3.tip.js"></script>
 
 <script type="text/javascript" id="d3-tip-patch" src="/js/d3-v4-patch.tip.js"></script>
 
 <style>
-#kap-d3-viewer{border:1px solid grey;}
+#d3-force{background-color:#fff;margin-top:30px;}
+#d3-force circle:hover{cursor:pointer;}
 .links line {stroke:grey;stroke-opacity:.7;}
-.d3-tip{background-color:#fff;border-radius:5px;padding:8px;}
+.d3-tip{background-color:#fff;border-radius:5px;padding:8px;opacity:.8;}
+.nodes circle{stroke:grey;}
 </style>
 
-<svg width="960" height="600" id="kap-d3-viewer"></svg>
+<svg width="960" height="960" id="d3-force"></svg>
 <script>
-  var svg = d3.select("#kap-d3-viewer"),
+  var svg = d3.select("#d3-force"),
       width = +svg.attr("width"),
       height = +svg.attr("height");
 
-  var manyBody = d3.forceManyBody().strength(-140).distanceMax(100)
+  var manyBody = d3.forceManyBody().strength(-10).distanceMax(120).distanceMin(10)
 
   var simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -225,7 +227,7 @@
     .attr('class', 'd3-tip')
     .offset([-5, 0])
     .html(function (d) {
-      return '<b>' + d.type + '</b><br/>' + d.name + '</span>';
+      return d.name + '</span>';
     });
 
   svg.call(tip);
@@ -244,10 +246,13 @@
       .selectAll("circle")
       .data(graph.nodes)
       .enter().append("circle")
-        .attr("r", 6)
+        .attr("r", function(d) {
+          if (d.type == 'kashira') { return 7; }
+          else { return 3 }
+        })
         .attr("fill", function(d) {
-          if (d.type == 'kashira') { return '#b73b37' }
-          else { return '#5c787c' }
+          if (d.type == 'kashira') { return '#b73b37'; }
+          else { return '#5c787c'; }
         })
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide)

@@ -5,41 +5,37 @@ Dir.glob("#{spec.gem_dir}/lib/tasks/*.rake").each {|r| load r}
 require 'json'
 
 namespace :d3 do
-  desc 'generate json on performers + their kashira'
-  task :kap do
-    spucks = JSON.parse(File.read('_data/spucks.json'))
-    performers = JSON.parse(File.read('_data/performers.json'))
-    kashira = JSON.parse(File.read('_data/kashira.json'))
+  desc 'generate author network json'
+  task :authnet do
+    authors = JSON.parse(File.read('_data/authors.json'))
+    plays = JSON.parse(File.read('_data/plays.json'))
 
     nodes = []
     links = []
 
-    spucks.each do |spuck|
-      if spuck.key?('puppeteer_id') and spuck.key?('kashira_id')
+    plays.each do |play|
+      play['author_id'].each do |author_id|
         link = {
-          'source' => spuck['puppeteer_id'].to_s+'p',
-          'target' => spuck['kashira_id'].to_s+'k'
+          'source' => play['pid'].to_s+'p',
+          'target' => author_id.to_s+'a'
+        }
+        play_node = {
+          'id'    => play['pid'].to_s+'p',
+          'type'  => 'plays',
+          'name'  => play['label_eng']
+        }
+        author_node = {
+          'id'    => author_id.to_s+'a',
+          'type'  => 'authors',
+          'name'  => authors.detect { |a| a['pid'] == author_id }['label_eng']
         }
         links << link
-      end
-    end
-
-    links.uniq.each do |link|
-      puppeteer = {
-        'id'    => link['source'],
-        'type'  => 'performers',
-        'name'  => performers.detect { |p| p['pid'] == link['source'].chop }['label_eng']
-      }
-      puppet = {
-        'id'    => link['target'],
-        'type'  => 'kashira',
-        'name'  => kashira.detect { |k| k['pid'] == link['target'].chop }['label_eng']
-      }
-      nodes << puppeteer << puppet
+        nodes << play_node << author_node
+      end if play.key?('author_id') and play['author_id'].length > 1
     end
 
     json_hash = { 'nodes' => nodes.uniq, 'links' => links.uniq }
-    path = 'visualize/data/kashira-performers.json'
+    path = 'visualize/data/author-network.json'
     File.open(path, 'w') { |file| file.write(json_hash.to_json) }
   end
 

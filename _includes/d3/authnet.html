@@ -1,18 +1,20 @@
 {% include d3/assets.html %}
 
 <style>
-#kap-d3-viewer{border:1px solid grey;}
+#d3-force{background-color:#fff;margin-top:30px;}
+#d3-force circle:hover{cursor:pointer;}
 .links line {stroke:grey;stroke-opacity:.7;}
-.d3-tip{background-color:#fff;border-radius:5px;padding:8px;}
+.d3-tip{background-color:#fff;border-radius:5px;padding:8px;opacity:.8;}
+.nodes circle{stroke:grey;}
 </style>
 
-<svg width="960" height="600" id="kap-d3-viewer"></svg>
+<svg width="960" height="600" id="d3-force"></svg>
 <script>
-  var svg = d3.select("#kap-d3-viewer"),
+  var svg = d3.select("#d3-force"),
       width = +svg.attr("width"),
       height = +svg.attr("height");
 
-  var manyBody = d3.forceManyBody().strength(-100).distanceMax(250).distanceMin(100);
+  var manyBody = d3.forceManyBody().strength(-5).distanceMax(200).distanceMin(50);
 
   var simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -23,12 +25,12 @@
     .attr('class', 'd3-tip')
     .offset([-5, 0])
     .html(function (d) {
-      return '<b>' + d.type + '</b><br/>' + d.name + '</span>';
+      return d.name + '</span>';
     });
 
   svg.call(tip);
 
-  d3.json("{{ site.baseurl }}/visualize/data/kashira-performers.json", function(error, graph) {
+  d3.json("{{ site.baseurl }}/visualize/data/author-network.json", function(error, graph) {
     if (error) { console.log(error); }
 
     var link = svg.append("g")
@@ -44,7 +46,7 @@
       .enter().append("circle")
         .attr("r", 6)
         .attr("fill", function(d) {
-          if (d.type == 'kashira') { return '#b73b37' }
+          if (d.type == 'authors') { return '#b73b37' }
           else { return '#5c787c' }
         })
         .on('mouseover', tip.show)

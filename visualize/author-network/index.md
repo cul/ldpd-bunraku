@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Performers and their Kashira
+title: Author Network
 d3_tip: true
 ---
 __[Back to Visualize Menu]({{ site.baseurl }}/visualize)__
 
 
-{% include d3/kap.html %}
+{% include d3/authnet.html %}

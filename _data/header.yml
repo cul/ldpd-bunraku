@@ -51,11 +51,6 @@
       link: '/realia/yukahon/'
 - label: Data Visualizations
   link: '/visualize/'
-  sub:
-    - label: 'Force Graph: Connected Characters'
-      link: '/visualize/connected-characters/'
-    - label: 'Dendrogram: Oshun and Dembei'
-      link: '/visualize/play-dendrogram/'
 - label: Browse
   link: '/plays/'
   sub:

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Characters and Kashira
+title: Kashira and the Characters they Play
 d3_tip: true
 ---
 __[Back to Visualize Menu]({{ site.baseurl }}/visualize)__
