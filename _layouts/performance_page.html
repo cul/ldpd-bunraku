@@ -20,6 +20,6 @@ layout: default
   {% if play.label_ka %} ({{ play.label_ka}}){% endif %}
 </p>
 
-{% if page.image_id %}{% include sliders/main.html %}{% endif %}
+{% if page.image_id %}{% include slider.html list=page.image_id %}{% endif %}
 {% if page.scene_id %}{% include relations/scenes.html %}{% endif %}
 {% if page.character_id %}{% include relations/characters.html %}{% endif %}

@@ -11,4 +11,4 @@ layout: default
 <br/>
 
 {% if page.performance_id %}{% include relations/performances.html %}{% endif %}
-{% if page.image_id %}{% include sliders/main.html %}{% endif %}
+{% if page.image_id %}{% include slider.html list=page.image_id %}{% endif %}

@@ -10,5 +10,5 @@ layout: default
   <p><b>Category:</b> {{ page.category | capitalize }}</p>
 {% endif %}
 
-{% if page.image_id %}{% include sliders/main.html %}{% endif %}
+{% if page.image_id %}{% include slider.html list=page.image_id %}{% endif %}
 {% if page.play_id %}{% include relations/plays.html %}{% endif %}

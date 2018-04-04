@@ -11,7 +11,8 @@ image_id:
 permalink: /adachi/
 ---
 
-{% include sliders/main.html %}
+{% include slider.html list=page.image_id %}
+
 View all images of [Barbara Curtis Adachi]({{ site.baseurl }}/tags/44/).
 <br><br>
 

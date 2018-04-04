@@ -28,7 +28,7 @@ image_id:
   - '59079'
 ---
 
-{% include sliders/main.html %}
+{% include slider.html list=page.image_id %}
 
 <br><br>
 <br><br>

@@ -13,7 +13,7 @@ search: full
 autoplay: true
 permalink: /search/
 ---
-{% include sliders/main.html %}
+{% include slider.html list=page.image_id %}
 
 <br>
 

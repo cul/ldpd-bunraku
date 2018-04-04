@@ -4,7 +4,7 @@
   <div class="wrapper">
     <br><br>
     {% assign default_paths = site.pages | map: "path" %}
-    <b><a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/starr.gif" style="padding-right:10px;" alt="Starr Logo"/></a><span>&#09;</span><a class="site-title" href="{{ site.baseurl }}/">{{ site.title | escape }}</a></b><br>
+    <b><a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/starr.gif" style="padding-right:10px;" alt="Starr Logo"/></a><span>&#09;</span><a class="site-title" id="main-heading" href="{{ site.baseurl }}/">{{ site.title | escape }}</a></b><br>
     <nav class="site-nav" style="float:left;text-align:left;">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">

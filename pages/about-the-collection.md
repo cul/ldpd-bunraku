@@ -10,7 +10,7 @@ image_id:
 title: About the Collection
 permalink: /about-the-collection/
 ---
-{% include sliders/main.html %}
+{% include slider.html list=page.image_id %}
 
 ## Bunraku at Columbia University Libraries
 

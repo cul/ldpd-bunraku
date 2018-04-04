@@ -1,39 +1,7 @@
 {% include d3/assets.html %}
-<style>
-#dendrogram {
-  height: 600px;
-  width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin: 0;
-  border: 1px grey solid;
-}
-#dendrogram svg{ overflow:scroll !important; }
-#dendrogram .node { cursor: pointer; }
-#dendrogram .node circle {
-  fill: #fff;
-  stroke: $icon-color;
-  stroke-width: 1px;
-}
-#dendrogram .node text {
-  font-size: 12px;
-  width: 50px;
-  word-wrap: break-word;
-  padding-left:20px;
-}
-#dendrogram .link {
-  stroke: #ccc;
-  fill: none;
-}
-</style>
 
-
-<div class="hidden-xs" id="dendrogram"></div>
+<div class="hidden-xs" id="d3-dendrogram"></div>
 <script>
-
   d3.json("{{ site.baseurl }}/visualize/data/play6.json", function(error, treeData) {
     if (error) throw error;
 
@@ -45,7 +13,7 @@
     // append the svg object to the body of the page
     // appends a 'group' element to 'svg'
     // moves the 'group' element to the top left margin
-    var svg = d3.select("#dendrogram").append("svg")
+    var svg = d3.select("#d3-dendrogram").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)
       .append("g")
@@ -208,7 +176,7 @@
           }
         update(d);
       }
-      function dblclick(d){ if (d.data.url){ location.href = d.data.url; }}
+      function dblclick(d){ if (d.data.url){ location.href = d.data.url + '/'; }}
     }
   })
 

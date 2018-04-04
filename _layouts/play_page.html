@@ -20,6 +20,6 @@ layout: default
 {% if page.first_staged %}<p><b>First Staged:</b> {{ page.first_staged }}</p>{% endif %}
 {% if page.reference %}<p><b>Reference:</b> {{ page.reference }}</p>{% endif %}
 
-{% if page.image_id %}{% include sliders/main.html %}{% endif %}
+{% if page.image_id %}{% include slider.html list=page.image_id %}{% endif %}
 {% if page.performance_id %}{% include relations/performances.html %}{% endif %}
 {% if page.character_id %}{% include relations/characters.html %}{% endif %}

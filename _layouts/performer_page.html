@@ -6,7 +6,7 @@ layout: default
 {% if page.dates %}<p><b>Dates:</b> {{ page.dates }}</p>{% endif %}
 {% if page.specialty %}<p><b>Specialty:</b> {{ page.specialty }}</p>{% endif %}
 {% if page.notes %}<p><b>Notes:</b> {{ page.notes }}</p>{% endif %}
-{% if page.image_id %}<br/>{% include sliders/main.html %}{% endif %}
+{% if page.image_id %}<br>{% include slider.html list=page.image_id %}{% endif %}
 
 {% if page.narrator_perf_id %}<br/>
   <h1>Performances as Narrator:</h1>

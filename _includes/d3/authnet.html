@@ -1,14 +1,6 @@
 {% include d3/assets.html %}
 
-<style>
-#d3-force{background-color:#fff;margin-top:30px;}
-#d3-force circle:hover{cursor:pointer;}
-.links line {stroke:grey;stroke-opacity:.7;}
-.d3-tip{background-color:#fff;border-radius:5px;padding:8px;opacity:.8;}
-.nodes circle{stroke:grey;}
-</style>
-
-<svg width="960" height="600" id="d3-force"></svg>
+<svg width="900" height="600" id="d3-force"></svg>
 <script>
   var svg = d3.select("#d3-force"),
       width = +svg.attr("width"),
@@ -24,9 +16,7 @@
   var tip = d3.tip()
     .attr('class', 'd3-tip')
     .offset([-5, 0])
-    .html(function (d) {
-      return d.name + '</span>';
-    });
+    .html(function (d) { return '&nbsp;&nbsp;'+d.name+'&nbsp;&nbsp;'; });
 
   svg.call(tip);
 

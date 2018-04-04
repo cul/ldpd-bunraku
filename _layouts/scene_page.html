@@ -19,9 +19,7 @@ layout: default
   <b><a href="{{ site.baseurl }}/productions/{{ pr_id }}">{{ production.label_eng }}</a></b>
 </p>
 
-{% if page.image_id %}
-  {% include sliders/main.html %}
-{% endif %}
+{% if page.image_id %}{% include slider.html list=page.image_id %}{% endif %}
 
 <!--narrator, shamisen, musician, spuck-->
 

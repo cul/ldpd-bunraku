@@ -34,7 +34,7 @@
   <div class="wrapper">
     <br><br>
     
-    <b><a class="site-title" href="/"><img src="/assets/starr.gif" style="padding-right:10px;" alt="Starr Logo"/></a><span>&#09;</span><a class="site-title" href="/">The Barbara Curtis Adachi Bunraku Collection</a></b><br>
+    <b><a class="site-title" href="/"><img src="/assets/starr.gif" style="padding-right:10px;" alt="Starr Logo"/></a><span>&#09;</span><a class="site-title" id="main-heading" href="/">The Barbara Curtis Adachi Bunraku Collection</a></b><br>
     <nav class="site-nav" style="float:left;text-align:left;">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
@@ -132,15 +132,7 @@
             </li>
           
             <li><a href="/visualize/">Data Visualizations</a>
-              <ul>
-                <li>
-                  <a href="/visualize/connected-characters/">Force Graph: Connected Characters</a>
-                  
-                </li><li>
-                  <a href="/visualize/play-dendrogram/">Dendrogram: Oshun and Dembei</a>
-                  
-                </li>
-              </ul>
+              
             </li>
           
             <li><a href="/plays/">Browse</a>
@@ -200,49 +192,33 @@
 
 <script type="text/javascript" id="slick" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-<style>.slick-slider button{ color: #222222; }</style>
-
 <center>
     <div class="data-slick">
       
-        
-        
-            <div><a href="/images/60187/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_423_1_7773_9257&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
-        
+          
+          <div><a href="/images/60187/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_423_1_7773_9257&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-        
-        
-            <div><a href="/images/52458/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_003_1_0044_0047&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
-        
+          
+          <div><a href="/images/52458/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_003_1_0044_0047&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-        
-        
-            <div><a href="/images/8307/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_453_2_0027_0027&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
-        
+          
+          <div><a href="/images/8307/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_453_2_0027_0027&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-        
-        
-            <div><a href="/images/8385/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_457_2_0105_0112&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
-        
+          
+          <div><a href="/images/8385/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_457_2_0105_0112&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-        
-        
-            <div><a href="/images/12076/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_661_4_0298_0298&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
-        
+          
+          <div><a href="/images/12076/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_661_4_0298_0298&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-        
-        
-            <div><a href="/images/52706/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_016_1_0292_0457&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
-        
+          
+          <div><a href="/images/52706/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_016_1_0292_0457&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-        
-        
-            <div><a href="/images/9364/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_509_2_1084_1156&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
-        
+          
+          <div><a href="/images/9364/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_509_2_1084_1156&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
     </div>
   </center>
-<p><span class="pagingInfo"></span> – Click image to view.</p>
+<p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
 
 <script>
   $(document).ready(function(){
@@ -270,17 +246,6 @@
 <script type="text/javascript" id="lunr" src="//cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
 
 <script src="/js/lunr-ui.js"></script>
-
-<style>
-  .search{margin-bottom:30px;}
-  .search table{width:100%;margin-top:30px;}
-  .search table tr{height:40px;}
-  #search-icon{width:5%;font-size:20px;}
-  #input-box{width:95%}
-  #search{width:100%;border:none;padding:10px;}
-  #results{margin:30px;padding-left:20px;}
-  .result{padding-top:10px;}
-</style>
 
 <div class="search">
   <table>

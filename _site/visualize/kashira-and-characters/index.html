@@ -34,7 +34,7 @@
   <div class="wrapper">
     <br><br>
     
-    <b><a class="site-title" href="/"><img src="/assets/starr.gif" style="padding-right:10px;" alt="Starr Logo"/></a><span>&#09;</span><a class="site-title" href="/">The Barbara Curtis Adachi Bunraku Collection</a></b><br>
+    <b><a class="site-title" href="/"><img src="/assets/starr.gif" style="padding-right:10px;" alt="Starr Logo"/></a><span>&#09;</span><a class="site-title" id="main-heading" href="/">The Barbara Curtis Adachi Bunraku Collection</a></b><br>
     <nav class="site-nav" style="float:left;text-align:left;">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
@@ -132,15 +132,7 @@
             </li>
           
             <li><a href="/visualize/">Data Visualizations</a>
-              <ul>
-                <li>
-                  <a href="/visualize/connected-characters/">Force Graph: Connected Characters</a>
-                  
-                </li><li>
-                  <a href="/visualize/play-dendrogram/">Dendrogram: Oshun and Dembei</a>
-                  
-                </li>
-              </ul>
+              
             </li>
           
             <li><a href="/plays/">Browse</a>
@@ -194,23 +186,41 @@
   </header>
 
   <div class="post-content">
-    <p><strong><a href="/visualize">Back to Visualize Menu</a></strong></p>
-
-<script type="text/javascript" id="d3-v4" src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+    <script type="text/javascript" id="d3-v4" src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 
 <script type="text/javascript" id="d3-tip" src="/js/d3.tip.js"></script>
 
 <script type="text/javascript" id="d3-tip-patch" src="/js/d3-v4-patch.tip.js"></script>
 
 <style>
-#d3-force{background-color:#fff;margin-top:30px;}
+#d3-force{margin-top:30px;background-color:#f4f9f7}
 #d3-force circle:hover{cursor:pointer;}
-.links line {stroke:grey;stroke-opacity:.7;}
-.d3-tip{background-color:#fff;border-radius:5px;padding:8px;opacity:.8;}
-.nodes circle{stroke:grey;}
+.links line {stroke:black;stroke-opacity:.7;}
+.nodes circle{stroke:white;}
+.d3-tip{
+  position: relative;
+  display: inline;
+  color: #FFFFFF;
+  background: #000000;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 6px;
+}
+.d3-tip:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-top: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
 </style>
 
-<svg width="960" height="960" id="d3-force"></svg>
+<svg width="900" height="900" id="d3-force"></svg>
 <script>
   var svg = d3.select("#d3-force"),
       width = +svg.attr("width"),
@@ -227,7 +237,7 @@
     .attr('class', 'd3-tip')
     .offset([-5, 0])
     .html(function (d) {
-      return d.name + '</span>';
+      return '&nbsp;&nbsp;' + d.name + '&nbsp;&nbsp;';
     });
 
   svg.call(tip);
@@ -247,8 +257,8 @@
       .data(graph.nodes)
       .enter().append("circle")
         .attr("r", function(d) {
-          if (d.type == 'kashira') { return 7; }
-          else { return 3 }
+          if (d.type == 'kashira') { return 8; }
+          else { return 4; }
         })
         .attr("fill", function(d) {
           if (d.type == 'kashira') { return '#b73b37'; }

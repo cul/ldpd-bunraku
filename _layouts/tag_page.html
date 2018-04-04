@@ -8,4 +8,4 @@ layout: default
 </h1>
 
 {% if page.notes %}<p><b>Notes:</b> {{ page.notes }}</p>{% endif %}
-{% if page.image_id %}{% include sliders/main.html %}{% endif %}
+{% if page.image_id %}{% include slider.html list=page.image_id %}{% endif %}

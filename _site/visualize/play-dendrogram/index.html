@@ -34,7 +34,7 @@
   <div class="wrapper">
     <br><br>
     
-    <b><a class="site-title" href="/"><img src="/assets/starr.gif" style="padding-right:10px;" alt="Starr Logo"/></a><span>&#09;</span><a class="site-title" href="/">The Barbara Curtis Adachi Bunraku Collection</a></b><br>
+    <b><a class="site-title" href="/"><img src="/assets/starr.gif" style="padding-right:10px;" alt="Starr Logo"/></a><span>&#09;</span><a class="site-title" id="main-heading" href="/">The Barbara Curtis Adachi Bunraku Collection</a></b><br>
     <nav class="site-nav" style="float:left;text-align:left;">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
@@ -132,15 +132,7 @@
             </li>
           
             <li><a href="/visualize/">Data Visualizations</a>
-              <ul>
-                <li>
-                  <a href="/visualize/connected-characters/">Force Graph: Connected Characters</a>
-                  
-                </li><li>
-                  <a href="/visualize/play-dendrogram/">Dendrogram: Oshun and Dembei</a>
-                  
-                </li>
-              </ul>
+              
             </li>
           
             <li><a href="/plays/">Browse</a>
@@ -194,9 +186,7 @@
   </header>
 
   <div class="post-content">
-    <p><strong><a href="/visualize">Back to Visualize Menu</a></strong></p>
-
-<p>Below is an interactive, hierarchical graph of the structure of one play: <strong><a href="/plays/6">Oshun and Dembei (Chikagoro kawara no tatehiki / 近頃河原の達引)</a></strong>, including links to its authors and productions in which it was performed, which in turn link to scenes which link to performer information.</p>
+    <p>Below is an interactive, hierarchical graph of the structure of one play: <strong><a href="/plays/6">Oshun and Dembei (Chikagoro kawara no tatehiki / 近頃河原の達引)</a></strong>, including links to its authors and productions in which it was performed, which in turn link to scenes which link to performer information.</p>
 
 <p>You can <strong>click on the circles</strong> to open or collapse nodes or <strong>double-click on one with a bolded name</strong> to learn more about its corresponding author, performance, scene, performer, character, or kashira (puppet).</p>
 
@@ -204,40 +194,8 @@
 
 <script type="text/javascript" id="d3-v4" src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 
-<style>
-#dendrogram {
-  height: 600px;
-  width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin: 0;
-  border: 1px grey solid;
-}
-#dendrogram svg{ overflow:scroll !important; }
-#dendrogram .node { cursor: pointer; }
-#dendrogram .node circle {
-  fill: #fff;
-  stroke: $icon-color;
-  stroke-width: 1px;
-}
-#dendrogram .node text {
-  font-size: 12px;
-  width: 50px;
-  word-wrap: break-word;
-  padding-left:20px;
-}
-#dendrogram .link {
-  stroke: #ccc;
-  fill: none;
-}
-</style>
-
-<div class="hidden-xs" id="dendrogram"></div>
+<div class="hidden-xs" id="d3-dendrogram"></div>
 <script>
-
   d3.json("/visualize/data/play6.json", function(error, treeData) {
     if (error) throw error;
 
@@ -249,7 +207,7 @@
     // append the svg object to the body of the page
     // appends a 'group' element to 'svg'
     // moves the 'group' element to the top left margin
-    var svg = d3.select("#dendrogram").append("svg")
+    var svg = d3.select("#d3-dendrogram").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)
       .append("g")
@@ -412,7 +370,7 @@
           }
         update(d);
       }
-      function dblclick(d){ if (d.data.url){ location.href = d.data.url; }}
+      function dblclick(d){ if (d.data.url){ location.href = d.data.url + '/'; }}
     }
   })
 

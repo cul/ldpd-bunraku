@@ -1,20 +1,20 @@
-{% include sliders/assets.html %}
+<link rel="stylesheet" id="slick-css" type="text/css" href="{{ site.baseurl }}/{{ site.styles.slick }}">
+<link rel="stylesheet" id="slick-theme-css" type="text/css" href="{{ site.baseurl }}/{{ site.styles.slick-theme }}">
+<script type='text/javascript' id="slick" src="{{ site.js.slick.cdn }}"></script>
 
-{% assign p_num = page.image_id | size %}
-{% if p_num > 1 %}
+{% assign num = include.list | size %}
+{% if num > 1 %}
   <center>
     <div class="data-slick">
-      {% for i in page.image_id %}
-        {% assign images = site.data.images | where: "pid", i %}
-        {% for image in images %}
-            <div><a href="{{ site.baseurl }}/images/{{ i }}/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ image.objid }}&size=medium"  data-proofer-ignore height="300px"/></a></div>
-        {% endfor %}
+      {% for i in include.list %}
+          {% assign image = site.data.images | where: "pid", i | first %}
+          <div><a href="{{ site.baseurl }}/images/{{ i }}/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ image.objid }}&size=medium"  data-proofer-ignore height="300px"/></a></div>
       {% endfor %}
     </div>
   </center>
-  <p><span class="pagingInfo"></span> – Click image to view.</p>
+  <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
 {% else %}
-  {% assign i = page.image_id | first %}
+  {% assign i = include.list | first %}
   {% assign image = site.data.images | where: "pid", i | first %}
   <div><a href="{{ site.baseurl }}/images/{{ i }}/"><img src="http://www.columbia.edu/cgi-bin/dlo?obj={{ image.objid}}&size=medium" width="100%"/></a></div>
   <p>1/1 – Click image to view.</p>
