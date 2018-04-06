@@ -8,4 +8,4 @@ image_id:
  - 64622
  - 64623
 ---
-{% include sliders/main.html %}
+{% include slider.html list=page.image_id %}

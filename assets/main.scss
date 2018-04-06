@@ -17,9 +17,12 @@ $spacing-unit:     30px !default;
 $text-color:       #111 !default;
 $background-color: #EBF0EE !default;
 $brand-color:      #cc3b1e !default;
-$icon-color:       #0E6FA3 !default;
-$heading-color:    #231B26 !default;
-$accent-color:     #C27247 !default;
+$img-icon:         #5498a3 !default;
+$no-img-icon:      #9a9d9e !default;
+
+$d3-backgound:     #f4f9f7 !default;
+$d3-node1:         #b73b37 !default;
+$d3-node2:         #5c787c !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

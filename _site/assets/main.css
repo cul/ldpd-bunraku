@@ -30,7 +30,7 @@
     cursor: pointer; }
     #d3-dendrogram .node circle {
       fill: #fff;
-      stroke: #0E6FA3;
+      stroke: #5c787c;
       stroke-width: 1px; }
     #d3-dendrogram .node text {
       font-size: 12px;
@@ -41,16 +41,17 @@
     stroke: #ccc;
     fill: none; }
 
-.d3-tip {
-  position: relative;
-  display: inline;
-  color: #FFFFFF;
-  background: #000000;
-  height: 30px;
-  line-height: 30px;
+.d3-tooltip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
   text-align: center;
-  border-radius: 6px; }
-  .d3-tip:after {
+  color: white;
+  background: #424242;
+  border-radius: 6px;
+  padding: 10px; }
+  .d3-tooltip:after {
     content: '';
     position: absolute;
     top: 100%;
@@ -58,7 +59,7 @@
     margin-left: -8px;
     width: 0;
     height: 0;
-    border-top: 8px solid #000000;
+    border-top: 8px solid #424242;
     border-right: 8px solid transparent;
     border-left: 8px solid transparent; }
 
@@ -86,8 +87,32 @@
     padding-top: 10px; }
 
 /* slider */
-.slick-slider button {
+.slick-next::before, .slick-prev::before {
   color: #222222; }
+
+/* icons */
+.fa-file-image-o {
+  color: #5498a3; }
+
+.fa-times {
+  color: #9a9d9e; }
+
+/*nodes*/
+.d3-node1 {
+  fill: #b73b37; }
+
+.d3-node2 {
+  fill: #5c787c; }
+
+/* tables */
+.spuck-table {
+  background-color: #f4f9f7; }
+  .spuck-table tr {
+    background-color: #f4f9f7; }
+  .spuck-table tr:nth-child(even) {
+    background-color: #e8e8e8; }
+  .spuck-table th {
+    background-color: #e8e8e8; }
 
 /**
  * Reset some basic elements

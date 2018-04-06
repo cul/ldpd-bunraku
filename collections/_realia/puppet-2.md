@@ -11,4 +11,4 @@ image_id:
  - 64610
  - 64611
 ---
-{% include sliders/main.html %}
+{% include slider.html list=page.image_id %}

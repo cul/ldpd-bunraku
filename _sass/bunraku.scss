@@ -6,7 +6,7 @@
 /* D3 */
 #d3-force{
   margin:30px 0 30px 0;
-  background-color:#f4f9f7;
+  background-color:$d3-backgound;
   .links line {
     stroke:black;
     stroke-opacity:.7;
@@ -26,7 +26,7 @@
   vertical-align: top;
   position: relative;
   margin:30px 0 30px 0;
-  background-color:#f4f9f7;
+  background-color:$d3-backgound;
   svg{
     overflow:scroll !important;
   }
@@ -34,7 +34,7 @@
     cursor: pointer;
     circle {
       fill: #fff;
-      stroke: $icon-color;
+      stroke: $d3-node2;
       stroke-width: 1px;
     }
     text {
@@ -50,15 +50,16 @@
   }
 }
 
-.d3-tip{
-  position: relative;
-  display: inline;
-  color: #FFFFFF;
-  background: #000000;
-  height: 30px;
-  line-height: 30px;
+.d3-tooltip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
   text-align: center;
+  color: white;
+  background: $grey-color-dark;
   border-radius: 6px;
+  padding: 10px;
   &:after {
     content:'';
     position: absolute;
@@ -66,7 +67,7 @@
     left: 50%;
     margin-left: -8px;
     width: 0; height: 0;
-    border-top: 8px solid #000000;
+    border-top: 8px solid $grey-color-dark;
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
   }
@@ -104,6 +105,22 @@
 }
 
 /* slider */
-.slick-slider button{
+.slick-next::before, .slick-prev::before{
   color: #222222;
+}
+
+/* icons */
+.fa-file-image-o{color:$img-icon}
+.fa-times{color:$no-img-icon}
+
+/*nodes*/
+.d3-node1{fill:$d3-node1}
+.d3-node2{fill:$d3-node2}
+
+/* tables */
+.spuck-table{
+  background-color: $d3-backgound;
+  tr{ background-color: $d3-backgound; }
+  tr:nth-child(even) { background-color: $grey-color-light; }
+  th{ background-color: $grey-color-light; }
 }

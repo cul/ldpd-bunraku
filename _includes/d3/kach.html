@@ -1,33 +1,4 @@
-{% include d3/assets.html %}
-
-<style>
-#d3-force{margin-top:30px;background-color:#f4f9f7}
-#d3-force circle:hover{cursor:pointer;}
-.links line {stroke:black;stroke-opacity:.7;}
-.nodes circle{stroke:white;}
-.d3-tip{
-  position: relative;
-  display: inline;
-  color: #FFFFFF;
-  background: #000000;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 6px;
-}
-.d3-tip:after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -8px;
-  width: 0; height: 0;
-  border-top: 8px solid #000000;
-  border-right: 8px solid transparent;
-  border-left: 8px solid transparent;
-}
-</style>
-
+<script type='text/javascript' id="d3-v4" src="{{ site.js.d3.cdn }}"></script>
 <svg width="900" height="900" id="d3-force"></svg>
 <script>
   var svg = d3.select("#d3-force"),
@@ -41,14 +12,8 @@
       .force("charge", manyBody)
       .force("center", d3.forceCenter(width / 2, height / 2));
 
-  var tip = d3.tip()
-    .attr('class', 'd3-tip')
-    .offset([-5, 0])
-    .html(function (d) {
-      return '&nbsp;&nbsp;' + d.name + '&nbsp;&nbsp;';
-    });
+  var tooltip = d3.select("body").append("div").attr("class", "d3-tooltip");
 
-  svg.call(tip);
 
   d3.json("{{ site.baseurl }}/visualize/data/kashira-characters.json", function(error, graph) {
     if (error) { console.log(error); }
@@ -68,12 +33,18 @@
           if (d.type == 'kashira') { return 8; }
           else { return 4; }
         })
-        .attr("fill", function(d) {
-          if (d.type == 'kashira') { return '#b73b37'; }
-          else { return '#5c787c'; }
+        .attr("class", function(d) {
+          if (d.type == 'kashira') { return 'd3-node1' }
+          else { return 'd3-node2' }
         })
-        .on('mouseover', tip.show)
-        .on('mouseout', tip.hide)
+        .on("mousemove", function(d){
+            tooltip
+              .style("left", d3.event.pageX - 50 + "px")
+              .style("top", d3.event.pageY - 70 + "px")
+              .style("display", "inline-block")
+              .html((d.name));
+        })
+    		.on("mouseout", function(d){ tooltip.style("display", "none");})
         .on("dblclick", dblclick)
         .call(d3.drag()
          .on("start", dragstarted)

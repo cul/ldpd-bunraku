@@ -27,8 +27,6 @@
 - label: Special Features
   link: '/realia/47-ronin/'
   sub:
-    - label: Albums
-      link: '/albums/'
     - label: 47 Ronin Scroll
       link: '/realia/47-ronin/'
     - label: Puppet Head (Baba)

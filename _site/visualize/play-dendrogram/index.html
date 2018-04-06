@@ -9,7 +9,7 @@
   <title>The Barbara Curtis Adachi Bunraku Collection</title>
   <meta name="description" content="at C.V. Starr East Asian Library">
 
-  <link rel="canonical" href="http://localhost:4000/visualize/play-dendrogram/">
+  <link rel="canonical" href="/visualize/play-dendrogram/">
 
   <!-- main styles -->
   <link rel="stylesheet" id="main-css" type="text/css" href="/assets/main.css">
@@ -95,9 +95,6 @@
             <li><a href="/realia/47-ronin/">Special Features</a>
               <ul>
                 <li>
-                  <a href="/albums/">Albums</a>
-                  
-                </li><li>
                   <a href="/realia/47-ronin/">47 Ronin Scroll</a>
                   
                 </li><li>
@@ -269,7 +266,7 @@
       nodeEnter.append('circle')
           .attr('class', 'node')
           .attr('r', 1e-2)
-          .style("fill", function(d) { return d._children ? "#0E6FA3" : "#fff"; });
+          .style("fill", function(d) { return d._children ? "#5c787c" : "#fff"; });
 
       // Add labels for the nodes
       nodeEnter.append('text')
@@ -290,10 +287,8 @@
 
       // Update the node attributes and style
       nodeUpdate.select('circle.node')
-        .attr('r', 10)
-        .style("fill", function(d) {
-            return d._children ? "#0E6FA3" : "#fff";
-        })
+        .attr('r', 8)
+        .style("fill", function(d) { return d._children ? "#5c787c" : "#fff"; })
         .attr('cursor', 'pointer');
 
 

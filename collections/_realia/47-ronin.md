@@ -23,7 +23,7 @@ image_id:
  - 64645
  - 64646
  - 64647
- - 64649
+ - 64648
 ---
 
-{% include sliders/main.html %}
+{% include slider.html list=page.image_id %}

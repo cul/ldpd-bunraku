@@ -1,5 +1,4 @@
-{% include d3/assets.html %}
-
+<script type='text/javascript' id="d3-v4" src="{{ site.js.d3.cdn }}"></script>
 <div class="hidden-xs" id="d3-dendrogram"></div>
 <script>
   d3.json("{{ site.baseurl }}/visualize/data/play6.json", function(error, treeData) {
@@ -75,7 +74,7 @@
       nodeEnter.append('circle')
           .attr('class', 'node')
           .attr('r', 1e-2)
-          .style("fill", function(d) { return d._children ? "#0E6FA3" : "#fff"; });
+          .style("fill", function(d) { return d._children ? "#5c787c" : "#fff"; });
 
       // Add labels for the nodes
       nodeEnter.append('text')
@@ -96,10 +95,8 @@
 
       // Update the node attributes and style
       nodeUpdate.select('circle.node')
-        .attr('r', 10)
-        .style("fill", function(d) {
-            return d._children ? "#0E6FA3" : "#fff";
-        })
+        .attr('r', 8)
+        .style("fill", function(d) { return d._children ? "#5c787c" : "#fff"; })
         .attr('cursor', 'pointer');
 
 

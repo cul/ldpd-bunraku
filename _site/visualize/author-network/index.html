@@ -9,7 +9,7 @@
   <title>The Barbara Curtis Adachi Bunraku Collection</title>
   <meta name="description" content="at C.V. Starr East Asian Library">
 
-  <link rel="canonical" href="http://localhost:4000/visualize/author-network/">
+  <link rel="canonical" href="/visualize/author-network/">
 
   <!-- main styles -->
   <link rel="stylesheet" id="main-css" type="text/css" href="/assets/main.css">
@@ -95,9 +95,6 @@
             <li><a href="/realia/47-ronin/">Special Features</a>
               <ul>
                 <li>
-                  <a href="/albums/">Albums</a>
-                  
-                </li><li>
                   <a href="/realia/47-ronin/">47 Ronin Scroll</a>
                   
                 </li><li>
@@ -186,11 +183,9 @@
   </header>
 
   <div class="post-content">
-    <script type="text/javascript" id="d3-v4" src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+    <p>Below is an interactive force graph of authors (in red) connected by plays they’ve co-authored (in grey). You can double-click on a node to learn more about its corresponding play or author.</p>
 
-<script type="text/javascript" id="d3-tip" src="/js/d3.tip.js"></script>
-
-<script type="text/javascript" id="d3-tip-patch" src="/js/d3-v4-patch.tip.js"></script>
+<script type="text/javascript" id="d3-v4" src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 
 <svg width="900" height="600" id="d3-force"></svg>
 <script>
@@ -205,12 +200,7 @@
       .force("charge", manyBody)
       .force("center", d3.forceCenter(width / 2, height / 2));
 
-  var tip = d3.tip()
-    .attr('class', 'd3-tip')
-    .offset([-5, 0])
-    .html(function (d) { return '&nbsp;&nbsp;'+d.name+'&nbsp;&nbsp;'; });
-
-  svg.call(tip);
+  var tooltip = d3.select("body").append("div").attr("class", "d3-tooltip");
 
   d3.json("/visualize/data/author-network.json", function(error, graph) {
     if (error) { console.log(error); }
@@ -227,18 +217,23 @@
       .data(graph.nodes)
       .enter().append("circle")
         .attr("r", 6)
-        .attr("fill", function(d) {
-          if (d.type == 'authors') { return '#b73b37' }
-          else { return '#5c787c' }
+        .attr("class", function(d) {
+          if (d.type == 'authors') { return 'd3-node1' }
+          else { return 'd3-node2' }
         })
-        .on('mouseover', tip.show)
-        .on('mouseout', tip.hide)
+        .on("mousemove", function(d){
+            tooltip
+              .style("left", d3.event.pageX - 50 + "px")
+              .style("top", d3.event.pageY - 70 + "px")
+              .style("display", "inline-block")
+              .html((d.name));
+        })
+    		.on("mouseout", function(d){ tooltip.style("display", "none");})
         .on("dblclick", dblclick)
         .call(d3.drag()
          .on("start", dragstarted)
          .on("drag", dragged)
          .on("end", dragended));
-
 
     simulation
       .nodes(graph.nodes)
@@ -269,6 +264,7 @@
       return simulation.find(d3.event.x, d3.event.y);
     }
   });
+
   function dblclick(d) {
     location.href = '/'+d.type+'/'+d.id.slice(0,-1)+'/';
   }

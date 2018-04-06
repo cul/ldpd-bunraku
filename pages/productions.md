@@ -10,9 +10,9 @@ permalink: /productions/
   <p>
     <b>
       {% if production.image_id %}
-        <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
       {% else %}
-        <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
       {% endif %}
       <a href="{{ site.baseurl }}/productions/{{ production.pid }}/">{{ production.label_eng }}</a>
     </b>
