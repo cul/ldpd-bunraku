@@ -2,6 +2,18 @@
 #main-heading{
   font-size:2.5em;
 }
+.page-title{
+  margin: 20px 0px 20px 0px;
+}
+.page-title-sub{
+  margin: 15px 0px 15px 0px;
+}
+.data-sub-head{
+  margin: 15px 0px 15px 0px;
+}
+.slider-block{
+  margin: 20px 0px 20px 0px;
+}
 
 /* D3 */
 #d3-force{
@@ -95,10 +107,11 @@
     border:none;
     padding:10px;
   }
-  #results{
-    margin:30px;
-    padding-left:20px;
-  }
+
+}
+#results{
+  margin:30px;
+  padding-left:20px;
   .result{
     padding-top:10px;
   }
@@ -106,7 +119,14 @@
 
 /* slider */
 .slick-next::before, .slick-prev::before{
-  color: #222222;
+  color: #222222 !important;
+}
+.slider-block-single img{
+  display: block;
+  max-width:800px;
+  max-height:600px;
+  width: auto;
+  height: auto;
 }
 
 /* icons */

@@ -8,7 +8,7 @@ permalink: /characters/
 {% for character in sorted_characters %}
   <p>
     <b>
-      {% if character.image_id %}
+      {% if character.images %}
         <i class="fa fa-file-image-o" aria-hidden="true"></i>
       {% else %}
         <i class="fa fa-times" aria-hidden="true"></i>

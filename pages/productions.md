@@ -4,12 +4,11 @@ title: Productions
 search: production
 permalink: /productions/
 ---
-
 {% assign productions = site.data.productions | sort: 'seq_chron' %}
 {% for production in productions %}
   <p>
     <b>
-      {% if production.image_id %}
+      {% if production.images %}
         <i class="fa fa-file-image-o" aria-hidden="true"></i>
       {% else %}
         <i class="fa fa-times" aria-hidden="true"></i>

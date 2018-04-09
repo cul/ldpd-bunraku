@@ -9,7 +9,7 @@ permalink: /plays/
 {% for play in sorted_plays %}
   <p>
     <b>
-      {% if play.image_id %}
+      {% if play.images %}
         <i class="fa fa-file-image-o" aria-hidden="true"></i>
       {% else %}
         <i class="fa fa-times" aria-hidden="true"></i>

@@ -135,22 +135,22 @@
             <li><a href="/plays/">Browse</a>
               <ul>
                 <li>
-                  <a href="/plays/">Plays</a>
-                  
-                </li><li>
-                  <a href="/productions/">Productions</a>
-                  
-                </li><li>
                   <a href="/authors/">Authors</a>
-                  
-                </li><li>
-                  <a href="/performers/">Performers</a>
                   
                 </li><li>
                   <a href="/characters/">Characters</a>
                   
                 </li><li>
                   <a href="/kashira/">Kashira (Puppets)</a>
+                  
+                </li><li>
+                  <a href="/performers/">Performers</a>
+                  
+                </li><li>
+                  <a href="/plays/">Plays</a>
+                  
+                </li><li>
+                  <a href="/productions/">Productions</a>
                   
                 </li><li>
                   <a href="/tags/">Image tags</a>
@@ -176,46 +176,35 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1><b>Scene:</b><br/>
-  The Kamo River Bank<br>
-  (Kamo tsutsumi / 加茂堤)</h1>
+        <h3 class='page-head'>
+  <a href="/scenes/">
+    Scenes
+  </a>
+   > The Kamo River Bank
+</h3>
 
-<p>
-  <b>Play: </b>
-  
-  
-  <b><a href="/plays/73">Sugawara's Secrets of Calligraphy</a></b>
-   (菅原伝授手習鑑)
-</p>
-<p>
-  <b>Production: </b>
-  
-  
-  <b><a href="/productions/12">September 1970</a></b>
-</p>
 
-<link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 <link rel="stylesheet" id="slick-theme-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 <script type='text/javascript' id="slick" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+<div class="slider-block">
 
 
   <center>
     <div class="data-slick">
       
-          
-          <div><a href="/images/45028/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_03_0318&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/45028/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_03_0318&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/45585/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_19_1918&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/45585/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_19_1918&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/45669/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_22_2209&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/45669/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_22_2209&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
     </div>
   </center>
   <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
 
+</div>
 
 <script>
   $(document).ready(function(){
@@ -223,7 +212,7 @@
     var $status = $('.pagingInfo');
     $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
       var i = (currentSlide ? currentSlide : 0) + 1;
-      $status.text(i + '/' + slick.slideCount);
+      $status.text(i + '/' + 3);
     });
     $slickElement.slick({
       lazyLoad: 'progressive',
@@ -239,19 +228,72 @@
 </script>
 
 
-<!--narrator, shamisen, musician, spuck-->
+
+<h1 class="page-title">
+  The Kamo River Bank
+</h1>
+
+<h2 class="page-title-sub">
+   (加茂堤) 
+   (Kamo tsutsumi) 
+</h2>
 
 
-  <br><br>
-  <h2>Narrators (Tayu):</h2>
+
+
+
+
+  <p><b>Performance:</b>
+    <a href="/performances/31/">
+      September 1970: Sugawara's Secrets of Calligraphy
+    </a>
+  </p>
+
+
+
+  <p><b>Production:</b>
+    <a href="/productions/12/">
+      September 1970
+    </a>
+  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class='data-sub-head'>Narrators:</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/68/">Toyotake Shimatayū VIII</a>
+        <a href="/performers/68/">
+          Toyotake Shimatayū VIII
+        </a>
       </b>
       (豊竹嶋大夫 (八))
     </p>
@@ -259,220 +301,20 @@
 
 
 
-  <br/><br/>
-  <h2>Shamisen Players:</h2>
+  <h2 class='data-sub-head'>Shamisen (Musicians):</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/105/">Takezawa Danjirō IV (see also Takezawa Danshichi)</a>
+        <a href="/performers/105/">
+          Takezawa Danjirō IV (see also Takezawa Danshichi)
+        </a>
       </b>
       (竹澤団二郎 (四))
     </p>
   
-
-
-
-
-
-  <br><br>
-  <h2>Performers:</h2>
-  <table class="spuck-table">
-    <tr>
-      <th>Puppeteer</th>
-      <th>Character</th>
-      <th>Kashira</th>
-    <tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/performers/130/">Kiritake Monya (see also Yoshida Tamamatsu III)</a>
-          </b><br>
-          (桐竹紋弥)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/1493/">Umeomaru</a>
-          </b><br>
-          (梅王丸(舎人))
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/35/">Kenbishi</a>
-          </b><br>
-          (検非違使)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/11/">Yoshida Bunjaku</a>
-          </b><br>
-          (吉田文雀)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/1494/">Sakuramaru</a>
-          </b><br>
-          (桜丸(舎人))
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/118/">Wakaotoko</a>
-          </b><br>
-          (若男)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/12/">Yoshida Bunshō</a>
-          </b><br>
-          (吉田文昇)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/1496/">Yae, Sakuramaru's wife</a>
-          </b><br>
-          (女房八重)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/111/">Musume</a>
-          </b><br>
-          (娘)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/49/">Yoshida Kazuo</a>
-          </b><br>
-          (吉田和生)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/1495/">Kariya</a>
-          </b><br>
-          (苅屋姫 )
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/111/">Musume</a>
-          </b><br>
-          (娘)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/23/">Yoshida Tamame</a>
-          </b><br>
-          (吉田玉女)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/1345/">Prince Tokiyo</a>
-          </b><br>
-          (斎世親王)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/118/">Wakaotoko</a>
-          </b><br>
-          (若男)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/24/">Kiritake Kanju</a>
-          </b><br>
-          (桐竹勘寿)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/1497/">Kiyotsura</a>
-          </b><br>
-          (三善清貫)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/116/">Yokanbei</a>
-          </b><br>
-          (与勘平)
-        </td>
-      </tr>
-    
-  </table>
 
 
       </div>

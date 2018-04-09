@@ -2,9 +2,12 @@
 layout: page
 title: Tall Wooden Clogs (Butai Geta)
 permalink: /realia/butai-geta/
-image_id:
- - 64598
- - 64598
- - 64600
+images:
+  - id: '64598'
+    objid: ldpd_bun_realia_7_2_191_1
+  - id: '64598'
+    objid: ldpd_bun_realia_7_2_191_1
+  - id: '64600'
+    objid: ldpd_bun_realia_7_2_191_3
 ---
-{% include slider.html list=page.image_id %}
+{% include slider.html images=page.images %}

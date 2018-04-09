@@ -3,6 +3,8 @@ language: ruby
 rvm: 2.4
 addons:
   chrome: stable
+before_script:
+  - travis_wait bundle exec jekyll build --verbose
 script:
   - travis_wait bundle exec rake wax:test
 env:

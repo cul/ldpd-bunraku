@@ -1,36 +1,57 @@
 ---
 layout: page
-autoplay: true
-d3_tip: false
-image_id:
-  - '9059'
-  - '60723'
-  - '52427'
-  - '56029'
-  - '52841'
-  - '52839'
-  - '8528'
-  - '8910'
-  - '9242'
-  - '9846'
-  - '9329'
-  - '12384'
-  - '10006'
-  - '56352'
-  - '60844'
-  - '56418'
-  - '60732'
-  - '10143'
-  - '10277'
-  - '11097'
-  - '12329'
-  - '12261'
-  - '59079'
+autoplay: false
+images:
+  - id: '9059'
+    objid: 'ldpd_bun_slide_493_2_0779_0826'
+  - id: '60723'
+    objid: 'ldpd_bun_slide_727_4_1571_1574'
+  - id: '52427'
+    objid: 'ldpd_bun_slide_001_1_0013_0014'
+  - id: '56029'
+    objid: 'ldpd_bun_slide_195_1_3615_4680'
+  - id: '52841'
+    objid: 'ldpd_bun_slide_024_1_0427_0621'
+  - id: '52839'
+    objid: 'ldpd_bun_slide_023_1_0425_0619'
+  - id: '8528'
+    objid: 'ldpd_bun_slide_464_2_0248_0255'
+  - id: '8910'
+    objid: 'ldpd_bun_slide_484_2_0630_0650'
+  - id: '9242'
+    objid: 'ldpd_bun_slide_503_2_0962_1025'
+  - id: '9846'
+    objid: 'ldpd_bun_slide_537_2_1566_1491'
+  - id: '9329'
+    objid: 'ldpd_bun_slide_507_2_1049_1112'
+  - id: '12384'
+    objid: 'ldpd_bun_slide_677_4_0606_0607'
+  - id: '10006'
+    objid: 'ldpd_bun_slide_546_2_1726_1673'
+  - id: '56352'
+    objid: 'ldpd_bun_slide_213_1_3938_5037'
+  - id: '60844'
+    objid: 'ldpd_bun_slide_733_4_1692_1695'
+  - id: '56418'
+    objid: 'ldpd_bun_slide_217_1_4004_5116'
+  - id: '60732'
+    objid: 'ldpd_bun_slide_727_4_1580_1583'
+  - id: '10143'
+    objid: 'ldpd_bun_slide_553_2_1863_1810'
+  - id: '10277'
+    objid: 'ldpd_bun_slide_561_2_1997_1969'
+  - id: '11097'
+    objid: 'ldpd_bun_slide_609_2_2817_9040'
+  - id: '12329'
+    objid: 'ldpd_bun_slide_675_4_0551_0552'
+  - id: '12261'
+    objid: 'ldpd_bun_slide_671_4_0483_0484'
+  - id: '59079'
+    objid: 'ldpd_bun_slide_362_1_6665_8069'
 ---
 
-{% include slider.html list=page.image_id %}
+{% include slider.html images=page.images %}
 
-<br><br>
 <br><br>
 
 ## About the Collection

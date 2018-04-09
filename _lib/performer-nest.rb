@@ -24,6 +24,7 @@ data_in.tqdm.each do |record|
           hash = { 'id' => id }
           hash['label_eng'] = ref['label_eng'] if ref.key?('label_eng')
           hash['label_ka'] = ref['label_ka'] if ref.key?('label_ka')
+          hash['has_images'] = true if ref.key?('image_id')
           hash['type'] = f.sub('_perf_id','')
           record['performances'] << hash
         end

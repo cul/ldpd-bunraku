@@ -1,0 +1,281 @@
+---
+layout: default
+---
+<h3 class='page-head'>
+  <a href="{{ page.collection | relative_url }}/">
+    {{ page.collection | capitalize }}
+  </a>
+   > {{ page.label_eng | default: page.pid }}
+</h3>
+
+{% if page.images %}
+  {% include slider.html images=page.images %}
+{% endif %}
+
+<h1 class="page-title">
+  {{ page.label_eng }}
+</h1>
+
+<h2 class="page-title-sub">
+  {% if page.label_ka %} ({{ page.label_ka }}) {% endif %}
+  {% if page.label_ja %} ({{ page.label_ja }}) {% endif %}
+</h2>
+
+{% if page.dates %}
+  <p><b>Dates:</b><br>{{ page.dates }}</p>
+{% endif %}
+
+{% if page.place %}
+  <p><b>Place:</b> {{ page.place }}</p>
+{% endif %}
+
+{% if page.performance %}
+  <p><b>Performance:</b>
+    <a href="{{ site.baseurl }}/performances/{{ page.performance.id }}/">
+      {{ page.performance.label_eng }}
+    </a>
+  </p>
+{% endif %}
+
+{% if page.production %}
+  <p><b>Production:</b>
+    <a href="{{ site.baseurl }}/productions/{{ page.production.id }}/">
+      {{ page.production.label_eng }}
+    </a>
+  </p>
+{% endif %}
+
+{% if page.category %}
+  <p><b>Category:</b> {{ page.category | capitalize }}</p>
+{% endif %}
+
+{% if page.notes %}
+  <p><b>Notes:</b> {{ page.notes }}</p>
+{% endif %}
+
+{% if page.authority_control %}
+  <p><b>Authority Control:</b><br>{{ page.authority_control }}</p>
+{% endif %}
+
+{% if page.authors %}
+  <p>
+    <b>Written By:</b>
+    {% for author in page.authors %}
+      <b>
+        <a href="{{ site.baseurl }}/authors/{{ author.id }}/">
+        {{ author.label_eng }} </a>
+        {% if author.label_ka %}({{ author.label_ka }}) {% endif %}
+      </b>
+      {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+{% endif %}
+
+{% if page.first_staged %}
+  <p><b>First Staged:</b> {{ page.first_staged }}</p>
+{% endif %}
+
+{% if page.reference %}
+  <p><b>Reference:</b> {{ page.reference }}</p>
+{% endif %}
+
+{% if page.plays %}
+  <h2 class='data-sub-head'>Plays:</h2>
+  {% for play in page.plays %}
+    <p>
+      <b>
+        {% if play.has_images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/plays/{{ play.id }}/">
+          {{ play.label_eng }}
+        </a>
+      </b>
+      {% if play.label_ka %}({{ play.label_ka }}){% endif %}
+    </p>
+  {% endfor %}
+{% endif %}
+
+
+{% if page.kashira %}
+  <h2 class='data-sub-head'>Kashira:</h2>
+  {% for k in page.kashira %}
+    <p>
+      <b>
+        {% if k.has_images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/kashira/{{ k.id }}/">
+          {{ k.label_eng }}
+        </a>
+      </b>
+      {% if k.label_ka %} ({{ k.label_ka }}){% endif %}
+    </p>
+  {% endfor %}
+{% endif %}
+
+{% if page.performances %}
+<h2 class='data-sub-head'>Performances:</h2>
+  {% for performance in page.performances %}
+    <p>
+      <b>
+        {% if performance.has_images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/performances/{{ performance.id }}/">
+          {{ performance.label_eng }}
+        </a>
+      </b>
+    </p>
+  {% endfor %}
+{% endif %}
+
+{% if page.performers %}
+  <h2 class='data-sub-head'>Performers:</h2>
+  {% for performer in page.performers %}
+    <p>
+      <b>
+        {% if performer.has_images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/performers/{{ performer.id }}/">
+          {{ performer.label_eng }}
+        </a>
+      </b>
+      {% if performer.label_ka %} ({{ performer.label_ka }}){% endif %}
+    </p>
+  {% endfor %}
+{% endif %}
+
+{% if page.scenes %}
+  <h2 class='data-sub-head'>Scenes:</h2>
+  {% for scene in page.scenes %}
+    <p>
+      <b>
+        {% if scene.has_images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/scenes/{{ scene.id }}/">
+          {{ scene.label_eng }}
+        </a>
+      </b>
+      {% if scene.label_ka %}({{ scene.label_ka }}){% endif %}
+    </p>
+  {% endfor %}
+{% endif %}
+
+{% if page.characters %}
+  <h2 class='data-sub-head'>Characters:</h2>
+  {% for character in page.characters %}
+    <p>
+      <b>
+        {% if character.has_images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/characters/{{ character.id }}/">
+          {{ character.label_eng }}
+        </a>
+      </b>
+      {% if character.label_ka %}({{ character.label_ka }}){% endif %}
+    </p>
+  {% endfor %}
+{% endif %}
+
+{% if page.narrators %}
+  <h2 class='data-sub-head'>Narrators:</h2>
+  {% for narrator in page.narrators %}
+    <p>
+      <b>
+        {% if narrator.has_images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/performers/{{ narrator.id }}/">
+          {{ narrator.label_eng }}
+        </a>
+      </b>
+      {% if narrator.label_ka %}({{ narrator.label_ka }}){% endif %}
+    </p>
+  {% endfor %}
+{% endif %}
+
+{% if page.shamisen %}
+  <h2 class='data-sub-head'>Shamisen (Musicians):</h2>
+  {% for s in page.shamisen %}
+    <p>
+      <b>
+        {% if s.has_images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/performers/{{ s.id }}/">
+          {{ s.label_eng }}
+        </a>
+      </b>
+      {% if s.label_ka %}({{ s.label_ka }}){% endif %}
+    </p>
+  {% endfor %}
+{% endif %}
+
+
+{% if page.spucks %}
+<h2 class='data-sub-head'>Performers:</h2>
+<table class="spuck-table">
+  <tr>
+    <th>Puppeteer</th>
+    <th>Character</th>
+    <th>Kashira</th>
+  <tr>
+  {% for spuck in page.spucks %}
+    <tr>
+      <td>
+        <b>
+          {% if spuck.performer.has_images %}
+          <i class="fa fa-file-image-o" aria-hidden="true"></i>
+          {% else %}
+          <i class="fa fa-times" aria-hidden="true"></i>
+          {% endif %}
+          <a href="{{ site.baseurl }}/performers/{{ spuck.puerformer.id }}/">{{ spuck.puerformer.label_eng }}</a>
+        </b><br>
+        ({{ spuck.puerformer.label_ka }})
+      </td>
+      <td>
+        <b>
+          {% if spuck.character.has_images %}
+          <i class="fa fa-file-image-o" aria-hidden="true"></i>
+          {% else %}
+          <i class="fa fa-times" aria-hidden="true"></i>
+          {% endif %}
+          <a href="{{ site.baseurl }}/characters/{{ spuck.character.id }}/">{{ spuck.character.label_eng }}</a>
+        </b><br>
+        ({{ spuck.character.label_ka }})
+      </td>
+      <td>
+        <b>
+          {% if spuck.kashira.has_images %}
+          <i class="fa fa-file-image-o" aria-hidden="true"></i>
+          {% else %}
+          <i class="fa fa-times" aria-hidden="true"></i>
+          {% endif %}
+          <a href="{{ site.baseurl }}/kashira/{{ spuck.kashira.id }}/">{{ spuck.kashira.label_eng }}</a>
+        </b><br>
+        ({{ spuck.kashira.label_ka }})
+      </td>
+    </tr>
+  {% endfor %}
+</table>
+{% endif %}

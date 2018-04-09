@@ -135,22 +135,22 @@
             <li><a href="/plays/">Browse</a>
               <ul>
                 <li>
-                  <a href="/plays/">Plays</a>
-                  
-                </li><li>
-                  <a href="/productions/">Productions</a>
-                  
-                </li><li>
                   <a href="/authors/">Authors</a>
-                  
-                </li><li>
-                  <a href="/performers/">Performers</a>
                   
                 </li><li>
                   <a href="/characters/">Characters</a>
                   
                 </li><li>
                   <a href="/kashira/">Kashira (Puppets)</a>
+                  
+                </li><li>
+                  <a href="/performers/">Performers</a>
+                  
+                </li><li>
+                  <a href="/plays/">Plays</a>
+                  
+                </li><li>
+                  <a href="/productions/">Productions</a>
                   
                 </li><li>
                   <a href="/tags/">Image tags</a>
@@ -176,55 +176,41 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1><b>Scene:</b><br/>
-  The House of Kyosei 1<br>
-  (Kyōsei sumika 1 / 喬生住家一)</h1>
+        <h3 class='page-head'>
+  <a href="/scenes/">
+    Scenes
+  </a>
+   > The House of Kyosei 1
+</h3>
 
-<p>
-  <b>Play: </b>
-  
-  
-  <b><a href="/plays/112">Botan doro (The Peony Lantern)</a></b>
-   (牡丹燈籠)
-</p>
-<p>
-  <b>Production: </b>
-  
-  
-  <b><a href="/productions/35">May 1973 Asahiza</a></b>
-</p>
 
-<link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 <link rel="stylesheet" id="slick-theme-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 <script type='text/javascript' id="slick" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+<div class="slider-block">
 
 
   <center>
     <div class="data-slick">
       
-          
-          <div><a href="/images/12472/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0694_0696&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/12472/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0694_0696&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/12473/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0695_0697&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/12473/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0695_0697&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/12474/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0696_0698&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/12474/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0696_0698&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/12475/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0697_0699&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/12475/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0697_0699&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/12476/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0698_0700&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/12476/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_682_4_0698_0700&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/46702/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_50_5036&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/46702/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_50_5036&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
     </div>
   </center>
   <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
 
+</div>
 
 <script>
   $(document).ready(function(){
@@ -232,7 +218,7 @@
     var $status = $('.pagingInfo');
     $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
       var i = (currentSlide ? currentSlide : 0) + 1;
-      $status.text(i + '/' + slick.slideCount);
+      $status.text(i + '/' + 6);
     });
     $slickElement.slick({
       lazyLoad: 'progressive',
@@ -248,19 +234,72 @@
 </script>
 
 
-<!--narrator, shamisen, musician, spuck-->
+
+<h1 class="page-title">
+  The House of Kyosei 1
+</h1>
+
+<h2 class="page-title-sub">
+   (喬生住家一) 
+   (Kyōsei sumika 1) 
+</h2>
 
 
-  <br><br>
-  <h2>Narrators (Tayu):</h2>
+
+
+
+
+  <p><b>Performance:</b>
+    <a href="/performances/137/">
+      May 1973 Asahiza: Botan doro (The Peony Lantern)
+    </a>
+  </p>
+
+
+
+  <p><b>Production:</b>
+    <a href="/productions/35/">
+      May 1973 Asahiza
+    </a>
+  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class='data-sub-head'>Narrators:</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/68/">Toyotake Shimatayū VIII</a>
+        <a href="/performers/68/">
+          Toyotake Shimatayū VIII
+        </a>
       </b>
       (豊竹嶋大夫 (八))
     </p>
@@ -268,203 +307,20 @@
 
 
 
-  <br/><br/>
-  <h2>Shamisen Players:</h2>
+  <h2 class='data-sub-head'>Shamisen (Musicians):</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/67/">Nozawa Katsuhei II (see also Nozawa Kizaemon III)</a>
+        <a href="/performers/67/">
+          Nozawa Katsuhei II (see also Nozawa Kizaemon III)
+        </a>
       </b>
       (野澤勝平 (二))
     </p>
   
-
-
-
-
-
-  <br><br>
-  <h2>Performers:</h2>
-  <table class="spuck-table">
-    <tr>
-      <th>Puppeteer</th>
-      <th>Character</th>
-      <th>Kashira</th>
-    <tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/performers//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/kashira//"></a>
-          </b><br>
-          ()
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/performers//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/kashira//"></a>
-          </b><br>
-          ()
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/performers//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/kashira//"></a>
-          </b><br>
-          ()
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/performers//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/kashira//"></a>
-          </b><br>
-          ()
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/performers//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/kashira//"></a>
-          </b><br>
-          ()
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/performers//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters//"></a>
-          </b><br>
-          ()
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/kashira//"></a>
-          </b><br>
-          ()
-        </td>
-      </tr>
-    
-  </table>
 
 
       </div>

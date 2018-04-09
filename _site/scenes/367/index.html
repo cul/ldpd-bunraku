@@ -135,22 +135,22 @@
             <li><a href="/plays/">Browse</a>
               <ul>
                 <li>
-                  <a href="/plays/">Plays</a>
-                  
-                </li><li>
-                  <a href="/productions/">Productions</a>
-                  
-                </li><li>
                   <a href="/authors/">Authors</a>
-                  
-                </li><li>
-                  <a href="/performers/">Performers</a>
                   
                 </li><li>
                   <a href="/characters/">Characters</a>
                   
                 </li><li>
                   <a href="/kashira/">Kashira (Puppets)</a>
+                  
+                </li><li>
+                  <a href="/performers/">Performers</a>
+                  
+                </li><li>
+                  <a href="/plays/">Plays</a>
+                  
+                </li><li>
+                  <a href="/productions/">Productions</a>
                   
                 </li><li>
                   <a href="/tags/">Image tags</a>
@@ -176,43 +176,33 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1><b>Scene:</b><br/>
-  The Sumida River<br>
-  (Sumidagawa / 隅田川)</h1>
+        <h3 class='page-head'>
+  <a href="/scenes/">
+    Scenes
+  </a>
+   > The Sumida River
+</h3>
 
-<p>
-  <b>Play: </b>
-  
-  
-  <b><a href="/plays/17">The Twins and the Sumida River</a></b>
-   (雙生隅田川)
-</p>
-<p>
-  <b>Production: </b>
-  
-  
-  <b><a href="/productions/39">October 1973</a></b>
-</p>
 
-<link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 <link rel="stylesheet" id="slick-theme-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 <script type='text/javascript' id="slick" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+<div class="slider-block">
 
 
   <center>
     <div class="data-slick">
       
-          
-          <div><a href="/images/45079/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_06_0625&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/45079/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_06_0625&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/46671/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_50_5005&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/46671/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_50_5005&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
     </div>
   </center>
   <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
 
+</div>
 
 <script>
   $(document).ready(function(){
@@ -220,7 +210,7 @@
     var $status = $('.pagingInfo');
     $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
       var i = (currentSlide ? currentSlide : 0) + 1;
-      $status.text(i + '/' + slick.slideCount);
+      $status.text(i + '/' + 2);
     });
     $slickElement.slick({
       lazyLoad: 'progressive',
@@ -236,19 +226,72 @@
 </script>
 
 
-<!--narrator, shamisen, musician, spuck-->
+
+<h1 class="page-title">
+  The Sumida River
+</h1>
+
+<h2 class="page-title-sub">
+   (隅田川) 
+   (Sumidagawa) 
+</h2>
 
 
-  <br><br>
-  <h2>Narrators (Tayu):</h2>
+
+
+
+
+  <p><b>Performance:</b>
+    <a href="/performances/105/">
+      October 1973: The Twins and the Sumida River
+    </a>
+  </p>
+
+
+
+  <p><b>Production:</b>
+    <a href="/productions/39/">
+      October 1973
+    </a>
+  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class='data-sub-head'>Narrators:</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/33/">Takemoto Nanbudayū V</a>
+        <a href="/performers/33/">
+          Takemoto Nanbudayū V
+        </a>
       </b>
       (竹本南部大夫 (五))
     </p>
@@ -256,256 +299,32 @@
 
 
 
-  <br/><br/>
-  <h2>Shamisen Players:</h2>
+  <h2 class='data-sub-head'>Shamisen (Musicians):</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/67/">Nozawa Katsuhei II (see also Nozawa Kizaemon III)</a>
+        <a href="/performers/67/">
+          Nozawa Katsuhei II (see also Nozawa Kizaemon III)
+        </a>
       </b>
       (野澤勝平 (二))
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/114/">Tsuruzawa Katsunosuke</a>
+        <a href="/performers/114/">
+          Tsuruzawa Katsunosuke
+        </a>
       </b>
       (鶴澤勝之輔)
     </p>
   
-
-
-
-
-
-  <br><br>
-  <h2>Performers:</h2>
-  <table class="spuck-table">
-    <tr>
-      <th>Puppeteer</th>
-      <th>Character</th>
-      <th>Kashira</th>
-    <tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/23/">Yoshida Tamame</a>
-          </b><br>
-          (吉田玉女)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/168/">Suika</a>
-          </b><br>
-          (すいか(すいくわ))
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/15/">Onna koyaku</a>
-          </b><br>
-          (女子役)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/17/">Yoshida Minotarō (see also Kiritake Kanjūrō)</a>
-          </b><br>
-          (吉田蓑太郎)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/169/">Yazo</a>
-          </b><br>
-          (はねわなの弥蔵(弥次))
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/87/">Hagataki</a>
-          </b><br>
-          (端敵)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/24/">Kiritake Kanju</a>
-          </b><br>
-          (桐竹勘寿)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/170/">Umewakamaru</a>
-          </b><br>
-          (吉田梅若丸)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/6/">Otoko koyaku</a>
-          </b><br>
-          (男子役)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/20/">Toyomatsu Seijūrō IV</a>
-          </b><br>
-          (豊松清十郎 (四))
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/171/">Takekuni</a>
-          </b><br>
-          (県の権正武国)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/36/">Kōmei</a>
-          </b><br>
-          (孔明)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/44/">Yoshida Tamao</a>
-          </b><br>
-          (吉田玉男)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/172/">Hanjogozen</a>
-          </b><br>
-          (班女御前)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/103/">Fukeoyama</a>
-          </b><br>
-          (老女形)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/16/">Kiritake Kanjūrō II</a>
-          </b><br>
-          (桐竹勘十郎 (二))
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/173/">Hokaibo, in fact Tengu</a>
-          </b><br>
-          (山伏法界坊実は天狗)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/4/">Ōdanshichi</a>
-          </b><br>
-          (大団七)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/24/">Kiritake Kanju</a>
-          </b><br>
-          (桐竹勘寿)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/174/">Matsuwakamaru</a>
-          </b><br>
-          (吉田松若丸)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/6/">Otoko koyaku</a>
-          </b><br>
-          (男子役)
-        </td>
-      </tr>
-    
-  </table>
 
 
       </div>

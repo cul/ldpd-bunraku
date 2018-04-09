@@ -1,16 +1,23 @@
 ---
 layout: page
-image_id:
-  - '64611'
-  - '60821'
-  - '60754'
-  - '60294'
-  - '60714'
-  - '53014'
+images:
+- id: '64611'
+  objid: ldpd_bun_realia_7_2_204_5
+- id: '60821'
+  objid: ldpd_bun_slide_732_4_1669_1672
+- id: '60754'
+  objid: ldpd_bun_slide_729_4_1602_1605
+- id: '60294'
+  objid: ldpd_bun_slide_429_1_7880_9364
+- id: '60714'
+  objid: ldpd_bun_slide_727_4_1562_1565
+- id: '53014'
+  objid: ldpd_bun_slide_035_1_0600_0950
 title: About the Collection
 permalink: /about-the-collection/
 ---
-{% include slider.html list=page.image_id %}
+
+{% include slider.html images=page.images %}
 
 ## Bunraku at Columbia University Libraries
 

@@ -189,30 +189,29 @@
 
 <script type="text/javascript" id="slick" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-<center>
+<div class="slider-block">
+
+
+  <center>
     <div class="data-slick">
       
-          
-          <div><a href="/images/64611/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_realia_7_2_204_5&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
+        <div><a href="/images/64611/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_realia_7_2_204_5&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-          
-          <div><a href="/images/60821/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_732_4_1669_1672&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
+        <div><a href="/images/60821/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_732_4_1669_1672&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-          
-          <div><a href="/images/60754/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_729_4_1602_1605&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
+        <div><a href="/images/60754/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_729_4_1602_1605&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-          
-          <div><a href="/images/60294/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_429_1_7880_9364&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
+        <div><a href="/images/60294/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_429_1_7880_9364&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-          
-          <div><a href="/images/60714/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_727_4_1562_1565&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
+        <div><a href="/images/60714/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_727_4_1562_1565&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-          
-          <div><a href="/images/53014/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_035_1_0600_0950&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
+        <div><a href="/images/53014/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_035_1_0600_0950&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
     </div>
   </center>
-<p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
+  <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
+
+</div>
 
 <script>
   $(document).ready(function(){
@@ -220,7 +219,7 @@
     var $status = $('.pagingInfo');
     $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
       var i = (currentSlide ? currentSlide : 0) + 1;
-      $status.text(i + '/' + slick.slideCount);
+      $status.text(i + '/' + 6);
     });
     $slickElement.slick({
       lazyLoad: 'progressive',

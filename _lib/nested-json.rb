@@ -1,5 +1,8 @@
 require 'json'
 require 'tqdm'
+require 'fileutils'
+
+include FileUtils
 
 def assert_array(obj)
   obj = [obj] unless obj.is_a? Array
@@ -9,6 +12,8 @@ end
 files = ['authors', 'characters', 'kashira', 'performances', 'performers', 'plays', 'productions', 'scenes', 'tags']
 
 fields = ['author_id', 'character_id', 'kashira_id', 'performance_id', 'performer_id', 'play_id', 'production_id', 'scene_id', 'tag_id']
+
+mkdir_p('_data/nested')
 
 files.each do |file|
   data_in = JSON.load(File.open("_data/#{file}.json"))
@@ -27,10 +32,10 @@ files.each do |file|
             hash = { 'id' => id }
             hash['label_eng'] = ref['label_eng'] if ref.key?('label_eng')
             hash['label_ka'] = ref['label_ka'] if ref.key?('label_ka')
+            hash['has_images'] = true if ref.key?('image_id')
             record[new_field] << hash
           end
         end
-
         record.delete(f)
       end
     end

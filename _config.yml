@@ -7,7 +7,7 @@ gh-baseurl: /ldpd-bunraku
 # Build settings
 markdown: kramdown
 theme: minima
-exclude: [vendor, Gemfile*, Rakefile, spec, README*]
+exclude: [vendor, Gemfile*, Rakefile, spec, README*, _lib]
 permalink: pretty
 collections_dir: collections
 lunr_languages: true
@@ -16,13 +16,13 @@ collections:
   authors:
     output: true
     source: authors.json
-    layout: author_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka]
   characters:
     output: true
     source: characters.json
-    layout: character_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka, label_ja]
   images:
@@ -32,31 +32,31 @@ collections:
   kashira:
     output: true
     source: kashira.json
-    layout: kashira_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka, category]
   performances:
     output: true
     source: performances.json
-    layout: performance_page
+    layout: item_page
     lunr_index:
       fields: [label_eng]
   performers:
     output: true
     source: performers.json
-    layout: performer_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka]
   plays:
     output: true
     source: plays.json
-    layout: play_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka, label_ja]
   productions:
     output: true
     source: productions.json
-    layout: production_page
+    layout: item_page
     lunr_index:
       fields: [label_eng]
   realia:
@@ -66,13 +66,13 @@ collections:
   scenes:
     output: true
     source: scenes.json
-    layout: scene_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka, label_ja]
   tags:
     output: true
     source: tags.json
-    layout: tag_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka]
 

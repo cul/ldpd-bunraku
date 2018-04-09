@@ -7,7 +7,7 @@ permalink: /performances/
 {% for performance in performances %}
   <p>
     <b>
-    {% if performance.image_id %}
+    {% if performance.images %}
       <i class="fa fa-file-image-o" aria-hidden="true"></i>
     {% else %}
       <i class="fa fa-times" aria-hidden="true"></i>

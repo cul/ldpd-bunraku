@@ -8,7 +8,7 @@ permalink: /performers/
 {% for performer in sorted_performers %}
   <p>
     <b>
-      {% if performer.image_id %}
+      {% if performer.images %}
         <i class="fa fa-file-image-o" aria-hidden="true"></i>
       {% else %}
         <i class="fa fa-times" aria-hidden="true"></i>
@@ -17,6 +17,6 @@ permalink: /performers/
         {{ performer.label_eng }}
       </a>
     </b>
-    ({{ performer.label_ka }})
+    ({{ performer.label_ka }}) 
   </p>
 {% endfor %}

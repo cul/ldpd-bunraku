@@ -1,16 +1,21 @@
 ---
 layout: page
 title: World of Bunraku
-image_id:
-  - '56353'
-  - '9492'
-  - '64632'
-  - '9658'
-  - '57553'
+images:
+- id: '56353'
+  objid: ldpd_bun_slide_213_1_3939_5038
+- id: '9492'
+  objid: ldpd_bun_slide_517_2_1212_1301
+- id: '64632'
+  objid: ldpd_bun_realia_7_2_111_05
+- id: '9658'
+  objid: ldpd_bun_slide_526_2_1378_1300B
+- id: '57553'
+  objid: ldpd_bun_slide_279_1_5139_6436
 permalink: /the-world-of-bunraku/
 ---
 
-{% include slider.html list=page.image_id %}
+{% include slider.html images=page.images %}
 
 ## Brief History
 

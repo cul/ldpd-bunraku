@@ -135,22 +135,22 @@
             <li><a href="/plays/">Browse</a>
               <ul>
                 <li>
-                  <a href="/plays/">Plays</a>
-                  
-                </li><li>
-                  <a href="/productions/">Productions</a>
-                  
-                </li><li>
                   <a href="/authors/">Authors</a>
-                  
-                </li><li>
-                  <a href="/performers/">Performers</a>
                   
                 </li><li>
                   <a href="/characters/">Characters</a>
                   
                 </li><li>
                   <a href="/kashira/">Kashira (Puppets)</a>
+                  
+                </li><li>
+                  <a href="/performers/">Performers</a>
+                  
+                </li><li>
+                  <a href="/plays/">Plays</a>
+                  
+                </li><li>
+                  <a href="/productions/">Productions</a>
                   
                 </li><li>
                   <a href="/tags/">Image tags</a>
@@ -176,52 +176,39 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1><b>Scene:</b><br/>
-  The Bridal Journey<br>
-  (Michiyuki tabiji no yomeiri / 道行旅路嫁入り)</h1>
+        <h3 class='page-head'>
+  <a href="/scenes/">
+    Scenes
+  </a>
+   > The Bridal Journey
+</h3>
 
-<p>
-  <b>Play: </b>
-  
-  
-  <b><a href="/plays/63">The League of the 47 Ronin</a></b>
-   (仮名手本忠臣蔵)
-</p>
-<p>
-  <b>Production: </b>
-  
-  
-  <b><a href="/productions/64">December 1976</a></b>
-</p>
 
-<link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 <link rel="stylesheet" id="slick-theme-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 <script type='text/javascript' id="slick" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+<div class="slider-block">
 
 
   <center>
     <div class="data-slick">
       
-          
-          <div><a href="/images/45108/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_08_0804&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/45108/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_08_0804&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/45109/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_08_0805&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/45109/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_08_0805&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/46438/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_44_4444&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/46438/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_44_4444&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/46440/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_44_4446&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/46440/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_44_4446&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/46443/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_44_4449&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/46443/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_44_4449&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
     </div>
   </center>
   <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
 
+</div>
 
 <script>
   $(document).ready(function(){
@@ -229,7 +216,7 @@
     var $status = $('.pagingInfo');
     $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
       var i = (currentSlide ? currentSlide : 0) + 1;
-      $status.text(i + '/' + slick.slideCount);
+      $status.text(i + '/' + 5);
     });
     $slickElement.slick({
       lazyLoad: 'progressive',
@@ -245,63 +232,120 @@
 </script>
 
 
-<!--narrator, shamisen, musician, spuck-->
+
+<h1 class="page-title">
+  The Bridal Journey
+</h1>
+
+<h2 class="page-title-sub">
+   (道行旅路嫁入り) 
+   (Michiyuki tabiji no yomeiri) 
+</h2>
 
 
-  <br><br>
-  <h2>Narrators (Tayu):</h2>
+
+
+
+
+  <p><b>Performance:</b>
+    <a href="/performances/235/">
+      December 1976: The League of the 47 Ronin
+    </a>
+  </p>
+
+
+
+  <p><b>Production:</b>
+    <a href="/productions/64/">
+      December 1976
+    </a>
+  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class='data-sub-head'>Narrators:</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/33/">Takemoto Nanbudayū V</a>
+        <a href="/performers/33/">
+          Takemoto Nanbudayū V
+        </a>
       </b>
       (竹本南部大夫 (五))
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/34/">Toyotake Tokutayū</a>
+        <a href="/performers/34/">
+          Toyotake Tokutayū
+        </a>
       </b>
       (豊竹十九大夫)
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/56/">Takemoto Takatayū</a>
+        <a href="/performers/56/">
+          Takemoto Takatayū
+        </a>
       </b>
       (竹本貴大夫)
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/58/">Takemoto Tsukunidayū</a>
+        <a href="/performers/58/">
+          Takemoto Tsukunidayū
+        </a>
       </b>
       (竹本津国大夫)
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/73/">Takemoto Mojiedayū</a>
+        <a href="/performers/73/">
+          Takemoto Mojiedayū
+        </a>
       </b>
       (竹本文字栄大夫)
     </p>
@@ -309,110 +353,68 @@
 
 
 
-  <br/><br/>
-  <h2>Shamisen Players:</h2>
+  <h2 class='data-sub-head'>Shamisen (Musicians):</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/103/">Tsuruzawa Dōhachi II (see also Tsuruzawa Tokutarō)</a>
+        <a href="/performers/103/">
+          Tsuruzawa Dōhachi II (see also Tsuruzawa Tokutarō)
+        </a>
       </b>
       (鶴沢道八 (二))
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/32/">Tsuruzawa Seiji</a>
+        <a href="/performers/32/">
+          Tsuruzawa Seiji
+        </a>
       </b>
       (鶴澤清治)
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/10/">Nozawa Katsushi (see also Toyozawa Tomisuke V)</a>
+        <a href="/performers/10/">
+          Nozawa Katsushi (see also Toyozawa Tomisuke V)
+        </a>
       </b>
       (野澤勝司)
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/90/">Takezawa Yasaburō (see also Nozawa Kichinosuke)</a>
+        <a href="/performers/90/">
+          Takezawa Yasaburō (see also Nozawa Kichinosuke)
+        </a>
       </b>
       (竹澤弥三郎)
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/102/">Nozawa Matsuya</a>
+        <a href="/performers/102/">
+          Nozawa Matsuya
+        </a>
       </b>
       (野澤松也)
     </p>
   
-
-
-
-
-
-  <br><br>
-  <h2>Performers:</h2>
-  <table class="spuck-table">
-    <tr>
-      <th>Puppeteer</th>
-      <th>Character</th>
-      <th>Kashira</th>
-    <tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/14/">Kiritake Itchō</a>
-          </b><br>
-          (桐竹一暢)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/707/">Konami</a>
-          </b><br>
-          (娘小浪)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/111/">Musume</a>
-          </b><br>
-          (娘)
-        </td>
-      </tr>
-    
-  </table>
 
 
       </div>

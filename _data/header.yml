@@ -52,18 +52,18 @@
 - label: Browse
   link: '/plays/'
   sub:
-    - label: Plays
-      link: '/plays/'
-    - label: Productions
-      link: '/productions/'
     - label: Authors
       link: '/authors/'
-    - label: Performers
-      link: '/performers/'
     - label: Characters
       link: '/characters/'
     - label: Kashira (Puppets)
       link: '/kashira/'
+    - label: Performers
+      link: '/performers/'
+    - label: Plays
+      link: '/plays/'
+    - label: Productions
+      link: '/productions/'
     - label: Image tags
       link: '/tags/'
 - label: Search

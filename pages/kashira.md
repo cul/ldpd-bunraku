@@ -9,7 +9,7 @@ permalink: /kashira/
 {% for kash in sorted_kashira %}
   <p>
     <b>
-      {% if kash.image_id %}
+      {% if kash.images %}
         <i class="fa fa-file-image-o" aria-hidden="true"></i>
       {% else %}
         <i class="fa fa-times" aria-hidden="true"></i>

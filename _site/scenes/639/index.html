@@ -135,22 +135,22 @@
             <li><a href="/plays/">Browse</a>
               <ul>
                 <li>
-                  <a href="/plays/">Plays</a>
-                  
-                </li><li>
-                  <a href="/productions/">Productions</a>
-                  
-                </li><li>
                   <a href="/authors/">Authors</a>
-                  
-                </li><li>
-                  <a href="/performers/">Performers</a>
                   
                 </li><li>
                   <a href="/characters/">Characters</a>
                   
                 </li><li>
                   <a href="/kashira/">Kashira (Puppets)</a>
+                  
+                </li><li>
+                  <a href="/performers/">Performers</a>
+                  
+                </li><li>
+                  <a href="/plays/">Plays</a>
+                  
+                </li><li>
+                  <a href="/productions/">Productions</a>
                   
                 </li><li>
                   <a href="/tags/">Image tags</a>
@@ -176,55 +176,41 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1><b>Scene:</b><br/>
-  Shundo Jiroemon's House<br>
-  (Shundō Jirōemon yashiki / 春藤次郎右衛門屋敷)</h1>
+        <h3 class='page-head'>
+  <a href="/scenes/">
+    Scenes
+  </a>
+   > Shundo Jiroemon's House
+</h3>
 
-<p>
-  <b>Play: </b>
-  
-  
-  <b><a href="/plays/94">The Vendetta by a Samurai in Rags</a></b>
-   (敵討襤褸錦敵討襤褸錦)
-</p>
-<p>
-  <b>Production: </b>
-  
-  
-  <b><a href="/productions/66">February 1977</a></b>
-</p>
 
-<link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" id="slick-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 <link rel="stylesheet" id="slick-theme-css" type="text/css" href="///cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 <script type='text/javascript' id="slick" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+<div class="slider-block">
 
 
   <center>
     <div class="data-slick">
       
-          
-          <div><a href="/images/45006/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_02_0204&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/45006/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_album_02_0204&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/52443/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0029_0030&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/52443/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0029_0030&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/52444/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0030_0031&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/52444/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0030_0031&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/52445/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0031_0032&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/52445/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0031_0032&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/52446/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0032_0033&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/52446/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0032_0033&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
-          
-          <div><a href="/images/52447/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0033_0034&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        <div><a href="/images/52447/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_slide_002_1_0033_0034&size=medium"  data-proofer-ignore height="300px"/></a></div>
       
     </div>
   </center>
   <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
 
+</div>
 
 <script>
   $(document).ready(function(){
@@ -232,7 +218,7 @@
     var $status = $('.pagingInfo');
     $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
       var i = (currentSlide ? currentSlide : 0) + 1;
-      $status.text(i + '/' + slick.slideCount);
+      $status.text(i + '/' + 6);
     });
     $slickElement.slick({
       lazyLoad: 'progressive',
@@ -248,30 +234,84 @@
 </script>
 
 
-<!--narrator, shamisen, musician, spuck-->
+
+<h1 class="page-title">
+  Shundo Jiroemon's House
+</h1>
+
+<h2 class="page-title-sub">
+   (春藤次郎右衛門屋敷) 
+   (Shundō Jirōemon yashiki) 
+</h2>
 
 
-  <br><br>
-  <h2>Narrators (Tayu):</h2>
+
+
+
+
+  <p><b>Performance:</b>
+    <a href="/performances/243/">
+      February 1977: The Vendetta by a Samurai in Rags
+    </a>
+  </p>
+
+
+
+  <p><b>Production:</b>
+    <a href="/productions/66/">
+      February 1977
+    </a>
+  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class='data-sub-head'>Narrators:</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/5/">Toyotake Matsukadayū</a>
+        <a href="/performers/5/">
+          Toyotake Matsukadayū
+        </a>
       </b>
       (豊竹松香大夫)
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/6/">Takemoto Oritayū V (see also Takemoto Tsunatayū IX)</a>
+        <a href="/performers/6/">
+          Takemoto Oritayū V (see also Takemoto Tsunatayū IX)
+        </a>
       </b>
       (竹本織大夫 (五))
     </p>
@@ -279,414 +319,32 @@
 
 
 
-  <br/><br/>
-  <h2>Shamisen Players:</h2>
+  <h2 class='data-sub-head'>Shamisen (Musicians):</h2>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/10/">Nozawa Katsushi (see also Toyozawa Tomisuke V)</a>
+        <a href="/performers/10/">
+          Nozawa Katsushi (see also Toyozawa Tomisuke V)
+        </a>
       </b>
       (野澤勝司)
     </p>
   
-    
     <p>
       <b>
         
-          <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
         
-        <a href="/performers/8/">Tsuruzawa Enza V</a>
+        <a href="/performers/8/">
+          Tsuruzawa Enza V
+        </a>
       </b>
       (鶴澤燕三 (五))
     </p>
   
-
-
-
-
-
-  <br><br>
-  <h2>Performers:</h2>
-  <table class="spuck-table">
-    <tr>
-      <th>Puppeteer</th>
-      <th>Character</th>
-      <th>Kashira</th>
-    <tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/45/">Yoshida Tamaki</a>
-          </b><br>
-          (吉田玉輝)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/742/">Page</a>
-          </b><br>
-          (小坊主)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/6/">Otoko koyaku</a>
-          </b><br>
-          (男子役)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/51/">Kiritake Monju</a>
-          </b><br>
-          (桐竹紋寿)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/743/">Oshimo, Rokuroemon's sister</a>
-          </b><br>
-          (須藤妹お霜)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/111/">Musume</a>
-          </b><br>
-          (娘)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/49/">Yoshida Kazuo</a>
-          </b><br>
-          (吉田和生)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/744/">Oyana, a cook</a>
-          </b><br>
-          (賄おやな)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/14/">Ofuku</a>
-          </b><br>
-          (お福)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/74/">Kiritake Kan'ya (see also Yoshida Kanya)</a>
-          </b><br>
-          (桐竹勘弥)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/745/">Okatsu, a housewife</a>
-          </b><br>
-          (女房おかつ)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/77/">Tsume</a>
-          </b><br>
-          (つめ)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/72/">Kiritake Kameji</a>
-          </b><br>
-          (桐竹亀次)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-times" aria-hidden="true"></i> 
-            <a href="/characters/746/">Otsuya, a housewife</a>
-          </b><br>
-          (女房おつや)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/77/">Tsume</a>
-          </b><br>
-          (つめ)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/82/">Yoshida Kotama (see also Yoshida Bungo V)</a>
-          </b><br>
-          (吉田小玉)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/741/">Shinshichi Shundo</a>
-          </b><br>
-          (春藤新七)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/118/">Wakaotoko</a>
-          </b><br>
-          (若男)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/11/">Yoshida Bunjaku</a>
-          </b><br>
-          (吉田文雀)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/748/">Oharu, Jiroemon's wife</a>
-          </b><br>
-          (妻お春)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/103/">Fukeoyama</a>
-          </b><br>
-          (老女形)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/44/">Yoshida Tamao</a>
-          </b><br>
-          (吉田玉男)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/749/">Sukedayu's wife</a>
-          </b><br>
-          (助太夫妻)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/90/">Baba</a>
-          </b><br>
-          (婆)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/18/">Yoshida Minosuke III</a>
-          </b><br>
-          (吉田蓑助 (三))
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/740/">Suketaro Shundo</a>
-          </b><br>
-          (春藤助太郎)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/13/">Onoemon</a>
-          </b><br>
-          (斧右衛門)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/23/">Yoshida Tamame</a>
-          </b><br>
-          (吉田玉女)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/733/">Sahei, Suketayu's servant</a>
-          </b><br>
-          (若党佐兵衛)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/35/">Kenbishi</a>
-          </b><br>
-          (検非違使)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/19/">Yoshida Tamakō II</a>
-          </b><br>
-          (吉田玉幸 (二))
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/750/">Ihei, a servant</a>
-          </b><br>
-          (若党伊兵衛)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/35/">Kenbishi</a>
-          </b><br>
-          (検非違使)
-        </td>
-      </tr>
-    
-      
-      
-      
-      
-      <tr>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/performers/12/">Yoshida Bunshō</a>
-          </b><br>
-          (吉田文昇)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/characters/751/">Oshimo's mother</a>
-          </b><br>
-          (須藤母)
-        </td>
-        <td>
-          <b>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            
-            <a href="/kashira/103/">Fukeoyama</a>
-          </b><br>
-          (老女形)
-        </td>
-      </tr>
-    
-  </table>
 
 
       </div>

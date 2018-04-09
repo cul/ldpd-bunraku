@@ -25,10 +25,10 @@ data_in.tqdm.each do |record|
           hash = { 'id' => id }
           hash['label_eng'] = ref['label_eng'] if ref.key?('label_eng')
           hash['label_ka'] = ref['label_ka'] if ref.key?('label_ka')
+          hash['has_images'] = true if ref.key?('image_id')
           record[new_field] << hash
         end
       end
-
       record.delete(f)
     end
   end

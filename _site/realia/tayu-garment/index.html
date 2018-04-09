@@ -135,22 +135,22 @@
             <li><a href="/plays/">Browse</a>
               <ul>
                 <li>
-                  <a href="/plays/">Plays</a>
-                  
-                </li><li>
-                  <a href="/productions/">Productions</a>
-                  
-                </li><li>
                   <a href="/authors/">Authors</a>
-                  
-                </li><li>
-                  <a href="/performers/">Performers</a>
                   
                 </li><li>
                   <a href="/characters/">Characters</a>
                   
                 </li><li>
                   <a href="/kashira/">Kashira (Puppets)</a>
+                  
+                </li><li>
+                  <a href="/performers/">Performers</a>
+                  
+                </li><li>
+                  <a href="/plays/">Plays</a>
+                  
+                </li><li>
+                  <a href="/productions/">Productions</a>
                   
                 </li><li>
                   <a href="/tags/">Image tags</a>
@@ -189,21 +189,23 @@
 
 <script type="text/javascript" id="slick" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-<center>
+<div class="slider-block">
+
+
+  <center>
     <div class="data-slick">
       
-          
-          <div><a href="/images/64595/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_realia_7_2_195_1&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
+        <div><a href="/images/64595/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_realia_7_2_195_1&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-          
-          <div><a href="/images/64596/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_realia_7_2_195_2&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
+        <div><a href="/images/64596/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_realia_7_2_195_2&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
-          
-          <div><a href="/images/64597/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_realia_7_2_195_3&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
+        <div><a href="/images/64597/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj=ldpd_bun_realia_7_2_195_3&amp;size=medium" data-proofer-ignore="" height="300px" /></a></div>
       
     </div>
   </center>
-<p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
+  <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
+
+</div>
 
 <script>
   $(document).ready(function(){
@@ -211,7 +213,7 @@
     var $status = $('.pagingInfo');
     $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
       var i = (currentSlide ? currentSlide : 0) + 1;
-      $status.text(i + '/' + slick.slideCount);
+      $status.text(i + '/' + 3);
     });
     $slickElement.slick({
       lazyLoad: 'progressive',
