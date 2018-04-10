@@ -6,7 +6,7 @@ addons:
 script:
   - mkdir collections
   - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags
-  - travis_wait bundle exec jekyll build --verbose
+  - travis_wait bundle exec jekyll build
   - travis_wait bundle exec rake wax:test
 env:
   global:
