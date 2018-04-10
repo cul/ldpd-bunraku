@@ -1,4 +1,5 @@
-- title: Narrator (Tayu) Scroll of 47 Ronin
+- label_eng: Narrator (Tayu) Scroll of 47 Ronin
+  pid: tayu-scroll
   images:
     - id: '64628'
       objid: ldpd_bun_realia_7_2_111_01
@@ -42,7 +43,8 @@
       objid: ldpd_bun_realia_7_2_111_20
     - id: '64648'
       objid: ldpd_bun_realia_7_2_111_21
-- title: Baba's head
+- label_eng: Baba's head
+  pid: babas-head
   images:
     - id: '64620'
       objid: ldpd_bun_realia_7_2_199_1_1
@@ -52,7 +54,8 @@
       objid: ldpd_bun_realia_7_2_199_1_3
     - id: '64623'
       objid: ldpd_bun_realia_7_2_199_1_4
-- title: Tall Wooden Clogs (Butai Geta)
+- label_eng: Tall Wooden Clogs (Butai Geta)
+  pid: butai-geta
   images:
     - id: '64598'
       objid: ldpd_bun_realia_7_2_191_1
@@ -60,7 +63,8 @@
       objid: ldpd_bun_realia_7_2_191_1
     - id: '64600'
       objid: ldpd_bun_realia_7_2_191_3
-- title: Genta's head
+- label_eng: Genta's head
+  pid: gentas-head
   images:
     - id: '64617'
       objid: ldpd_bun_realia_7_2_199_3_3
@@ -68,7 +72,8 @@
       objid: ldpd_bun_realia_7_2_199_3_1
     - id: '64619'
       objid: ldpd_bun_realia_7_2_199_3_2
-- title: Puppet in purple dress
+- label_eng: Puppet in purple dress
+  pid: puppet-in-purple-dress
   images:
     - id: '64601'
       objid: ldpd_bun_realia_7_2_203_1
@@ -78,7 +83,8 @@
       objid: ldpd_bun_realia_7_2_203_3
     - id: '64604'
       objid: ldpd_bun_realia_7_2_203_4
-- title: Puppet in purple dress
+- label_eng: Puppet in purple dress
+  pid: puppet-in-purple-dress-2
   images:
     - id: '64605'
       objid: ldpd_bun_realia_7_2_204_1
@@ -94,13 +100,15 @@
       objid: ldpd_bun_realia_7_2_202_1_1
     - id: '64611'
       objid: ldpd_bun_realia_7_2_204_5
-- title: Puppet armature
+- label_eng: Puppet armature
+  pid: puppet-armature
   images:
     - id: '64615'
       objid: ldpd_bun_realia_7_2_202_2_1
     - id: '64616'
       objid: ldpd_bun_realia_7_2_202_2_2
-- title: Puppet head with ponytail
+- label_eng: Puppet head with ponytail
+  pid: puppet-head
   images:
     - id: '64612'
       objid: ldpd_bun_realia_7_2_199_2_1
@@ -108,7 +116,8 @@
       objid: ldpd_bun_realia_7_2_199_2_2
     - id: '64614'
       objid: ldpd_bun_realia_7_2_199_2_3
-- title: Narrator (Tayu) Garment
+- label_eng: Narrator (Tayu) Garment
+  pid: tayu-garment
   images:
     - id: '64595'
       objid: ldpd_bun_realia_7_2_195_1
@@ -116,7 +125,8 @@
       objid: ldpd_bun_realia_7_2_195_2
     - id: '64597'
       objid: ldpd_bun_realia_7_2_195_3
-- title: Yukahon Stand (Stand for Narrator's Scroll)
+- label_eng: Yukahon Stand (Stand for Narrator's Scroll)
+  pid: yukahon-stand
   images:
     - id: '64624'
       objid: ldpd_bun_realia_7_2_193_1

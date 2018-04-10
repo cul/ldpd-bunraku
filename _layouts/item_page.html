@@ -1,12 +1,20 @@
 ---
 layout: default
 ---
+{% if page.collection == 'scenes' %}
+<h3 class='page-head'>
+  <a href="{{ site.baseurl }}/performances/{{ page.performance.id }}/">
+    {{ page.performance.label_eng }}
+  </a> > Scenes > {{ page.label_eng }}
+</h3>
+{% else %}
 <h3 class='page-head'>
   <a href="{{ page.collection | relative_url }}/">
     {{ page.collection | capitalize }}
   </a>
    > {{ page.label_eng | default: page.pid }}
 </h3>
+{% endif %}
 
 {% if page.images %}
   {% include slider.html images=page.images %}
@@ -98,6 +106,25 @@ layout: default
   {% endfor %}
 {% endif %}
 
+{% if page.performances %}
+<h2 class='data-sub-head'>Performances:</h2>
+  {% assign sorted_performances = page.performances | sort: 'type' %}
+  {% for performance in sorted_performances %}
+    <p>
+      <b>
+        {% if performance.has_images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        {% else %}
+        <i class="fa fa-times" aria-hidden="true"></i>
+        {% endif %}
+        <a href="{{ site.baseurl }}/performances/{{ performance.id }}/">
+          {{ performance.label_eng }}
+        </a>
+      </b>
+      {% if performance.type %} ({{ performance.type }}){% endif %}
+    </p>
+  {% endfor %}
+{% endif %}
 
 {% if page.kashira %}
   <h2 class='data-sub-head'>Kashira:</h2>
@@ -114,24 +141,6 @@ layout: default
         </a>
       </b>
       {% if k.label_ka %} ({{ k.label_ka }}){% endif %}
-    </p>
-  {% endfor %}
-{% endif %}
-
-{% if page.performances %}
-<h2 class='data-sub-head'>Performances:</h2>
-  {% for performance in page.performances %}
-    <p>
-      <b>
-        {% if performance.has_images %}
-        <i class="fa fa-file-image-o" aria-hidden="true"></i>
-        {% else %}
-        <i class="fa fa-times" aria-hidden="true"></i>
-        {% endif %}
-        <a href="{{ site.baseurl }}/performances/{{ performance.id }}/">
-          {{ performance.label_eng }}
-        </a>
-      </b>
     </p>
   {% endfor %}
 {% endif %}
@@ -249,9 +258,9 @@ layout: default
           {% else %}
           <i class="fa fa-times" aria-hidden="true"></i>
           {% endif %}
-          <a href="{{ site.baseurl }}/performers/{{ spuck.puerformer.id }}/">{{ spuck.puerformer.label_eng }}</a>
+          <a href="{{ site.baseurl }}/performers/{{ spuck.performer.id }}/">{{ spuck.performer.label_eng }}</a>
         </b><br>
-        ({{ spuck.puerformer.label_ka }})
+        ({{ spuck.performer.label_ka }})
       </td>
       <td>
         <b>

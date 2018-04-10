@@ -5,20 +5,20 @@
 {% assign num = include.images | size %}
 {% if num > 1 %}
   <div class="slider-block">
-  <center>
-    <div class="data-slick">
-      {% for i in include.images | limit: 50 %}
-        <div><a href="{{ site.baseurl }}/images/{{ i.id }}/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ i.objid }}&size=medium"  data-proofer-ignore height="300px"/></a></div>
-      {% endfor %}
-    </div>
-  </center>
-  <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
+    <center>
+      <div class="data-slick">
+        {% for i in include.images | limit: 50 %}
+          <div><a href="{{ site.baseurl }}/images/{{ i.id }}/"><img data-lazy="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ i.objid }}&size=medium"  data-proofer-ignore height="300px"/></a></div>
+        {% endfor %}
+      </div>
+    </center>
+    <p class="paging"><span class="pagingInfo"></span>– Click image to view.</p>
   </div>
 {% else %}
   <div class="slider-block-single">
-  {% assign i = include.images | first %}
-  <div><a href="{{ site.baseurl }}/images/{{ i.id }}/"><img src="http://www.columbia.edu/cgi-bin/dlo?obj={{ i.objid}}&size=medium" width="100%"/></a></div>
-  <p>1/1 – Click image to view.</p>
+    {% assign i = include.images | first %}
+    <div><a href="{{ site.baseurl }}/images/{{ i.id }}/"><img src="http://www.columbia.edu/cgi-bin/dlo?obj={{ i.objid}}&size=medium" width="100%"/></a></div>
+    <p>1/1 – Click image to view.</p>
   </div>
 {% endif %}
 

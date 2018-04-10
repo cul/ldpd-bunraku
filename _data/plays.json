@@ -336,32 +336,6 @@
         "label_eng": "August 1970: The Woman-Killer and the Hell of Oil"
       }
     ],
-    "scenes": [
-      {
-        "id": "309",
-        "label_eng": "The Pilgrim's Song",
-        "label_ka": "順礼歌",
-        "has_images": true
-      },
-      {
-        "id": "310",
-        "label_eng": "The Sake Shop",
-        "label_ka": "酒屋",
-        "has_images": true
-      },
-      {
-        "id": "311",
-        "label_eng": "The Torture by Koto",
-        "label_ka": "阿古屋琴責",
-        "has_images": true
-      },
-      {
-        "id": "312",
-        "label_eng": "The Travel Dance on Mount Yoshino",
-        "label_ka": "道行初音の旅",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "10777",
@@ -2243,37 +2217,6 @@
         "label_eng": "February 1996: The Love Suicides at Amijima"
       }
     ],
-    "scenes": [
-      {
-        "id": "330",
-        "label_eng": "The Gay Quarter Gossips",
-        "label_ka": "廓噺",
-        "has_images": true
-      },
-      {
-        "id": "331",
-        "label_eng": "The Mad Woman",
-        "label_ka": "笠物狂",
-        "has_images": true
-      },
-      {
-        "id": "532",
-        "label_eng": "Matasuke's House",
-        "label_ka": "又助住家",
-        "has_images": true
-      },
-      {
-        "id": "332",
-        "label_eng": "Kōjō [announcement/special performance]",
-        "label_ka": "口上",
-        "has_images": true
-      },
-      {
-        "id": "531",
-        "label_eng": "Chikuma River",
-        "label_ka": "筑摩川"
-      }
-    ],
     "images": [
       {
         "id": "10649",
@@ -3768,26 +3711,6 @@
       {
         "id": "983",
         "label_eng": "September 1971 Kōkōsei no tame no Bunraku Kyōshitsu: The Love Suicides at Sonezaki"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "361",
-        "label_eng": "The Tosa Painter's House",
-        "label_ka": "土佐将監閑居",
-        "has_images": true
-      },
-      {
-        "id": "362",
-        "label_eng": "The Kameya Express Agency at Awajimachi",
-        "label_ka": "淡路町",
-        "has_images": true
-      },
-      {
-        "id": "363",
-        "label_eng": "The Haori Falls Off",
-        "label_ka": "羽織落し",
-        "has_images": true
       }
     ],
     "images": [
@@ -5791,26 +5714,6 @@
       {
         "id": "819",
         "label_eng": "February 1994: The Love Suicide of Hambei and Ochiyo"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "333",
-        "label_eng": "The Laundry",
-        "label_ka": "碪拍子",
-        "has_images": true
-      },
-      {
-        "id": "334",
-        "label_eng": "The House of Tokutayu (Tokudayu or Tokutaifu)",
-        "label_ka": "徳太夫住家",
-        "has_images": true
-      },
-      {
-        "id": "335",
-        "label_eng": "The Aburaya Tea House",
-        "label_ka": "古市油屋",
-        "has_images": true
       }
     ],
     "images": [
@@ -7890,32 +7793,6 @@
         "label_eng": "January 1998: The Love of Osome and Hisamatsu"
       }
     ],
-    "scenes": [
-      {
-        "id": "640",
-        "label_eng": "The Daianji River Bank",
-        "label_ka": "大安寺堤",
-        "has_images": true
-      },
-      {
-        "id": "358",
-        "label_eng": "The Castle Gate",
-        "label_ka": "楼門",
-        "has_images": true
-      },
-      {
-        "id": "359",
-        "label_eng": "Kanki's Mansion (See also The Shishigajo Catsle)",
-        "label_ka": "甘輝館 (See also 獅子が城)",
-        "has_images": true
-      },
-      {
-        "id": "360",
-        "label_eng": "The Red Signal (See also The Shishigajo Catsle)",
-        "label_ka": "紅流し (See also 獅子が城)",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "10454",
@@ -8644,25 +8521,6 @@
         "label_eng": "March 1996 Tour: Oshun and Dembei"
       }
     ],
-    "scenes": [
-      {
-        "id": "18",
-        "label_eng": "The Three Blind Masseurs",
-        "label_ka": "三人座頭"
-      },
-      {
-        "id": "19",
-        "label_eng": "The Torture of Chujohime in the Snow",
-        "label_ka": "中将姫雪責",
-        "has_images": true
-      },
-      {
-        "id": "20",
-        "label_eng": "Mount Hibari",
-        "label_ka": "ひばり山古跡松",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "12285",
@@ -9313,36 +9171,6 @@
         "id": "929",
         "label_eng": "Marty Gross Film Production: The Courier for Hell",
         "has_images": true
-      }
-    ],
-    "scenes": [
-      {
-        "id": "275",
-        "label_eng": "The Shooting in the Dark",
-        "label_ka": "山崎街道二つ玉",
-        "has_images": true
-      },
-      {
-        "id": "276",
-        "label_eng": "The Selling of Okaru",
-        "label_ka": "お軽身売り",
-        "has_images": true
-      },
-      {
-        "id": "642",
-        "label_eng": "The Lumber Carriers' Song",
-        "label_ka": "木遣り音頭"
-      },
-      {
-        "id": "277",
-        "label_eng": "Kampei's Suicide",
-        "label_ka": "勘平腹切",
-        "has_images": true
-      },
-      {
-        "id": "654",
-        "label_eng": "The Glittering Mansion",
-        "label_ka": "金殿"
       }
     ],
     "images": [
@@ -11471,26 +11299,6 @@
         "label_eng": "February 1993: The Double Suicide at Ikudama"
       }
     ],
-    "scenes": [
-      {
-        "id": "169",
-        "label_eng": "The Tea Ceremony House",
-        "label_ka": "数寄屋",
-        "has_images": true
-      },
-      {
-        "id": "170",
-        "label_eng": "The Revenge on Kyobashi Bridge in Fushimi",
-        "label_ka": "伏見京橋女敵討",
-        "has_images": true
-      },
-      {
-        "id": "171",
-        "label_eng": "The Three Oddities",
-        "label_ka": "三人片輪",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "11548",
@@ -11858,13 +11666,6 @@
         "id": "907",
         "label_eng": "July 2000: Urikohime and Amanjaku"
       }
-    ],
-    "scenes": [
-      {
-        "id": "372",
-        "label_eng": "The Misappropriation (of Money)",
-        "label_ka": "封印切"
-      }
     ]
   },
   {
@@ -12072,48 +11873,6 @@
         "label_eng": "July 2000: The Three Generations of Kamakura Shoguns"
       }
     ],
-    "scenes": [
-      {
-        "id": "194",
-        "label_eng": "The Inn at Kitadani",
-        "label_ka": "北谷夫婦宿"
-      },
-      {
-        "id": "196",
-        "label_eng": "The Second-Hand Article Dealer's at Unagidani",
-        "label_ka": "鰻谷"
-      },
-      {
-        "id": "197",
-        "label_eng": "Kōjō [announcement/special performance]",
-        "label_ka": "口上"
-      },
-      {
-        "id": "198",
-        "label_eng": "Kikai Island",
-        "label_ka": "鬼界ヶ島"
-      },
-      {
-        "id": "199",
-        "label_eng": "Village of Ninokuchi",
-        "label_ka": "新口村"
-      },
-      {
-        "id": "200",
-        "label_eng": "The Dance of Sambaso",
-        "label_ka": "寿式三番叟"
-      },
-      {
-        "id": "201",
-        "label_eng": "Kumagai's Cheery Tree",
-        "label_ka": "熊谷桜"
-      },
-      {
-        "id": "202",
-        "label_eng": "Kumagai's Camp (See also Kumagai's Explanation and The Head Identification)",
-        "label_ka": "熊谷陣屋 (See also 熊谷物語 and 首実検)"
-      }
-    ],
     "images": [
       {
         "id": "45803",
@@ -12182,13 +11941,6 @@
       {
         "id": "910",
         "label_eng": "July 2000: The Fulling Block and the Bonfire"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "243",
-        "label_eng": "The Enrollment",
-        "label_ka": "寺入り"
       }
     ]
   },
@@ -12408,20 +12160,6 @@
       {
         "id": "911",
         "label_eng": "July 2000: The Murder in Revenge"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "265",
-        "label_eng": "The Love Poem",
-        "label_ka": "恋歌",
-        "has_images": true
-      },
-      {
-        "id": "266",
-        "label_eng": "The Cutting of the Pine Branch",
-        "label_ka": "松切り",
-        "has_images": true
       }
     ],
     "images": [
@@ -13177,13 +12915,6 @@
         "id": "858",
         "label_eng": "January 1996: Tragedy on a Snowy Night"
       }
-    ],
-    "scenes": [
-      {
-        "id": "4",
-        "label_eng": "House of Heisaku and One Thousand Pine Trees at Matsubara",
-        "label_ka": "平作内より千本松原"
-      }
     ]
   },
   {
@@ -13495,38 +13226,6 @@
       {
         "id": "918",
         "label_eng": "April 2001: The White Fox of Shinoda"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "11",
-        "label_eng": "Kumagai's Camp (See also Kumagai's Explanation and The Head Identification)",
-        "label_ka": "熊谷陣屋 (See also 熊谷物語 and 首実検)",
-        "has_images": true
-      },
-      {
-        "id": "12",
-        "label_eng": "The Yoshidaya Tea House",
-        "label_ka": "吉田屋",
-        "has_images": true
-      },
-      {
-        "id": "8",
-        "label_eng": "The Misappropriation (of Money)",
-        "label_ka": "封印切",
-        "has_images": true
-      },
-      {
-        "id": "9",
-        "label_eng": "The Village of Ninokuchi",
-        "label_ka": "新口村",
-        "has_images": true
-      },
-      {
-        "id": "10",
-        "label_eng": "Drawing Lots at Wakigahara",
-        "label_ka": "脇ヶ浜宝引",
-        "has_images": true
       }
     ],
     "images": [
@@ -14566,72 +14265,6 @@
       {
         "id": "947",
         "label_eng": "May 1987: The Tycoon's Exploit"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "45",
-        "label_eng": "Jurobei's House",
-        "label_ka": "十郎兵衛内",
-        "has_images": true
-      },
-      {
-        "id": "46",
-        "label_eng": "The Visit of Wada Byoe",
-        "label_ka": "和田兵衛上使",
-        "has_images": true
-      },
-      {
-        "id": "47",
-        "label_eng": "Moritsuna's War Camp (See also Love for Koshiro and Moritsuna Identifies a Head)",
-        "label_ka": "盛綱陣屋 (See also 小四郎恩愛 and 盛綱首実検)",
-        "has_images": true
-      },
-      {
-        "id": "39",
-        "label_eng": "Kumagai's Cheery Tree",
-        "label_ka": "熊谷桜"
-      },
-      {
-        "id": "40",
-        "label_eng": "Kumagai's Camp (See also Kumagai's Explanation and The Head Identification)",
-        "label_ka": "熊谷陣屋 (See also 熊谷物語 and 首実検)"
-      },
-      {
-        "id": "41",
-        "label_eng": "The Town of Shiga",
-        "label_ka": "志賀の里"
-      },
-      {
-        "id": "42",
-        "label_eng": "The Sakuranomiya Shrine",
-        "label_ka": "桜の宮物狂"
-      },
-      {
-        "id": "43",
-        "label_eng": "The Todaiji Temple",
-        "label_ka": "東大寺",
-        "has_images": true
-      },
-      {
-        "id": "44",
-        "label_eng": "The Nigatsudo Hall",
-        "label_ka": "二月堂"
-      },
-      {
-        "id": "38",
-        "label_eng": "Drawing Lots at Wakigahara",
-        "label_ka": "脇ヶ浜宝引"
-      },
-      {
-        "id": "687",
-        "label_eng": "Kikai Island",
-        "label_ka": "鬼界ヶ島"
-      },
-      {
-        "id": "688",
-        "label_eng": "The Village of Nozaki",
-        "label_ka": "野崎村"
       }
     ],
     "images": [
@@ -15962,23 +15595,6 @@
         "id": "880",
         "label_eng": "February 1997: The Twins and the Sumida River"
       }
-    ],
-    "scenes": [
-      {
-        "id": "48",
-        "label_eng": "The Travel on Mount Yoshino",
-        "label_ka": "道行初音旅"
-      },
-      {
-        "id": "49",
-        "label_eng": "Village of Ninokuchi",
-        "label_ka": "新口村"
-      },
-      {
-        "id": "50",
-        "label_eng": "Grand Hall in Ashikaga Mansion",
-        "label_ka": "足利館大広間"
-      }
     ]
   },
   {
@@ -16341,38 +15957,6 @@
       {
         "id": "912",
         "label_eng": "November 2000: The Two Butterflies"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "51",
-        "label_eng": "The Innermost Room",
-        "label_ka": "足利館奥御殿",
-        "has_images": true
-      },
-      {
-        "id": "55",
-        "label_eng": "Kansuke's House",
-        "label_ka": "勘助住家",
-        "has_images": true
-      },
-      {
-        "id": "52",
-        "label_eng": "The Suwa Shrine",
-        "label_ka": "諏訪明神百度石",
-        "has_images": true
-      },
-      {
-        "id": "53",
-        "label_eng": "Kikyo Field",
-        "label_ka": "桔梗原",
-        "has_images": true
-      },
-      {
-        "id": "54",
-        "label_eng": "Kagekatsu and Wooden Clogs",
-        "label_ka": "景勝下駄",
-        "has_images": true
       }
     ],
     "images": [
@@ -17406,43 +16990,6 @@
         "id": "862",
         "label_eng": "April 1996: The Gion Festival"
       }
-    ],
-    "scenes": [
-      {
-        "id": "651",
-        "label_eng": "The Strands of Love",
-        "label_ka": "道行恋の小田巻"
-      },
-      {
-        "id": "648",
-        "label_eng": "Imoyama and Seyama Mansions",
-        "label_ka": "妹山背山"
-      },
-      {
-        "id": "649",
-        "label_eng": "The Well-Cleaning",
-        "label_ka": "井戸替"
-      },
-      {
-        "id": "70",
-        "label_eng": "The Improvised Bamboo Hearse",
-        "label_ka": "笹引"
-      },
-      {
-        "id": "71",
-        "label_eng": "The Matsuemon's House",
-        "label_ka": "松右衛門内"
-      },
-      {
-        "id": "68",
-        "label_eng": "The Toothbrush Maker's House",
-        "label_ka": "楊枝屋"
-      },
-      {
-        "id": "69",
-        "label_eng": "The Inn at Otsu",
-        "label_ka": "大津宿屋"
-      }
     ]
   },
   {
@@ -17533,14 +17080,6 @@
       {
         "id": "863",
         "label_eng": "April 1996: A Chushingura's Subplot"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "72",
-        "label_eng": "The Rowing Lesson",
-        "label_ka": "逆櫓",
-        "has_images": true
       }
     ],
     "images": [
@@ -18091,26 +17630,6 @@
       {
         "id": "255",
         "label_eng": "July 1977 Asahiza: The Maiden's Colorful Fan",
-        "has_images": true
-      }
-    ],
-    "scenes": [
-      {
-        "id": "75",
-        "label_eng": "Disinheritance of Genda",
-        "label_ka": "源太勘当",
-        "has_images": true
-      },
-      {
-        "id": "76",
-        "label_eng": "The Fortune Teller",
-        "label_ka": "辻法印",
-        "has_images": true
-      },
-      {
-        "id": "77",
-        "label_eng": "The Tea House at Kanzaki",
-        "label_ka": "神崎揚屋",
         "has_images": true
       }
     ],
@@ -18705,33 +18224,6 @@
         "id": "826",
         "label_eng": "September 1994: The Shiraishi Story"
       }
-    ],
-    "scenes": [
-      {
-        "id": "80",
-        "label_eng": "The Nunnery at Kitasaga",
-        "label_ka": "北嵯峨"
-      },
-      {
-        "id": "81",
-        "label_eng": "Yoshitsune's Mansion at Horikawa",
-        "label_ka": "堀川御所"
-      },
-      {
-        "id": "82",
-        "label_eng": "The Gathering Nuts",
-        "label_ka": "椎の木"
-      },
-      {
-        "id": "83",
-        "label_eng": "Kokingo's Death",
-        "label_ka": "小金吾討死"
-      },
-      {
-        "id": "84",
-        "label_eng": "The Sushi Shop",
-        "label_ka": "すしや"
-      }
     ]
   },
   {
@@ -18933,14 +18425,6 @@
       {
         "id": "886",
         "label_eng": "September 1997: The Stone Monument of Glory"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "103",
-        "label_eng": "The Kamo River Bank",
-        "label_ka": "加茂堤",
-        "has_images": true
       }
     ],
     "images": [
@@ -19207,24 +18691,6 @@
       {
         "id": "916",
         "label_eng": "December 2000 Bunraku Kanshō Kyōshitsu: The Priest in Exile"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "110",
-        "label_eng": "The Fire Lookout Tower",
-        "label_ka": "火の見櫓",
-        "has_images": true
-      },
-      {
-        "id": "109",
-        "label_eng": "The Village School",
-        "label_ka": "寺子屋"
-      },
-      {
-        "id": "111",
-        "label_eng": "In Front of the Ikudama Shrine",
-        "label_ka": "生玉社前"
       }
     ],
     "images": [
@@ -20132,20 +19598,6 @@
         "label_eng": "March 1996 Tour: The Cherry Trees Along the Hidaka River"
       }
     ],
-    "scenes": [
-      {
-        "id": "117",
-        "label_eng": "The Strands of Love",
-        "label_ka": "道行恋の小田巻",
-        "has_images": true
-      },
-      {
-        "id": "116",
-        "label_eng": "The Sake Shop",
-        "label_ka": "杉酒屋",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "9674",
@@ -20944,92 +20396,6 @@
       {
         "id": "850",
         "label_eng": "August 1995: The Battles of Genji and Heike"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "128",
-        "label_eng": "Yosikata's Mansion",
-        "label_ka": "義賢館",
-        "has_images": true
-      },
-      {
-        "id": "129",
-        "label_eng": "Yabase Bay",
-        "label_ka": "矢橋",
-        "has_images": true
-      },
-      {
-        "id": "130",
-        "label_eng": "The Return from Chikubu Island",
-        "label_ka": "竹生島遊覧",
-        "has_images": true
-      },
-      {
-        "id": "131",
-        "label_eng": "Kurosuke's House",
-        "label_ka": "九郎助内",
-        "has_images": true
-      },
-      {
-        "id": "132",
-        "label_eng": "The Otowa Hill",
-        "label_ka": "音羽山",
-        "has_images": true
-      },
-      {
-        "id": "133",
-        "label_eng": "The Biwa Music",
-        "label_ka": "松波琵琶",
-        "has_images": true
-      },
-      {
-        "id": "402",
-        "label_eng": "The Feast at Nijo Castle",
-        "label_ka": "二条城配膳",
-        "has_images": true
-      },
-      {
-        "id": "134",
-        "label_eng": "The Maple Hill",
-        "label_ka": "紅葉山",
-        "has_images": true
-      },
-      {
-        "id": "135",
-        "label_eng": "The Disinheritance of Saizaburo",
-        "label_ka": "才三勘当",
-        "has_images": true
-      },
-      {
-        "id": "136",
-        "label_eng": "The Shirokiya Timber Store",
-        "label_ka": "城木屋",
-        "has_images": true
-      },
-      {
-        "id": "137",
-        "label_eng": "The Suzugamori Execution Ground",
-        "label_ka": "鈴ヶ森",
-        "has_images": true
-      },
-      {
-        "id": "138",
-        "label_eng": "The Tea House at Pontocho",
-        "label_ka": "先斗町貸座敷",
-        "has_images": true
-      },
-      {
-        "id": "401",
-        "label_eng": "Azuchi Castle",
-        "label_ka": "安土城中",
-        "has_images": true
-      },
-      {
-        "id": "139",
-        "label_eng": "Shundo Jiroemon's House",
-        "label_ka": "春藤次郎右衛門屋敷",
-        "has_images": true
       }
     ],
     "images": [
@@ -24913,110 +24279,6 @@
         "label_eng": "January 1998: The Twenty-Four Dutiful Sons"
       }
     ],
-    "scenes": [
-      {
-        "id": "403",
-        "label_eng": "The Honnoji Temple",
-        "label_ka": "本能寺"
-      },
-      {
-        "id": "404",
-        "label_eng": "Lady Ano's Reports to Hisayoshi",
-        "label_ka": "局注進"
-      },
-      {
-        "id": "405",
-        "label_eng": "Chozaemon's Suicide",
-        "label_ka": "長左衛門切腹",
-        "has_images": true
-      },
-      {
-        "id": "406",
-        "label_eng": "The Myoshinji Temple",
-        "label_ka": "妙心寺",
-        "has_images": true
-      },
-      {
-        "id": "407",
-        "label_eng": "The Fort of Suginomori",
-        "label_ka": "杉の森",
-        "has_images": true
-      },
-      {
-        "id": "408",
-        "label_eng": "The Melons Offered to Hisayoshi",
-        "label_ka": "瓜献上",
-        "has_images": true
-      },
-      {
-        "id": "141",
-        "label_eng": "The Daianji River Bank",
-        "label_ka": "大安寺堤"
-      },
-      {
-        "id": "142",
-        "label_eng": "Street Entertainers",
-        "label_ka": "万歳",
-        "has_images": true
-      },
-      {
-        "id": "143",
-        "label_eng": "The Fisherwoman",
-        "label_ka": "海女",
-        "has_images": true
-      },
-      {
-        "id": "409",
-        "label_eng": "The Gourd Trellis",
-        "label_ka": "夕顔棚"
-      },
-      {
-        "id": "144",
-        "label_eng": "Komachi in Her Old Age",
-        "label_ka": "関寺小町",
-        "has_images": true
-      },
-      {
-        "id": "410",
-        "label_eng": "The Amagasaki Village",
-        "label_ka": "尼が崎"
-      },
-      {
-        "id": "145",
-        "label_eng": "Heron Girl",
-        "label_ka": "鷺娘",
-        "has_images": true
-      },
-      {
-        "id": "146",
-        "label_eng": "The Zama Shrine",
-        "label_ka": "座摩社前",
-        "has_images": true
-      },
-      {
-        "id": "643",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶"
-      },
-      {
-        "id": "149",
-        "label_eng": "The Oil Store",
-        "label_ka": "油屋",
-        "has_images": true
-      },
-      {
-        "id": "147",
-        "label_eng": "The Village of Nozaki",
-        "label_ka": "野崎村",
-        "has_images": true
-      },
-      {
-        "id": "148",
-        "label_eng": "Nagamachi Street",
-        "label_ka": "長町",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "12700",
@@ -26607,26 +25869,6 @@
         "label_eng": "February 1995: The Drum of the Waves of Horikawa"
       }
     ],
-    "scenes": [
-      {
-        "id": "150",
-        "label_eng": "The Pine Grove",
-        "label_ka": "小松原",
-        "has_images": true
-      },
-      {
-        "id": "151",
-        "label_eng": "Emiji's Mansion",
-        "label_ka": "蝦夷子館",
-        "has_images": true
-      },
-      {
-        "id": "152",
-        "label_eng": "Sadaka's (Dazai) Mansion",
-        "label_ka": "太宰館",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "11031",
@@ -27266,77 +26508,6 @@
       {
         "id": "977",
         "label_eng": "December 1982: The Vendetta in Iga"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "163",
-        "label_eng": "Rice Planting",
-        "label_ka": "田植",
-        "has_images": true
-      },
-      {
-        "id": "641",
-        "label_eng": "Heitaro's House",
-        "label_ka": "平太郎住家"
-      },
-      {
-        "id": "421",
-        "label_eng": "Rice Washing (See also Kinugawa Villege)",
-        "label_ka": "米洗い (See also 絹川村)"
-      },
-      {
-        "id": "159",
-        "label_eng": "The Village of Kishinosato (See also The Sake Peddler)",
-        "label_ka": "岸の里 (See also 鳶田)"
-      },
-      {
-        "id": "167",
-        "label_eng": "The Hamanomiya Riding Ground",
-        "label_ka": "浜の宮馬場"
-      },
-      {
-        "id": "168",
-        "label_eng": "The House of Ichinoshin Asaka",
-        "label_ka": "浅香市之進留守宅"
-      },
-      {
-        "id": "164",
-        "label_eng": "The Village of Sakai",
-        "label_ka": "逆井村",
-        "has_images": true
-      },
-      {
-        "id": "165",
-        "label_eng": "The Kaminari Gate",
-        "label_ka": "雷門",
-        "has_images": true
-      },
-      {
-        "id": "166",
-        "label_eng": "The Tea House",
-        "label_ka": "揚屋",
-        "has_images": true
-      },
-      {
-        "id": "422",
-        "label_eng": "Parting of Miuranosuke with His Mother (See also Kinugawa Villege)",
-        "label_ka": "三浦之助母別れ（三浦別れ） (See also 絹川村)"
-      },
-      {
-        "id": "160",
-        "label_eng": "The Village of Tengachaya (See also Zesai's House)",
-        "label_ka": "天下茶屋 (See also 是斎住家)"
-      },
-      {
-        "id": "161",
-        "label_eng": "The Golden Pavilion",
-        "label_ka": "金閣寺"
-      },
-      {
-        "id": "162",
-        "label_eng": "The Forest of the Myojin Shrine",
-        "label_ka": "明神森"
       }
     ],
     "images": [
@@ -28283,38 +27454,6 @@
         "id": "917",
         "label_eng": "April 2001: The Color Prints of Kagamiyama"
       }
-    ],
-    "scenes": [
-      {
-        "id": "188",
-        "label_eng": "Kōjō [announcement/special performance]",
-        "label_ka": "口上"
-      },
-      {
-        "id": "189",
-        "label_eng": "Oshima Island in Izu Province",
-        "label_ka": "伊豆国大嶋"
-      },
-      {
-        "id": "190",
-        "label_eng": "Shiramine in Sanuki Province",
-        "label_ka": "讃岐国白峯"
-      },
-      {
-        "id": "191",
-        "label_eng": "Mt. Kihara in Higo Province",
-        "label_ka": "肥後国木原山山塞"
-      },
-      {
-        "id": "192",
-        "label_eng": "The Sea off Satsuma",
-        "label_ka": "薩南海上"
-      },
-      {
-        "id": "193",
-        "label_eng": "Kitadani Ceremonial Site in Ryukyu",
-        "label_ka": "琉球国北谷斎場"
-      }
     ]
   },
   {
@@ -28463,14 +27602,6 @@
       {
         "id": "942",
         "label_eng": "August 1970: The Subscription List"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "226",
-        "label_eng": "The Shido Temple",
-        "label_ka": "志渡寺",
-        "has_images": true
       }
     ],
     "images": [
@@ -29032,32 +28163,6 @@
       {
         "id": "887",
         "label_eng": "September 1997: The Love of Ohan and Choemon"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "231",
-        "label_eng": "At the Fence",
-        "label_ka": "築地",
-        "has_images": true
-      },
-      {
-        "id": "232",
-        "label_eng": "The Wheat-Gluten Peddler's Travel",
-        "label_ka": "道行詞甘替",
-        "has_images": true
-      },
-      {
-        "id": "233",
-        "label_eng": "The Port of Yasui",
-        "label_ka": "安井汐待",
-        "has_images": true
-      },
-      {
-        "id": "234",
-        "label_eng": "The Beating of Kariya",
-        "label_ka": "杖折檻",
-        "has_images": true
       }
     ],
     "images": [
@@ -30307,20 +29412,6 @@
         "label_eng": "September 1997: The Infant Pilgrim"
       }
     ],
-    "scenes": [
-      {
-        "id": "394",
-        "label_eng": "Chozaemon's Suicide",
-        "label_ka": "長左衛門切腹",
-        "has_images": true
-      },
-      {
-        "id": "235",
-        "label_eng": "The Cockcrow",
-        "label_ka": "東天紅",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "44981",
@@ -30568,14 +29659,6 @@
       {
         "id": "869",
         "label_eng": "July 1996: The Stuttering Painter"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "236",
-        "label_eng": "The Departure of Michizane",
-        "label_ka": "丞相名残",
-        "has_images": true
       }
     ],
     "images": [
@@ -31119,14 +30202,6 @@
       {
         "id": "926",
         "label_eng": "September 1972 Bunraku Kyōshitsu: The Amorous Courier"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "237",
-        "label_eng": "The Quarrel Over the Carriage",
-        "label_ka": "車曳(車引吉田社頭)",
-        "has_images": true
       }
     ],
     "images": [
@@ -31993,42 +31068,6 @@
         "label_eng": "December 1997 Bunraku Kanshō Kyōshitsu: Kiichi's Book of Strategy"
       }
     ],
-    "scenes": [
-      {
-        "id": "242",
-        "label_eng": "The Hideout at Kitasaga",
-        "label_ka": "北嵯峨",
-        "has_images": true
-      },
-      {
-        "id": "239",
-        "label_eng": "The Quarrel",
-        "label_ka": "喧嘩",
-        "has_images": true
-      },
-      {
-        "id": "240",
-        "label_eng": "Sakuramaru's Suicide",
-        "label_ka": "桜丸切腹",
-        "has_images": true
-      },
-      {
-        "id": "241",
-        "label_eng": "Mount Tempai",
-        "label_ka": "天拝山",
-        "has_images": true
-      },
-      {
-        "id": "685",
-        "label_eng": "The Pine-Lined Road at Akasaka",
-        "label_ka": "赤坂並木"
-      },
-      {
-        "id": "686",
-        "label_eng": "The Dance of Sambaso",
-        "label_ka": "二人三番叟"
-      }
-    ],
     "images": [
       {
         "id": "9349",
@@ -32591,23 +31630,6 @@
         "id": "896",
         "label_eng": "April 1998: The Love-Inspired Murder"
       }
-    ],
-    "scenes": [
-      {
-        "id": "247",
-        "label_eng": "The Inn",
-        "label_ka": "宿屋"
-      },
-      {
-        "id": "399",
-        "label_eng": "The Amagasaki Village",
-        "label_ka": "尼が崎"
-      },
-      {
-        "id": "400",
-        "label_eng": "Two Girl Attendants to a Courtesan",
-        "label_ka": "二人禿"
-      }
     ]
   },
   {
@@ -32943,35 +31965,6 @@
         "label_eng": "August 1970: The Two-Colored Reins"
       }
     ],
-    "scenes": [
-      {
-        "id": "248",
-        "label_eng": "The Oi River",
-        "label_ka": "大井川"
-      },
-      {
-        "id": "424",
-        "label_eng": "In Front of the Ikudama Shrine",
-        "label_ka": "生玉社前"
-      },
-      {
-        "id": "425",
-        "label_eng": "The Temmaya Tea House",
-        "label_ka": "天満屋"
-      },
-      {
-        "id": "426",
-        "label_eng": "The Woods of the Tenjin Shrine",
-        "label_ka": "天神森",
-        "has_images": true
-      },
-      {
-        "id": "427",
-        "label_eng": "The Ferry",
-        "label_ka": "渡し場",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "10171",
@@ -33224,14 +32217,6 @@
       {
         "id": "885",
         "label_eng": "September 1997: Kokaji the Swordsmith"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "250",
-        "label_eng": "The Tosa Painter's House",
-        "label_ka": "土佐将監閑居",
-        "has_images": true
       }
     ],
     "images": [
@@ -33739,68 +32724,6 @@
       {
         "id": "979",
         "label_eng": "December 1992: The Battle of Coxinga"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "672",
-        "label_eng": "The Bamboo Room",
-        "label_ka": "竹の間",
-        "has_images": true
-      },
-      {
-        "id": "255",
-        "label_eng": "The State Room",
-        "label_ka": "御殿",
-        "has_images": true
-      },
-      {
-        "id": "256",
-        "label_eng": "Hanyu Village (See also Hanyu Village from \"\"The Story of Kasane\"\")",
-        "label_ka": "埴生村",
-        "has_images": true
-      },
-      {
-        "id": "257",
-        "label_eng": "The Earthen Bridge (See also The Earthen Bridge from \"\"The Story of Kasane\"\")",
-        "label_ka": "土橋",
-        "has_images": true
-      },
-      {
-        "id": "258",
-        "label_eng": "Hyoe's Mansion",
-        "label_ka": "飯原館",
-        "has_images": true
-      },
-      {
-        "id": "677",
-        "label_eng": "Disinheritance of Genda",
-        "label_ka": "源太勘当",
-        "has_images": true
-      },
-      {
-        "id": "251",
-        "label_eng": "The Aburaya Tea House",
-        "label_ka": "古市油屋",
-        "has_images": true
-      },
-      {
-        "id": "252",
-        "label_eng": "The Bloodthirsty Sword",
-        "label_ka": "奥庭十人斬り",
-        "has_images": true
-      },
-      {
-        "id": "253",
-        "label_eng": "The Katsura River in a Dim Moonlight",
-        "label_ka": "道行朧の桂川",
-        "has_images": true
-      },
-      {
-        "id": "673",
-        "label_eng": "The State Room",
-        "label_ka": "御殿",
-        "has_images": true
       }
     ],
     "images": [
@@ -35376,13 +34299,6 @@
         "id": "878",
         "label_eng": "February 1997: The Pregnant Mountain Ogress (Heroine)"
       }
-    ],
-    "scenes": [
-      {
-        "id": "259",
-        "label_eng": "Eitai Riverside at Utsubo",
-        "label_ka": "靱永代浜"
-      }
     ]
   },
   {
@@ -35464,18 +34380,6 @@
       {
         "id": "955",
         "label_eng": "January 2002: The Celebration of Housing Starts"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "260",
-        "label_eng": "Hyosuke's House",
-        "label_ka": "兵助内 (天王寺村兵助内)"
-      },
-      {
-        "id": "681",
-        "label_eng": "The Katsura River in a Dim Moonlight",
-        "label_ka": "道行朧の桂川"
       }
     ],
     "images": [
@@ -35618,43 +34522,6 @@
       {
         "id": "849",
         "label_eng": "August 1995: The Story of Manda Ponds"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "270",
-        "label_eng": "The Back Gate",
-        "label_ka": "裏門"
-      },
-      {
-        "id": "440",
-        "label_eng": "Moritsuna's War Camp (See also Love for Koshiro and Moritsuna Identifies a Head)",
-        "label_ka": "盛綱陣屋 (See also 小四郎恩愛 and 盛綱首実検)"
-      },
-      {
-        "id": "441",
-        "label_eng": "The Return from Chikubu Island",
-        "label_ka": "竹生島遊覧"
-      },
-      {
-        "id": "689",
-        "label_eng": "Iwashiro Hangan's Mansion",
-        "label_ka": "岩城判官館"
-      },
-      {
-        "id": "442",
-        "label_eng": "Kurosuke's House",
-        "label_ka": "九郎助内"
-      },
-      {
-        "id": "443",
-        "label_eng": "Inquisition by Seno-o",
-        "label_ka": "瀬尾十郎詮議"
-      },
-      {
-        "id": "690",
-        "label_eng": "Naoi Beach",
-        "label_ka": "直井浦"
       }
     ]
   },
@@ -35904,42 +34771,6 @@
       {
         "id": "860",
         "label_eng": "January 1996: The Trouble in the Date Household"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "274",
-        "label_eng": "The Encounter on the Yamazaki Highway",
-        "label_ka": "山崎街道出合",
-        "has_images": true
-      },
-      {
-        "id": "444",
-        "label_eng": "Sanemori's Explanation",
-        "label_ka": "実盛物語",
-        "has_images": true
-      },
-      {
-        "id": "447",
-        "label_eng": "The Biwa Music",
-        "label_ka": "松波琵琶"
-      },
-      {
-        "id": "448",
-        "label_eng": "The Maple Hill",
-        "label_ka": "紅葉山"
-      },
-      {
-        "id": "445",
-        "label_eng": "The Spinning Frame",
-        "label_ka": "綿繰馬",
-        "has_images": true
-      },
-      {
-        "id": "446",
-        "label_eng": "The Otowa Hill",
-        "label_ka": "音羽山",
-        "has_images": true
       }
     ],
     "images": [
@@ -36830,13 +35661,6 @@
         "id": "859",
         "label_eng": "January 1996: The Mask Peddler"
       }
-    ],
-    "scenes": [
-      {
-        "id": "278",
-        "label_eng": "The Ichiriki Tea House in Gion",
-        "label_ka": "祇園一力茶屋"
-      }
     ]
   },
   {
@@ -36932,14 +35756,6 @@
       {
         "id": "828",
         "label_eng": "September 1994: The Maple Viewing Party"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "287",
-        "label_eng": "The Tea House Kawasho",
-        "label_ka": "北新地河庄",
-        "has_images": true
       }
     ],
     "images": [
@@ -37275,20 +36091,6 @@
       {
         "id": "957",
         "label_eng": "January 2002: Kagekiyo and His Daughter"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "288",
-        "label_eng": "Jihei's House",
-        "label_ka": "天満紙屋内",
-        "has_images": true
-      },
-      {
-        "id": "458",
-        "label_eng": "The Camp Gate",
-        "label_ka": "陣門",
-        "has_images": true
       }
     ],
     "images": [
@@ -37767,14 +36569,6 @@
       {
         "id": "848",
         "label_eng": "May 1995: The New Barrier of Ataka"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "291",
-        "label_eng": "Moritsuna's War Camp (See also Love for Koshiro and Moritsuna Identifies a Head)",
-        "label_ka": "盛綱陣屋 (See also 小四郎恩愛 and 盛綱首実検)",
-        "has_images": true
       }
     ],
     "images": [
@@ -38263,13 +37057,6 @@
         "id": "877",
         "label_eng": "January 1997: The Lion Dance"
       }
-    ],
-    "scenes": [
-      {
-        "id": "315",
-        "label_eng": "Heitaro's House",
-        "label_ka": "平太郎住家"
-      }
     ]
   },
   {
@@ -38627,48 +37414,6 @@
         "id": "823",
         "label_eng": "August 1994: Pilgrimage to the West"
       }
-    ],
-    "scenes": [
-      {
-        "id": "319",
-        "label_eng": "The Kasaneizutsu Tea House",
-        "label_ka": "六軒町"
-      },
-      {
-        "id": "499",
-        "label_eng": "The Dumpling Peddlers (\"\"Nemosaeru Haruno Usuzuki\"\")",
-        "label_ka": "団子売"
-      },
-      {
-        "id": "603",
-        "label_eng": "Michiharu's Mansion",
-        "label_ka": "道春館"
-      },
-      {
-        "id": "500",
-        "label_eng": "The Town of Numazu",
-        "label_ka": "沼津"
-      },
-      {
-        "id": "501",
-        "label_eng": "The Torture by Koto",
-        "label_ka": "阿古屋琴責"
-      },
-      {
-        "id": "502",
-        "label_eng": "Sumiyoshi Beach",
-        "label_ka": "住吉浜辺"
-      },
-      {
-        "id": "604",
-        "label_eng": "The Village of Ueda",
-        "label_ka": "上田村"
-      },
-      {
-        "id": "503",
-        "label_eng": "In Front of the Hikosan Gongen Shrine",
-        "label_ka": "彦山権現社前"
-      }
     ]
   },
   {
@@ -38796,18 +37541,6 @@
         "id": "855",
         "label_eng": "September 1995: The Sumo Wrestler's Banner"
       }
-    ],
-    "scenes": [
-      {
-        "id": "325",
-        "label_eng": "The House of Kyosei 2",
-        "label_ka": "喬生住家二"
-      },
-      {
-        "id": "611",
-        "label_eng": "The Bribing of Moronao",
-        "label_ka": "大手下馬先進物　"
-      }
     ]
   },
   {
@@ -38911,13 +37644,6 @@
       {
         "id": "856",
         "label_eng": "January 1996: The Seven Gods of Fortune"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "327",
-        "label_eng": "The Torture by Koto",
-        "label_ka": "阿古屋琴責"
       }
     ]
   },
@@ -39058,14 +37784,6 @@
       {
         "id": "879",
         "label_eng": "February 1997: The Love Suicide of Tokubei and Ofusa"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "329",
-        "label_eng": "Sanetsuna's Mansion",
-        "label_ka": "直江屋敷",
-        "has_images": true
       }
     ],
     "images": [
@@ -39551,38 +38269,6 @@
       {
         "id": "853",
         "label_eng": "September 1995: The Yaguchi Ferry"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "337",
-        "label_eng": "The Ferry",
-        "label_ka": "渡し場",
-        "has_images": true
-      },
-      {
-        "id": "538",
-        "label_eng": "The Village School",
-        "label_ka": "寺子屋",
-        "has_images": true
-      },
-      {
-        "id": "539",
-        "label_eng": "The Inn at Ishibe",
-        "label_ka": "石部宿屋",
-        "has_images": true
-      },
-      {
-        "id": "540",
-        "label_eng": "The Rokkakudo Temple",
-        "label_ka": "六角堂",
-        "has_images": true
-      },
-      {
-        "id": "541",
-        "label_eng": "The Obi Shop",
-        "label_ka": "帯屋",
-        "has_images": true
       }
     ],
     "images": [
@@ -40375,44 +39061,6 @@
       {
         "id": "899",
         "label_eng": "April 1998: The New Usuyuki Story"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "328",
-        "label_eng": "Terutora Serves a Meal",
-        "label_ka": "輝虎配膳",
-        "has_images": true
-      },
-      {
-        "id": "524",
-        "label_eng": "Kagekatsu and Wooden Clogs",
-        "label_ka": "景勝下駄",
-        "has_images": true
-      },
-      {
-        "id": "525",
-        "label_eng": "Kansuke's House",
-        "label_ka": "勘助住家",
-        "has_images": true
-      },
-      {
-        "id": "526",
-        "label_eng": "The Drug Peddlers' Journey",
-        "label_ka": "道行似合の女夫丸",
-        "has_images": true
-      },
-      {
-        "id": "527",
-        "label_eng": "The Dance of Sambaso",
-        "label_ka": "寿式三番叟",
-        "has_images": true
-      },
-      {
-        "id": "528",
-        "label_eng": "The Hanabishiya Brothel",
-        "label_ka": "花菱屋",
-        "has_images": true
       }
     ],
     "images": [
@@ -41433,104 +40081,6 @@
       {
         "id": "904",
         "label_eng": "September 1998: The Story of the Morning Glory"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "352",
-        "label_eng": "The Poisoned Sake",
-        "label_ka": "住吉松原毒酒",
-        "has_images": true
-      },
-      {
-        "id": "353",
-        "label_eng": "The Bandai Pond",
-        "label_ka": "万代池",
-        "has_images": true
-      },
-      {
-        "id": "354",
-        "label_eng": "Gappo's House",
-        "label_ka": "合邦庵室",
-        "has_images": true
-      },
-      {
-        "id": "340",
-        "label_eng": "Gappo's House",
-        "label_ka": "合邦庵室",
-        "has_images": true
-      },
-      {
-        "id": "341",
-        "label_eng": "The Mad Woman",
-        "label_ka": "笠物狂",
-        "has_images": true
-      },
-      {
-        "id": "342",
-        "label_eng": "The Skylight",
-        "label_ka": "八幡里引窓",
-        "has_images": true
-      },
-      {
-        "id": "343",
-        "label_eng": "The Incense",
-        "label_ka": "十種香",
-        "has_images": true
-      },
-      {
-        "id": "344",
-        "label_eng": "The Fox Fire",
-        "label_ka": "奥庭狐火",
-        "has_images": true
-      },
-      {
-        "id": "345",
-        "label_eng": "The Pine-Lined Road at Akasaka",
-        "label_ka": "赤坂並木",
-        "has_images": true
-      },
-      {
-        "id": "346",
-        "label_eng": "Sota's House",
-        "label_ka": "惣太住家",
-        "has_images": true
-      },
-      {
-        "id": "347",
-        "label_eng": "The Mad Woman",
-        "label_ka": "狂女道行",
-        "has_images": true
-      },
-      {
-        "id": "348",
-        "label_eng": "The Sumida River",
-        "label_ka": "隅田川",
-        "has_images": true
-      },
-      {
-        "id": "349",
-        "label_eng": "The Riverbank at Tokuan",
-        "label_ka": "徳庵堤茶店",
-        "has_images": true
-      },
-      {
-        "id": "350",
-        "label_eng": "The House of Kawachiya",
-        "label_ka": "河内屋内",
-        "has_images": true
-      },
-      {
-        "id": "351",
-        "label_eng": "The Oil Store Teshimaya",
-        "label_ka": "豊島屋油店",
-        "has_images": true
-      },
-      {
-        "id": "355",
-        "label_eng": "The Daimonjiya Cotton Shop",
-        "label_ka": "大文字屋",
-        "has_images": true
       }
     ],
     "images": [
@@ -44204,89 +42754,6 @@
         "label_eng": "January 1995: The Nine-Tailed Fox"
       }
     ],
-    "scenes": [
-      {
-        "id": "589",
-        "label_eng": "The Two Look-Alike Servants",
-        "label_ka": "信田森二人奴",
-        "has_images": true
-      },
-      {
-        "id": "367",
-        "label_eng": "The Sumida River",
-        "label_ka": "隅田川",
-        "has_images": true
-      },
-      {
-        "id": "590",
-        "label_eng": "Akogi Bay",
-        "label_ka": "阿漕浦",
-        "has_images": true
-      },
-      {
-        "id": "592",
-        "label_eng": "The Okawa River",
-        "label_ka": "大川"
-      },
-      {
-        "id": "593",
-        "label_eng": "The Mass Murder",
-        "label_ka": "五人伐",
-        "has_images": true
-      },
-      {
-        "id": "594",
-        "label_eng": "The Haunted House at Hakone",
-        "label_ka": "箱根先化住居",
-        "has_images": true
-      },
-      {
-        "id": "595",
-        "label_eng": "Village of Ninokuchi",
-        "label_ka": "新口村"
-      },
-      {
-        "id": "596",
-        "label_eng": "The Shujaku River Bank",
-        "label_ka": "朱雀堤",
-        "has_images": true
-      },
-      {
-        "id": "601",
-        "label_eng": "The House of Hunter Genza",
-        "label_ka": "猟師源左内",
-        "has_images": true
-      },
-      {
-        "id": "597",
-        "label_eng": "Messenger Shikitae (See also The Mansion of Prince Tamaki)",
-        "label_ka": "敷妙使者 (See also 環の宮明御殿)",
-        "has_images": true
-      },
-      {
-        "id": "598",
-        "label_eng": "The Arrowhead (See also The Mansion of Prince Tamaki)",
-        "label_ka": "矢の根 (See also 環の宮明御殿)",
-        "has_images": true
-      },
-      {
-        "id": "599",
-        "label_eng": "Sodehagi's Appeal (See also The Mansion of Prince Tamaki)",
-        "label_ka": "袖萩祭文 (See also 環の宮明御殿)",
-        "has_images": true
-      },
-      {
-        "id": "600",
-        "label_eng": "Autumn on Mount Kon",
-        "label_ka": "崑山の秋",
-        "has_images": true
-      },
-      {
-        "id": "602",
-        "label_eng": "The Lakeside in Winter",
-        "label_ka": "冬の湖畔"
-      }
-    ],
     "images": [
       {
         "id": "12319",
@@ -44662,20 +43129,6 @@
         "label_eng": "July 2000: The Shank's Mare along the Tokaido Highway"
       }
     ],
-    "scenes": [
-      {
-        "id": "369",
-        "label_eng": "The Castle Gate",
-        "label_ka": "楼門",
-        "has_images": true
-      },
-      {
-        "id": "678",
-        "label_eng": "The Fortune Teller",
-        "label_ka": "辻法印",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "44977",
@@ -44995,28 +43448,6 @@
         "id": "982",
         "label_eng": "September 1969 Kōkōsei no tame no Bunraku Kyōshitsu: The Miracle at the Tsubosaka Kannon Temple"
       }
-    ],
-    "scenes": [
-      {
-        "id": "617",
-        "label_eng": "The Encounter on the Yamazaki Highway",
-        "label_ka": "山崎街道出合"
-      },
-      {
-        "id": "674",
-        "label_eng": "The Pine-Lined Road at Akasaka",
-        "label_ka": "赤坂並木"
-      },
-      {
-        "id": "370",
-        "label_eng": "The Shishigajo Catsle (See also Kanki's Mansion and The Red Signal)",
-        "label_ka": "獅子が城 (See also 甘輝館 and 紅流し)"
-      },
-      {
-        "id": "675",
-        "label_eng": "Kajiwara's Mansion",
-        "label_ka": "梶原館"
-      }
     ]
   },
   {
@@ -45297,38 +43728,6 @@
       {
         "id": "851",
         "label_eng": "August 1995: Gonza the Lancer"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "376",
-        "label_eng": "Sakon's Temporary Residence",
-        "label_ka": "平岡左近宿宅",
-        "has_images": true
-      },
-      {
-        "id": "620",
-        "label_eng": "Kampei's Suicide",
-        "label_ka": "勘平腹切",
-        "has_images": true
-      },
-      {
-        "id": "621",
-        "label_eng": "The Ichiriki Tea House in Gion",
-        "label_ka": "祇園一力茶屋",
-        "has_images": true
-      },
-      {
-        "id": "623",
-        "label_eng": "The Snowball",
-        "label_ka": "雪転かし",
-        "has_images": true
-      },
-      {
-        "id": "622",
-        "label_eng": "The Bridal Journey",
-        "label_ka": "道行旅路嫁入り",
-        "has_images": true
       }
     ],
     "images": [
@@ -46452,72 +44851,6 @@
       {
         "id": "972",
         "label_eng": "March 1996 Tour: Yoshitsune and a Thousand Cherry Trees"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "377",
-        "label_eng": "The Ogiya House",
-        "label_ka": "扇屋内",
-        "has_images": true
-      },
-      {
-        "id": "378",
-        "label_eng": "The Quarrel Over the Carriage",
-        "label_ka": "車曳(車引吉田社頭)",
-        "has_images": true
-      },
-      {
-        "id": "379",
-        "label_eng": "The Enrollment",
-        "label_ka": "寺入り",
-        "has_images": true
-      },
-      {
-        "id": "380",
-        "label_eng": "The Village School",
-        "label_ka": "寺子屋",
-        "has_images": true
-      },
-      {
-        "id": "381",
-        "label_eng": "The Rokkakudo Temple",
-        "label_ka": "六角堂"
-      },
-      {
-        "id": "382",
-        "label_eng": "The Obi Shop",
-        "label_ka": "帯屋",
-        "has_images": true
-      },
-      {
-        "id": "383",
-        "label_eng": "The Katsura River in a Dim Moonlight",
-        "label_ka": "道行朧の桂川",
-        "has_images": true
-      },
-      {
-        "id": "630",
-        "label_eng": "Heitaro's House",
-        "label_ka": "平太郎住家",
-        "has_images": true
-      },
-      {
-        "id": "629",
-        "label_eng": "In front of the Storehouse",
-        "label_ka": "蔵前",
-        "has_images": true
-      },
-      {
-        "id": "385",
-        "label_eng": "The Monkey Dance",
-        "label_ka": "堀川猿廻し",
-        "has_images": true
-      },
-      {
-        "id": "676",
-        "label_eng": "The Argument on the Uji River Crossing",
-        "label_ka": "先陣問答"
       }
     ],
     "images": [
@@ -48658,137 +46991,6 @@
       {
         "id": "906",
         "label_eng": "December 1998: The League of the 47 Ronin"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "204",
-        "label_eng": "The Double Suicide",
-        "label_ka": "道行霜夜の千日",
-        "has_images": true
-      },
-      {
-        "id": "205",
-        "label_eng": "The Dry Riverbed at Shichijo",
-        "label_ka": "七条河原",
-        "has_images": true
-      },
-      {
-        "id": "207",
-        "label_eng": "The Torture of Chujohime in the Snow",
-        "label_ka": "中将姫雪責",
-        "has_images": true
-      },
-      {
-        "id": "208",
-        "label_eng": "The Tsubosaka Temple (See also The Mountain)",
-        "label_ka": "壺坂寺 (See also 山)",
-        "has_images": true
-      },
-      {
-        "id": "209",
-        "label_eng": "Sadanoshin's Suicide",
-        "label_ka": "能舞台定之進切腹",
-        "has_images": true
-      },
-      {
-        "id": "210",
-        "label_eng": "Katsukake Village",
-        "label_ka": "沓掛村",
-        "has_images": true
-      },
-      {
-        "id": "211",
-        "label_eng": "At the Foot of the Slope",
-        "label_ka": "坂の下",
-        "has_images": true
-      },
-      {
-        "id": "212",
-        "label_eng": "Backgammon",
-        "label_ka": "道中双六"
-      },
-      {
-        "id": "213",
-        "label_eng": "Shigenoi's Parting with Her Son",
-        "label_ka": "重の井子別れ",
-        "has_images": true
-      },
-      {
-        "id": "214",
-        "label_eng": "The Dry Riverbed at Shichijo",
-        "label_ka": "七条河原",
-        "has_images": true
-      },
-      {
-        "id": "215",
-        "label_eng": "Kinai's House",
-        "label_ka": "喜内住家",
-        "has_images": true
-      },
-      {
-        "id": "216",
-        "label_eng": "The Kameya Express Agency at Awajimachi",
-        "label_ka": "淡路町",
-        "has_images": true
-      },
-      {
-        "id": "217",
-        "label_eng": "The Misappropriation (of Money)",
-        "label_ka": "封印切",
-        "has_images": true
-      },
-      {
-        "id": "218",
-        "label_eng": "The Travel in a Palanquin",
-        "label_ka": "道行相合かご",
-        "has_images": true
-      },
-      {
-        "id": "219",
-        "label_eng": "The Tsurugaoka Hachiman Shrine",
-        "label_ka": "鶴が岡",
-        "has_images": true
-      },
-      {
-        "id": "220",
-        "label_eng": "The House of Yukie Wada",
-        "label_ka": "和田行家屋敷",
-        "has_images": true
-      },
-      {
-        "id": "222",
-        "label_eng": "The Hokkokuya Inn at Fushimi,",
-        "label_ka": "伏見北国屋",
-        "has_images": true
-      },
-      {
-        "id": "206",
-        "label_eng": "Kinai's House",
-        "label_ka": "喜内住家",
-        "has_images": true
-      },
-      {
-        "id": "221",
-        "label_eng": "The Town of Numazu",
-        "label_ka": "沼津",
-        "has_images": true
-      },
-      {
-        "id": "225",
-        "label_eng": "The Rat's Romance",
-        "label_ka": "鼠のそうし",
-        "has_images": true
-      },
-      {
-        "id": "680",
-        "label_eng": "The Obi Shop",
-        "label_ka": "帯屋"
-      },
-      {
-        "id": "224",
-        "label_eng": "The Modoribashi Bridge",
-        "label_ka": "戻り橋"
       }
     ],
     "images": [
@@ -53081,32 +51283,6 @@
         "label_eng": "January 1994: The Dances of the Four Seasons"
       }
     ],
-    "scenes": [
-      {
-        "id": "104",
-        "label_eng": "The Quarrel Over the Carriage",
-        "label_ka": "車曳(車引吉田社頭)",
-        "has_images": true
-      },
-      {
-        "id": "105",
-        "label_eng": "Shiradayu's 70th Birthday Celebration",
-        "label_ka": "茶筅酒",
-        "has_images": true
-      },
-      {
-        "id": "106",
-        "label_eng": "The Quarrel",
-        "label_ka": "喧嘩",
-        "has_images": true
-      },
-      {
-        "id": "107",
-        "label_eng": "Sakuramaru's Suicide",
-        "label_ka": "桜丸切腹",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "12034",
@@ -53488,13 +51664,6 @@
         "id": "761",
         "label_eng": "December 1991: The Pines on Mount Hibari"
       }
-    ],
-    "scenes": [
-      {
-        "id": "112",
-        "label_eng": "The Temmaya Tea House",
-        "label_ka": "天満屋"
-      }
     ]
   },
   {
@@ -53612,18 +51781,6 @@
         "id": "969",
         "label_eng": "March 1996 Tour: The Cherry Trees of the Imperial Palace"
       }
-    ],
-    "scenes": [
-      {
-        "id": "79",
-        "label_eng": "The Sento Palace",
-        "label_ka": "仙洞御所"
-      },
-      {
-        "id": "78",
-        "label_eng": "The Sake Shop",
-        "label_ka": "酒屋"
-      }
     ]
   },
   {
@@ -53701,13 +51858,6 @@
       {
         "id": "777",
         "label_eng": "August 1992: The Ogress of Mt. Oe"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "393",
-        "label_eng": "Lady Ano's Reports to Hisayoshi",
-        "label_ka": "局注進"
       }
     ]
   },
@@ -53914,28 +52064,6 @@
         "id": "893",
         "label_eng": "January 1998: The Story of Priest Roben"
       }
-    ],
-    "scenes": [
-      {
-        "id": "316",
-        "label_eng": "The Melons Offered to Hisayoshi",
-        "label_ka": "瓜献上"
-      },
-      {
-        "id": "492",
-        "label_eng": "The Sake Shop",
-        "label_ka": "酒屋"
-      },
-      {
-        "id": "493",
-        "label_eng": "The Double Suicide",
-        "label_ka": "道行霜夜の千日"
-      },
-      {
-        "id": "494",
-        "label_eng": "Akogi Bay",
-        "label_ka": "阿漕浦"
-      }
     ]
   },
   {
@@ -54050,13 +52178,6 @@
       {
         "id": "973",
         "label_eng": "October 1967: Fishing for Wives"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "371",
-        "label_eng": "The Kameya Express Agency at Awajimachi",
-        "label_ka": "淡路町"
       }
     ],
     "images": [
@@ -54378,42 +52499,6 @@
       {
         "id": "925",
         "label_eng": "July/August 2001: The Summer Festival at Naniwa"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "295",
-        "label_eng": "The Three Blind Masseurs",
-        "label_ka": "三人座頭",
-        "has_images": true
-      },
-      {
-        "id": "296",
-        "label_eng": "The Temporary Mansion at Tsurugaoka",
-        "label_ka": "鶴が岡仮屋",
-        "has_images": true
-      },
-      {
-        "id": "292",
-        "label_eng": "Kōjō [announcement/special performance]",
-        "label_ka": "口上",
-        "has_images": true
-      },
-      {
-        "id": "293",
-        "label_eng": "The Dry Riverbed of Shijo",
-        "label_ka": "四条河原",
-        "has_images": true
-      },
-      {
-        "id": "294",
-        "label_eng": "The Monkey Dance",
-        "label_ka": "堀川猿廻し"
-      },
-      {
-        "id": "297",
-        "label_eng": "The Yoshida Shrine",
-        "label_ka": "吉田社頭"
       }
     ],
     "images": [
@@ -55625,83 +53710,6 @@
       {
         "id": "944",
         "label_eng": "June 1986 Bunraku Kanshō Kyōshitsu: The Battle of Ichinotani"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "156",
-        "label_eng": "Urikohime and Amanjaku",
-        "label_ka": "瓜子姫とあまんじゃく",
-        "has_images": true
-      },
-      {
-        "id": "158",
-        "label_eng": "The Ashikaga Palace",
-        "label_ka": "足利館",
-        "has_images": true
-      },
-      {
-        "id": "153",
-        "label_eng": "Imoyama and Seyama Mansions",
-        "label_ka": "妹山背山",
-        "has_images": true
-      },
-      {
-        "id": "154",
-        "label_eng": "The Laundry",
-        "label_ka": "碪拍子",
-        "has_images": true
-      },
-      {
-        "id": "155",
-        "label_eng": "The House of Tokutayu (Tokudayu or Tokutaifu)",
-        "label_ka": "徳太夫住家",
-        "has_images": true
-      },
-      {
-        "id": "157",
-        "label_eng": "The Torture by Koto",
-        "label_ka": "阿古屋琴責",
-        "has_images": true
-      },
-      {
-        "id": "653",
-        "label_eng": "Tachibana's Return",
-        "label_ka": "姫戻り"
-      },
-      {
-        "id": "652",
-        "label_eng": "Fukashichi's Visit",
-        "label_ka": "鱶七上使"
-      },
-      {
-        "id": "411",
-        "label_eng": "The Travelling Butterflies",
-        "label_ka": "蝶の道行"
-      },
-      {
-        "id": "412",
-        "label_eng": "The Modoribashi Bridge",
-        "label_ka": "戻り橋",
-        "has_images": true
-      },
-      {
-        "id": "413",
-        "label_eng": "Village of Ninokuchi",
-        "label_ka": "新口村",
-        "has_images": true
-      },
-      {
-        "id": "414",
-        "label_eng": "The Town of Numazu",
-        "label_ka": "沼津",
-        "has_images": true
-      },
-      {
-        "id": "416",
-        "label_eng": "The Duel",
-        "label_ka": "組打",
-        "has_images": true
       }
     ],
     "images": [
@@ -58035,119 +56043,6 @@
       {
         "id": "965",
         "label_eng": "April 2002: Sugawara's Secrets of Calligraphy"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "567",
-        "label_eng": "In front of the Storehouse",
-        "label_ka": "蔵前",
-        "has_images": true
-      },
-      {
-        "id": "571",
-        "label_eng": "The Curio Shop at Uchihonmachi",
-        "label_ka": "内本町道具屋",
-        "has_images": true
-      },
-      {
-        "id": "572",
-        "label_eng": "The House of Sabu",
-        "label_ka": "釣船三婦内",
-        "has_images": true
-      },
-      {
-        "id": "573",
-        "label_eng": "The Back Lane at Nagamachi",
-        "label_ka": "長町裏",
-        "has_images": true
-      },
-      {
-        "id": "574",
-        "label_eng": "The Bean Curd Maker's",
-        "label_ka": "豆腐屋",
-        "has_images": true
-      },
-      {
-        "id": "565",
-        "label_eng": "The Ikutama Shrine",
-        "label_ka": "生玉鳥居前",
-        "has_images": true
-      },
-      {
-        "id": "566",
-        "label_eng": "The Pawnshop",
-        "label_ka": "質店",
-        "has_images": true
-      },
-      {
-        "id": "575",
-        "label_eng": "The Village of Hanyu (See also Hanyu Village from \"\"The Trouble in the Date Household\"\")",
-        "label_ka": "埴生村",
-        "has_images": true
-      },
-      {
-        "id": "576",
-        "label_eng": "The Earthen Bridge (See also The Earthen Bridge from \"\"The Trouble in the Date Household\"\")",
-        "label_ka": "土橋",
-        "has_images": true
-      },
-      {
-        "id": "577",
-        "label_eng": "The Aburaya Tea House",
-        "label_ka": "古市油屋",
-        "has_images": true
-      },
-      {
-        "id": "578",
-        "label_eng": "The Bloodthirsty Sword",
-        "label_ka": "奥庭十人斬り",
-        "has_images": true
-      },
-      {
-        "id": "579",
-        "label_eng": "The Shooting in the Dark",
-        "label_ka": "山崎街道二つ玉"
-      },
-      {
-        "id": "568",
-        "label_eng": "The Fan Shop",
-        "label_ka": "扇屋内",
-        "has_images": true
-      },
-      {
-        "id": "569",
-        "label_eng": "The Gojo Bridge",
-        "label_ka": "五条橋",
-        "has_images": true
-      },
-      {
-        "id": "570",
-        "label_eng": "In Front of the Sumiyoshi Shrine",
-        "label_ka": "住吉鳥居前",
-        "has_images": true
-      },
-      {
-        "id": "580",
-        "label_eng": "The Selling of Okaru",
-        "label_ka": "お軽身売り",
-        "has_images": true
-      },
-      {
-        "id": "581",
-        "label_eng": "Kampei's Suicide",
-        "label_ka": "勘平腹切"
-      },
-      {
-        "id": "582",
-        "label_eng": "The Ichiriki Tea House in Gion",
-        "label_ka": "祇園一力茶屋"
-      },
-      {
-        "id": "679",
-        "label_eng": "The Tea House at Kanzaki",
-        "label_ka": "神崎揚屋",
-        "has_images": true
       }
     ],
     "images": [
@@ -62183,13 +60078,6 @@
         "id": "195",
         "label_eng": "July 1975: The Dumpling Peddlers"
       }
-    ],
-    "scenes": [
-      {
-        "id": "298",
-        "label_eng": "Yoshiie's Mansion",
-        "label_ka": "八幡太郎館"
-      }
     ]
   },
   {
@@ -62384,25 +60272,6 @@
       {
         "id": "949",
         "label_eng": "March/April 1988 Tour: The Crossroads of Gappo"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "613",
-        "label_eng": "The Attack in the Palace",
-        "label_ka": "殿中刃傷",
-        "has_images": true
-      },
-      {
-        "id": "518",
-        "label_eng": "The Rowing Lesson",
-        "label_ka": "逆櫓"
-      },
-      {
-        "id": "326",
-        "label_eng": "The House of Kyosei 3",
-        "label_ka": "喬生住家三より古心寺朱の丸柱の間",
-        "has_images": true
       }
     ],
     "images": [
@@ -63343,26 +61212,6 @@
         "label_eng": "February 1994: The Ancient Calendar"
       }
     ],
-    "scenes": [
-      {
-        "id": "29",
-        "label_eng": "The Rear Garden",
-        "label_ka": "奥庭",
-        "has_images": true
-      },
-      {
-        "id": "30",
-        "label_eng": "The Visit of Benkei",
-        "label_ka": "弁慶上使",
-        "has_images": true
-      },
-      {
-        "id": "31",
-        "label_eng": "The Inn at Ishibe",
-        "label_ka": "石部宿屋",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "11078",
@@ -63728,30 +61577,6 @@
       {
         "id": "984",
         "label_eng": "November 1973 Kōkōsei no tame no Bunraku Kyōshitsu: The Ridge Pole of the Sanjusangendo Temple"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "512",
-        "label_eng": "Kikyo Field",
-        "label_ka": "桔梗原",
-        "has_images": true
-      },
-      {
-        "id": "609",
-        "label_eng": "Rikiya Bears a Message",
-        "label_ka": "桃井館力弥上使",
-        "has_images": true
-      },
-      {
-        "id": "321",
-        "label_eng": "The Kyohaku Lakeside in China",
-        "label_ka": "唐国鏡白湖畔"
-      },
-      {
-        "id": "511",
-        "label_eng": "The Revenge at the Tatsunami Mansion",
-        "label_ka": "立浪館仇討"
       }
     ],
     "images": [
@@ -64514,67 +62339,6 @@
       {
         "id": "914",
         "label_eng": "December 2000: The Vow of Rokusuke"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "118",
-        "label_eng": "Tachibana's Return",
-        "label_ka": "姫戻り",
-        "has_images": true
-      },
-      {
-        "id": "119",
-        "label_eng": "The Glittering Mansion",
-        "label_ka": "金殿",
-        "has_images": true
-      },
-      {
-        "id": "120",
-        "label_eng": "Kuzunoha's Parting with Her Son",
-        "label_ka": "葛の葉子別れ",
-        "has_images": true
-      },
-      {
-        "id": "121",
-        "label_eng": "The Fox-Kuzunoha's Travel",
-        "label_ka": "蘭菊の乱れ",
-        "has_images": true
-      },
-      {
-        "id": "122",
-        "label_eng": "The Inn at Ishibe",
-        "label_ka": "石部宿屋",
-        "has_images": true
-      },
-      {
-        "id": "123",
-        "label_eng": "The Rokkakudo Temple",
-        "label_ka": "六角堂",
-        "has_images": true
-      },
-      {
-        "id": "124",
-        "label_eng": "The Obi Shop",
-        "label_ka": "帯屋",
-        "has_images": true
-      },
-      {
-        "id": "125",
-        "label_eng": "The Katsura River in a Dim Moonlight",
-        "label_ka": "道行朧の桂川",
-        "has_images": true
-      },
-      {
-        "id": "126",
-        "label_eng": "The Imperial Palace",
-        "label_ka": "大内",
-        "has_images": true
-      },
-      {
-        "id": "127",
-        "label_eng": "The Nunobiki Waterfall",
-        "label_ka": "布引滝"
       }
     ],
     "images": [
@@ -66394,95 +64158,6 @@
       {
         "id": "820",
         "label_eng": "April 1994: The Teachings for Women"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "180",
-        "label_eng": "The Oil Store",
-        "label_ka": "油店",
-        "has_images": true
-      },
-      {
-        "id": "181",
-        "label_eng": "The Ikutama Shrine",
-        "label_ka": "生玉鳥居前",
-        "has_images": true
-      },
-      {
-        "id": "182",
-        "label_eng": "The Pawnshop",
-        "label_ka": "質店",
-        "has_images": true
-      },
-      {
-        "id": "184",
-        "label_eng": "Michiharu's Mansion",
-        "label_ka": "道春館",
-        "has_images": true
-      },
-      {
-        "id": "172",
-        "label_eng": "The House of Sabu",
-        "label_ka": "釣船三婦内",
-        "has_images": true
-      },
-      {
-        "id": "637",
-        "label_eng": "The Town of Okazaki",
-        "label_ka": "岡崎",
-        "has_images": true
-      },
-      {
-        "id": "178",
-        "label_eng": "Gappo's House",
-        "label_ka": "合邦庵室",
-        "has_images": true
-      },
-      {
-        "id": "179",
-        "label_eng": "The Torture by Koto",
-        "label_ka": "阿古屋琴責",
-        "has_images": true
-      },
-      {
-        "id": "173",
-        "label_eng": "The Back Lane at Nagamachi",
-        "label_ka": "長町裏",
-        "has_images": true
-      },
-      {
-        "id": "183",
-        "label_eng": "The Suicide with a Scythe",
-        "label_ka": "弥作鎌腹",
-        "has_images": true
-      },
-      {
-        "id": "638",
-        "label_eng": "The Sake Shop",
-        "label_ka": "酒屋"
-      },
-      {
-        "id": "174",
-        "label_eng": "The Subscription List",
-        "label_ka": "勧進帳",
-        "has_images": true
-      },
-      {
-        "id": "177",
-        "label_eng": "The Head Identification (See also Kumagai's Camp)",
-        "label_ka": "首実検 (See also 熊谷陣屋)",
-        "has_images": true
-      },
-      {
-        "id": "175",
-        "label_eng": "Kumagai's Cheery Tree",
-        "label_ka": "熊谷桜"
-      },
-      {
-        "id": "176",
-        "label_eng": "Kumagai's Explanation (See also Kumagai's Camp )",
-        "label_ka": "熊谷物語 (See also 熊谷陣屋)"
       }
     ],
     "images": [
@@ -70322,35 +67997,6 @@
         "label_eng": "December 1994 Bunraku Kanshō Kyōshitsu: The Love of Osome and Hisamatsu"
       }
     ],
-    "scenes": [
-      {
-        "id": "535",
-        "label_eng": "Onoe's Room",
-        "label_ka": "長局",
-        "has_images": true
-      },
-      {
-        "id": "336",
-        "label_eng": "The Bloodthirsty Sword",
-        "label_ka": "奥庭十人斬り",
-        "has_images": true
-      },
-      {
-        "id": "646",
-        "label_eng": "Sarusawa Pond",
-        "label_ka": "猿沢池"
-      },
-      {
-        "id": "536",
-        "label_eng": "The Rear Garden",
-        "label_ka": "奥庭"
-      },
-      {
-        "id": "537",
-        "label_eng": "The Enrollment",
-        "label_ka": "寺入り"
-      }
-    ],
     "images": [
       {
         "id": "11388",
@@ -70799,20 +68445,6 @@
         "has_images": true
       }
     ],
-    "scenes": [
-      {
-        "id": "365",
-        "label_eng": "Sota's House",
-        "label_ka": "惣太住家",
-        "has_images": true
-      },
-      {
-        "id": "585",
-        "label_eng": "The Kamo Residence",
-        "label_ka": "加茂館",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "45014",
@@ -71228,25 +68860,6 @@
       {
         "id": "768",
         "label_eng": "May 1992: A Tragic Love Triangle"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "101",
-        "label_eng": "The Woods of the Tenjin Shrine",
-        "label_ka": "天神森",
-        "has_images": true
-      },
-      {
-        "id": "102",
-        "label_eng": "Fishing for Wives",
-        "label_ka": "釣女",
-        "has_images": true
-      },
-      {
-        "id": "100",
-        "label_eng": "The Temmaya Tea House",
-        "label_ka": "天満屋"
       }
     ],
     "images": [
@@ -72239,14 +69852,6 @@
         "label_eng": "February 1973 Bunkyo Public Hall: The Battle of Dannoura"
       }
     ],
-    "scenes": [
-      {
-        "id": "34",
-        "label_eng": "The Katsura River in a Dim Moonlight",
-        "label_ka": "道行朧の桂川",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "9616",
@@ -73061,14 +70666,6 @@
         "has_images": true
       }
     ],
-    "scenes": [
-      {
-        "id": "73",
-        "label_eng": "Kajiwara's Mansion",
-        "label_ka": "梶原館",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "10144",
@@ -73214,18 +70811,6 @@
       {
         "id": "2",
         "label_eng": "November 1964: More Worthy than Revenge"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "313",
-        "label_eng": "The Gay Quarter Gossips",
-        "label_ka": "廓噺"
-      },
-      {
-        "id": "612",
-        "label_eng": "Okaru Delivers the Letter Case (Kaoyo's Poem)",
-        "label_ka": "おかる文使い"
       }
     ]
   },
@@ -73425,14 +71010,6 @@
         "label_eng": "January 1997: The Romance in the Gay Quarters"
       }
     ],
-    "scenes": [
-      {
-        "id": "267",
-        "label_eng": "The Bribing of Moronao",
-        "label_ka": "大手下馬先進物　",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "45029",
@@ -73511,13 +71088,6 @@
       {
         "id": "265",
         "label_eng": "October 1977: The Three Blind Masseurs"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "286",
-        "label_eng": "The Dance of Sambaso",
-        "label_ka": "寿式三番叟"
       }
     ]
   },
@@ -73617,18 +71187,6 @@
       {
         "id": "15",
         "label_eng": "February 1968: The Pines on Mount Hibari"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "112",
-        "label_eng": "The Temmaya Tea House",
-        "label_ka": "天満屋"
-      },
-      {
-        "id": "115",
-        "label_eng": "The Well-Cleaning",
-        "label_ka": "井戸替"
       }
     ]
   },
@@ -73970,38 +71528,6 @@
         "id": "815",
         "label_eng": "January 1994: The Battle of Sakamoto Castle"
       }
-    ],
-    "scenes": [
-      {
-        "id": "307",
-        "label_eng": "The State Room",
-        "label_ka": "御殿"
-      },
-      {
-        "id": "470",
-        "label_eng": "The Suma Beach",
-        "label_ka": "須磨浦"
-      },
-      {
-        "id": "471",
-        "label_eng": "The Duel",
-        "label_ka": "組打"
-      },
-      {
-        "id": "472",
-        "label_eng": "The House of Hayashi",
-        "label_ka": "林住家"
-      },
-      {
-        "id": "473",
-        "label_eng": "The House of Midaroku",
-        "label_ka": "弥陀六内"
-      },
-      {
-        "id": "474",
-        "label_eng": "Drawing Lots at Wakigahara",
-        "label_ka": "脇ヶ浜宝引"
-      }
     ]
   },
   {
@@ -74058,13 +71584,6 @@
       {
         "id": "285",
         "label_eng": "June 1978: The Travel on Mt. Yoshino"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "280",
-        "label_eng": "Yuranosuke's House at Yamashina",
-        "label_ka": "山科閑居"
       }
     ]
   },
@@ -74196,13 +71715,6 @@
       {
         "id": "803",
         "label_eng": "November 1993: The Inauspicious Sword"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "320",
-        "label_eng": "The Gojo Bridge",
-        "label_ka": "五条橋"
       }
     ]
   },
@@ -74613,69 +72125,6 @@
       {
         "id": "809",
         "label_eng": "December 1993: The Nunobiki Waterfall"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "56",
-        "label_eng": "Shingen's Mansion",
-        "label_ka": "武田信玄館"
-      },
-      {
-        "id": "57",
-        "label_eng": "Messenger Yoshikiyo's Visit",
-        "label_ka": "村上義清上使"
-      },
-      {
-        "id": "58",
-        "label_eng": "Katsuyori Kills Himself",
-        "label_ka": "勝頼切腹"
-      },
-      {
-        "id": "59",
-        "label_eng": "Shingen's Talk",
-        "label_ka": "信玄物語"
-      },
-      {
-        "id": "60",
-        "label_eng": "The Drug Peddlers' Journey",
-        "label_ka": "道行似合の女夫丸"
-      },
-      {
-        "id": "61",
-        "label_eng": "Bewitched by a Fox",
-        "label_ka": "和田別所化性屋敷",
-        "has_images": true
-      },
-      {
-        "id": "65",
-        "label_eng": "The Death of Dosan",
-        "label_ka": "道三最期"
-      },
-      {
-        "id": "66",
-        "label_eng": "The Itodo Myojin Shrine",
-        "label_ka": "射手明神"
-      },
-      {
-        "id": "67",
-        "label_eng": "Yoshinaka's Mansion",
-        "label_ka": "義仲館"
-      },
-      {
-        "id": "62",
-        "label_eng": "Messenger Kagekatsu's Visit (See also Kenshin's Mansion)",
-        "label_ka": "景勝上使 (See also 謙信館）"
-      },
-      {
-        "id": "63",
-        "label_eng": "The Delivery of the Rifle (See also Kenshin's Mansion)",
-        "label_ka": "鉄砲渡し (See also 謙信館)"
-      },
-      {
-        "id": "64",
-        "label_eng": "Kenshin's Mansion (See also Messenger Kagekatsu's Visit and the Delivery of the Rifle)",
-        "label_ka": "謙信館 (see akso 景勝上使  and 鉄砲渡し)"
       }
     ],
     "images": [
@@ -75193,30 +72642,6 @@
         "label_eng": "February 1991: The Vendetta by a Samurai in Rags"
       }
     ],
-    "scenes": [
-      {
-        "id": "229",
-        "label_eng": "The Kamo River Bank",
-        "label_ka": "加茂堤"
-      },
-      {
-        "id": "230",
-        "label_eng": "The Handing on the Secrets of Calligraphy",
-        "label_ka": "筆法伝授",
-        "has_images": true
-      },
-      {
-        "id": "644",
-        "label_eng": "The Pine Grove",
-        "label_ka": "小松原"
-      },
-      {
-        "id": "645",
-        "label_eng": "Emiji's Mansion",
-        "label_ka": "蝦夷子館",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "45006",
@@ -75635,18 +73060,6 @@
         "id": "734",
         "label_eng": "May 1990: The Old Tale of Kusunoki"
       }
-    ],
-    "scenes": [
-      {
-        "id": "268",
-        "label_eng": "Okaru Delivers the Letter Case (Kaoyo's Poem)",
-        "label_ka": "おかる文使い"
-      },
-      {
-        "id": "438",
-        "label_eng": "Shitobei's House",
-        "label_ka": "四斗兵衛住家"
-      }
     ]
   },
   {
@@ -75713,13 +73126,6 @@
       {
         "id": "85",
         "label_eng": "September 1972: The Three Oddities"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "322",
-        "label_eng": "The Cormorant Fisherman's House",
-        "label_ka": "美濃国鵜飼屋鵜匠の頭内"
       }
     ]
   },
@@ -75882,13 +73288,6 @@
         "label_eng": "June 1974: The Amorous Courier on the Yamato Highway"
       }
     ],
-    "scenes": [
-      {
-        "id": "245",
-        "label_eng": "The Disaster at the Imperial Palace",
-        "label_ka": "大内天変"
-      }
-    ],
     "images": [
       {
         "id": "45025",
@@ -76005,14 +73404,6 @@
       {
         "id": "898",
         "label_eng": "April 1998: A Supplement to Chushingura"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "391",
-        "label_eng": "The Feast at Nijo Castle",
-        "label_ka": "二条城配膳",
-        "has_images": true
       }
     ],
     "images": [
@@ -76419,43 +73810,6 @@
         "id": "62",
         "label_eng": "November 1971: Tametomo The Archer General"
       }
-    ],
-    "scenes": [
-      {
-        "id": "21",
-        "label_eng": "The Dry Riverbed of Shijo",
-        "label_ka": "四条河原"
-      },
-      {
-        "id": "22",
-        "label_eng": "The Monkey Dance",
-        "label_ka": "堀川猿廻し"
-      },
-      {
-        "id": "23",
-        "label_eng": "Fishing for Wives",
-        "label_ka": "釣女"
-      },
-      {
-        "id": "24",
-        "label_eng": "Chikuma River",
-        "label_ka": "筑摩川"
-      },
-      {
-        "id": "25",
-        "label_eng": "Matasuke's House",
-        "label_ka": "又助住家"
-      },
-      {
-        "id": "26",
-        "label_eng": "The Beating with a Sandal",
-        "label_ka": "草履打"
-      },
-      {
-        "id": "27",
-        "label_eng": "The Corridor",
-        "label_ka": "廊下"
-      }
     ]
   },
   {
@@ -76576,14 +73930,6 @@
       {
         "id": "872",
         "label_eng": "January 1997: The Dance of Sambaso"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "263",
-        "label_eng": "Village of Ninokuchi",
-        "label_ka": "新口村",
-        "has_images": true
       }
     ],
     "images": [
@@ -77199,18 +74545,6 @@
         "id": "806",
         "label_eng": "November 1993: The Loyal Samurai"
       }
-    ],
-    "scenes": [
-      {
-        "id": "366",
-        "label_eng": "The Mad Woman",
-        "label_ka": "狂女道行"
-      },
-      {
-        "id": "614",
-        "label_eng": "The Back Gate",
-        "label_ka": "裏門"
-      }
     ]
   },
   {
@@ -77276,13 +74610,6 @@
       {
         "id": "156",
         "label_eng": "June 1974: The Modoribashi Bridge"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "284",
-        "label_eng": "The Sake Shop",
-        "label_ka": "酒屋"
       }
     ]
   },
@@ -77415,13 +74742,6 @@
       {
         "id": "922",
         "label_eng": "July/August 2001: The Rat's Romance"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "299",
-        "label_eng": "The Sotogahama Beach",
-        "label_ka": "外が浜"
       }
     ]
   },
@@ -77634,18 +74954,6 @@
         "id": "868",
         "label_eng": "July 1996: The Bloodshed at Ise"
       }
-    ],
-    "scenes": [
-      {
-        "id": "186",
-        "label_eng": "Village of Ninokuchi",
-        "label_ka": "新口村"
-      },
-      {
-        "id": "187",
-        "label_eng": "Honzo's Villa",
-        "label_ka": "本蔵下屋敷"
-      }
     ]
   },
   {
@@ -77760,13 +75068,6 @@
       {
         "id": "86",
         "label_eng": "September 1972: The Pine Tree on the River Bank"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "244",
-        "label_eng": "The Village School",
-        "label_ka": "寺子屋"
       }
     ]
   },
@@ -77934,18 +75235,6 @@
         "id": "953",
         "label_eng": "February 1996: The Battle of Kawanakajima"
       }
-    ],
-    "scenes": [
-      {
-        "id": "338",
-        "label_eng": "Terutora Serves a Meal",
-        "label_ka": "輝虎配膳"
-      },
-      {
-        "id": "546",
-        "label_eng": "The Rowing Lesson",
-        "label_ka": "逆櫓"
-      }
     ]
   },
   {
@@ -78032,13 +75321,6 @@
       {
         "id": "131",
         "label_eng": "May 1973 National Theatre: The Fiftieth Death Anniversary"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "74",
-        "label_eng": "The Argument on the Uji River Crossing",
-        "label_ka": "先陣問答"
       }
     ]
   },
@@ -78159,13 +75441,6 @@
       {
         "id": "668",
         "label_eng": "October 1991: The Faithful Wife"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "203",
-        "label_eng": "The Sake Shop",
-        "label_ka": "酒屋"
       }
     ]
   },
@@ -78318,19 +75593,6 @@
       {
         "id": "959",
         "label_eng": "January 2002: The Red-Hot Love of the Greengrocer's Daughter"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "36",
-        "label_eng": "The Suma Beach",
-        "label_ka": "須磨浦",
-        "has_images": true
-      },
-      {
-        "id": "35",
-        "label_eng": "The Camp Gate",
-        "label_ka": "陣門"
       }
     ],
     "images": [
@@ -78829,73 +76091,6 @@
         "id": "744",
         "label_eng": "November 1990: The Adachi Plain in Oshu"
       }
-    ],
-    "scenes": [
-      {
-        "id": "477",
-        "label_eng": "Rokuyata's Mansion",
-        "label_ka": "六弥太館"
-      },
-      {
-        "id": "478",
-        "label_eng": "Two Girl Attendants to a Courtesan",
-        "label_ka": "二人禿"
-      },
-      {
-        "id": "479",
-        "label_eng": "The Komakiyama Castle",
-        "label_ka": "駒木山城中"
-      },
-      {
-        "id": "480",
-        "label_eng": "The Village of Nozaki",
-        "label_ka": "野崎村"
-      },
-      {
-        "id": "481",
-        "label_eng": "Mount Yoshino",
-        "label_ka": "吉野山"
-      },
-      {
-        "id": "482",
-        "label_eng": "The Sushi Shop",
-        "label_ka": "すしや"
-      },
-      {
-        "id": "483",
-        "label_eng": "The Daimonjiya Cotton Shop",
-        "label_ka": "大文字屋"
-      },
-      {
-        "id": "484",
-        "label_eng": "The Bridal Journey",
-        "label_ka": "道行旅路嫁入り"
-      },
-      {
-        "id": "485",
-        "label_eng": "Nitta's Castle",
-        "label_ka": "新田居城"
-      },
-      {
-        "id": "486",
-        "label_eng": "Hyogonosuke's Mansion",
-        "label_ka": "由良兵庫邸"
-      },
-      {
-        "id": "314",
-        "label_eng": "The Visit of Benkei",
-        "label_ka": "弁慶上使"
-      },
-      {
-        "id": "475",
-        "label_eng": "Kumagai's Cheery Tree",
-        "label_ka": "熊谷桜"
-      },
-      {
-        "id": "476",
-        "label_eng": "Kumagai's Camp (See also Kumagai's Explanation and The Head Identification)",
-        "label_ka": "熊谷陣屋 (See also 熊谷物語 and 首実検)"
-      }
     ]
   },
   {
@@ -79006,23 +76201,6 @@
         "id": "751",
         "label_eng": "July 1991: The Grateful Cormorant"
       }
-    ],
-    "scenes": [
-      {
-        "id": "456",
-        "label_eng": "The Village of Nozaki",
-        "label_ka": "野崎村"
-      },
-      {
-        "id": "457",
-        "label_eng": "The Dumpling Peddlers (\"\"Nemosaeru Haruno Usuzuki\"\")",
-        "label_ka": "団子売"
-      },
-      {
-        "id": "283",
-        "label_eng": "The Amagasaki Village",
-        "label_ka": "尼が崎"
-      }
     ]
   },
   {
@@ -79098,23 +76276,6 @@
       {
         "id": "137",
         "label_eng": "May 1973 Asahiza: Botan doro (The Peony Lantern)"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "15",
-        "label_eng": "The Oil Store",
-        "label_ka": "油店"
-      },
-      {
-        "id": "16",
-        "label_eng": "The Ikutama Shrine",
-        "label_ka": "生玉鳥居前"
-      },
-      {
-        "id": "17",
-        "label_eng": "The Pawnshop",
-        "label_ka": "質店"
       }
     ]
   },
@@ -79318,23 +76479,6 @@
         "id": "572",
         "label_eng": "February 1987: The Courtesan Yugiri"
       }
-    ],
-    "scenes": [
-      {
-        "id": "387",
-        "label_eng": "Tamamizu Pond",
-        "label_ka": "玉水淵"
-      },
-      {
-        "id": "632",
-        "label_eng": "The Fox Fire",
-        "label_ka": "奥庭狐火"
-      },
-      {
-        "id": "633",
-        "label_eng": "Gappo's House",
-        "label_ka": "合邦庵室"
-      }
     ]
   },
   {
@@ -79492,20 +76636,6 @@
         "label_eng": "September 1987: The Tales of Ise"
       }
     ],
-    "scenes": [
-      {
-        "id": "98",
-        "label_eng": "The Mansion of Kawatsura Hogen",
-        "label_ka": "川連法眼館",
-        "has_images": true
-      },
-      {
-        "id": "99",
-        "label_eng": "In Front of the Ikudama Shrine",
-        "label_ka": "生玉社前",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "45026",
@@ -79639,13 +76769,6 @@
       {
         "id": "155",
         "label_eng": "April 1974 National Theatre: The Travelling Butterflies"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "28",
-        "label_eng": "Onoe's Room",
-        "label_ka": "長局"
       }
     ]
   },
@@ -79842,13 +76965,6 @@
         "id": "477",
         "label_eng": "October 1984: The Amorous Courier on the Yamato Highway"
       }
-    ],
-    "scenes": [
-      {
-        "id": "246",
-        "label_eng": "The Laughter Drug",
-        "label_ka": "島田駅笑ひ薬"
-      }
     ]
   },
   {
@@ -79889,13 +77005,6 @@
       {
         "id": "181",
         "label_eng": "January 1975: The Dragon and the Tiger"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "317",
-        "label_eng": "The Gourd Trellis",
-        "label_ka": "夕顔棚"
       }
     ]
   },
@@ -79966,14 +77075,6 @@
       {
         "id": "915",
         "label_eng": "December 2000 Bunraku Kanshō Kyōshitsu: Two Girl Attendants to a Courtesan"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "301",
-        "label_eng": "The Shujaku River Bank",
-        "label_ka": "朱雀堤",
-        "has_images": true
       }
     ],
     "images": [
@@ -80230,13 +77331,6 @@
         "id": "812",
         "label_eng": "January 1994: The Young Cherry Tree"
       }
-    ],
-    "scenes": [
-      {
-        "id": "140",
-        "label_eng": "The Koriyama Hachiman Shrine",
-        "label_ka": "郡山八幡"
-      }
     ]
   },
   {
@@ -80319,13 +77413,6 @@
       {
         "id": "722",
         "label_eng": "July 1989: The Enticed High Priest"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "264",
-        "label_eng": "The Helmet Identification at Tsurugaoka",
-        "label_ka": "鶴が岡兜改め"
       }
     ]
   },
@@ -80471,20 +77558,6 @@
       {
         "id": "474",
         "label_eng": "September 1984: Akogi Bay in Ise Province"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "324",
-        "label_eng": "The House of Kyosei 1",
-        "label_ka": "喬生住家一",
-        "has_images": true
-      },
-      {
-        "id": "610",
-        "label_eng": "The Cutting of the Pine Branch",
-        "label_ka": "松切り",
-        "has_images": true
       }
     ],
     "images": [
@@ -80710,23 +77783,6 @@
         "id": "963",
         "label_eng": "July/August 2002: The Story of Kasane"
       }
-    ],
-    "scenes": [
-      {
-        "id": "273",
-        "label_eng": "The Evacuation",
-        "label_ka": "霞ヶ関城明渡し"
-      },
-      {
-        "id": "449",
-        "label_eng": "The Bamboo Room",
-        "label_ka": "竹の間"
-      },
-      {
-        "id": "450",
-        "label_eng": "The State Room",
-        "label_ka": "御殿"
-      }
     ]
   },
   {
@@ -80850,14 +77906,6 @@
       {
         "id": "476",
         "label_eng": "September 1984: The Story of Monsters"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "14",
-        "label_eng": "The Torture by Koto",
-        "label_ka": "阿古屋琴責",
-        "has_images": true
       }
     ],
     "images": [
@@ -81211,23 +78259,6 @@
         "id": "962",
         "label_eng": "July/August 2002: The Hunter and the Female Fox"
       }
-    ],
-    "scenes": [
-      {
-        "id": "388",
-        "label_eng": "Kasuga Village",
-        "label_ka": "春日村"
-      },
-      {
-        "id": "635",
-        "label_eng": "The New Barrier at Fujikawa with Insertion of the Scene of Dumpling Peddlers",
-        "label_ka": "富士川新関 引抜き 団子売"
-      },
-      {
-        "id": "636",
-        "label_eng": "The Bamboo Groove",
-        "label_ka": "竹藪"
-      }
     ]
   },
   {
@@ -81277,13 +78308,6 @@
         "id": "257",
         "label_eng": "August 1977 Hokkaido Tour: The Dance of Sambaso",
         "has_images": true
-      }
-    ],
-    "scenes": [
-      {
-        "id": "302",
-        "label_eng": "The Mansion of Prince Tamaki (See also The Messenger Shikitae, Arrowhead and Sodehagi's Appeal)",
-        "label_ka": "環の宮明御殿 (See also 敷妙使者, 矢の根 and 袖萩祭文)"
       }
     ],
     "images": [
@@ -81428,38 +78452,6 @@
         "id": "260",
         "label_eng": "August 1977 Tour: Sansho Dayu"
       }
-    ],
-    "scenes": [
-      {
-        "id": "667",
-        "label_eng": "Tachibana's Return",
-        "label_ka": "姫戻り"
-      },
-      {
-        "id": "668",
-        "label_eng": "The Melons Offered to Hisayoshi",
-        "label_ka": "瓜献上"
-      },
-      {
-        "id": "669",
-        "label_eng": "The Gourd Trellis",
-        "label_ka": "夕顔棚"
-      },
-      {
-        "id": "323",
-        "label_eng": "Inspection of the Cormorant Fishing on the Nagara River",
-        "label_ka": "長良川鵜飼上覧"
-      },
-      {
-        "id": "670",
-        "label_eng": "The Amagasaki Village",
-        "label_ka": "尼が崎"
-      },
-      {
-        "id": "671",
-        "label_eng": "Fishing for Wives",
-        "label_ka": "釣女"
-      }
     ]
   },
   {
@@ -81480,13 +78472,6 @@
       {
         "id": "283",
         "label_eng": "June 1978: Nami (The Wave)"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "289",
-        "label_eng": "The Lover's Suicide Trip",
-        "label_ka": "道行名残りの橋尽し"
       }
     ]
   },
@@ -81544,13 +78529,6 @@
         "id": "284",
         "label_eng": "June 1978: Hatsuse mode"
       }
-    ],
-    "scenes": [
-      {
-        "id": "108",
-        "label_eng": "The Enrollment",
-        "label_ka": "寺入り"
-      }
     ]
   },
   {
@@ -81601,13 +78579,6 @@
       {
         "id": "286",
         "label_eng": "June 1978: Omon Toda"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "308",
-        "label_eng": "Sawaichi's House",
-        "label_ka": "沢市内"
       }
     ]
   },
@@ -81811,37 +78782,6 @@
       {
         "id": "773",
         "label_eng": "July 1992: Masakiyo's Loyalty"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "93",
-        "label_eng": "Kokingo's Death",
-        "label_ka": "小金吾討死"
-      },
-      {
-        "id": "94",
-        "label_eng": "The Sushi Shop",
-        "label_ka": "すしや",
-        "has_images": true
-      },
-      {
-        "id": "95",
-        "label_eng": "Fushimi Inari Shrine",
-        "label_ka": "伏見稲荷",
-        "has_images": true
-      },
-      {
-        "id": "96",
-        "label_eng": "The Shipping Agent at Daimotsu",
-        "label_ka": "渡海屋大物浦",
-        "has_images": true
-      },
-      {
-        "id": "97",
-        "label_eng": "The Travel Dance on Mount Yoshino",
-        "label_ka": "道行初音の旅",
-        "has_images": true
       }
     ],
     "images": [
@@ -82570,13 +79510,6 @@
         "id": "652",
         "label_eng": "November 1989: The Story of Matsukaza and Murasame"
       }
-    ],
-    "scenes": [
-      {
-        "id": "272",
-        "label_eng": "The Suicide of Hangan",
-        "label_ka": "塩谷館判官切腹"
-      }
     ]
   },
   {
@@ -82774,24 +79707,6 @@
       {
         "id": "813",
         "label_eng": "January 1994: The Love Suicide at Amijima"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "368",
-        "label_eng": "The Tiger Hunt",
-        "label_ka": "千里が竹虎狩り",
-        "has_images": true
-      },
-      {
-        "id": "615",
-        "label_eng": "The Suicide of Hangan",
-        "label_ka": "塩谷館判官切腹"
-      },
-      {
-        "id": "616",
-        "label_eng": "The Evacuation",
-        "label_ka": "霞ヶ関城明渡し"
       }
     ],
     "images": [
@@ -83091,14 +80006,6 @@
       {
         "id": "762",
         "label_eng": "December 1991: The Dumpling Peddlers"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "33",
-        "label_eng": "The Obi Shop",
-        "label_ka": "帯屋",
-        "has_images": true
       }
     ],
     "images": [
@@ -83537,55 +80444,6 @@
       {
         "id": "518",
         "label_eng": "September 1985: Monkey"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "85",
-        "label_eng": "Fushimi Inari Shrine",
-        "label_ka": "伏見稲荷",
-        "has_images": true
-      },
-      {
-        "id": "86",
-        "label_eng": "The Shipping Agent at Daimotsu",
-        "label_ka": "渡海屋大物浦",
-        "has_images": true
-      },
-      {
-        "id": "87",
-        "label_eng": "The Travel Dance on Mount Yoshino",
-        "label_ka": "道行初音の旅",
-        "has_images": true
-      },
-      {
-        "id": "88",
-        "label_eng": "The Mansion of Kawatsura Hogen",
-        "label_ka": "川連法眼館",
-        "has_images": true
-      },
-      {
-        "id": "89",
-        "label_eng": "The Sento Palace",
-        "label_ka": "仙洞御所",
-        "has_images": true
-      },
-      {
-        "id": "90",
-        "label_eng": "The Nunnery at Kitasaga",
-        "label_ka": "北嵯峨",
-        "has_images": true
-      },
-      {
-        "id": "91",
-        "label_eng": "Yoshitsune's Mansion at Horikawa",
-        "label_ka": "堀川御所",
-        "has_images": true
-      },
-      {
-        "id": "92",
-        "label_eng": "The Gathering Nuts",
-        "label_ka": "椎の木"
       }
     ],
     "images": [
@@ -84096,14 +80954,6 @@
         "id": "927",
         "label_eng": "April 1979: Kojo (Formal Announcement)"
       }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
-      }
     ]
   },
   {
@@ -84168,13 +81018,6 @@
       {
         "id": "610",
         "label_eng": "March 1988: The Cruel Employer"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "390",
-        "label_eng": "The Fire Lookout Tower",
-        "label_ka": "火の見櫓"
       }
     ]
   },
@@ -84334,18 +81177,6 @@
         "id": "799",
         "label_eng": "September 1993: The Priest Karukaya and the Souvenir of Tsukushi"
       }
-    ],
-    "scenes": [
-      {
-        "id": "227",
-        "label_eng": "Jurobei's House",
-        "label_ka": "十郎兵衛内"
-      },
-      {
-        "id": "228",
-        "label_eng": "The Imperial Palace",
-        "label_ka": "大内"
-      }
     ]
   },
   {
@@ -84398,13 +81229,6 @@
       {
         "id": "483",
         "label_eng": "November 1984: The Bridal Journey"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "281",
-        "label_eng": "The Melons Offered to Hisayoshi",
-        "label_ka": "瓜献上"
       }
     ]
   },
@@ -84530,13 +81354,6 @@
         "id": "498",
         "label_eng": "April 1985: The Tragedy of Love in Error"
       }
-    ],
-    "scenes": [
-      {
-        "id": "392",
-        "label_eng": "The Honnoji Temple",
-        "label_ka": "本能寺"
-      }
     ]
   },
   {
@@ -84583,13 +81400,6 @@
       {
         "id": "775",
         "label_eng": "August 1992: The Vegetable Farm"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "32",
-        "label_eng": "The Rokkakudo Temple",
-        "label_ka": "六角堂"
       }
     ]
   },
@@ -84643,13 +81453,6 @@
       {
         "id": "772",
         "label_eng": "July 1992: The Butterfly Couple in the Other World"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "238",
-        "label_eng": "Shiradayu's 70th Birthday Celebration",
-        "label_ka": "茶筅酒"
       }
     ]
   },
@@ -84713,13 +81516,6 @@
       {
         "id": "524",
         "label_eng": "November 1985: The Cherry Blossoms of the Dojoji Temple"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "37",
-        "label_eng": "The Duel",
-        "label_ka": "組打"
       }
     ]
   },
@@ -84853,23 +81649,6 @@
         "id": "536",
         "label_eng": "February 1986: The Imprisoned Warrior"
       }
-    ],
-    "scenes": [
-      {
-        "id": "357",
-        "label_eng": "The Tiger Hunt",
-        "label_ka": "千里が竹虎狩り"
-      },
-      {
-        "id": "557",
-        "label_eng": "Shiradayu's 70th Birthday Celebration",
-        "label_ka": "茶筅酒"
-      },
-      {
-        "id": "558",
-        "label_eng": "The Quarrel",
-        "label_ka": "喧嘩"
-      }
     ]
   },
   {
@@ -84992,18 +81771,6 @@
       {
         "id": "533",
         "label_eng": "January 1986: Kajiwara The Swordsman"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "282",
-        "label_eng": "The Gourd Trellis",
-        "label_ka": "夕顔棚"
-      },
-      {
-        "id": "455",
-        "label_eng": "The Rear Garden",
-        "label_ka": "奥庭"
       }
     ]
   },
@@ -85141,18 +81908,6 @@
         "id": "958",
         "label_eng": "January 2002: The Eternal Love of Onatsu and Seijurō"
       }
-    ],
-    "scenes": [
-      {
-        "id": "261",
-        "label_eng": "The Masui Well",
-        "label_ka": "増井"
-      },
-      {
-        "id": "434",
-        "label_eng": "The Corridor",
-        "label_ka": "廊下"
-      }
     ]
   },
   {
@@ -85237,13 +81992,6 @@
       {
         "id": "546",
         "label_eng": "July 1986: Danshichi the Homeless"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "374",
-        "label_eng": "Yuranosuke's House in Yamashina",
-        "label_ka": "山科閑居"
       }
     ]
   },
@@ -85362,28 +82110,6 @@
         "id": "552",
         "label_eng": "August 1986 National Bunraku Theatre, Osaka: The Story of Shunkin"
       }
-    ],
-    "scenes": [
-      {
-        "id": "356",
-        "label_eng": "On the Hirado Beach",
-        "label_ka": "平戸浜伝ひ"
-      },
-      {
-        "id": "552",
-        "label_eng": "The Todaiji Temple",
-        "label_ka": "東大寺"
-      },
-      {
-        "id": "553",
-        "label_eng": "The Nigatsudo Hall",
-        "label_ka": "二月堂"
-      },
-      {
-        "id": "554",
-        "label_eng": "Backgammon",
-        "label_ka": "道中双六"
-      }
     ]
   },
   {
@@ -85489,13 +82215,6 @@
         "id": "783",
         "label_eng": "November 1992: The Greengrocer's Tragedy"
       }
-    ],
-    "scenes": [
-      {
-        "id": "375",
-        "label_eng": "The Yoshidaya Tea House",
-        "label_ka": "九軒吉田屋"
-      }
     ]
   },
   {
@@ -85569,13 +82288,6 @@
       {
         "id": "921",
         "label_eng": "July/August 2001: Mt. Oeyama"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "305",
-        "label_eng": "The Bottom of the Ravin",
-        "label_ka": "谷底"
       }
     ]
   },
@@ -85667,23 +82379,6 @@
       {
         "id": "586",
         "label_eng": "August 1987: Madame Butterfly"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "303",
-        "label_eng": "The Drug Peddlers' Travel",
-        "label_ka": "道行千里の岩田帯"
-      },
-      {
-        "id": "460",
-        "label_eng": "The Duel",
-        "label_ka": "組打"
-      },
-      {
-        "id": "461",
-        "label_eng": "Kumagai's Cheery Tree",
-        "label_ka": "熊谷桜"
       }
     ]
   },
@@ -85811,33 +82506,6 @@
         "id": "736",
         "label_eng": "July 1990: The Disinherited Son"
       }
-    ],
-    "scenes": [
-      {
-        "id": "279",
-        "label_eng": "The Bridal Journey",
-        "label_ka": "道行旅路嫁入り"
-      },
-      {
-        "id": "451",
-        "label_eng": "The Tsubosaka Temple (See also The Mountain)",
-        "label_ka": "壺坂寺 (See also 山)"
-      },
-      {
-        "id": "452",
-        "label_eng": "Fishing for Wives",
-        "label_ka": "釣女"
-      },
-      {
-        "id": "453",
-        "label_eng": "The Beating with a Sandal",
-        "label_ka": "草履打"
-      },
-      {
-        "id": "454",
-        "label_eng": "Onoe's Room",
-        "label_ka": "長局"
-      }
     ]
   },
   {
@@ -85893,13 +82561,6 @@
       {
         "id": "681",
         "label_eng": "January 1992: The Happy-Go-Lucky Palanquin Bearers"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "285",
-        "label_eng": "The Subscription List",
-        "label_ka": "勧進帳"
       }
     ]
   },
@@ -86004,18 +82665,6 @@
         "id": "628",
         "label_eng": "August 1988: The Dancing Mushrooms"
       }
-    ],
-    "scenes": [
-      {
-        "id": "269",
-        "label_eng": "The Attack in the Palace",
-        "label_ka": "殿中刃傷"
-      },
-      {
-        "id": "439",
-        "label_eng": "Sakamoto Castle",
-        "label_ka": "坂本城"
-      }
     ]
   },
   {
@@ -86088,28 +82737,6 @@
       {
         "id": "627",
         "label_eng": "August 1988: Ohan"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "306",
-        "label_eng": "The Fire Lookout Tower",
-        "label_ka": "火の見櫓"
-      },
-      {
-        "id": "469",
-        "label_eng": "The Camp Gate",
-        "label_ka": "陣門"
-      },
-      {
-        "id": "682",
-        "label_eng": "Eitai Riverside at Utsubo",
-        "label_ka": "靱永代浜"
-      },
-      {
-        "id": "683",
-        "label_eng": "Hyosuke's House",
-        "label_ka": "兵助内 (天王寺村兵助内)"
       }
     ]
   },
@@ -86216,28 +82843,6 @@
       {
         "id": "637",
         "label_eng": "January 1989: The Feudal Lord in Asama"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "5",
-        "label_eng": "The Maple Viewing Party",
-        "label_ka": "紅葉狩"
-      },
-      {
-        "id": "6",
-        "label_eng": "The Sumo Arena at Horie",
-        "label_ka": "堀江相撲場"
-      },
-      {
-        "id": "7",
-        "label_eng": "The Kameya Express Agency at Awajimachi",
-        "label_ka": "淡路町"
-      },
-      {
-        "id": "684",
-        "label_eng": "The Masui Well",
-        "label_ka": "増井"
       }
     ]
   },
@@ -86463,48 +83068,6 @@
         "id": "644",
         "label_eng": "August 1989: Subjugation of Ogres on Mt. Oe"
       }
-    ],
-    "scenes": [
-      {
-        "id": "304",
-        "label_eng": "The Solitary House",
-        "label_ka": "一つ家"
-      },
-      {
-        "id": "462",
-        "label_eng": "Kumagai's Camp (See also Kumagai's Explanation and The Head Identification)",
-        "label_ka": "熊谷陣屋 (See also 熊谷物語 and 首実検)"
-      },
-      {
-        "id": "463",
-        "label_eng": "The Visit of Wada Byoe",
-        "label_ka": "和田兵衛上使"
-      },
-      {
-        "id": "464",
-        "label_eng": "Moritsuna's War Camp (See also Love for Koshiro and Moritsuna Identifies a Head)",
-        "label_ka": "盛綱陣屋 (See also 小四郎恩愛 and 盛綱首実検)"
-      },
-      {
-        "id": "465",
-        "label_eng": "Village of Ninokuchi",
-        "label_ka": "新口村"
-      },
-      {
-        "id": "466",
-        "label_eng": "The Subscription List",
-        "label_ka": "勧進帳"
-      },
-      {
-        "id": "467",
-        "label_eng": "The Horikawa Mansion",
-        "label_ka": "堀川御所"
-      },
-      {
-        "id": "468",
-        "label_eng": "Atsumori's Departure for the Battlefront",
-        "label_ka": "敦盛出陣"
-      }
     ]
   },
   {
@@ -86599,23 +83162,6 @@
       {
         "id": "794",
         "label_eng": "August 1993: The Red Battle Surcoat"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "1",
-        "label_eng": "The Tea Stall at Torii Pass",
-        "label_ka": "鳥居峠茶店"
-      },
-      {
-        "id": "2",
-        "label_eng": "Ao no Dōmon (Blue Tunnel)",
-        "label_ka": "青の洞門"
-      },
-      {
-        "id": "3",
-        "label_eng": "The Town of Numazu",
-        "label_ka": "沼津"
       }
     ]
   },
@@ -86745,18 +83291,6 @@
         "id": "649",
         "label_eng": "September 1989: The Herculean Woman"
       }
-    ],
-    "scenes": [
-      {
-        "id": "373",
-        "label_eng": "The Dance of Sambaso",
-        "label_ka": "寿式三番叟"
-      },
-      {
-        "id": "619",
-        "label_eng": "The Selling of Okaru",
-        "label_ka": "お軽身売り"
-      }
     ]
   },
   {
@@ -86832,14 +83366,6 @@
         "has_images": true
       }
     ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "9609",
@@ -86896,14 +83422,6 @@
       {
         "id": "695",
         "label_eng": "February 1982: Announcement on the assumption of his new name, Bungo Yoshida V, by Kotama Yoshida",
-        "has_images": true
-      }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
         "has_images": true
       }
     ],
@@ -86980,14 +83498,6 @@
         "has_images": true
       }
     ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
-      }
-    ],
     "images": [
       {
         "id": "45025",
@@ -87014,14 +83524,6 @@
         "id": "709",
         "label_eng": "May 1985: Announcement of the assumption of his new stage name, Sumitayū Takemoto VII, by Mojitayuū Takemoto"
       }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
-      }
     ]
   },
   {
@@ -87038,14 +83540,6 @@
       {
         "id": "948",
         "label_eng": "May 1987: Announcement of the assumption of his new name, Kizaemon Nozawa III, by Katsuhei Nozawa"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
       }
     ]
   },
@@ -87066,14 +83560,6 @@
       {
         "id": "720",
         "label_eng": "February 1973: Announcement on the change of puppeteer Monya Kiritake's name to Tamamatsu Yoshida III"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
       }
     ]
   },
@@ -87181,28 +83667,6 @@
       {
         "id": "738",
         "label_eng": "August 1990: Stone Flower"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "657",
-        "label_eng": "Emiji's Mansion",
-        "label_ka": "蝦夷子館"
-      },
-      {
-        "id": "658",
-        "label_eng": "Sarusawa Pond",
-        "label_ka": "猿沢池"
-      },
-      {
-        "id": "659",
-        "label_eng": "Sadaka's (Dazai) Mansion",
-        "label_ka": "太宰館"
-      },
-      {
-        "id": "660",
-        "label_eng": "Imoyama and Seyama Mansions",
-        "label_ka": "妹山背山"
       }
     ]
   },
@@ -87340,28 +83804,6 @@
       {
         "id": "818",
         "label_eng": "February 1994: The Woman's Harakiri at Nagamachi"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "663",
-        "label_eng": "The Sake Shop",
-        "label_ka": "杉酒屋"
-      },
-      {
-        "id": "664",
-        "label_eng": "The Strands of Love",
-        "label_ka": "道行恋の小田巻"
-      },
-      {
-        "id": "665",
-        "label_eng": "Fukashichi's Visit",
-        "label_ka": "鱶七上使"
-      },
-      {
-        "id": "666",
-        "label_eng": "The Glittering Mansion",
-        "label_ka": "金殿"
       }
     ]
   },
@@ -87546,18 +83988,6 @@
         "id": "866",
         "label_eng": "July 1996: Sasayaki no take"
       }
-    ],
-    "scenes": [
-      {
-        "id": "661",
-        "label_eng": "The Deer Killing",
-        "label_ka": "鹿殺し"
-      },
-      {
-        "id": "662",
-        "label_eng": "Shibaroku's House",
-        "label_ka": "芝六住家"
-      }
     ]
   },
   {
@@ -87620,13 +84050,6 @@
       {
         "id": "867",
         "label_eng": "July 1996: The Monkey Dance"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "691",
-        "label_eng": "On the Beach",
-        "label_ka": "浜路"
       }
     ]
   },
@@ -87750,13 +84173,6 @@
         "id": "923",
         "label_eng": "July/August 2001: The Benevolence of Saint Nichiren"
       }
-    ],
-    "scenes": [
-      {
-        "id": "692",
-        "label_eng": "Sanshodayu's Mansion",
-        "label_ka": "さんしょう太夫館"
-      }
     ]
   },
   {
@@ -87769,14 +84185,6 @@
       {
         "id": "928",
         "label_eng": "May 1979: Announcement of the current performance being dedicated to the memory of Kanji Tsuruzawa VI",
-        "has_images": true
-      }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
         "has_images": true
       }
     ],
@@ -87813,14 +84221,6 @@
         "id": "936",
         "label_eng": "May 1988: Announcement of the assumption of his new stage name, Datedayū Takemoto V, by Datejidayū Takemoto"
       }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
-      }
     ]
   },
   {
@@ -87836,14 +84236,6 @@
       {
         "id": "937",
         "label_eng": "April 1989: Announcement of Koshijidayū Takemoto IV's retirement"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
       }
     ]
   },
@@ -87862,14 +84254,6 @@
         "id": "966",
         "label_eng": "February 1996: Announcement of the assumption of his new name, Tsunatayū Takemoto IX, by Oritayū Takemoto"
       }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
-      }
     ]
   },
   {
@@ -87883,14 +84267,6 @@
         "id": "939",
         "label_eng": "May 1998: Announcement of the assumption of his new name, Kinshi Nozawa V, by Kinya Nozawa"
       }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
-      }
     ]
   },
   {
@@ -87903,14 +84279,6 @@
       {
         "id": "940",
         "label_eng": "September 1998: Announcement of the current performance being dedicated to the memory of Kanjūrō Kiritake II"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
       }
     ]
   },
@@ -87983,13 +84351,6 @@
         "id": "960",
         "label_eng": "July/August 2002: The Tongue-Cut Sparrow"
       }
-    ],
-    "scenes": [
-      {
-        "id": "694",
-        "label_eng": "Chestnut Field",
-        "label_ka": "栗畑"
-      }
     ]
   },
   {
@@ -88006,13 +84367,6 @@
       {
         "id": "961",
         "label_eng": "July/August 2002: Bunraku no ohanashi (Introduction to Bunraku)"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "693",
-        "label_eng": "Zushiomaru Success",
-        "label_ka": "厨子王丸出世"
       }
     ]
   },
@@ -88090,23 +84444,6 @@
         "id": "967",
         "label_eng": "February 1973 Bunkyo Public Hall: Onna no heiwa (Lysistrata)"
       }
-    ],
-    "scenes": [
-      {
-        "id": "695",
-        "label_eng": "Honzo's Villa",
-        "label_ka": "本蔵下屋敷"
-      },
-      {
-        "id": "696",
-        "label_eng": "The Tea House Kawasho",
-        "label_ka": "北新地河庄"
-      },
-      {
-        "id": "697",
-        "label_eng": "Jihei's House",
-        "label_ka": "天満紙屋内"
-      }
     ]
   },
   {
@@ -88122,14 +84459,6 @@
       {
         "id": "978",
         "label_eng": "May 2003: Announcement of the assumption of his new name, Kanjūrō Kiritake III, by Minotarō Yoshida"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
       }
     ]
   },
@@ -88147,14 +84476,6 @@
       {
         "id": "981",
         "label_eng": "May 1970: Announcement on the assumption of his new stage name of Tsuruzawa Dōhachi II by Tokutarō Tsuruzawa"
-      }
-    ],
-    "scenes": [
-      {
-        "id": "249",
-        "label_eng": "Kokaji the Swordsmith",
-        "label_ka": "小鍛冶",
-        "has_images": true
       }
     ]
   }

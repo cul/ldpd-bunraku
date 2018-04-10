@@ -4,7 +4,7 @@ gem 'minima'
 
 group :development, :test do
   gem 'tqdm'
-  gem 'wax_tasks'
+  gem 'wax_tasks', :git => 'https://github.com/mnyrop/wax_tasks.git', :branch => 'minor_fixes'
   gem 'rspec'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'

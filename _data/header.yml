@@ -28,17 +28,17 @@
   link: '/realia/47-ronin/'
   sub:
     - label: 47 Ronin Scroll
-      link: '/realia/47-ronin/'
+      link: '/realia/tayu-scroll/'
     - label: Puppet Head (Baba)
-      link: '/realia/baba-head/'
+      link: '/realia/babas-head/'
     - label: High Wooden Clogs
       link: '/realia/butai-geta/'
     - label: Puppet Head (Genta)
-      link: '/realia/genta-head/'
-    - label: Puppet in a Purple Dress 1
-      link: '/realia/puppet-1/'
-    - label: Puppet in a Purple Dress 2
-      link: '/realia/puppet-2/'
+      link: '/realia/gentas-head/'
+    - label: Puppet in a Purple Dress
+      link: '/realia/puppet-in-purple-dress/'
+    - label: Puppet in a Purple Dress (2)
+      link: '/realia/puppet-in-purple-dress-2/'
     - label: Puppet Armature
       link: '/realia/puppet-armature/'
     - label: Puppet Head with Ponytail
@@ -46,7 +46,7 @@
     - label: Narrator (Tayu) Garment
       link: '/realia/tayu-garment/'
     - label: Narrator Scroll (Yukahon) Stand
-      link: '/realia/yukahon/'
+      link: '/realia/yukahon-stand/'
 - label: Data Visualizations
   link: '/visualize/'
 - label: Browse

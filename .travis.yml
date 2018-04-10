@@ -3,13 +3,15 @@ language: ruby
 rvm: 2.4
 addons:
   chrome: stable
-before_script:
-  - travis_wait bundle exec jekyll build --verbose
 script:
+  - mkdir collections
+  - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags
+  - travis_wait bundle exec jekyll build --verbose
   - travis_wait bundle exec rake wax:test
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 branches:
-  only:
-    - master
+  except:
+    - gh-pages
+    - s3

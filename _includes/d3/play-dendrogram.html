@@ -1,17 +1,13 @@
 <script type='text/javascript' id="d3-v4" src="{{ site.js.d3.cdn }}"></script>
 <div class="hidden-xs" id="d3-dendrogram"></div>
 <script>
-  d3.json("{{ site.baseurl }}/visualize/data/play6.json", function(error, treeData) {
+  d3.json("{{ site.baseurl }}/visualize/data/play-dendrogram.json", function(error, treeData) {
     if (error) throw error;
 
-    // Set the dimensions and margins of the diagram
     var margin = {top: 20, right: 150, bottom: 30, left: 150},
         width = 2000 - margin.left - margin.right,
         height = 600 - margin.top - margin.bottom;
 
-    // append the svg object to the body of the page
-    // appends a 'group' element to 'svg'
-    // moves the 'group' element to the top left margin
     var svg = d3.select("#d3-dendrogram").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)

@@ -75,6 +75,12 @@ collections:
     layout: item_page
     lunr_index:
       fields: [label_eng, label_ka]
+  realia:
+    output: true
+    source: realia.yml
+    layout: item_page
+    lunr_index:
+      fields: [label_eng]
 
 styles:
   main: assets/main.css

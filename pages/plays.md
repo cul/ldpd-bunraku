@@ -14,8 +14,9 @@ permalink: /plays/
       {% else %}
         <i class="fa fa-times" aria-hidden="true"></i>
       {% endif %}
-      <i><a href="{{ site.baseurl }}/plays/{{ play.pid }}/">{{ play.label_eng }}</a> </i>
+      <a href="{{ site.baseurl }}/plays/{{ play.pid }}/">{{ play.label_eng }}</a>
     </b>
-    (<i>{{ play.label_ja }}</i> / <i>{{ play.label_ka }}</i>)
+    {% if play.label_ja %}({{ play.label_ja }}) {% endif %}
+    {% if play.label_jk %}({{ play.label_ka }}) {% endif %}
   </p>
 {% endfor %}
