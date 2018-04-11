@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/mnyrop/wax_tasks.git
-  revision: 07461789faab33dc8dcbcb65db593f66cf22d88a
+  revision: e3dc785ad5bb94c3b1583a3babc6c96ee4844b5d
   branch: alpha
   specs:
     wax_tasks (0.0.47)
