@@ -8,10 +8,10 @@ permalink: /characters/
 {% for character in sorted_characters %}
   <p>
     <b>
-      {% if character.image_id %}
-        <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+      {% if character.images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
       {% else %}
-        <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
       {% endif %}
       <a href="{{ site.baseurl }}/characters/{{ character.pid }}/">
         {{ character.label_eng }}

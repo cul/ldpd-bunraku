@@ -9,13 +9,14 @@ permalink: /plays/
 {% for play in sorted_plays %}
   <p>
     <b>
-      {% if play.image_id %}
-        <i class="fa fa-file-image-o" aria-hidden="true" style="color:#5498a3"></i>
+      {% if play.images %}
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
       {% else %}
-        <i class="fa fa-times" aria-hidden="true" style="color:#9a9d9e"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
       {% endif %}
-      <i><a href="{{ site.baseurl }}/plays/{{ play.pid }}/">{{ play.label_eng }}</a> </i>
+      <a href="{{ site.baseurl }}/plays/{{ play.pid }}/">{{ play.label_eng }}</a>
     </b>
-    (<i>{{ play.label_ja }}</i> / <i>{{ play.label_ka }}</i>)
+    {% if play.label_ja %}({{ play.label_ja }}) {% endif %}
+    {% if play.label_jk %}({{ play.label_ka }}) {% endif %}
   </p>
 {% endfor %}

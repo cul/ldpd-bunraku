@@ -3,10 +3,11 @@ gem 'jekyll', '3.7.3'
 gem 'minima'
 
 group :development, :test do
-  gem 'wax_tasks'
+  gem 'tqdm'
+  gem 'wax_tasks', :git => 'https://github.com/mnyrop/wax_tasks.git', :branch => 'minor_fixes'
   gem 'rspec'
   gem 'selenium-webdriver'
-  gem 'geckodriver-helper'
+  gem 'chromedriver-helper'
   gem 'capybara'
   gem 'rack-jekyll'
 end

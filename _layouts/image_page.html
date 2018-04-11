@@ -2,53 +2,108 @@
 layout: default
 ---
 <img src="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ page.objid }}&size=medium"/>
-<br><br>
-<br><br>
+
+
 <h2 class='data-head'>In this Image:</h2>
 
-{% if page.character_id %}{% include relations/characters.html %}{% endif %}
-{% if page.play_id %}{% include relations/plays.html %}{% endif %}
-{% if page.tag_id %}{% include relations/tags.html %}{% endif %}
-{% if page.kashira_id %}{% include relations/kashira.html %}{% endif %}
-{% if page.performer_id %}{% include relations/performers.html %}{% endif %}
-{% if page.scene_id %}{% include relations/scenes.html %}{% endif %}
+{% if page.characters %}
+<p>
+  <b>Characters:&nbsp;&nbsp;</b>
+  {% for c in page.characters %}
+    <b><a href="{{ site.baseurl }}/characters/{{ c.id }}/">{{ c.label_eng }}</a></b>
+    {% if c.label_ka %}({{ c.label_ka }}){% endif %}
+    {% unless forloop.last %}, {% endunless %}
+  {% endfor %}<br>
+</p>
+{% endif %}
 
-<br><br>
+{% if page.plays %}
+<p>
+  <b>Plays:&nbsp;&nbsp;</b>
+  {% for p in page.plays %}
+    <b><a href="{{ site.baseurl }}/plays/{{ p.id }}/">{{ p.label_eng }}</a></b>
+    {% if p.label_ka %}({{ p.label_ka }}){% endif %}
+    {% unless forloop.last %}, {% endunless %}
+  {% endfor %}<br>
+</p>
+{% endif %}
+
+{% if page.tags.size > 0 %}
+<p>
+  <b>Tags:&nbsp;&nbsp;</b>
+  {% for t in page.tags %}
+    <b><a href="{{ site.baseurl }}/tags/{{ t.id }}/">{{ t.label_eng }}</a></b>
+    {% if t.label_ka %}({{ t.label_ka }}){% endif %}
+    {% unless forloop.last %}, {% endunless %}
+  {% endfor %}<br>
+</p>
+{% endif %}
+
+{% if page.kashira %}
+<p>
+  <b>Kashira:&nbsp;&nbsp;</b>
+  {% for k in page.kashira %}
+    <b><a href="{{ site.baseurl }}/kashira/{{ k.id }}/">{{ k.label_eng }}</a></b>
+    {% if k.label_ka %}({{ k.label_ka }}){% endif %}
+    {% unless forloop.last %}, {% endunless %}
+  {% endfor %}<br>
+</p>
+{% endif %}
+
+{% if page.performers %}
+<p>
+  <b>Performers:&nbsp;&nbsp;</b>
+  {% for p in page.performers %}
+    <b><a href="{{ site.baseurl }}/performers/{{ p.id }}/">{{ p.label_eng }}</a></b>
+    {% unless forloop.last %}, {% endunless %}
+  {% endfor %}<br>
+</p>
+{% endif %}
+
+{% if page.scenes %}
+<p>
+  <b>Scenes:&nbsp;&nbsp;</b>
+  {% for s in page.scenes %}
+    <b><a href="{{ site.baseurl }}/scenes/{{ s.id }}/">{{ s.label_eng }}</a></b>
+    {% if s.label_ka %}({{ s.label_ka }}){% endif %}
+    {% unless forloop.last %}, {% endunless %}
+  {% endfor %}<br>
+</p>
+{% endif %}
 
 <h2 class='data-head'>Archival Information:</h2>
 <p>
   {% if page.creator %}
-    {% assign creator = site.data.creators | where: "pid", page.creator | first %}
-    <b>Creator:</b> {{ creator.label }}<br>
+    <b>Creator:</b>&nbsp;&nbsp;{{ page.creator }}<br>
   {% endif %}
   {% if page.image_id %}
-    <b>Image ID:</b> {{ page.image_id }}<br>
+    <b>Image ID:</b>&nbsp;&nbsp;{{ page.image_id }}<br>
   {% endif %}
   {% if page.item_id %}
-    <b>Item ID:</b> {{ page.item_id }}<br>
+    <b>Item ID:</b>&nbsp;&nbsp;{{ page.item_id }}<br>
   {% endif %}
   {% if page.media_type %}
-    <b>Media Type:</b> {{ page.media_type }}<br>
+    <b>Media Type:</b>&nbsp;&nbsp;{{ page.media_type }}<br>
   {% endif %}
   {% if page.notes_on_item %}
-    <b>Notes on Item:</b> {{ page.notes_on_item }}<br>
+    <b>Notes on Item:</b>&nbsp;&nbsp;{{ page.notes_on_item }}<br>
   {% endif %}
   {% if page.colser_id %}
-    <b>Colser ID:</b> {{ page.colser_id }}<br>
+    <b>Colser ID:</b>&nbsp;&nbsp;{{ page.colser_id }}<br>
   {% endif %}
   {% if page.sequence %}
-    <b>Sequence:</b> {{ page.sequence }}<br>
+    <b>Sequence:</b>&nbsp;&nbsp;{{ page.sequence }}<br>
   {% endif %}
   {% if page.series %}
-    <b>Series:</b> {{ page.series }}<br>
+    <b>Series:</b>&nbsp;&nbsp;{{ page.series }}<br>
   {% endif %}
   {% if page.slidepage_folder %}
-    <b>Slidepage Folder:</b> {{ page.slidepage_folder }}<br>
+    <b>Slidepage Folder:</b>&nbsp;&nbsp;{{ page.slidepage_folder }}<br>
   {% endif %}
   {% if page.container %}
-    <b>Container:</b> {{ page.container }}<br>
+    <b>Container:</b>&nbsp;&nbsp;{{ page.container }}<br>
   {% endif %}
   {% if page.container_type %}
-    <b>Container Type:</b> {{ page.container_type }}<br>
+    <b>Container Type:</b>&nbsp;&nbsp;{{ page.container_type }}<br>
   {% endif %}
 </p>

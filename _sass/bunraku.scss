@@ -1,0 +1,150 @@
+.page-content{
+  margin-bottom: 100px;
+}
+
+/* header */
+#main-heading{
+  font-size:2.5em;
+}
+.page-title{
+  margin: 20px 0px 20px 0px;
+}
+.page-title-sub{
+  margin: 15px 0px 15px 0px;
+}
+.data-sub-head, .data-head{
+  margin: 15px 0px 15px 0px;
+}
+.slider-block{
+  margin: 20px 0px 20px 0px;
+}
+
+/* D3 */
+#d3-force{
+  margin:30px 0 30px 0;
+  background-color:$d3-backgound;
+  .links line {
+    stroke:black;
+    stroke-opacity:.7;
+  }
+  .nodes circle{
+    stroke:white;
+    cursor:pointer;
+  }
+}
+
+#d3-dendrogram {
+  height: 600px;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin:30px 0 30px 0;
+  background-color:$d3-backgound;
+  svg{
+    overflow:scroll !important;
+  }
+  .node {
+    cursor: pointer;
+    circle {
+      fill: #fff;
+      stroke: $d3-node2;
+      stroke-width: 1px;
+    }
+    text {
+      font-size: 12px;
+      width: 50px;
+      word-wrap: break-word;
+      padding-left:20px;
+    }
+  }
+  .link {
+    stroke: #ccc;
+    fill: none;
+  }
+}
+
+.d3-tooltip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  text-align: center;
+  color: white;
+  background: $grey-color-dark;
+  border-radius: 6px;
+  padding: 10px;
+  &:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-top: 8px solid $grey-color-dark;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+  }
+}
+
+/* search */
+.search{
+  margin-bottom:30px;
+  table{
+    width:100%;
+    margin-top:30px;
+    tr{
+      height:40px;
+    }
+  }
+  #search-icon{
+    width:5%;
+    font-size:20px;
+  }
+  #input-box{
+    width:95%;
+  }
+  #search{
+    width:100%;
+    border:none;
+    padding:10px;
+  }
+
+}
+#results{
+  margin:30px;
+  padding-left:20px;
+  .result{
+    padding-top:10px;
+  }
+}
+
+/* slider */
+.slick-next::before, .slick-prev::before{
+  color: #222222 !important;
+}
+.slider-block-single img{
+  display: block;
+  max-width:800px;
+  max-height:600px;
+  width: auto;
+  height: auto;
+}
+
+/* icons */
+.fa-file-image-o{color:$img-icon}
+.fa-times{color:$no-img-icon}
+
+/*nodes*/
+.d3-node1{fill:$d3-node1}
+.d3-node2{fill:$d3-node2}
+
+/* tables */
+.spuck-table{
+  background-color: $d3-backgound;
+  tr{ background-color: $d3-backgound; }
+  tr:nth-child(even) { background-color: $grey-color-light; }
+  th{ background-color: $grey-color-light; }
+}

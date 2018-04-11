@@ -7,7 +7,7 @@ gh-baseurl: /ldpd-bunraku
 # Build settings
 markdown: kramdown
 theme: minima
-exclude: [vendor, Gemfile*, Rakefile, spec, README*]
+exclude: [vendor, Gemfile*, Rakefile, spec, README*, _lib]
 permalink: pretty
 collections_dir: collections
 lunr_languages: true
@@ -16,13 +16,13 @@ collections:
   authors:
     output: true
     source: authors.json
-    layout: author_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka]
   characters:
     output: true
     source: characters.json
-    layout: character_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka, label_ja]
   images:
@@ -32,31 +32,31 @@ collections:
   kashira:
     output: true
     source: kashira.json
-    layout: kashira_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka, category]
   performances:
     output: true
     source: performances.json
-    layout: performance_page
+    layout: item_page
     lunr_index:
       fields: [label_eng]
   performers:
     output: true
     source: performers.json
-    layout: performer_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka]
   plays:
     output: true
     source: plays.json
-    layout: play_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka, label_ja]
   productions:
     output: true
     source: productions.json
-    layout: production_page
+    layout: item_page
     lunr_index:
       fields: [label_eng]
   realia:
@@ -66,40 +66,48 @@ collections:
   scenes:
     output: true
     source: scenes.json
-    layout: scene_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka, label_ja]
   tags:
     output: true
     source: tags.json
-    layout: tag_page
+    layout: item_page
     lunr_index:
       fields: [label_eng, label_ka]
+  realia:
+    output: true
+    source: realia.yml
+    layout: item_page
+    lunr_index:
+      fields: [label_eng]
 
 styles:
   main: assets/main.css
   drop-nav: assets/drop-nav.css
   font-awesome: assets/fa/css/font-awesome.min.css
-  slick: assets/slick.css
-  slick-theme: assets/slick-theme.css
+  slick: //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css
+  slick-theme: //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css
 
-scripts:
-  jquery: //code.jquery.com/jquery-3.2.1.min.js
-  jquery-migrate: //code.jquery.com/jquery-migrate-3.0.0.min.js
-  ldpd-toolkit: //cdn.cul.columbia.edu/ldpd-toolkit/widgets/cultnbw.min.js
-  lunr: //cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
-  d3-v3: //d3js.org/d3.v3.min.js
-  d3-v4: //d3js.org/d3.v4.min.js
-  d3-tip: js/d3.tip.js
-  d3-tip-patch: js/d3-v4-patch.tip.js
-  slick: js/slick.min.js
+js:
+  jquery:
+    version: 3.2.1
+    cdn: //code.jquery.com/jquery-3.2.1.min.js
+  jquery-migrate:
+    version: 3.0.1
+    cdn:  //cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js
+  elasticlunr:
+    version: 0.9.6
+    cdn: //cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
+  d3:
+    version: 4.13.0
+    cdn: //cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js
+  slick:
+    version: 1.8.1
+    cdn: //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js
 
 # search tests
 quoll:
   full:
     page: search
-    terms:
-      - oshuto
-      - Donald Keene
-      - 白川の安珍実は桜木親王
-      - Ōshūto
+    terms: [oshuto, Donald Keene, 白川の安珍実は桜木親王, Ōshūto]

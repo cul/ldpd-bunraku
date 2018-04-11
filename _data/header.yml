@@ -24,55 +24,25 @@
       link: '/texts-of-bunraku/'
     - label: The Music of Bunraku
       link: '/music-of-bunraku/'
-- label: Special Features
-  link: '/realia/47-ronin/'
-  sub:
-    - label: Albums
-      link: '/albums/'
-    - label: 47 Ronin Scroll
-      link: '/realia/47-ronin/'
-    - label: Puppet Head (Baba)
-      link: '/realia/baba-head/'
-    - label: High Wooden Clogs
-      link: '/realia/butai-geta/'
-    - label: Puppet Head (Genta)
-      link: '/realia/genta-head/'
-    - label: Puppet in a Purple Dress 1
-      link: '/realia/puppet-1/'
-    - label: Puppet in a Purple Dress 2
-      link: '/realia/puppet-2/'
-    - label: Puppet Armature
-      link: '/realia/puppet-armature/'
-    - label: Puppet Head with Ponytail
-      link: '/realia/puppet-head/'
-    - label: Narrator (Tayu) Garment
-      link: '/realia/tayu-garment/'
-    - label: Narrator Scroll (Yukahon) Stand
-      link: '/realia/yukahon/'
+- label: Realia
+  link: '/realia/'
 - label: Data Visualizations
   link: '/visualize/'
-  sub:
-    - label: 'Bar Graph: Prolific Authors'
-      link: '/visualize/prolific-authors/'
-    - label: 'Force Graph: Connected Characters'
-      link: '/visualize/connected-characters/'
-    - label: 'Dendrogram: Oshun and Dembei'
-      link: '/visualize/play-dendrogram/'
 - label: Browse
   link: '/plays/'
   sub:
-    - label: Plays
-      link: '/plays/'
-    - label: Productions
-      link: '/productions/'
     - label: Authors
       link: '/authors/'
-    - label: Performers
-      link: '/performers/'
     - label: Characters
       link: '/characters/'
     - label: Kashira (Puppets)
       link: '/kashira/'
+    - label: Performers
+      link: '/performers/'
+    - label: Plays
+      link: '/plays/'
+    - label: Productions
+      link: '/productions/'
     - label: Image tags
       link: '/tags/'
 - label: Search

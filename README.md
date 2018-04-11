@@ -1,6 +1,6 @@
 # ldpd-bunraku [![Build Status](https://travis-ci.org/cul/ldpd-bunraku.svg?branch=master)](https://travis-ci.org/cul/ldpd-bunraku) [![Dependency Status](https://gemnasium.com/badges/github.com/cul/ldpd-bunraku.svg)](https://gemnasium.com/github.com/cul/ldpd-bunraku)
 
-Jekyll site for the Barbara Curtis Adachi Bunraku Collection 
+Jekyll site for the Barbara Curtis Adachi Bunraku Collection
 
 
 ## Serve master branch locally:
@@ -11,17 +11,11 @@ __$__ `bundle install` `# install ruby dependencies`
 
 __$__ `bundle exec jekyll s -V -I` `# serve (incremental, verbose)`
 
-### Test and push compiled site to `s3` branch:
-
-__$__ `bundle exec rake wax:test` `# runs htmlproofer + rspec`
-
-__$__ `bundle exec rake wax:s3branch`
-
 ## Root map:
 
 `_data` : data for generating pages + creating relational links.
 
-`_includes` : some moving / repeatable components, including relational blocks, search box, header, sliders, d3 visualizations, & etc.
+`_includes` : some moving / repeatable components, including relational blocks, search box, header, slider, d3 visualizations, & etc.
 
 `_layouts` : yep.
 

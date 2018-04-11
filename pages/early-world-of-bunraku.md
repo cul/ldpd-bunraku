@@ -8,8 +8,8 @@ permalink: /early-world-of-bunraku/
 
 Adapted, with permission, from Donald Keene, _World Within Walls_.<sup>1<sup>
 
-<br/>
-<br/>
+<br>
+<br>
 
 During the premodern Edo period (1603-1868), the two most important forms of drama were Kabuki, a theater of actors, and Bunraku, a theater of puppets. Both began to evolve as popular entertainments toward the end of the sixteenth century and quickly secured a place in the hearts of the common people.
 

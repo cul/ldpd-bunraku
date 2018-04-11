@@ -1,51 +1,14 @@
-{% include d3/assets.html %}
-<style>
-#dendrogram {
-  height: 600px;
-  width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin: 0;
-  border: 1px grey solid;
-}
-#dendrogram svg{ overflow:scroll !important; }
-#dendrogram .node { cursor: pointer; }
-#dendrogram .node circle {
-  fill: #fff;
-  stroke: $icon-color;
-  stroke-width: 1px;
-}
-#dendrogram .node text {
-  font-size: 12px;
-  width: 50px;
-  word-wrap: break-word;
-  padding-left:20px;
-}
-#dendrogram .link {
-  stroke: #ccc;
-  fill: none;
-}
-</style>
-
-
-<div class="hidden-xs" id="dendrogram"></div>
+<script type='text/javascript' id="d3-v4" src="{{ site.js.d3.cdn }}"></script>
+<div class="hidden-xs" id="d3-dendrogram"></div>
 <script>
-
-  d3.json("{{ site.baseurl }}/visualize/data/play6.json", function(error, treeData) {
+  d3.json("{{ site.baseurl }}/visualize/data/play-dendrogram.json", function(error, treeData) {
     if (error) throw error;
 
-    // Set the dimensions and margins of the diagram
     var margin = {top: 20, right: 150, bottom: 30, left: 150},
         width = 2000 - margin.left - margin.right,
         height = 600 - margin.top - margin.bottom;
 
-    // append the svg object to the body of the page
-    // appends a 'group' element to 'svg'
-    // moves the 'group' element to the top left margin
-    var svg = d3.select("#dendrogram").append("svg")
+    var svg = d3.select("#d3-dendrogram").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)
       .append("g")
@@ -107,7 +70,7 @@
       nodeEnter.append('circle')
           .attr('class', 'node')
           .attr('r', 1e-2)
-          .style("fill", function(d) { return d._children ? "#0E6FA3" : "#fff"; });
+          .style("fill", function(d) { return d._children ? "#5c787c" : "#fff"; });
 
       // Add labels for the nodes
       nodeEnter.append('text')
@@ -128,10 +91,8 @@
 
       // Update the node attributes and style
       nodeUpdate.select('circle.node')
-        .attr('r', 10)
-        .style("fill", function(d) {
-            return d._children ? "#0E6FA3" : "#fff";
-        })
+        .attr('r', 8)
+        .style("fill", function(d) { return d._children ? "#5c787c" : "#fff"; })
         .attr('cursor', 'pointer');
 
 
@@ -208,7 +169,7 @@
           }
         update(d);
       }
-      function dblclick(d){ if (d.data.url){ location.href = d.data.url; }}
+      function dblclick(d){ if (d.data.url){ location.href = d.data.url + '/'; }}
     }
   })
 

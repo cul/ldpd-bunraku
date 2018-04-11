@@ -1,13 +1,17 @@
-language: ruby
 sudo: required
+language: ruby
 rvm: 2.4
-env:
-  - MOZ_HEADLESS=1
 addons:
-  firefox: latest
+  chrome: stable
 script:
+  - mkdir collections
+  - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
   - bundle exec jekyll build
   - travis_wait bundle exec rake wax:test
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 branches:
-  only:
-    - master
+  except:
+    - gh-pages
+    - s3

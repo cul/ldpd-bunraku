@@ -2,16 +2,21 @@
 layout: page
 title: Barbara Curtis Adachi
 autoplay: true
-image_id:
-  - '60770'
-  - '60778'
-  - '60813'
-  - '60844'
-  - '60754'
+images:
+- id: '60770'
+  objid: ldpd_bun_slide_729_4_1618_1621
+- id: '60778'
+  objid: ldpd_bun_slide_730_4_1626_1629
+- id: '60813'
+  objid: ldpd_bun_slide_731_4_1661_1664
+- id: '60844'
+  objid: ldpd_bun_slide_733_4_1692_1695
+- id: '60754'
+  objid: ldpd_bun_slide_729_4_1602_1605
 permalink: /adachi/
 ---
+{% include slider.html images=page.images %}
 
-{% include sliders/main.html %}
 View all images of [Barbara Curtis Adachi]({{ site.baseurl }}/tags/44/).
 <br><br>
 
