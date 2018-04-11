@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/mnyrop/wax_tasks.git
-  revision: 1e994b50394eaa9ffef10573b78efe8db3de0376
-  branch: minor_fixes
+  revision: 07461789faab33dc8dcbcb65db593f66cf22d88a
+  branch: alpha
   specs:
     wax_tasks (0.0.47)
       colorize (~> 0.8)
@@ -22,13 +22,13 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
-    capybara (2.18.0)
+    capybara (3.0.1)
       addressable
       mini_mime (>= 0.1.3)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      xpath (>= 2.0, < 4.0)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      xpath (~> 3.0)
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
     chromedriver-helper (1.2.0)
@@ -101,6 +101,7 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
+    puma (3.11.3)
     rack (1.6.9)
     rack-jekyll (0.5.0)
       jekyll (>= 1.3)
@@ -157,6 +158,7 @@ DEPENDENCIES
   chromedriver-helper
   jekyll (= 3.7.3)
   minima
+  puma
   rack-jekyll
   rspec
   selenium-webdriver

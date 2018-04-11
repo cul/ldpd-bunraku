@@ -4,10 +4,11 @@ gem 'minima'
 
 group :development, :test do
   gem 'tqdm'
-  gem 'wax_tasks', :git => 'https://github.com/mnyrop/wax_tasks.git', :branch => 'minor_fixes'
+  gem 'wax_tasks', :git => 'https://github.com/mnyrop/wax_tasks.git', :branch => 'alpha'
   gem 'rspec'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
+  gem 'puma'
   gem 'capybara'
   gem 'rack-jekyll'
 end
