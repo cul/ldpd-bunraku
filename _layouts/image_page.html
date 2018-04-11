@@ -10,8 +10,8 @@ layout: default
 <p>
   <b>Characters:&nbsp;&nbsp;</b>
   {% for c in page.characters %}
-    <b><a href="{{ site.baseurl }}/characters/{{ c.id }}/">{{ character.label_eng }}</a></b>
-    {% if character.label_ka %}({{ character.label_ka }}){% endif %}
+    <b><a href="{{ site.baseurl }}/characters/{{ c.id }}/">{{ c.label_eng }}</a></b>
+    {% if c.label_ka %}({{ c.label_ka }}){% endif %}
     {% unless forloop.last %}, {% endunless %}
   {% endfor %}<br>
 </p>
@@ -28,7 +28,7 @@ layout: default
 </p>
 {% endif %}
 
-{% if page.tags %}
+{% if page.tags.size > 0 %}
 <p>
   <b>Tags:&nbsp;&nbsp;</b>
   {% for t in page.tags %}
@@ -74,36 +74,36 @@ layout: default
 <h2 class='data-head'>Archival Information:</h2>
 <p>
   {% if page.creator %}
-    <b>Creator:</b> {{ page.creator }}<br>
+    <b>Creator:</b>&nbsp;&nbsp;{{ page.creator }}<br>
   {% endif %}
   {% if page.image_id %}
-    <b>Image ID:</b> {{ page.image_id }}<br>
+    <b>Image ID:</b>&nbsp;&nbsp;{{ page.image_id }}<br>
   {% endif %}
   {% if page.item_id %}
-    <b>Item ID:</b> {{ page.item_id }}<br>
+    <b>Item ID:</b>&nbsp;&nbsp;{{ page.item_id }}<br>
   {% endif %}
   {% if page.media_type %}
-    <b>Media Type:</b> {{ page.media_type }}<br>
+    <b>Media Type:</b>&nbsp;&nbsp;{{ page.media_type }}<br>
   {% endif %}
   {% if page.notes_on_item %}
-    <b>Notes on Item:</b> {{ page.notes_on_item }}<br>
+    <b>Notes on Item:</b>&nbsp;&nbsp;{{ page.notes_on_item }}<br>
   {% endif %}
   {% if page.colser_id %}
-    <b>Colser ID:</b> {{ page.colser_id }}<br>
+    <b>Colser ID:</b>&nbsp;&nbsp;{{ page.colser_id }}<br>
   {% endif %}
   {% if page.sequence %}
-    <b>Sequence:</b> {{ page.sequence }}<br>
+    <b>Sequence:</b>&nbsp;&nbsp;{{ page.sequence }}<br>
   {% endif %}
   {% if page.series %}
-    <b>Series:</b> {{ page.series }}<br>
+    <b>Series:</b>&nbsp;&nbsp;{{ page.series }}<br>
   {% endif %}
   {% if page.slidepage_folder %}
-    <b>Slidepage Folder:</b> {{ page.slidepage_folder }}<br>
+    <b>Slidepage Folder:</b>&nbsp;&nbsp;{{ page.slidepage_folder }}<br>
   {% endif %}
   {% if page.container %}
-    <b>Container:</b> {{ page.container }}<br>
+    <b>Container:</b>&nbsp;&nbsp;{{ page.container }}<br>
   {% endif %}
   {% if page.container_type %}
-    <b>Container Type:</b> {{ page.container_type }}<br>
+    <b>Container Type:</b>&nbsp;&nbsp;{{ page.container_type }}<br>
   {% endif %}
 </p>

@@ -25,7 +25,7 @@
     - label: The Music of Bunraku
       link: '/music-of-bunraku/'
 - label: Special Features
-  link: '/realia/47-ronin/'
+  link: '/realia/tayu-scroll/'
   sub:
     - label: 47 Ronin Scroll
       link: '/realia/tayu-scroll/'
@@ -37,7 +37,7 @@
       link: '/realia/gentas-head/'
     - label: Puppet in a Purple Dress
       link: '/realia/puppet-in-purple-dress/'
-    - label: Puppet in a Purple Dress (2)
+    - label: Puppet in a Purple Dress 2
       link: '/realia/puppet-in-purple-dress-2/'
     - label: Puppet Armature
       link: '/realia/puppet-armature/'
