@@ -14,4 +14,3 @@ script:
   - travis_wait bundle exec rake wax:test
 after_success:
   - bundle exec rake wax:push:s3
-  - bundle exec rake wax:push:gh
