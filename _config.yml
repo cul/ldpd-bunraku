@@ -86,25 +86,23 @@ styles:
   main: assets/main.css
   drop-nav: assets/drop-nav.css
   font-awesome: assets/fa/css/font-awesome.min.css
-  slick: //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css
-  slick-theme: //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css
 
 js:
   jquery:
     version: 3.2.1
-    cdn: //code.jquery.com/jquery-3.2.1.min.js
+    cdn: https://code.jquery.com/jquery-3.2.1.min.js
   jquery-migrate:
     version: 3.0.1
-    cdn:  //cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js
+    cdn:  https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js
   elasticlunr:
     version: 0.9.6
-    cdn: //cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
   d3:
     version: 4.13.0
-    cdn: //cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js
   slick:
     version: 1.8.1
-    cdn: //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js
 
 # search tests
 quoll:

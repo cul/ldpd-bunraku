@@ -3,15 +3,14 @@ language: ruby
 rvm: 2.4
 addons:
   chrome: stable
-script:
-  - mkdir collections
+branches:
+  only: master
+env:
+  global: NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+before_script:
   - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
   - bundle exec jekyll build
+script:
   - travis_wait bundle exec rake wax:test
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-branches:
-  except:
-    - gh-pages
-    - s3
+after_success:
+  - bundle exec rake wax:push:s3
