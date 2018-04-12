@@ -18,13 +18,13 @@ collections:
     source: authors.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka]
+      fields: [label_eng, label_ka, plays]
   characters:
     output: true
     source: characters.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka, label_ja]
+      fields: [label_eng, label_ka, label_ja, plays]
   images:
     output: true
     source: images.json
@@ -34,41 +34,37 @@ collections:
     source: kashira.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka, category]
+      fields: [label_eng, label_ka, category, plays]
   performances:
     output: true
     source: performances.json
     layout: item_page
     lunr_index:
-      fields: [label_eng]
+      fields: [label_eng, characters, plays, productions, scenes]
   performers:
     output: true
     source: performers.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka]
+      fields: [label_eng, label_ka, specialty]
   plays:
     output: true
     source: plays.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka, label_ja]
+      fields: [label_eng, label_ka, label_ja, characters, authors, kashira]
   productions:
     output: true
     source: productions.json
     layout: item_page
     lunr_index:
-      fields: [label_eng]
-  realia:
-    output: true
-    lunr_index:
-      fields: [label_eng]
+      fields: [label_eng, plays, performances]
   scenes:
     output: true
     source: scenes.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka, label_ja]
+      fields: [label_eng, label_ka, label_ja, production, play]
   tags:
     output: true
     source: tags.json
