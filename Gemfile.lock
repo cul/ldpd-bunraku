@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/mnyrop/wax_tasks.git
-  revision: 46e185e21993105166e33b9b3235d90bf94e2499
+  revision: d409624e23dfc4f5887cee3a5b04bf41266967ce
   branch: alpha
   specs:
     wax_tasks (0.0.47)
@@ -22,7 +22,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
-    capybara (3.0.1)
+    capybara (3.0.2)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
@@ -101,7 +101,7 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
-    puma (3.11.3)
+    puma (3.11.4)
     rack (1.6.9)
     rack-jekyll (0.5.0)
       jekyll (>= 1.3)

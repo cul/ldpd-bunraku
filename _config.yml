@@ -7,7 +7,7 @@ gh-baseurl: /ldpd-bunraku
 # Build settings
 markdown: kramdown
 theme: minima
-exclude: [vendor, Gemfile*, Rakefile, spec, README*, _lib, package.json]
+exclude: [vendor, Gemfile*, Rakefile, spec, README*, _lib, package.json, feed.xml]
 permalink: pretty
 collections_dir: collections
 lunr_languages: true
