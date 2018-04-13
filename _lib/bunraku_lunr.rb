@@ -49,7 +49,7 @@ module Bunraku
 
   def self.thing2string(thing)
     if thing.is_a? Array
-      thing = thing.join('||') if thing.first.is_a? String
+      thing = thing.join('///') if thing.first.is_a? String
       if thing.first.is_a? Hash
         label_list = []
         thing.each do |t|
@@ -58,7 +58,7 @@ module Bunraku
           label += " (#{t['label_ja']}) " if t.key? 'label_ja'
           label_list << label
         end
-        thing = label_list.join('||')
+        thing = label_list.join('///')
       end
     end
     if thing.is_a? Hash

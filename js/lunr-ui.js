@@ -81,7 +81,10 @@ layout: none
       results_div.prepend("<p><small>Displaying " + real_results.length + " results.</small></p>");
 
       function commify(s) {
-        s = s.replace(/||/g, ', ').substring(0, 100);
+        s = s.replace(/\/\/\//g, ', ')
+        if (s.length > 100) {
+          s = s.substring(0, 100) + ' ... ';
+        }
         return s;
       }
 
@@ -94,17 +97,17 @@ layout: none
         var meta = '';
         if (item.label_ka) { label += ' ('+item.label_ka+')'; }
         if (item.label_ja) { label += ' ('+item.label_ja+')'; }
-        if (item.category) { meta += '<br>Category: '+item.category; }
-        if (item.specialty) { meta += '<br>Specialty: '+item.specialty; }
-        if (item.play) { meta += '<br>Play: '+item.play; }
-        if (item.production) { meta += '<br>Production: '+item.production; }
-        if (item.authors) { meta += '<br>Authors: '+commify(item.authors); }
-        if (item.characters) { meta += '<br>Characters: '+commify(item.characters); }
-        if (item.kashira) { meta += '<br>Kashira: '+commify(item.kashira); }
-        if (item.performances) { meta += '<br>Performances: '+commify(item.performances); }
-        if (item.plays) { meta += '<br>Plays: '+commify(item.plays); }
-        if (item.productions) { meta += '<br>Productions: '+ commify(item.productions); }
-        if (item.scenes) { meta += '<br>Scenes: '+commify(item.scenes); }
+        if (item.category) { meta += '<br><b>Category:</b> '+item.category; }
+        if (item.specialty) { meta += '<br><b>Specialty:</b> '+item.specialty; }
+        if (item.play) { meta += '<br><b>Play:</b> '+item.play; }
+        if (item.production) { meta += '<br><b>Production:</b> '+item.production; }
+        if (item.authors) { meta += '<br><b>Authors:</b> '+commify(item.authors); }
+        if (item.characters) { meta += '<br><b>Characters:</b> '+commify(item.characters); }
+        if (item.kashira) { meta += '<br><b>Kashira:</b> '+commify(item.kashira); }
+        if (item.performances) { meta += '<br><b>Performances:</b> '+commify(item.performances); }
+        if (item.plays) { meta += '<br><b>Plays:</b> '+commify(item.plays); }
+        if (item.productions) { meta += '<br><b>Productions:</b> '+ commify(item.productions); }
+        if (item.scenes) { meta += '<br><b>Scenes:</b> '+commify(item.scenes); }
         var result = '<div class="result"><span class="capitalize">' + type + ':</span><br><b><a href="' + link + '">' + label + '</a></b>' + meta + '</div>';
         results_div.append(result);
       }
