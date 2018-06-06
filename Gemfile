@@ -1,14 +1,13 @@
 source 'https://rubygems.org'
-gem 'jekyll', '3.7.3'
-gem 'minima'
 
 group :development, :test do
-  gem 'tqdm'
-  gem 'wax_tasks', :git => 'https://github.com/mnyrop/wax_tasks.git', :branch => 'alpha'
+  gem 'jekyll', '~> 3.8'
+  gem 'minima'
   gem 'rspec'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
-  gem 'puma'
   gem 'capybara'
   gem 'rack-jekyll'
+  gem 'diane'
+  gem 'wax_tasks', :git => 'https://github.com/mnyrop/wax_tasks', :branch => 'beta'
 end

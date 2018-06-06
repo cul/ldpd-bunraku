@@ -1,0 +1,5 @@
+user,message,time
+mnyrop,"rewriting bunraku indexer for displaying metadata lists in search results",04/06/2018 17:12
+mnyrop,"trying wax_tasks 0.0.2 for indexing hash field values / nested results",05/06/2018 23:36
+mnyrop,"now using default wax:lunr, moved customizations to ui instead of processing",Wed Jun  6 01:12:49 2018
+mnyrop,fixed and optimized search,Wed Jun  6 12:11:47 2018

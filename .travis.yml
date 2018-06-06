@@ -5,15 +5,21 @@ addons:
   chrome: stable
 branches:
   except:
-    - s3
+    - static
     - gh-pages
 env:
   global: NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-before_script:
-  - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
-  - bundle exec jekyll build
 script:
+  - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
+  - bundle exec rake wax:lunr
+  - bundle exec jekyll build
   - travis_wait bundle exec rake wax:test
-after_success:
-  - bundle exec rake wax:push:s3
-  - bundle exec rake wax:push:gh
+deploy:
+  - provider: script
+    script: bundle exec rake wax:push static
+    on:
+      branch: master
+  - provider: script
+    script: bundle exec rake wax:push gh-pages
+    on:
+      branch: master
