@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 group :development, :test do
   gem 'jekyll', '~> 3.8'
-  gem 'minima'
   gem 'rspec'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'

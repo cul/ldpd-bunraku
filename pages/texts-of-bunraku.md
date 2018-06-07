@@ -1,9 +1,8 @@
 ---
 layout: page
-title: The World of Bunraku
+title: The Texts of Bunraku
 permalink: /texts-of-bunraku/
 ---
-### The Texts of Bunraku
 
 __by Michael Brownstein__
 <br><br>
@@ -18,8 +17,6 @@ If one compares a Bunraku text side by side with the text of an English play fro
 
 Another important difference between Bunraku texts and those of English plays is how they treat settings and stage directions. Lillo’s The London Merchant indicates only which characters are present in a scene and the location. By contrast, each act of [Chikamatsu]({{ site.baseurl }}/authors/6)'s Bunraku plays begins with a lengthy passage describing the setting in poetic language intended in part to spotlight the chanter’s vocal skills. Shakespeare’s _The Winter’s Tale_, to cite another example, contains what is perhaps the most well-known stage direction in the history of English theater: “Exit, pursued by a bear.” Had the play been performed in Chikamatsu's day, the chanter might have declaimed it as “He exits—pursued by a bear!” Indeed, Bunraku texts often describe the very actions that audiences can see being performed, but also subtler actions or feelings that cannot be seen or even performed by a puppet. For example, we may watch a convincing performance of a woman puppet weeping, but only the words of the text or the chanter who voices them can tell us that she weeps “tears of blood” or that her tears soak her sleeves. This is not the same thing, however, as a sportscaster doing a play-by-play description of the action on the field but just the opposite: in [Chikamatsu]({{ site.baseurl }}/authors/6)'s view, it is the words of the chanter that animate the puppets.
 
-<br>
-<hr/>
-<br>
+<hr>
 
 __Michael Brownstein__ is Associate Professor of Japanese is the Department of East Asian Languages and Cultures at the University of Notre Dame. He earned his M.A. (1978) and Ph.D. (1981) degrees in Japanese from Columbia University.

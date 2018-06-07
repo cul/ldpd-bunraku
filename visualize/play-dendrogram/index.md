@@ -7,6 +7,4 @@ Below is an interactive, hierarchical graph of the structure of one play: __[Osh
 
 You can __click on the circles__ to open or collapse nodes or __double-click on one with a bolded name__ to learn more about its corresponding author, performance, scene, performer, character, or kashira (puppet).
 
-<br><br>
-
 {% include d3/play-dendrogram.html %}

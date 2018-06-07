@@ -1,0 +1,32 @@
+<script type='text/javascript' id="lunr" src="{{ site.js.elasticlunr.cdn }}"></script>
+<script src="{{ site.baseurl }}/js/lunr-ui.js"></script>
+{% capture categories %}
+authors^characters^kashira^performances^performers^plays^productions^scenes^tags
+{% endcapture %}
+{% assign categories = categories | strip | split: '^' %}
+
+<div class="search-block">
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Limit</button>
+      <ul id="checkboxes" class="dropdown-menu">
+        {% for c in categories %}
+        <span class="dropdown-item" style="padding-bottom: 0;">
+          <input type="checkbox" id="{{ c }}-check" value="{{ c }}" name="search-field">
+          <label class="capitalize" for="{{ c }}-check">{{ c }}</label>
+        </span>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <input id="search" class="form-control border-secondary py-2" type="search" placeholder="Search">
+
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" id="submit" type="button">
+          <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id="results"></div>
+</div>

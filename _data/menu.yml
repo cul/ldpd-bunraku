@@ -1,0 +1,58 @@
+- label: About the Collection
+  link: '#'
+  sub:
+    - label: About
+      link: '/about-the-collection/'
+    - label: Background
+      link: '/background/'
+    - label: Barbara Curtis Adachi
+      link: '/adachi/'
+    - label: Finding Aid
+      link: 'http://www.columbia.edu/cu/lweb/eresources/archives/eastasian/adachi/ldpd.6226404.001.f.html'
+    - label: References
+      link: '/references/'
+    - label: Rights and Permissions
+      link: '/rights/'
+    - label: Contacting the Library
+      link: 'http://library.columbia.edu/locations/eastasian/staff.html'
+- label: The World of Bunraku
+  link: '#'
+  sub:
+    - label: The World of Bunraku
+      link: '/the-world-of-bunraku/'
+    - label: The Early World of Bunraku
+      link: '/early-world-of-bunraku/'
+    - label: The Texts of Bunraku
+      link: '/texts-of-bunraku/'
+    - label: The Music of Bunraku
+      link: '/music-of-bunraku/'
+- label: Browse
+  link: '#'
+  sub:
+    - label: Authors
+      link: '/authors/'
+    - label: Characters
+      link: '/characters/'
+    - label: Kashira (Puppets)
+      link: '/kashira/'
+    - label: Performers
+      link: '/performers/'
+    - label: Plays
+      link: '/plays/'
+    - label: Productions
+      link: '/productions/'
+    - label: Image tags
+      link: '/tags/'
+    - label: Realia
+      link: '/realia/'
+- label: Visualize
+  link: '#'
+  sub:
+  - label: Hierarchical dendrogram
+    link: '/visualize/play-dendrogram/'
+  - label: Kashira network graph
+    link: '/visualize/kashira-and-characters/'
+  - label: Author network graph
+    link: '/visualize/author-network/'
+- label: Search
+  link: '/search/'

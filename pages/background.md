@@ -1,10 +1,10 @@
 ---
 title: 'About the Collection: Background'
-layout: page
+layout: default
 permalink: /background/
 ---
 
-## The Barbara Curtis Adachi Collection at Columbia University Libraries
+### The Barbara Curtis Adachi Collection at Columbia University Libraries
 
 When Barbara Curtis Adachi donated her collection of Bunraku materials to the C. V. Starr East Asian Library in 1991, it quickly became one of the Library’s treasures because of its extraordinary breadth and substance. Through the generosity of Barbara Curtis Adachi, the National Endowment for the Humanities, and the Freeman Foundation, the Bunraku collection was acquired and processed, and its holdings made publicly available.
 

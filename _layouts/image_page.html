@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<img src="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ page.objid }}&size=medium"/>
+<img src="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ page.objid }}&size=medium" style="max-width:100%;max-height:600px"/>
+<br><br>
 
-
-<h2 class='data-head'>In this Image:</h2>
+<h3 class='data-head'>In this Image:</h3>
 
 {% if page.characters %}
+<h5>Characters:</h5>
 <p>
-  <b>Characters:&nbsp;&nbsp;</b>
   {% for c in page.characters %}
     <b><a href="{{ site.baseurl }}/characters/{{ c.id }}/">{{ c.label_eng }}</a></b>
     {% if c.label_ka %}({{ c.label_ka }}){% endif %}
@@ -18,8 +18,8 @@ layout: default
 {% endif %}
 
 {% if page.plays %}
+<h5>Plays:</h5>
 <p>
-  <b>Plays:&nbsp;&nbsp;</b>
   {% for p in page.plays %}
     <b><a href="{{ site.baseurl }}/plays/{{ p.id }}/">{{ p.label_eng }}</a></b>
     {% if p.label_ka %}({{ p.label_ka }}){% endif %}
@@ -29,8 +29,8 @@ layout: default
 {% endif %}
 
 {% if page.tags.size > 0 %}
+<h5>Tags:</h5>
 <p>
-  <b>Tags:&nbsp;&nbsp;</b>
   {% for t in page.tags %}
     <b><a href="{{ site.baseurl }}/tags/{{ t.id }}/">{{ t.label_eng }}</a></b>
     {% if t.label_ka %}({{ t.label_ka }}){% endif %}
@@ -40,8 +40,8 @@ layout: default
 {% endif %}
 
 {% if page.kashira %}
+<h5>Kashira:</h5>
 <p>
-  <b>Kashira:&nbsp;&nbsp;</b>
   {% for k in page.kashira %}
     <b><a href="{{ site.baseurl }}/kashira/{{ k.id }}/">{{ k.label_eng }}</a></b>
     {% if k.label_ka %}({{ k.label_ka }}){% endif %}
@@ -51,8 +51,8 @@ layout: default
 {% endif %}
 
 {% if page.performers %}
+<h5>Performers:</h5>
 <p>
-  <b>Performers:&nbsp;&nbsp;</b>
   {% for p in page.performers %}
     <b><a href="{{ site.baseurl }}/performers/{{ p.id }}/">{{ p.label_eng }}</a></b>
     {% unless forloop.last %}, {% endunless %}
@@ -61,8 +61,8 @@ layout: default
 {% endif %}
 
 {% if page.scenes %}
+<h5>Scenes:</h5>
 <p>
-  <b>Scenes:&nbsp;&nbsp;</b>
   {% for s in page.scenes %}
     <b><a href="{{ site.baseurl }}/scenes/{{ s.id }}/">{{ s.label_eng }}</a></b>
     {% if s.label_ka %}({{ s.label_ka }}){% endif %}
@@ -71,7 +71,7 @@ layout: default
 </p>
 {% endif %}
 
-<h2 class='data-head'>Archival Information:</h2>
+<h3 class='data-head'>Archival Information:</h3>
 <p>
   {% if page.creator %}
     <b>Creator:</b>&nbsp;&nbsp;{{ page.creator }}<br>

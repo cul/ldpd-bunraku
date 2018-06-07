@@ -1,29 +1,13 @@
 ---
 layout: page
 title: Full Collection Search
-images:
-- id: '60187'
-  objid: ldpd_bun_slide_423_1_7773_9257
-- id: '52458'
-  objid: ldpd_bun_slide_003_1_0044_0047
-- id: '8307'
-  objid: ldpd_bun_slide_453_2_0027_0027
-- id: '8385'
-  objid: ldpd_bun_slide_457_2_0105_0112
-- id: '12076'
-  objid: ldpd_bun_slide_661_4_0298_0298
-- id: '52706'
-  objid: ldpd_bun_slide_016_1_0292_0457
+permalink: /search/
+banner:
 - id: '9364'
   objid: ldpd_bun_slide_509_2_1084_1156
-search: full
-autoplay: true
-permalink: /search/
 ---
-{% include slider.html images=page.images %}
 
-<br>
+{% include banner.html banner=page.banner %}
+{% include search.html %}
 
-{% include search-box.html %}
-
-#### __Don't know where to start?__<br>Try searching for `Ōshūto`, `Donald Keene`, or `白川の安珍実は桜木親王`.
+__Don't know where to start?__<br>Try searching for `Ōshūto`, `Donald Keene`, or `白川の安珍実は桜木親王`.

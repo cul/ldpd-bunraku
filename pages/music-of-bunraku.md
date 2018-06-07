@@ -1,9 +1,8 @@
 ---
 layout: page
-title: The World of Bunraku
+title: The Music of Bunraku
 permalink: /music-of-bunraku/
 ---
-### The Music of Bunraku
 
 Bunraku is a truly collaborative effort between puppeteers, chanters, and musicians. The puppeteers do not speak; it is the chanters who recite all the spoken parts and the narratives, altering their voices to represent each of the characters as well as to provide the narration. The musicians accompany them on the three-stringed _shamisen_.
 

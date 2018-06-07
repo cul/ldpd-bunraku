@@ -3,15 +3,12 @@ layout: none
 ---
 $( document ).ready(function() {
   $.getJSON("{{ site.baseurl }}/js/lunr-index.json", function(index_json) {
-    window.store = index_json;
-
-    var results_div = $('#results');
-    var search_input = $('input#search');
-
-    var selected = [];
-    var possible = ['authors', 'characters', 'kashira', 'performances', 'performers', 'plays', 'productions', 'scenes', 'tags'];
-
-    var index = new elasticlunr.Index;
+    var store         = index_json;
+    var results_div   = $('#results');
+    var search_input  = $('input#search');
+    var selected      = [];
+    var possible      = ['authors', 'characters', 'kashira', 'performances', 'performers', 'plays', 'productions', 'scenes', 'tags'];
+    var index         = new elasticlunr.Index;
 
     index.saveDocument(false);
     index.setRef('lunr_id');
@@ -85,7 +82,7 @@ $( document ).ready(function() {
 
       // add + display real results
       results_div.empty();
-      results_div.prepend("<p><small>Displaying " + real_results.length + " results.</small></p>");
+      results_div.prepend("<span class='search-info'>Displaying " + real_results.length + " results.</span><br><br>");
 
       // format results by type (string, array, hash)
       function parse(i) {
@@ -122,18 +119,18 @@ $( document ).ready(function() {
         var meta = '';
         if (item.label_ka) { label += ' ('+parse(item.label_ka)+')'; }
         if (item.label_ja) { label += ' ('+parse(item.label_ja)+')'; }
-        if (item.category) { meta += '<br><b>Category:</b> '+parse(item.category); }
-        if (item.specialty) { meta += '<br><b>Specialty:</b> '+parse(item.specialty); }
-        if (item.play) { meta += '<br><b>Play:</b> '+parse(item.play); }
-        if (item.production) { meta += '<br><b>Production:</b> '+parse(item.production); }
-        if (item.authors) { meta += '<br><b>Authors:</b> '+parse(item.authors); }
-        if (item.characters) { meta += '<br><b>Characters:</b> '+parse(item.characters); }
-        if (item.kashira) { meta += '<br><b>Kashira:</b> '+parse(item.kashira); }
-        if (item.performances) { meta += '<br><b>Performances:</b> '+parse(item.performances); }
-        if (item.plays) { meta += '<br><b>Plays:</b> '+parse(item.plays); }
-        if (item.productions) { meta += '<br><b>Productions:</b> '+parse(item.productions); }
-        if (item.scenes) { meta += '<br><b>Scenes:</b> '+parse(item.scenes); }
-        var result = '<div class="result"><span class="capitalize">' + type + ':</span><br><b><a href="' + link + '">' + label + '</a></b>' + meta + '</div>';
+        if (item.category) { meta += '<br>Category: '+parse(item.category); }
+        if (item.specialty) { meta += '<br>Specialty: '+parse(item.specialty); }
+        if (item.play) { meta += '<br>Play: '+parse(item.play); }
+        if (item.production) { meta += '<br>Production: '+parse(item.production); }
+        if (item.authors) { meta += '<br>Authors: '+parse(item.authors); }
+        if (item.characters) { meta += '<br>Characters: '+parse(item.characters); }
+        if (item.kashira) { meta += '<br>Kashira: '+parse(item.kashira); }
+        if (item.performances) { meta += '<br>Performances: '+parse(item.performances); }
+        if (item.plays) { meta += '<br>Plays: '+parse(item.plays); }
+        if (item.productions) { meta += '<br>Productions: '+parse(item.productions); }
+        if (item.scenes) { meta += '<br>Scenes: '+parse(item.scenes); }
+        var result = '<div class="result"><b><span class="capitalize">' + type + ':</span> <a href="' + link + '">' + label + '</a></b>' + meta + '</div>';
         results_div.append(result);
       }
       // display them
