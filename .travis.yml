@@ -13,7 +13,7 @@ script:
   - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
   - bundle exec rake wax:lunr
   - bundle exec jekyll build
-  - travis_wait bundle exec rake wax:test
+  - bundle exec rspec
 deploy:
   - provider: script
     script: bundle exec rake wax:push static
