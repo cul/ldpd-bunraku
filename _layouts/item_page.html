@@ -316,7 +316,7 @@ layout: default
 
 {% if page.images %}
   <h4 class='data-sub-head'>Images:</h4>
-  <div id='thumb-gallery'>
+  <div id='thumb-gallery' data-proofer-ignore>
     {% for i in page.images %}
     <a href="{{ site.baseurl }}/images/{{ i.id }}/"><img data-original="https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ i.objid }}&size=thumb" class="sq-thumb-sm lazy" width="80" height="80"/></a>
     {% endfor %}
