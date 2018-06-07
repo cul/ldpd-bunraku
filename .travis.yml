@@ -23,3 +23,21 @@ deploy:
     script: bundle exec rake wax:push gh-pages
     on:
       branch: master
+  - provider: s3
+    access_key_id: $AWS_ID
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: cul-s3-dlst-travis-dh-staging
+    region: us-west-2
+    skip_cleanup: true
+    local_dir: _site
+    on:
+      branch: staging
+  - provider: s3
+    access_key_id: $AWS_ID
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: cul-s3-dlst-travis-dh-prod
+    region: us-west-2
+    skip_cleanup: true
+    local_dir: _site
+    on:
+      branch: master
