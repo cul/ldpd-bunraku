@@ -12,6 +12,7 @@ env:
 script:
   - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
   - bundle exec rake wax:lunr
+  - bundle exec rake wax:jspackage
   - bundle exec jekyll build
   - bundle exec rspec
 deploy:
