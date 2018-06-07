@@ -1,6 +1,6 @@
 sudo: required
 language: ruby
-rvm: 2.4
+rvm: 2.5
 addons:
   chrome: stable
 branches:
