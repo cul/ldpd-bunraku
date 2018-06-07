@@ -1,13 +1,11 @@
 title: The Barbara Curtis Adachi Bunraku Collection
 description: at C.V. Starr East Asian Library
 url: ''
-baseurl: ''
 gh-baseurl: /ldpd-bunraku
 
 # Build settings
 markdown: kramdown
-theme: minima
-exclude: [vendor, Gemfile*, Rakefile, spec, README*, _lib, package.json]
+exclude: [vendor, Gemfile*, Rakefile, spec, README*, _lib, package.json, feed.xml]
 permalink: pretty
 collections_dir: collections
 lunr_languages: true
@@ -18,13 +16,13 @@ collections:
     source: authors.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka]
+      fields: [label_eng, label_ka, plays]
   characters:
     output: true
     source: characters.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka, label_ja]
+      fields: [label_eng, label_ka, label_ja, plays]
   images:
     output: true
     source: images.json
@@ -34,41 +32,37 @@ collections:
     source: kashira.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka, category]
+      fields: [label_eng, label_ka, category, plays]
   performances:
     output: true
     source: performances.json
     layout: item_page
     lunr_index:
-      fields: [label_eng]
+      fields: [label_eng, characters, plays, productions, scenes]
   performers:
     output: true
     source: performers.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka]
+      fields: [label_eng, label_ka, specialty]
   plays:
     output: true
     source: plays.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka, label_ja]
+      fields: [label_eng, label_ka, label_ja, characters, authors, kashira]
   productions:
     output: true
     source: productions.json
     layout: item_page
     lunr_index:
-      fields: [label_eng]
-  realia:
-    output: true
-    lunr_index:
-      fields: [label_eng]
+      fields: [label_eng, plays, performances]
   scenes:
     output: true
     source: scenes.json
     layout: item_page
     lunr_index:
-      fields: [label_eng, label_ka, label_ja]
+      fields: [label_eng, label_ka, label_ja, production, play]
   tags:
     output: true
     source: tags.json
@@ -88,21 +82,24 @@ styles:
   font-awesome: assets/fa/css/font-awesome.min.css
 
 js:
+  bootstrap:
+    version: 4.0.0
+    cdn: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
+  d3:
+    version: 4.13.0
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js
+  elasticlunr:
+    version: 0.9.6
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
   jquery:
     version: 3.2.1
     cdn: https://code.jquery.com/jquery-3.2.1.min.js
   jquery-migrate:
-    version: 3.0.1
-    cdn:  https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js
-  elasticlunr:
-    version: 0.9.6
-    cdn: https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
-  d3:
-    version: 4.13.0
-    cdn: https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js
-  slick:
-    version: 1.8.1
-    cdn: https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js
+    version: 3.0.0
+    cdn: https://code.jquery.com/jquery-migrate-3.0.0.min.js
+  popper:
+    version: 1.12.9
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
 
 # search tests
 quoll:

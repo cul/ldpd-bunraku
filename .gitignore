@@ -1,5 +1,6 @@
-**/.DS_Store
+_site
+wax_tasks
 .sass-cache
 .jekyll-metadata
-_site
+.DS_Store
 collections

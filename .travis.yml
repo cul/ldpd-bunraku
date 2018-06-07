@@ -4,13 +4,40 @@ rvm: 2.4
 addons:
   chrome: stable
 branches:
-  only: master
+  except:
+    - static
+    - gh-pages
 env:
   global: NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-before_script:
-  - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
-  - bundle exec jekyll build
 script:
-  - travis_wait bundle exec rake wax:test
-after_success:
-  - bundle exec rake wax:push:s3
+  - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
+  - bundle exec rake wax:lunr
+  - bundle exec jekyll build
+  - bundle exec rspec
+deploy:
+  - provider: script
+    script: bundle exec rake wax:push static
+    on:
+      branch: master
+  - provider: script
+    script: bundle exec rake wax:push gh-pages
+    on:
+      branch: master
+  - provider: s3
+    access_key_id: $AWS_ID
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: cul-s3-dlst-travis-bunraku-staging
+    region: us-west-2
+    skip_cleanup: true
+    local_dir: _site
+    on:
+      branch: staging
+  - provider: s3
+    access_key_id: $AWS_ID
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: cul-s3-dlst-travis-bunraku-prod
+    region: us-west-2
+    skip_cleanup: true
+    local_dir: _site
+    on:
+      branch: master

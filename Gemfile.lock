@@ -1,14 +1,14 @@
 GIT
-  remote: https://github.com/mnyrop/wax_tasks.git
-  revision: 46e185e21993105166e33b9b3235d90bf94e2499
-  branch: alpha
+  remote: https://github.com/mnyrop/wax_tasks
+  revision: a223e4f8ad81186f530450cb3f17659b65be8931
+  branch: beta
   specs:
-    wax_tasks (0.0.47)
+    wax_tasks (0.2.0)
       colorize (~> 0.8)
       html-proofer (~> 3)
       jekyll (~> 3)
       rake (~> 12)
-      wax_iiif
+      wax_iiif (~> 0.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -22,13 +22,13 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
-    capybara (3.0.1)
+    capybara (3.2.1)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
       rack (>= 1.6.0)
       rack-test (>= 0.6.3)
-      xpath (~> 3.0)
+      xpath (~> 3.1)
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
     chromedriver-helper (1.2.0)
@@ -37,16 +37,19 @@ GEM
     colorator (1.1.0)
     colorize (0.8.1)
     concurrent-ruby (1.0.5)
+    diane (0.0.2)
+      colorize (~> 0.8)
+      mercenary (~> 0.3)
     diff-lcs (1.3)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     ethon (0.11.0)
       ffi (>= 1.3.0)
-    eventmachine (1.2.5)
-    ffi (1.9.23)
+    eventmachine (1.2.7)
+    ffi (1.9.25)
     forwardable-extended (2.6.0)
-    html-proofer (3.8.0)
+    html-proofer (3.9.1)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
       colorize (~> 0.8)
@@ -59,7 +62,7 @@ GEM
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
-    jekyll (3.7.3)
+    jekyll (3.8.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -72,15 +75,11 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.9.3)
-      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.4.0)
-      jekyll (~> 3.3)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
-    kramdown (1.16.2)
+    kramdown (1.17.0)
     liquid (4.0.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -90,10 +89,6 @@ GEM
     mini_magick (4.8.0)
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
-    minima (2.4.1)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
@@ -101,8 +96,7 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
-    puma (3.11.3)
-    rack (1.6.9)
+    rack (1.6.10)
     rack-jekyll (0.5.0)
       jekyll (>= 1.3)
       listen (>= 1.3)
@@ -135,18 +129,17 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    selenium-webdriver (3.11.0)
+    selenium-webdriver (3.12.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2)
     thread_safe (0.3.6)
-    tqdm (0.3.0)
     typhoeus (1.3.0)
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    wax_iiif (0.0.1)
+    wax_iiif (0.0.2)
       mini_magick (>= 4.8)
-    xpath (3.0.0)
+    xpath (3.1.0)
       nokogiri (~> 1.8)
     yell (2.0.7)
 
@@ -156,13 +149,11 @@ PLATFORMS
 DEPENDENCIES
   capybara
   chromedriver-helper
-  jekyll (= 3.7.3)
-  minima
-  puma
+  diane
+  jekyll (~> 3.8)
   rack-jekyll
   rspec
   selenium-webdriver
-  tqdm
   wax_tasks!
 
 BUNDLED WITH

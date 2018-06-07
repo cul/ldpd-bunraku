@@ -5,24 +5,21 @@ search: character
 permalink: /characters/
 ---
 {% assign sorted_characters = site.data.characters | sort: "label_eng" %}
+<ul class='item-list'>
 {% for character in sorted_characters %}
-  <p>
+  <li>
     <b>
       {% if character.images %}
-        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        <i class="fas fa-image"></i>
       {% else %}
-        <i class="fa fa-times" aria-hidden="true"></i>
+        <i class="fas fa-times"></i>
       {% endif %}
       <a href="{{ site.baseurl }}/characters/{{ character.pid }}/">
         {{ character.label_eng }}
       </a>
     </b>
     ({{ character.label_ka }})
-    from
-    {% assign p_id = character.play_id | first %}
-    {% assign play = site.data.plays | where: "pid", p_id | first %}
-    <a href="{{ site.baseurl }}/plays/{{ p_id }}">
-      <b><i>{{ play.label_eng }}</i></b>
-    </a>
-  </p>
+    from <i>{{ character.plays.first.label_eng }}</i>
+  </li>
 {% endfor %}
+</ul>

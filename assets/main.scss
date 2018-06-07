@@ -1,48 +1,73 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+sitemap: false
 ---
-@charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i');
+/*
+variable declaration
+*/
 
-// Define defaults for each variable.
-$head-font-family: 'Source Sans Pro', Helvetica, sans-serif !default;
-$base-font-family: 'Source Sans Pro', Helvetica, sans-serif !default;
-$base-font-size:   14px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+/* branding */
+$logo: url('{{ "/assets/logo.png" | relative_url }}');
+$brand-font: 'TrajanProRegular';
 
-$spacing-unit:     30px !default;
+/* text */
 
-$text-color:       #111 !default;
-$background-color: #EBF0EE !default;
-$brand-color:      #cc3b1e !default;
-$img-icon:         #5498a3 !default;
-$no-img-icon:      #9a9d9e !default;
+$serif:           'Helvetica Neue';
+$sans-serif:      'Helvetica Neue';
+$main-font-size:  1rem;
+$max-text-width:  900px;
+$h1-font-size:    1.8rem;
+$h2-font-size:    1.6rem;
+$h3-font-size:    1.5rem;
+$h4-font-size:    1.4rem;
+$h5-font-size:    1.3rem;
+$h6-font-size:    1.2rem;
 
-$d3-backgound:     #f4f9f7 !default;
-$d3-node1:         #b73b37 !default;
-$d3-node2:         #5c787c !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+/* colors */
 
-// Width of the content area
-$content-width:    900px !default;
-$on-palm:          700px !default;
-$on-laptop:        900px !default;
+$text-color:      #222222;
+$accent-color:    #c11d25;
+$accent-color-2:  #667d99;
+$bg-color:        #f4f9f7;
+$light-grey:      #dee2e6;
+$dark-grey:       #444444;
+$d3-background:   #ffffff;
+$d3-node1:        $accent-color;
+$d3-node2:        $accent-color-2;
+$img-icon:        $accent-color-2;
+$no-img-icon:     #9a9d9e;
+$body-color:      $bg-color;
 
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
+/* viewport sizes */
 
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
-}
+$max-width:       980px;
+$break-lg:        860px;
+$break-med:       720px;
+$break-sm:        600px;
 
-// import minima last
-@import "bunraku";
-@import "minima";
+/* margins */
+
+$margin:          2rem;
+$more-margin:     3rem;
+$less-margin:     1rem;
+$super-margin:    5rem;
+
+/* banner */
+
+$banner-height:   350px;
+$fade-time:       1.5s;
+
+/* iiif viewer */
+$viewer-height:   500px;
+
+
+/*
+font & asset import
+*/
+
+@import url('//use.fontawesome.com/releases/v5.0.10/css/all.css');
+@font-face{font-family:trajanprobold;src:url('//cdn.cul.columbia.edu/ldpd-toolkit/build/fonts/TrajanPro-Bold.otf')}
+@font-face{font-family:TrajanProRegular;src:url('//cdn.cul.columbia.edu/ldpd-toolkit/build/fonts/trajanpro-regular-webfont.eot');src:url('//cdn.cul.columbia.edu/ldpd-toolkit/build/fonts/trajanpro-regular-webfont.eot?#iefix') format('embedded-opentype'),url('//cdn.cul.columbia.edu/ldpd-toolkit/build/fonts/trajanpro-regular-webfont.woff') format('woff'),url('//cdn.cul.columbia.edu/ldpd-toolkit/build/fonts/trajanpro-regular-webfont.ttf') format('truetype'),url('//cdn.cul.columbia.edu/ldpd-toolkit/build/fonts/trajanpro-regular-webfont.svg#TrajanProRegular') format('svg');font-weight:400;font-style:normal}
+
+@import 'wax';
+@import 'bunraku';

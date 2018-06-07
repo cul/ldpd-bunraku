@@ -1,28 +1,38 @@
-.page-content{
-  margin-bottom: 100px;
+//
+// Headings
+//
+
+body, html{
+  font-family: $sans-serif;
 }
 
-/* header */
-#main-heading{
-  font-size:2.5em;
+#title {
+  font-family: $brand-font;
 }
 .page-title{
-  margin: 20px 0px 20px 0px;
+  margin: $more-margin 0 $more-margin 0;
 }
-.page-title-sub{
-  margin: 15px 0px 15px 0px;
+#main {
+  h1, h2, h3, h4, h5, h6
+  .h1 .h2 .h3 .h4 .h5 .h6 {
+    font-family: $brand-font !important;
+    margin-bottom: $margin !important;
+  }
 }
-.data-sub-head, .data-head{
-  margin: 15px 0px 15px 0px;
-}
-.slider-block{
-  margin: 20px 0px 20px 0px;
+#header-block {
+  background-color: #e8dfcc;
+  border-bottom: none;
+  box-shadow: 0 4px 8px -2px rgba(68,68,68,0.6);
 }
 
 /* D3 */
 #d3-force{
-  margin:30px 0 30px 0;
-  background-color:$d3-backgound;
+  background-color:$d3-background;
+  margin: $margin 0 $margin 0;
+  height: 600px;
+  width: 100%;
+  border: 1px solid $dark-grey;
+  overflow: scroll !important;
   .links line {
     stroke:black;
     stroke-opacity:.7;
@@ -34,6 +44,7 @@
 }
 
 #d3-dendrogram {
+  margin: $margin 0 $margin 0;
   height: 600px;
   width: 100%;
   overflow-x: scroll;
@@ -41,10 +52,10 @@
   display: inline-block;
   vertical-align: top;
   position: relative;
-  margin:30px 0 30px 0;
-  background-color:$d3-backgound;
-  svg{
-    overflow:scroll !important;
+  background-color:$d3-background;
+  border: 1px solid $dark-grey;
+  svg {
+    overflow: scroll !important;
   }
   .node {
     cursor: pointer;
@@ -73,7 +84,7 @@
   height: auto;
   text-align: center;
   color: white;
-  background: $grey-color-dark;
+  background: $dark-grey;
   border-radius: 6px;
   padding: 10px;
   &:after {
@@ -83,68 +94,37 @@
     left: 50%;
     margin-left: -8px;
     width: 0; height: 0;
-    border-top: 8px solid $grey-color-dark;
+    border-top: 8px solid $dark-grey;
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
   }
 }
 
-/* search */
-.search{
-  margin-bottom:30px;
-  table{
-    width:100%;
-    margin-top:30px;
-    tr{
-      height:40px;
-    }
-  }
-  #search-icon{
-    width:5%;
-    font-size:20px;
-  }
-  #input-box{
-    width:95%;
-  }
-  #search{
-    width:100%;
-    border:none;
-    padding:10px;
-  }
-
-}
-#results{
-  margin:30px;
-  padding-left:20px;
-  .result{
-    padding-top:10px;
-  }
-}
-
-/* slider */
-.slick-next::before, .slick-prev::before{
-  color: #222222 !important;
-}
-.slider-block-single img{
-  display: block;
-  max-width:800px;
-  max-height:600px;
-  width: auto;
-  height: auto;
-}
 
 /* icons */
-.fa-file-image-o{color:$img-icon}
+.fa-image{color:$img-icon}
 .fa-times{color:$no-img-icon}
 
 /*nodes*/
 .d3-node1{fill:$d3-node1}
 .d3-node2{fill:$d3-node2}
 
-/* tables */
-.spuck-table{
-  background-color: $d3-backgound;
-  tr{ background-color: $d3-backgound; }
-  tr:nth-child(even) { background-color: $grey-color-light; }
-  th{ background-color: $grey-color-light; }
+.item-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin-bottom: $less-margin;
+    padding: 0;
+  }
+}
+
+li a:active {
+  background-color: $light-grey;
+}
+
+#cultnbw .dropdown-toggle .caret { display:none !important; }
+#cultnbw, #topnavbar, .navbar-inner, #navbar-container {
+  z-index: 100000 !important;
+  width: 100vw;
 }

@@ -1,0 +1,28 @@
+<div id="wax-banner">
+  {% assign i = 1 %}
+  {% for item in include.banner %}
+    {% capture transform-css %}
+      {% if item.zoom == 1 %} scale(1.5,1.5)
+      {% elsif item.zoom == 2 %} scale(2,2)
+      {% else %} scale(1.1, 1.1)
+      {% endif %}
+      {% if item.x == 'left' %} translateX(5%)
+      {% elsif item.x == 'right' %} translateX(-5%)
+      {% endif %}
+      {% if item.y == 'center' %} translateY(-35%)
+      {% elsif item.y == 'bottom' %} translateY(-65%)
+      {% else %} translateY(-5%)
+      {% endif %}
+    {% endcapture %}
+    {% capture src %}https://www1.columbia.edu/sec-cgi-bin/cul/dlo?obj={{ item.objid }}&size=medium{% endcapture %}
+    <div class="banner-item">
+      <a href="{{ site.baseurl }}/images/{{ item.id }}/">
+        <div class="banner-img">
+            <img src="{{ src }}" alt="{{ item.id }}" style="transform: {{ transform-css }};"/>
+        </div>
+      </a>
+      <span class="banner-caption">{{ caption }}</span>
+    </div>
+    {% assign i = i | plus: 1 %}
+  {% endfor %}
+</div>
