@@ -1,7 +1,7 @@
 title: The Barbara Curtis Adachi Bunraku Collection
 description: at C.V. Starr East Asian Library
 url: ''
-gh-baseurl: /ldpd-bunraku
+baseurl: ''
 
 # Build settings
 markdown: kramdown
