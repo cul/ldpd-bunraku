@@ -1,6 +1,6 @@
 sudo: required
 language: ruby
-rvm: 2.4
+rvm: 2.5
 addons:
   chrome: stable
 branches:
@@ -9,9 +9,12 @@ branches:
     - gh-pages
 env:
   global: NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+before_install:
+  - gem update --system
 script:
   - bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
   - bundle exec rake wax:lunr
+  - bundle exec rake wax:jspackage
   - bundle exec jekyll build
   - bundle exec rspec
 deploy:
