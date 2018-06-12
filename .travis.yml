@@ -18,6 +18,11 @@ script:
   - bundle exec jekyll build
   - bundle exec rspec
 deploy:
+  - provider: script
+    skip_cleanup: true
+    script: bundle exec rake wax:push static
+    on:
+      branch: master
   - provider: s3
     access_key_id: $AWS_ID
     secret_access_key: $AWS_SECRET_KEY
