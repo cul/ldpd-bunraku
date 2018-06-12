@@ -1,35 +1,42 @@
 # ldpd-bunraku [![Build Status](https://travis-ci.org/cul/ldpd-bunraku.svg?branch=master)](https://travis-ci.org/cul/ldpd-bunraku) [![Dependencies](https://img.shields.io/librariesio/github/cul/ldpd-bunraku.svg)](https://libraries.io/github/cul/ldpd-bunraku)
 Jekyll site for the Barbara Curtis Adachi Bunraku Collection 🎎
 
-<br>
-
 ## Basic Information:
 
-- __Contact:__ {{ Name }}, {{ Group }}
-- __Target url:__ e.g. `https://example.com`
-- __Target host type:__ e.g., `s3`, `nginx`, or `gh-pages`
-- __Bucket:__ _____ (if using `s3`)
+- __Contact:__ Marii (DIAG)
+- __Target url:__ <https://bunraku.library.columbia.edu>
+- __Target host type:__ `s3`
+- __Bucket:__ <http://cul-s3-dlst-travis-bunraku-prod.s3-website-us-west-2.amazonaws.com/>
   
 ## Features:
 
 - [ ] __Active updates?__ 
-- [ ] __Relational data?__
+- [x] __Relational data?__
 - [ ] __Student contributions?__
-- [ ] __Custom search?__
+- [x] __Custom search?__ (fielded)
 - [ ] __IIIF?__ (`remote` or `local`, if `remote` describe path)
 - [ ] __Maps?__
-- [ ] __D3?__
+- [x] __D3?__
 - [ ] __Other:__ ______
 
 ## Dependencies
 
 ### JS (i.e. runtime)
-- e.g., Jquery
-- etc.
+- boostrap4
+- d3js
+- elasticLunr
+- jquery
+- jquery migrate
+- popper
 
 ### Ruby (i.e. dev/test)
-- e.g, Jekyll
-- etc.
+- jekyll
+- rspec
+- selenium-webdriver
+- chromedriver-helper
+- capybara
+- rack-jekyll
+- wax_tasks
 
 ## Branches
 
