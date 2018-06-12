@@ -17,12 +17,9 @@ script:
   - bundle exec rake wax:jspackage
   - bundle exec jekyll build
   - bundle exec rspec
+after_success:
+  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then bundle exec rake wax:push static; fi
 deploy:
-  - provider: script
-    skip_cleanup: true
-    script: bundle exec rake wax:push static
-    on:
-      branch: master
   - provider: s3
     access_key_id: $AWS_ID
     secret_access_key: $AWS_SECRET_KEY
