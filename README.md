@@ -1,27 +1,27 @@
 # ldpd-bunraku [![Build Status](https://travis-ci.org/cul/ldpd-bunraku.svg?branch=master)](https://travis-ci.org/cul/ldpd-bunraku) [![Dependencies](https://img.shields.io/librariesio/github/cul/ldpd-bunraku.svg)](https://libraries.io/github/cul/ldpd-bunraku)
 Jekyll site for the Barbara Curtis Adachi Bunraku Collection 🎎
 
-## Basic Information:
+### Basic Information:
 
 - __Contact:__ Marii (DIAG)
 - __Target url:__ <https://bunraku.library.columbia.edu>
 - __Target host type:__ `s3`
 - __Bucket:__ <http://cul-s3-dlst-travis-bunraku-prod.s3-website-us-west-2.amazonaws.com/>
   
-## Features:
+### Features:
 
-- [ ] __Active updates?__ 
-- [x] __Relational data?__
-- [ ] __Student contributions?__
-- [x] __Custom search?__ (fielded)
-- [ ] __IIIF?__ (`remote` or `local`, if `remote` describe path)
-- [ ] __Maps?__
-- [x] __D3?__
+- [ ] __Active updates__ 
+- [x] __Relational data__
+- [ ] __Student contributions__
+- [x] __Custom search__ (fielded)
+- [ ] __IIIF__ (`remote` or `local`, if `remote` describe path)
+- [ ] __Maps__
+- [x] __D3__
 - [ ] __Other:__ ______
 
-## Dependencies
+### Dependencies
 
-### JS (i.e. runtime)
+#### JS (i.e. runtime)
 - boostrap4
 - d3js
 - elasticLunr
@@ -29,7 +29,7 @@ Jekyll site for the Barbara Curtis Adachi Bunraku Collection 🎎
 - jquery migrate
 - popper
 
-### Ruby (i.e. dev/test)
+#### Ruby (i.e. dev/test)
 - jekyll
 - rspec
 - selenium-webdriver
@@ -38,7 +38,7 @@ Jekyll site for the Barbara Curtis Adachi Bunraku Collection 🎎
 - rack-jekyll
 - wax_tasks
 
-## Branches
+### Branches
 
 #### `master`: The up-to-date production branch (Jekyll/back-end). 
 - Travis pushes compiled site to `static` branch after tests pass.
@@ -55,7 +55,7 @@ Jekyll site for the Barbara Curtis Adachi Bunraku Collection 🎎
 - Built and pushed by Travis on successful commit to `staging` branch (viewable at `cul.github.io/REPO-NAME/`)
 
 
-## Contributing (non-admin)
+### Contributing
 
 1. Clone the repository: `$ git clone https://github.com/REPO-NAME`
 2. Install dependencies: `$ cd REPO-NAME && bundle`
@@ -70,6 +70,6 @@ Jekyll site for the Barbara Curtis Adachi Bunraku Collection 🎎
 
 [link to full wiki].
 
-## Travis deployment set-up
+### Travis deployment set-up
 
 [TO DO] Give basic steps and link to full wiki.
