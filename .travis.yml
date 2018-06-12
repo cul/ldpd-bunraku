@@ -38,7 +38,3 @@ deploy:
     local_dir: _site
     on:
       branch: master
-  - provider: script
-    script: bundle exec rake wax:push static
-    on:
-      branch: master
