@@ -1,0 +1,130 @@
+//
+// Headings
+//
+
+body, html{
+  font-family: $sans-serif;
+}
+
+#title {
+  font-family: $brand-font !important;
+}
+.page-title{
+  margin: $more-margin 0 $more-margin 0;
+}
+#main {
+  h1, h2, h3, h4, h5, h6
+  .h1 .h2 .h3 .h4 .h5 .h6 {
+    font-family: $sans-serif;
+    margin-bottom: $margin !important;
+  }
+}
+#header-block {
+  background-color: #e8dfcc;
+  border-bottom: none;
+  box-shadow: 0 4px 8px -2px rgba(68,68,68,0.6);
+}
+
+/* D3 */
+#d3-force{
+  background-color:$d3-background;
+  margin: $margin 0 $margin 0;
+  height: 600px;
+  width: 100%;
+  border: 1px solid $dark-grey;
+  overflow: scroll !important;
+  .links line {
+    stroke:black;
+    stroke-opacity:.7;
+  }
+  .nodes circle{
+    stroke:white;
+    cursor:pointer;
+  }
+}
+
+#d3-dendrogram {
+  margin: $margin 0 $margin 0;
+  height: 600px;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background-color:$d3-background;
+  border: 1px solid $dark-grey;
+  svg {
+    overflow: scroll !important;
+  }
+  .node {
+    cursor: pointer;
+    circle {
+      fill: #fff;
+      stroke: $d3-node2;
+      stroke-width: 1px;
+    }
+    text {
+      font-size: 12px;
+      width: 50px;
+      word-wrap: break-word;
+      padding-left:20px;
+    }
+  }
+  .link {
+    stroke: #ccc;
+    fill: none;
+  }
+}
+
+.d3-tooltip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  text-align: center;
+  color: white;
+  background: $dark-grey;
+  border-radius: 6px;
+  padding: 10px;
+  &:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-top: 8px solid $dark-grey;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+  }
+}
+
+
+/* icons */
+.fa-image{color:$img-icon}
+.fa-times{color:$no-img-icon}
+
+/*nodes*/
+.d3-node1{fill:$d3-node1}
+.d3-node2{fill:$d3-node2}
+
+.item-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin-bottom: $less-margin;
+    padding: 0;
+  }
+}
+
+li a:active {
+  background-color: $light-grey;
+}
+
+#cultnbw .dropdown-toggle .caret { display:none !important; }
+#cultnbw, #topnavbar, .navbar-inner, #navbar-container {
+  z-index: 100000 !important;
+  width: 100vw;
+}

@@ -1,108 +1,134 @@
-title: The Barbara Curtis Adachi Bunraku Collection
-description: at C.V. Starr East Asian Library
-url: ''
-baseurl: ''
+# Main settings
+title:            'The Barbara Curtis Adachi Bunraku Collection'
+description:      'at C.V. Starr East Asian Library'
+url:              ''
+baseurl:          ''
 
 # Build settings
-markdown: kramdown
-exclude: [vendor, Gemfile*, Rakefile, spec, README*, _lib, package.json, feed.xml]
-permalink: pretty
-collections_dir: collections
-lunr_languages: true
+source:           'src'
+markdown:         kramdown
+exclude:          [vendor, Gemfile*, Rakefile, spec, README*, _lib, package.json, feed.xml]
+permalink:        pretty
+collections_dir:  collections
 
+# Collection settings
 collections:
   authors:
     output: true
-    source: authors.json
     layout: item_page
-    lunr_index:
-      fields: [label_eng, label_ka, plays]
+    metadata:
+      source: authors.json
   characters:
     output: true
-    source: characters.json
     layout: item_page
-    lunr_index:
-      fields: [label_eng, label_ka, label_ja, plays]
+    metadata:
+      source: characters.json
   images:
     output: true
-    source: images.json
     layout: image_page
+    metadata:
+      source: images.json
   kashira:
     output: true
-    source: kashira.json
     layout: item_page
-    lunr_index:
-      fields: [label_eng, label_ka, category, plays]
+    metadata:
+      source: kashira.json
   performances:
     output: true
-    source: performances.json
     layout: item_page
-    lunr_index:
-      fields: [label_eng, characters, plays, productions, scenes]
+    metadata:
+      source: performances.json
   performers:
     output: true
-    source: performers.json
     layout: item_page
-    lunr_index:
-      fields: [label_eng, label_ka, specialty]
+    metadata:
+      source: performers.json
   plays:
     output: true
-    source: plays.json
     layout: item_page
-    lunr_index:
-      fields: [label_eng, label_ka, label_ja, characters, authors, kashira]
+    metadata:
+      source: plays.json
   productions:
     output: true
-    source: productions.json
     layout: item_page
-    lunr_index:
-      fields: [label_eng, plays, performances]
+    metadata:
+      source: productions.json
   scenes:
     output: true
-    source: scenes.json
     layout: item_page
-    lunr_index:
-      fields: [label_eng, label_ka, label_ja, production, play]
+    metadata:
+      source: scenes.json
   tags:
     output: true
-    source: tags.json
     layout: item_page
-    lunr_index:
-      fields: [label_eng, label_ka]
+    metadata:
+      source: tags.json
   realia:
     output: true
-    source: realia.yml
     layout: item_page
-    lunr_index:
-      fields: [label_eng]
+    metadata:
+      source: realia.yml
+
+# Search index settings
+lunr_index:
+  - file: 'js/lunr-index.json'
+    ui:   'js/lunr-ui.js'
+    collections:
+      authors:
+        fields: [label_eng, label_ka, plays]
+      characters:
+        fields: [label_eng, label_ka, label_ja, plays]
+      kashira:
+        fields: [label_eng, label_ka, category, plays]
+      performances:
+        fields: [label_eng, characters, plays, productions, scenes]
+      performers:
+        fields: [label_eng, label_ka, specialty]
+      plays:
+        fields: [label_eng, label_ka, label_ja, characters, authors, kashira]
+      productions:
+        fields: [label_eng, plays, performances]
+      scenes:
+        fields: [label_eng, label_ka, label_ja, production, play]
+      tags:
+        fields: [label_eng, label_ka]
+      realia:
+        fields: [label_eng]
+
+
+# Prod Dependencies
 
 styles:
-  main: assets/main.css
-  drop-nav: assets/drop-nav.css
+  main:         assets/main.css
+  drop-nav:     assets/drop-nav.css
   font-awesome: assets/fa/css/font-awesome.min.css
 
 js:
   bootstrap:
     version: 4.0.0
-    cdn: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
+    src: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
   d3:
     version: 4.13.0
-    cdn: https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js
+    src: https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js
   elasticlunr:
     version: 0.9.6
-    cdn: https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
+    src: https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
   jquery:
     version: 3.2.1
-    cdn: https://code.jquery.com/jquery-3.2.1.min.js
+    src: https://code.jquery.com/jquery-3.2.1.min.js
   jquery-migrate:
     version: 3.0.0
-    cdn: https://code.jquery.com/jquery-migrate-3.0.0.min.js
+    src: https://code.jquery.com/jquery-migrate-3.0.0.min.js
   popper:
     version: 1.12.9
-    cdn: https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
+    src: https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
 
-# search tests
+# Search tests
+
 quoll:
-  full:
-    page: search
-    terms: [oshuto, Donald Keene, 白川の安珍実は桜木親王, Ōshūto]
+  - page: 'search'
+    terms:
+      - 'oshuto'
+      - 'Donald Keene'
+      - '白川の安珍実は桜木親王'
+      - 'Ōshūto'

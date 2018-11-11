@@ -1,0 +1,107 @@
+<script type='text/javascript' id="d3-v4" src="{{ site.js.d3.src }}"></script>
+<div class="hidden-xs" id="d3-force"></div>
+<script>
+  var width = 800;
+  var height = 800;
+
+  var svg = d3.select("#d3-force").append("svg")
+      .attr("width", width)
+      .attr("height",height)
+    .append("g");
+
+  var manyBody = d3.forceManyBody().strength(-10).distanceMax(120).distanceMin(10)
+
+  var simulation = d3.forceSimulation()
+      .force("link", d3.forceLink().id(function(d) { return d.id; }))
+      .force("charge", manyBody)
+      .force("center", d3.forceCenter(width / 2, height / 2));
+
+  var tooltip = d3.select("body").append("div").attr("class", "d3-tooltip");
+
+
+  d3.json("{{ site.baseurl }}/visualize/data/kashira-characters.json", function(error, graph) {
+    if (error) { console.log(error); }
+
+    var link = svg.append("g")
+      .attr("class", "links")
+      .selectAll("line")
+      .data(graph.links)
+      .enter().append("line");
+
+    var node = svg.append("g")
+      .attr("class", "nodes")
+      .selectAll("circle")
+      .data(graph.nodes)
+      .enter().append("circle")
+        .attr("r", function(d) {
+          if (d.type == 'kashira') { return 8; }
+          else { return 4; }
+        })
+        .attr("class", function(d) {
+          if (d.type == 'kashira') { return 'd3-node1' }
+          else { return 'd3-node2' }
+        })
+        .on("mousemove", function(d){
+            tooltip
+              .style("left", d3.event.pageX - 50 + "px")
+              .style("top", d3.event.pageY - 70 + "px")
+              .style("display", "inline-block")
+              .html((d.name));
+        })
+    		.on("mouseout", function(d){ tooltip.style("display", "none");})
+        .on("dblclick", dblclick)
+        .call(d3.drag()
+         .on("start", dragstarted)
+         .on("drag", dragged)
+         .on("end", dragended));
+
+
+    simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+    simulation.force("link")
+      .links(graph.links);
+
+    svg.call(d3.drag()
+      .container(svg)
+      .subject(dragsubject)
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended));
+
+    function ticked() {
+      link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+      node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+    }
+    function dragsubject() {
+      return simulation.find(d3.event.x, d3.event.y);
+    }
+  });
+  function dblclick(d) {
+    location.href = '{{ "'+d.type+'/'+d.id.slice(0,-1)+'/" | relative_url }}';
+  }
+  function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+
+  function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+  }
+
+  function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+</script>
