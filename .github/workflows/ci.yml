@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [ 'github-actions-deployment' ] # TODO: Change later
+    # branches: [ '**', '!static', '!gh-pages']
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    env:
+      NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install libxslt for nokogiri gem (required for version < 1.11)
+        run: sudo apt-get install -y libxml2-dev libxslt-dev
+      - name: Add --no-document option to .gemrc file to speed up bundle install
+        run: "echo 'gem: --no-document' > ~/.gemrc"
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.5
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Generate pages with pagemaster
+        run: bundle exec rake wax:pagemaster authors characters kashira performances performers plays productions realia scenes tags images
+      - name: Generate the elasticlunr index
+        run: bundle exec rake wax:lunr
+      - name: Run jspackage
+        run: bundle exec rake wax:jspackage
+      - name: Build jekyll site
+        run: bundle exec jekyll build
+      - name: Run tests
+        run: bundle exec rspec
+      # This job should only store the build output when running on certain branches
+      - name: Optionally zip up the built site
+        if: contains(fromJson('["refs/heads/github-actions-deployment", "refs/heads/staging", "refs/heads/master"]'), github.ref)
+        run: zip -q -r ./_site.zip ./_site
+      # The upload-artifact step is slow for lots of files, but fast for a single zip file
+      - name: Optionally store site build for subsequent deployment step
+        if: contains(fromJson('["refs/heads/github-actions-deployment", "refs/heads/staging", "refs/heads/master"]'), github.ref)
+        uses: actions/upload-artifact@v3
+        with:
+          name: built-site
+          path: _site.zip
+  deploy:
+    # This job should only run on certain branches
+    if: contains(fromJson('["refs/heads/github-actions-deployment", "refs/heads/staging", "refs/heads/master"]'), github.ref)
+    needs: ci
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    steps:
+      - name: Download built-site artifact from CI step
+        uses: actions/download-artifact@v3
+        with:
+          name: built-site
+      - name: unzip the downloaded artifact
+        run: unzip -q _site.zip
+      - name: ls the unzipped artifact
+        run: ls -la _site
+      - name: If github-actions-deployment branch, print text
+        if: github.ref == 'refs/heads/github-actions-deployment'
+        run: echo 'this is the github-actions-deployment branch'
+      - name: If staging branch, deploy to staging
+        if: github.ref == 'refs/heads/staging'
+        run: echo 'deploy to staging'
+      - name: If master branch, deploy to prod
+        if: github.ref == 'refs/heads/master'
+        run: echo 'deploy to prod'
