@@ -61,14 +61,13 @@ jobs:
         run: unzip -q ./_site.zip
       - name: ls the unzipped artifact
         run: ls -la ./_site
-      - name: If github-actions-deployment branch, print text
-        if: github.ref == 'refs/heads/github-actions-deployment'
-        run: |
-          echo 'this is the github-actions-deployment branch'
-          aws s3 sync ./_site s3://${{ secrets.AWS_STAGING_BUCKET_NAME }} --delete
+      - name: Increase the number of concurrent connections to S3 for a faster transfer
+        run: aws configure set default.s3.max_concurrent_requests 20
       - name: If staging branch, deploy to staging
-        if: github.ref == 'refs/heads/staging'
-        run: echo 'deploy to staging'
+        if: github.ref == 'refs/heads/github-actions-deployment'
+        # if: github.ref == 'refs/heads/staging'
+        run: |
+          aws s3 sync ./_site s3://${{ secrets.AWS_STAGING_BUCKET_NAME }} --delete
       - name: If master branch, deploy to prod
         if: github.ref == 'refs/heads/production'
         run: echo 'deploy to prod'
