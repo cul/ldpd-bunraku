@@ -1,16 +1,15 @@
-# ldpd-bunraku [![Build Status](https://travis-ci.org/cul/ldpd-bunraku.svg?branch=master)](https://travis-ci.org/cul/ldpd-bunraku) [![Dependencies](https://img.shields.io/librariesio/github/cul/ldpd-bunraku.svg)](https://libraries.io/github/cul/ldpd-bunraku)
+# ldpd-bunraku [![Dependencies](https://img.shields.io/librariesio/github/cul/ldpd-bunraku.svg)](https://libraries.io/github/cul/ldpd-bunraku)
 Jekyll site for the Barbara Curtis Adachi Bunraku Collection 🎎
 
 ### Basic Information:
 
-- __Contact:__ Marii (DIAG)
+- __Contact:__ (DIAG)
 - __Target url:__ <https://bunraku.library.columbia.edu>
 - __Target host type:__ `s3`
-- __Bucket:__ <http://cul-s3-dlst-travis-bunraku-prod.s3-website-us-west-2.amazonaws.com/>
-  
+
 ### Features:
 
-- [ ] __Active updates__ 
+- [ ] __Active updates__
 - [x] __Relational data__
 - [ ] __Student contributions__
 - [x] __Custom search__ (fielded)
@@ -40,20 +39,14 @@ Jekyll site for the Barbara Curtis Adachi Bunraku Collection 🎎
 
 ### Branches
 
-#### `master`: The up-to-date production branch (Jekyll/back-end). 
-- Travis pushes compiled site to `static` branch after tests pass.
-- If using s3, Travis deploys compiled site to s3 prod bucket after tests pass.
+#### `main`: The latest approved changes.
+- Pushes to this branch automatically trigger a test build and run rspec tests.
 
-#### `staging` : The staging branch (Jekyll/back-end)
-- Travis pushes compiled site (rebuilt with repo name as baseurl) to `gh-pages` branch after tests pass.
-- If using s3, Travis deploys compiled site (without baseurl) to s3 staging branch after tests pass.
+#### `staging` : The staging branch (deploy to staging bucket)
+- GitHub Actions deploys the site to the staging bucket after tests pass.
 
-#### `static` : The up-to-date compiled production site (static HTML)
-- Built and pushed by Travis on successful commit to `master` branch.
-
-#### `gh-pages` : A copy of the compiled staging site hosted + viewable via GitHub pages (static HTML)
-- Built and pushed by Travis on successful commit to `staging` branch (viewable at `cul.github.io/REPO-NAME/`)
-
+#### `production` : The staging branch (deploy to production bucket)
+- GitHub Actions deploys the site to the production bucket after tests pass. (https://bunraku.cul.columbia.edu)
 
 ### Contributing
 
@@ -63,10 +56,10 @@ Jekyll site for the Barbara Curtis Adachi Bunraku Collection 🎎
 4. Make your changes
 5. Run tests locally: `$ bundle exec rake wax:test`
 6. Push branch to remote repository.
-7. Sumbit a PR to merge your branch into staging.
-8. If tests pass, confirm merge into `staging` and delete your branch. This will trigger a deployment of the compiled site from staging to the `gh-pages` branch (and if you're using s3, to the staging bucket).
-9. Preview the staged site (either at cul.github.io/REPO-NAME or the staging s3 bucket). If it looks good, submit a PR to merge staging into master.
-10. If the tests from the PR pass, an admin will accept the merge, and Travis will deploy a backup/copy of the compiled site to the `static` branch (and if you're using s3, it will deploy to the prod s3 bucket as well).
+7. Sumbit a PR to merge your branch into `main`.
+8. If tests pass, confirm merge into `main` and delete your branch.
+9. Preview the staging site (in the staging s3 bucket). If it looks good, submit a PR to merge `staging` into `production`.
+10. If the tests from the PR pass, an admin will accept the merge, and GitHub Actions will deploy the compiled site to the production bucket and the changes will be visible at https://bunraku.cul.columbia.edu.
 
 [link to full wiki].
 
