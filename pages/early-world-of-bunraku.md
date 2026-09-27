@@ -16,7 +16,7 @@ This situation was changed completely by one man, [Chikamatsu Monzaemon]({{ site
 
 
 <center>
-  <a href="{{ site.baseurl }}/images/10560"><img src="http://www.columbia.edu/cgi-bin/dlo?obj=ldpd_bun_slide_578_2_2280_8404&size=medium" /></a>
+  <a href="{{ site.baseurl }}/images/10560"><img src="https://systems.library.columbia.edu/cul/dlo?obj=ldpd_bun_slide_578_2_2280_8404&size=medium" /></a>
   <p width="500"><a href="{{ site.baseurl }}/kashira/111">Musume</a> in the <a href="{{ site.baseurl }}/performances/382">February 1981 production</a> of <a href="{{ site.baseurl }}/plays/3"><i>The Love Suicides at Sonezaki</i></a>, by <a href="{{ site.baseurl }}/authors/6">Chikamatsu Monzaemon</a>.</p>
 </center>
 
@@ -27,7 +27,7 @@ The years after the death of Chikamatsu in 1725 and the early retirement of his 
 
 
 <center>
-  <a href="{{ site.baseurl }}/images/53267"><img src="http://www.columbia.edu/cgi-bin/dlo?obj=ldpd_bun_slide_049_1_0853_1248&size=medium" /></a>
+  <a href="{{ site.baseurl }}/images/53267"><img src="https://systems.library.columbia.edu/cul/dlo?obj=ldpd_bun_slide_049_1_0853_1248&size=medium" /></a>
   <p width="500"><a href="{{ site.baseurl }}/kashira/33">Genta</a> in the <a href="{{ site.baseurl }}/performances/193">May 1975 production</a> of <a href="{{ site.baseurl }}/plays/82"><i>A Tragic Love Triangle</i></a>, by <a href="{{ site.baseurl }}/authors/12">Ki no Kaion</a>.</p>
 </center>
 
